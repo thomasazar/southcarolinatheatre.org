@@ -383,6 +383,14 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
   box-shadow: 0 0 2px 2px #333; }
 
+.footer {
+  background: #fff;
+  font-size: 0.8rem; }
+  .footer::after {
+    clear: both;
+    content: "";
+    display: table; }
+
 .nav, .subnav {
   list-style: none;
   padding-left: 0;
@@ -434,5 +442,16 @@ h1, h2, h3, h4, h5, h6 {
   .subnav__item .nav__link:hover {
     background-color: #0085a9;
     background-image: none; }
+
+.footer__image, .footer__mission {
+  float: left;
+  max-width: 75%; }
+  .footer__image p, .footer__mission p {
+    margin: 0 auto 1em; }
+
+.footer__contact {
+  clear: both;
+  text-align: right;
+  font-weight: bold; }
 
 /*# sourceMappingURL=main.css.map */
