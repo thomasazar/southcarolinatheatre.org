@@ -1,31 +1,64 @@
-.nav{
+%nav{
 	list-style: none;
 	padding-left: 0;
 	display: flex;
+}
+
+%nav__item{
+	text-align: center;
+}
+
+.nav{
+	@extend %nav;
 	flex-direction: row;
+	position: relative;
+}
+
+.subnav{
+	@extend %nav;
+	display: none;
+	flex-direction: column;
+	position: absolute;
+	top: 2.5rem;
 }
 
 .nav__item{
-	flex-grow: 1;
-	text-align: center;
+	@extend %nav__item;
 	border-right: 1px solid shade( $color--secondary, 50% );
 	&:last-child{
-		border-right: none;
+		border-right: 0;
 	}
+	flex-grow: 1;
+	&:hover .subnav{
+		display: flex;
+	}
+}
+
+.subnav__item{
+	@extend %nav__item;
+	font-size: 80%;
 }
 
 .nav__link{
 	display: block;
-	padding: 0.75rem 0;
+	padding: 0.75rem;
 	text-decoration: none;
 	color: $text--primary;
-	background: $color--secondary;
-	transition: .1s all;
+	@include linear-gradient( $color--secondary, shade($color--secondary, 10%), $fallback: $color--secondary);
 	&:visited, &:active{
 		color: $text--primary;
 	}
 	&:hover{
-		background: $color--primary;
+		@include linear-gradient( $color--primary, shade($color--primary, 10%), $fallback: $color--primary);
 		color: #ddd;
+	}
+}
+
+.subnav__item .nav__link{
+	background: tint( $color--primary, 50% );
+	background-image: none;
+	&:hover{
+		background-color: $color--primary;
+		background-image: none;
 	}
 }

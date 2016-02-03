@@ -1,6 +1,7 @@
 @import "settings/variables";
 
 @import "tools/bourbon/bourbon";
+@import "tools/mixins";
 
 @import "generic/normalize";
 
@@ -8,5 +9,6 @@
 @import "base/headings";
 
 @import "objects/container";
+@import "objects/hero";
 
 @import "components/nav";
