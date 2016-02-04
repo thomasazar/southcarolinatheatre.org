@@ -405,6 +405,11 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
   margin: 0 1% 1em; }
 
+.post__header {
+  text-align: center; }
+  .post__header h1 {
+    margin: 0.5rem auto; }
+
 .footer {
   background: #fff;
   font-size: 0.8rem; }
