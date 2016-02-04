@@ -10,3 +10,7 @@ body{
 	font-family: "Source Sans Pro", $helvetica;
 	background: $color--secondary;
 }
+
+main{
+	@include row;
+}

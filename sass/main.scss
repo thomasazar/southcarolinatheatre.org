@@ -2,10 +2,11 @@
 
 @import "tools/bourbon/bourbon";
 @import "tools/mixins";
+@import "tools/grid";
 
 @import "generic/normalize";
 
-@import "base/body";
+@import "base/page";
 @import "base/headings";
 
 @import "objects/container";

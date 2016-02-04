@@ -1,3 +1,7 @@
+/*! Dead Simple Grid (c) 2012 Vladimir Agafonkin */
+.row .row {
+  margin: 0 -1.5em; }
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -365,6 +369,12 @@ html {
 body {
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   background: #c0c8ce; }
+
+main:before, main:after {
+  content: "";
+  display: table; }
+main:after {
+  clear: both; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "League Gothic", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
