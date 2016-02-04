@@ -1,0 +1,18 @@
+#timer{
+	float: right;
+	margin: 0 1rem;
+	text-align: center;
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+
+.timer__box{
+	display: inline-block;
+	width: 50px;
+	background: transparentize($color--primary, .5);
+}
+
+.timer__smalltext{
+	font-size: 0.8rem;
+	font-weight: normal;
+}

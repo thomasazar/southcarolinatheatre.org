@@ -467,6 +467,22 @@ h1, h2, h3, h4, h5, h6 {
   text-align: right;
   font-weight: bold; }
 
+#timer {
+  float: right;
+  margin: 0 1rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: bold; }
+
+.timer__box {
+  display: inline-block;
+  width: 50px;
+  background: rgba(0, 133, 169, 0.5); }
+
+.timer__smalltext {
+  font-size: 0.8rem;
+  font-weight: normal; }
+
 .half {
   width: 49%;
   margin: 0 1% 0 0;
