@@ -420,7 +420,7 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
   flex-direction: column;
   position: absolute;
-  top: 2.5rem; }
+  top: 2.75rem; }
 
 .nav__item {
   border-right: 1px solid #606467;
@@ -451,7 +451,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .subnav__item .nav__link {
   background: #80c2d4;
-  background-image: none; }
+  background-image: none;
+  padding: 0.5rem; }
   .subnav__item .nav__link:hover {
     background-color: #0085a9;
     background-image: none; }

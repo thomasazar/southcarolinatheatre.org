@@ -20,7 +20,7 @@
 	display: none;
 	flex-direction: column;
 	position: absolute;
-	top: 2.5rem;
+	top: 2.75rem;
 }
 
 .nav__item{
@@ -58,6 +58,7 @@
 .subnav__item .nav__link{
 	background: tint( $color--primary, 50% );
 	background-image: none;
+	padding: 0.5rem;
 	&:hover{
 		background-color: $color--primary;
 		background-image: none;
