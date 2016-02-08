@@ -1,14 +1,10 @@
-.post{
-	background: #fff;
-	padding: 1em;
-	float: left;
-	margin: 0 1% 1em;
+.post + .post {
+	@include sizing(padding-top, 2);
 }
 
-.post__header{
+.post-title {
+	@include font-size(32px, false);
+	margin-top: 0;
 	text-align: center;
 	color: $color--primary;
-	h1{
-		margin: 0.5rem auto;
-	}
 }

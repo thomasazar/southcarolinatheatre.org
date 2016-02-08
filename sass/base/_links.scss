@@ -1,0 +1,5 @@
+a {
+  color: map-get($colors, link);
+  text-decoration: none;
+  transition: all .0625s ease;
+}

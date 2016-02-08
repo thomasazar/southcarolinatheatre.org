@@ -1,3 +1,28 @@
 $color--primary: #0085a9;
 $color--secondary: #c0c8ce;
 $text--primary: #333;
+
+$site-max-width: 1200px;
+
+$layout-padding-unitless: 2.5;
+$layout-padding: $layout-padding-unitless * 1em;
+
+$typecsset-base-font-size:      18px;
+$typecsset-base-line-height:    27px;
+
+$breakpoints: (
+  sm: 480px,
+  md: 720px,
+  lg: 1024px,
+  xl: 1200px
+);
+
+$colors: (
+  link: #3498db,
+  linkVisited: #8e44ad,
+);
+
+$fonts: (
+  serif: #{'Quattrocento', quattrocento-webfont, Georgia, Times, 'Times New Roman', serif},
+  sans: #{'Source Sans Pro', Helvetica, 'Helvetica Neue', Arial, sans-serif}
+);

@@ -1,16 +1,13 @@
 html {
- 	box-sizing: border-box;
-}
-
-*, *:before, *:after {
- 	box-sizing: inherit;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
 }
 
 body{
-	font-family: "Source Sans Pro", $helvetica;
+	font-family: map-get($fonts, sans);
 	background: $color--secondary;
-}
-
-main{
-	@include row;
+	min-width: 320px;
+	color: #444;
 }

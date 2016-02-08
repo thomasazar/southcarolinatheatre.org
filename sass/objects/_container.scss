@@ -1,14 +1,14 @@
-.container{
-	@media (min-width: 481px){
-		padding-left: 48px;
-		padding-right: 48px;
-		padding-left: 3rem;
-		padding-right: 3rem;
-	}
-	max-width: 1200px;
-	margin: auto;
-	padding: 24px;
-	padding: 1.5rem;
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: $site-max-width;
+	@include sizing(padding, 1);
+	@include clearfix();
 	position: relative;
 	z-index: 1;
+
+	@include media('>sm') {
+		@include sizing(padding-left, 2);
+		@include sizing(padding-right, 2);
+	}
 }
