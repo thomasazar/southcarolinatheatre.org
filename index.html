@@ -3,14 +3,41 @@
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
 	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
 	<title>scta</title>
 	<link rel=stylesheet href='/css/main.css' />
 </head>
 <body>
-	<header class='hero'>
-		<img src="/img/scta-logo.jpg" />
+	<header class='header'>
+		<div class='header-logo-container'>
+			<img src="/img/scta-logo.jpg" />
+			<div id="timer">
+				<p>Gilded Gala Countdown</p>
+				<div class='timer__box'>
+					<span class="timer__days"></span>
+					<div class="timer__smalltext">Days</div>
+				</div>
+				<div class='timer__box'>
+					<span class="timer__hours"></span>
+					<div class="timer__smalltext">Hours</div>
+				</div>
+				<div class='timer__box'>
+					<span class="timer__minutes"></span>
+					<div class="timer__smalltext">Min</div>
+				</div>
+				<div class='timer__box'>
+					<span class="timer__seconds"></span>
+					<div class="timer__smalltext">Sec</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="mobile-only menu-open-button" id='mobile-menu'>Menu</div>
 		<nav class='header-menu'>
-			<ul class='header-menu-items'>
+			<ul class='header-menu-items' id='headerMenuItems'>
+				<li class='menu-item menu-close-button mobile-only'>
+					<a class='nav__link' href='#' id='mobile-menu-close'>Close Menu</a>
+				</li>
 				<li class='menu-item current-menu-item'>
 					<a class='nav__link' href=''>Home</a>
 				</li>
@@ -158,27 +185,9 @@
 				</li>
 			</ul>
 		</nav>
+
 	</header>
 	<main class='container'>
-		<div id="timer">
-			<p>Gilded Gala Countdown</p>
-			<div class='timer__box'>
-				<span class="timer__days"></span>
-				<div class="timer__smalltext">Days</div>
-			</div>
-			<div class='timer__box'>
-				<span class="timer__hours"></span>
-				<div class="timer__smalltext">Hours</div>
-			</div>
-			<div class='timer__box'>
-				<span class="timer__minutes"></span>
-				<div class="timer__smalltext">Min</div>
-			</div>
-			<div class='timer__box'>
-				<span class="timer__seconds"></span>
-				<div class="timer__smalltext">Sec</div>
-			</div>
-		</div>
 
 		<article class='content post'>
 			<h1 class='post-title'>Latest News &amp; Updates</h1>

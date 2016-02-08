@@ -1,3 +1,9 @@
+.post{
+	@include sizing(padding-left, 0.25);
+	@include sizing(padding-right, 0.25);
+	@include sizing(padding-bottom, 0.25);
+	@include shadow();
+}
 .post + .post {
 	@include sizing(padding-top, 2);
 }

@@ -2,4 +2,10 @@
 	background: #fff;
 	font-size: 0.8rem;
 	@include clearfix;
+	@include sizing(margin-top, 2);
+	@include sizing(margin-bottom, 0);
+
+	@include media('>md') {
+		@include sizing(margin-top, 1);
+	}
 }

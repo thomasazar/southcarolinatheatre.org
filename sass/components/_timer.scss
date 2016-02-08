@@ -1,18 +1,28 @@
 #timer{
-	float: right;
-	margin: 0 1rem;
-	text-align: center;
-	font-size: 1.6rem;
 	font-weight: bold;
+	text-align: center;
+	@include media('>md'){
+		position: absolute;
+		top: 0;
+		@include sizing(right, 1);
+	}
+	p{
+		@include sizing(margin, 0);
+		@include font-size( 22px, false);
+		color: $color--primary;
+		text-shadow: 0 1px 1px #999;
+	}
 }
 
 .timer__box{
 	display: inline-block;
 	width: 50px;
 	background: transparentize($color--primary, .5);
+	@include font-size(18px, false);
+	@include shadow();
 }
 
 .timer__smalltext{
-	font-size: 0.8rem;
+	@include font-size(14px, false);
 	font-weight: normal;
 }

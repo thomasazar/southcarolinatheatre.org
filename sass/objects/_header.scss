@@ -1,21 +1,34 @@
 .header {
+	background: #fff;
+	@include shadow();
 	position: relative;
 	text-align: center;
 	z-index: 2;
 	@include sizing(padding-top, .5);
-	@include sizing(padding-bottom, .5);
+	@include sizing(padding-bottom, 0);
 	@include clearfix();
 
 	@include media('>md') {
-		padding: 0;
-		@include sizing(padding-left, 1.5);
 		text-align: left;
+	}
+}
+
+.header-logo-container{
+	max-width: $site-max-width;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.nav__checkbox{
+	display: none;
+	@include media('<md'){
+		display: block;
 	}
 }
 
 .header-menu {
 	display: inline-block;
-	width: 100%;
 	background: $color--secondary;
 
 	@include media('>md') {
@@ -28,18 +41,39 @@
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	max-width: $site-max-width;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
 
 	@include media('>md') {
 		display: block;
+	}
+
+	@include media('<md'){
+		background: $color--secondary;
+		background: transparentize( $color--secondary, 0.10 );
+		opacity: 0;
+		visibility: hidden;
+		position: fixed;
+		top: 20px;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin-top: 0;
+		margin-bottom: 0;
+		transition: .2s all;
+		&.open{
+			opacity: 1;
+			visibility: visible;
+			top: 0;
+			z-index: 99;
+		}
 	}
 }
 
 .menu-item {
 	display: inline-block;
-	float: left;
-	@include sizing(margin-left, .5);
-	@include sizing(margin-right, .5);
-
 	&:hover,
 	&:focus {
 		background: tint( $color--primary, 33% );
@@ -75,6 +109,27 @@
 			&:active { top: 0; }
 		}
 	}
+	@include media('<md') {
+		display: inline-block;
+		width: 48%;
+		a{
+			display: block;
+			@include sizing(padding, .25);
+			@include sizing(margin-bottom, .25);
+		}
+	}
+}
+
+.menu-open-button{
+	background: #fff;
+	font-weight: bold;
+	@include sizing(margin-top, .25);
+	@include sizing(padding, .25);
+}
+
+.menu-close-button{
+	margin: 0 26%;
+	@include sizing(margin-bottom, .25);
 }
 
 .current-menu-item a {
