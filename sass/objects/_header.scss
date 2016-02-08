@@ -52,7 +52,7 @@
 
 	@include media('<md'){
 		background: $color--secondary;
-		background: transparentize( $color--secondary, 0.10 );
+		background: transparentize( $color--secondary, 0.05 );
 		opacity: 0;
 		visibility: hidden;
 		position: fixed;

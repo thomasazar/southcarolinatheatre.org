@@ -11,5 +11,5 @@ $font-dir: '/css/fonts/';
 	}
 }
 
-@include font-face( 'Source Sans Pro', sourcesanspro-webfont );
-@include font-face( 'Quattrocento', quattrocento-webfont );
+@include font-face( 'Source Sans Pro', sourcesanspro-regular-webfont );
+@include font-face( 'Quattrocento', quattrocento-regular-webfont );
