@@ -1,7 +1,11 @@
 /*! Dead Simple Grid (c) 2012 Vladimir Agafonkin */
 
-@mixin col {
-	float: left;
+@mixin col( $width: 100% ) {
+	width: 100%;
+	@media (min-width: 481px){
+		float: left;
+		width: $width;
+	}
 }
 .row .row {
 	margin: 0 -1.5em;

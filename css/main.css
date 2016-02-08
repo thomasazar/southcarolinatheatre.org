@@ -378,8 +378,7 @@ main:after {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "League Gothic", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-  font-weight: normal;
-  color: #0085a9; }
+  font-weight: normal; }
 
 .container {
   max-width: 1200px;
@@ -406,7 +405,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 1% 1em; }
 
 .post__header {
-  text-align: center; }
+  text-align: center;
+  color: #0085a9; }
   .post__header h1 {
     margin: 0.5rem auto; }
 
@@ -499,11 +499,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.8rem;
   font-weight: normal; }
 
-.half {
-  width: 49%;
-  margin: 0 1% 0 0;
-  display: inline-block; }
-  .half:last-child {
-    margin: 0 0 0 1%; }
+@media (min-width: 481px) {
+  .half {
+    width: 49%;
+    margin: 0 1% 0 0;
+    display: inline-block; }
+    .half:last-child {
+      margin: 0 0 0 1%; } }
 
 /*# sourceMappingURL=main.css.map */
