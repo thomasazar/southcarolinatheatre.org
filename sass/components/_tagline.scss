@@ -3,10 +3,10 @@
 	color: $color--primary;
 	font-style: italic;
 	text-shadow: 0 1px 1px #999;
-	@include media('<md'){
+	@include media('<md') {
 		text-align: center;
 	}
-	@include media('>md'){
+	@include media('>md') {
 		@include sizing( margin-left, 1);
 	}
 }

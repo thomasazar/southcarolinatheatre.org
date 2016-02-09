@@ -145,7 +145,7 @@
 	background: tint( $color--primary, 33% );
 	list-style: none;
 	margin-left: 0;
-
+	text-align: left;
 	a {
 		@include sizing(padding-top, .15);
 		@include sizing(padding-bottom, .15);
