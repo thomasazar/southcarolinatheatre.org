@@ -1,8 +1,14 @@
 .post{
-	@include sizing(padding-left, 0.25);
-	@include sizing(padding-right, 0.25);
-	@include sizing(padding-bottom, 0.25);
+	background-color: #fff;
+	@include sizing(padding-left, 0.5);
+	@include sizing(padding-right, 0.5);
+	@include sizing(padding-bottom, 0.5);
 	@include shadow();
+	@include media('>md') {
+		display: inline-block;
+		float: left;
+		width: 100%;
+	}
 }
 .post + .post {
 	@include sizing(margin-top, 2);
