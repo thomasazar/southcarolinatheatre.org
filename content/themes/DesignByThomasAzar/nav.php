@@ -9,7 +9,7 @@ $args = array(
 );
 
 $navMenu = wp_list_pages( $args );
-echo '<nav><ul>';
+echo '<nav class=\'header-menu\'><ul class=\'header-menu-items\'>';
 echo $navMenu;
 
 ?>

@@ -3,7 +3,7 @@
 class Clean_Walker extends Walker_Page {
     function start_lvl (&$output, $depth) {
         $indent = str_repeat("", $depth);
-        $output .= "$indent<ul>";
+        $output .= "$indent<ul class='header-submenu'>";
     }
     function start_el (&$output, $page, $depth, $args, $current_page) {
         if ( $depth )
@@ -11,17 +11,17 @@ class Clean_Walker extends Walker_Page {
         else
             $indent = '';
         extract($args, EXTR_SKIP);
-        $class_attr = '';
+        $class_attr = 'menu-item';
         if ( is_home($current_page) ) {
             $output = '';
         }
         if ( !empty($current_page) ) {
             $_current_page = get_page( $current_page );
             if ( ($page->ID == $current_page) ) {
-                $class_attr = 'current-menu-item';
+                $class_attr .= ' current-menu-item';
             }
         } elseif ( (is_single() || is_archive()) && ($page->ID == get_option('page_for_posts')) ) {
-            $class_attr = 'current-menu-item';
+            $class_attr .= ' current-menu-item';
             echo $current_page;
         }
         if ( $class_attr != '' ) {
