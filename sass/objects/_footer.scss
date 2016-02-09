@@ -4,7 +4,7 @@
 	@include clearfix;
 	@include sizing(margin-top, 2);
 	@include sizing(margin-bottom, 0);
-
+	@include shadow( true );
 	@include media('>md') {
 		@include sizing(margin-top, 1);
 	}
