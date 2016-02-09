@@ -1,8 +1,1 @@
 
-[09-Feb-2016 16:42:02 UTC] PHP Warning:  file_exists(): open_basedir restriction in effect. File(/tmp//twentysixteen.1.1-Gg0Rdm.tmp) is not within the allowed path(s): (/var/www/) in /var/www/southcarolinatheatre.local/wp/wp-includes/functions.php on line 1987
-[09-Feb-2016 16:42:02 UTC] PHP Warning:  is_writable(): open_basedir restriction in effect. File(/tmp/) is not within the allowed path(s): (/var/www/) in /var/www/southcarolinatheatre.local/wp/wp-admin/includes/file.php on line 174
-[09-Feb-2016 16:42:02 UTC] PHP Warning:  unlink(): open_basedir restriction in effect. File(/tmp/twentysixteen.1.1-Gg0Rdm.tmp) is not within the allowed path(s): (/var/www/) in /var/www/southcarolinatheatre.local/wp/wp-admin/includes/file.php on line 481
-[09-Feb-2016 16:50:14 UTC] PHP Warning:  require_once(./lib/clean-wp-list-pages.php): failed to open stream: No such file or directory in /var/www/southcarolinatheatre.local/content/themes/DesignByThomasAzar/functions.php on line 2
-[09-Feb-2016 16:50:14 UTC] PHP Fatal error:  require_once(): Failed opening required './lib/clean-wp-list-pages.php' (include_path='.:') in /var/www/southcarolinatheatre.local/content/themes/DesignByThomasAzar/functions.php on line 2
-[09-Feb-2016 16:50:47 UTC] PHP Warning:  require_once(./lib/clean-wp-list-pages.php): failed to open stream: No such file or directory in /var/www/southcarolinatheatre.local/content/themes/DesignByThomasAzar/functions.php on line 2
-[09-Feb-2016 16:50:47 UTC] PHP Fatal error:  require_once(): Failed opening required './lib/clean-wp-list-pages.php' (include_path='.:') in /var/www/southcarolinatheatre.local/content/themes/DesignByThomasAzar/functions.php on line 2

@@ -1,4 +1,11 @@
-<?php get_header(); ?>
+<?php
+get_header();
+$args = array(
+	'category_name' => 'home-page',
+	'post_status' => 'publish',
+);
+$query = new WP_Query( $args );
+?>
 <body>
 	<header class='header'>
 		<div class='header-logo-container'>
@@ -27,25 +34,14 @@
 		<?php get_template_part( 'nav' ); ?>
 	</header>
 	<main class='container home'>
+		<?php if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
 		<article class='content post'>
-			<h1 class='post-title'>Latest News &amp; Updates</h1>
+			<h1 class='post-title'><?php the_title(); ?></h1>
 			<section class='post__content'>
-				<h1>Mark Your Calendars</h1>
-				<h2>May 14, 2016</h2>
-				<img src='/img/gala.jpg' />
+				<?php the_content(); ?>
 			</section>
 		</article>
-		<article class='content post'>
-			<h1 class='post-title'>Thank You!</h1>
-			<section class='post__content'>
-				<img src='/img/scta-convention-2015.jpg' />
-				<h1>Thank you to everyone who participated!</h1>
-				<img src='/img/scta-convention-2015-keynotes.jpg' />
-				<h2>Congratulations to</h2>
-				<p>Wild Hare Productions<br/>SETC Community Theatre State Selection</p>
- 				<p>Blythewood High School &amp; Sumter High School<br/>SETC Secondary Festival State Selections</p>
-			</section>
-		</article>
+		<?php wp_reset_postdata(); endwhile; endif; ?>
 	</main>
 	<?php get_footer(); ?>
 </body>
