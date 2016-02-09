@@ -1,0 +1,6 @@
+.alignleft{
+	float: left;
+	@include sizing( margin-top, 1 );
+	@include sizing( margin-right, 1 );
+	@include sizing( margin-bottom, 1 );
+}
