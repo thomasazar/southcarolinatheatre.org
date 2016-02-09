@@ -10,7 +10,7 @@ $query = new WP_Query( $args );
 	<header class='header'>
 		<div class='header-logo-container'>
 			<img src="/img/scta-logo.jpg" />
-			<p class='tagline'>Create. Connect. Cultivate.</p>
+			<p class='tagline'>Connect. Create. Cultivate.</p>
 			<div id="timer">
 				<p>Gilded Gala Countdown</p>
 				<div class='timer__box'>

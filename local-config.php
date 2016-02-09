@@ -20,3 +20,5 @@ define('FS_METHOD','direct');
 define( 'SAVEQUERIES', true );
 define( 'WP_DEBUG', true );
 define('LOCALHOST', true);
+
+define('WP_TEMP_DIR', dirname(__FILE__) . '/wp-content/temp/');

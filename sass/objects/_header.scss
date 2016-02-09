@@ -146,6 +146,9 @@
 	list-style: none;
 	margin-left: 0;
 	text-align: left;
+	.menu-item{
+		display: block;
+	}
 	a {
 		@include sizing(padding-top, .15);
 		@include sizing(padding-bottom, .15);

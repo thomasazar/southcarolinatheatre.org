@@ -1,11 +1,11 @@
 .footer{
 	background: #fff;
-	font-size: 0.8rem;
+	@include font-size( 14px, true );
 	@include clearfix;
-	@include sizing(margin-top, 2);
-	@include sizing(margin-bottom, 0);
+	@include sizing( margin-top, 2 );
+	@include sizing( margin-bottom, 0 );
 	@include shadow( true );
-	@include media('>md') {
+	@include media( '>md' ) {
 		@include sizing(margin-top, 1);
 	}
 }

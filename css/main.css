@@ -556,11 +556,17 @@ h1, h2, h3, h4, h5, h6 {
   color: #222;
   font-family: Quattrocento, quattrocento-webfont, Georgia, Times, Times New Roman, serif; }
 
-hr {
-  border-top: none;
-  border-bottom: 1px #ddd solid;
-  margin-bottom: 27px;
-  margin-bottom: 1.5rem; }
+table {
+  width: 100%; }
+  table td {
+    vertical-align: top; }
+    table td:first-child {
+      text-align: right;
+      font-weight: bold;
+      width: 25%; }
+    table td p {
+      margin-bottom: 6.75px;
+      margin-bottom: 0.375rem; }
 
 blockquote {
   background-color: #f4f4f4;
@@ -629,6 +635,7 @@ a {
 
 .post {
   background-color: #fff;
+  word-wrap: break-word;
   padding-left: 13.5px;
   padding-left: 0.75rem;
   padding-right: 13.5px;
@@ -802,6 +809,8 @@ a {
   list-style: none;
   margin-left: 0;
   text-align: left; }
+  .header-submenu .menu-item {
+    display: block; }
   .header-submenu a {
     padding-top: 4.05px;
     padding-top: 0.225rem;
@@ -810,7 +819,9 @@ a {
 
 .footer {
   background: #fff;
-  font-size: 0.8rem;
+  font-size: 14px;
+  font-size: 0.7777778rem;
+  line-height: 1.9285714;
   margin-top: 54px;
   margin-top: 3rem;
   margin-bottom: 0px;

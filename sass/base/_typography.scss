@@ -3,11 +3,19 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: map-get( $fonts, serif );
 }
 
-hr {
-	border-top: none;
-	border-bottom: 1px #ddd solid;
-	margin-bottom: $typecsset-magic-number;
-	margin-bottom: $typecsset-magic-ratio + rem;
+table {
+	width: 100%;
+	td{
+		vertical-align: top;
+		&:first-child{
+			text-align: right;
+			font-weight: bold;
+			width: 25%;
+		}
+		p{
+			@include sizing( margin-bottom, 0.25 );
+		}
+	}
 }
 
 blockquote {
