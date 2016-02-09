@@ -1,10 +1,11 @@
-.half{
-	@media (min-width: 481px){
-		width: 49%;
-		margin: 0 1% 0 0;
-		display: inline-block;
-		&:last-child{
-			margin: 0 0 0 1%;
+.home{
+	@include media('>md') {
+		.post{
+			width: 49%;
+			margin: 0 1% 0 0;
+			&:last-child{
+				margin: 0 0 0 1%;
+			}
 		}
 	}
 }

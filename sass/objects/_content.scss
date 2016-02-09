@@ -2,7 +2,7 @@
 	background-color: #fff;
 	@include media('>md') {
 		display: inline-block;
-		float: right;
+		float: left;
 		@include sizing(padding, 1.5);
 		width: 100%;
 	}
