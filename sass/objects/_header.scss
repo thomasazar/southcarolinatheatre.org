@@ -97,7 +97,7 @@
 
 		&:hover,
 		&:focus {
-			.header-submenu{
+			.sub-menu{
 				display: block;
 			}
 		}
@@ -132,13 +132,13 @@
 	@include sizing(margin-bottom, .25);
 }
 
-.current-menu-item a {
+.current-menu-item > a {
 	cursor: default;
 	background: $color--primary;
 	color: #fff;
 }
 
-.header-submenu{
+.sub-menu{
 	display: none;
 	position: absolute;
 	z-index: 10;
