@@ -74,7 +74,7 @@ function removeClass(el, className) {
 
 
 var menuOpen = document.getElementById("mobile-menu");
-var menuClose = document.getElementById("mobile-menu-close");
+var menuClose = document.getElementById("menu-close-button");
 
 menuOpen.addEventListener("click", showMobileMenu, false);
 menuClose.addEventListener("click", showMobileMenu, false);
