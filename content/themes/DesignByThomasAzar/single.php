@@ -9,6 +9,14 @@
 			<?php while ( have_posts() ) : the_post(); ?>
 			<h1 class='post-title'><?php the_title(); ?></h1>
 			<section class='post__content'>
+				<div class='download'>
+					<?php
+					$files = rwmb_meta( 'scta_cv', 'type=file' );
+					foreach ( $files as $info ) {
+						echo "<a class='download-item' href='{$info['url']}' title='{$info['title']}'>{$info['title']}</a>";
+					}
+					?>
+				</div>
 				<?php the_content(); ?>
 			</section>
 			<?php endwhile; ?>

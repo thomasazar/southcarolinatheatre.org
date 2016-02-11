@@ -2,4 +2,7 @@ a {
   color: map-get($colors, link);
   text-decoration: none;
   transition: all .0625s ease;
+  &:hover{
+  	color: shade( map-get($colors, link), 33% );
+  }
 }

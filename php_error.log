@@ -1,1 +1,10 @@
 
+[11-Feb-2016 18:11:34 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /var/www/southcarolinatheatre.local/content/themes/DesignByThomasAzar/functions.php on line 16
+[11-Feb-2016 18:15:18 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /var/www/southcarolinatheatre.local/wp/wp-admin/includes/ajax-actions.php on line 2378
+[11-Feb-2016 18:15:18 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /var/www/southcarolinatheatre.local/wp/wp-admin/includes/ajax-actions.php on line 2379
+[11-Feb-2016 18:16:20 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /var/www/southcarolinatheatre.local/wp/wp-admin/includes/ajax-actions.php on line 2378
+[11-Feb-2016 18:16:20 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /var/www/southcarolinatheatre.local/wp/wp-admin/includes/ajax-actions.php on line 2379
+[11-Feb-2016 18:16:42 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /var/www/southcarolinatheatre.local/wp/wp-admin/includes/ajax-actions.php on line 2378
+[11-Feb-2016 18:16:42 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /var/www/southcarolinatheatre.local/wp/wp-admin/includes/ajax-actions.php on line 2379
+[11-Feb-2016 18:18:43 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /var/www/southcarolinatheatre.local/wp/wp-admin/includes/ajax-actions.php on line 2378
+[11-Feb-2016 18:18:43 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /var/www/southcarolinatheatre.local/wp/wp-admin/includes/ajax-actions.php on line 2379
