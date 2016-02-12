@@ -8,4 +8,7 @@
 		background: $color--primary;
 		border-color: $color--primary;
 	}
+	@include media('<md') {
+		display: block;
+	}
 }

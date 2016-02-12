@@ -849,6 +849,9 @@ a {
     color: #fff;
     background: #0085a9;
     border-color: #0085a9; }
+  @media (max-width: 719px) {
+    .button {
+      display: block; } }
 
 #timer {
   font-weight: bold;
