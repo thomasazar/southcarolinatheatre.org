@@ -838,6 +838,18 @@ a {
       margin-top: 27px;
       margin-top: 1.5rem; } }
 
+.button {
+  padding: 13.5px;
+  padding: 0.75rem;
+  margin: 13.5px;
+  margin: 0.75rem;
+  border: 2px solid #3498db;
+  font-weight: bold; }
+  .button:hover, .button:active {
+    color: #fff;
+    background: #0085a9;
+    border-color: #0085a9; }
+
 #timer {
   font-weight: bold;
   text-align: center; }
@@ -884,19 +896,13 @@ a {
 
 .download {
   text-align: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 27px;
+  margin-bottom: 1.5rem; }
 
-.download-item {
-  padding: 13.5px;
-  padding: 0.75rem;
-  margin: 13.5px;
-  margin: 0.75rem;
-  border: 2px solid #3498db;
-  font-weight: bold; }
-  .download-item:hover, .download-item:active {
-    color: #fff;
-    background: #0085a9;
-    border-color: #0085a9; }
+.category {
+  font-size: 24px;
+  font-size: 1.3333333rem; }
 
 @media (min-width: 721px) {
   .mobile-only {

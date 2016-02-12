@@ -1,0 +1,11 @@
+.button{
+	@include sizing( padding, 0.5 );
+	@include sizing( margin, 0.5 );
+	border: 2px solid map-get($colors, link);
+	font-weight: bold;
+	&:hover, &:active {
+		color: #fff;
+		background: $color--primary;
+		border-color: $color--primary;
+	}
+}

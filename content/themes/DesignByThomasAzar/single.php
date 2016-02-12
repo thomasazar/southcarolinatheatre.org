@@ -13,7 +13,7 @@
 					<?php
 					$files = rwmb_meta( 'scta_cv', 'type=file' );
 					foreach ( $files as $info ) {
-						echo "<a class='download-item' href='{$info['url']}' title='{$info['title']}'>{$info['title']}</a>";
+						echo "<a class='button download-item' href='{$info['url']}' title='{$info['title']}'>{$info['title']}</a>";
 					}
 					?>
 				</div>
