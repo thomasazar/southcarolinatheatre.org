@@ -1,11 +1,11 @@
 .alignleft{
 	float: left;
 	@include sizing( margin-right, 1 );
-	@include sizing( margin-bottom, 1 );
+	@include sizing( margin-bottom, 0.75 );
 }
 
 .alignright{
 	float: right;
 	@include sizing( margin-left, 1 );
-	@include sizing( margin-bottom, 1 );
+	@include sizing( margin-bottom, 0.75 );
 }

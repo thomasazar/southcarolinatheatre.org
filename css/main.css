@@ -553,8 +553,7 @@ body {
   color: #444; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #222;
-  font-family: Quattrocento, quattrocento-webfont, Georgia, Times, Times New Roman, serif; }
+  color: #222; }
 
 table {
   width: 100%; }
@@ -839,15 +838,19 @@ a {
       margin-top: 1.5rem; } }
 
 .button {
+  display: inline-block;
   padding: 13.5px;
   padding: 0.75rem;
   margin: 13.5px;
   margin: 0.75rem;
-  border: 2px solid #3498db;
-  font-weight: bold; }
+  border: 2px dashed #3498db;
+  font-weight: bold;
+  transition: 0.175s all ease-in;
+  transform: rotateZ(0); }
   .button:hover, .button:active {
     color: #fff;
     background: #0085a9;
+    border-style: solid;
     border-color: #0085a9; }
   @media (max-width: 719px) {
     .button {
@@ -937,14 +940,14 @@ a {
   float: left;
   margin-right: 27px;
   margin-right: 1.5rem;
-  margin-bottom: 27px;
-  margin-bottom: 1.5rem; }
+  margin-bottom: 20.25px;
+  margin-bottom: 1.125rem; }
 
 .alignright {
   float: right;
   margin-left: 27px;
   margin-left: 1.5rem;
-  margin-bottom: 27px;
-  margin-bottom: 1.5rem; }
+  margin-bottom: 20.25px;
+  margin-bottom: 1.125rem; }
 
 /*# sourceMappingURL=main.css.map */
