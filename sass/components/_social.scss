@@ -1,0 +1,18 @@
+.social{
+	position: absolute;
+	bottom: 0;
+	@include sizing( right, 1 );
+	text-align: right;
+	svg{
+		max-width: 40px;
+		@include sizing( margin-left, .5 );
+		opacity: 0.5;
+		&:hover{
+			opacity: 1;
+		}
+	}
+}
+
+.facebook{
+
+}
