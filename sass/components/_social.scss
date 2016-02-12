@@ -11,8 +11,10 @@
 			opacity: 1;
 		}
 	}
-}
-
-.facebook{
-
+	@include media('<md') {
+		position: static;
+		text-align: center;
+		@include sizing( margin-top, .5 );
+		@include sizing( margin-bottom, .5 );
+	}
 }
