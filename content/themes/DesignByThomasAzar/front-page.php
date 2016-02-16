@@ -13,7 +13,7 @@ $query = new WP_Query( $args );
 	</header>
 	<main class='container home'>
 		<?php if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
-		<article class='content post'>
+		<article class='post container'>
 			<h1 class='post-title'><?php the_title(); ?></h1>
 			<section class='post__content'>
 				<?php the_content(); ?>

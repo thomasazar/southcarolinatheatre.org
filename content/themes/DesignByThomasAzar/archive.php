@@ -5,7 +5,7 @@
 		<?php get_template_part( 'nav' ); ?>
 	</header>
 	<main class='container'>
-		<article class='post'>
+		<article class='post container'>
 			<?php
 			$post_type = get_post_type();
 			$obj = get_post_type_object( $post_type );

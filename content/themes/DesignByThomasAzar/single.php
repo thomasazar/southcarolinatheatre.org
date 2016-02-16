@@ -5,7 +5,7 @@
 		<?php get_template_part( 'nav' ); ?>
 	</header>
 	<main class='container'>
-		<article class='content post'>
+		<article class='post container'>
 			<?php while ( have_posts() ) : the_post(); ?>
 			<h1 class='post-title'><?php the_title(); ?></h1>
 			<section class='post__content'>
