@@ -413,22 +413,22 @@ h1 {
 
 h2 {
   font-size: 30px;
-  font-size: 1.6666667rem;
+  font-size: 1.66667rem;
   line-height: 1.8; }
 
 h3 {
   font-size: 26px;
-  font-size: 1.4444444rem;
-  line-height: 1.0384615; }
+  font-size: 1.44444rem;
+  line-height: 1.03846; }
 
 h4 {
   font-size: 22px;
-  font-size: 1.2222222rem;
-  line-height: 1.2272727; }
+  font-size: 1.22222rem;
+  line-height: 1.22727; }
 
 h5 {
   font-size: 20px;
-  font-size: 1.1111111rem;
+  font-size: 1.11111rem;
   line-height: 1.35; }
 
 h6 {
@@ -656,7 +656,7 @@ a {
 
 .post-title {
   font-size: 32px;
-  font-size: 1.7777778rem;
+  font-size: 1.77778rem;
   margin-top: 0;
   text-align: center;
   color: #0085a9; }
@@ -753,7 +753,7 @@ a {
   .menu-item a {
     color: #444;
     font-size: 16px;
-    font-size: 0.8888889rem;
+    font-size: 0.88889rem;
     line-height: 1.6875;
     font-weight: bold;
     width: 100%; }
@@ -822,8 +822,8 @@ a {
 .footer {
   background: #fff;
   font-size: 14px;
-  font-size: 0.7777778rem;
-  line-height: 1.9285714;
+  font-size: 0.77778rem;
+  line-height: 1.92857;
   margin-top: 54px;
   margin-top: 3rem;
   margin-bottom: 0px;
@@ -841,6 +841,7 @@ a {
     margin-bottom: 13.5px;
     margin-bottom: 0.75rem; }
 
+a[href$=pdf],
 .button {
   display: inline-block;
   padding: 13.5px;
@@ -851,12 +852,15 @@ a {
   font-weight: bold;
   transition: 0.175s all ease-in;
   transform: rotateZ(0); }
-  .button:hover, .button:active {
+  a[href$=pdf]:hover, a[href$=pdf]:active,
+  .button:hover,
+  .button:active {
     color: #fff;
     background: #0085a9;
     border-style: solid;
     border-color: #0085a9; }
   @media (max-width: 719px) {
+    a[href$=pdf],
     .button {
       display: block; } }
 
@@ -873,7 +877,7 @@ a {
     margin: 0px;
     margin: 0rem;
     font-size: 22px;
-    font-size: 1.2222222rem;
+    font-size: 1.22222rem;
     color: #0085a9;
     text-shadow: 0 1px 1px #999; }
 
@@ -887,12 +891,12 @@ a {
 
 .timer__smalltext {
   font-size: 14px;
-  font-size: 0.7777778rem;
+  font-size: 0.77778rem;
   font-weight: normal; }
 
 .tagline {
   font-size: 28px;
-  font-size: 1.5555556rem;
+  font-size: 1.55556rem;
   color: #0085a9;
   font-style: italic;
   text-shadow: 0 1px 1px #999; }
@@ -900,7 +904,7 @@ a {
     .tagline {
       text-align: center;
       font-size: 20px;
-      font-size: 1.1111111rem;
+      font-size: 1.11111rem;
       margin-bottom: 13.5px;
       margin-bottom: 0.75rem; } }
   @media (min-width: 721px) {
@@ -916,7 +920,7 @@ a {
 
 .category {
   font-size: 24px;
-  font-size: 1.3333333rem; }
+  font-size: 1.33333rem; }
 
 .social {
   position: absolute;
