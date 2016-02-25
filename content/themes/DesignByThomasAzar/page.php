@@ -10,7 +10,7 @@
 			<h1 class='post-title'><?php the_title(); ?></h1>
 			<section class='post__content'>
 				<?php
-				$child_pages = get_pages( array( 'child_of' => $post->ID ) );
+				$child_pages = get_pages( array( 'parent' => $post->ID, 'sort_column' => 'menu_order' ) );
 				if ( $child_pages ){
 					$output = '<div class=\'download\'>';
 					foreach ( $child_pages as $child_page ) {
