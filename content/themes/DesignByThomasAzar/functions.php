@@ -17,4 +17,14 @@ function show_current_user_attachments( $query ) {
 	else { return $query; }
 }
 
+// Include jQuery at bottom of page
+function jquery_at_bottom() {
+    wp_deregister_script( 'jquery' );
+    wp_register_script( 'jquery', includes_url( '/js/jquery/jquery.js' ), false, NULL, true );
+    wp_enqueue_script( 'jquery' );
+
+	wp_register_script( 'main', home_url( '/js/main.js'), false, NULL, true );
+}
+add_action( 'wp_enqueue_scripts', 'jquery_at_bottom' );
+
 ?>

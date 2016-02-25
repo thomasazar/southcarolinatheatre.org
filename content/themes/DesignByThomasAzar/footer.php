@@ -11,5 +11,5 @@
 		</section>
 	</div>
 </footer>
-<?php require_once( 'lib/scripts.php' ); ?>
+
 <?php wp_footer(); ?>
