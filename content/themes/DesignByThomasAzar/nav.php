@@ -9,17 +9,25 @@ $args = array(
 );
 
 $navMenu = wp_list_pages( $args );
-echo '<div class=\'mobile-only menu-open-button\' id=\'mobile-menu\'>Menu</div><nav class=\'header-menu\'>	<ul class=\'header-menu-items\' id=\'headerMenuItems\'>	<li class=\'menu-item menu-close-button mobile-only\' id=\'menu-close-button\'><a href=\'#\'>Close</a></li>';
+echo '<div class='mobile-only menu-open-button' id='mobile-menu'>Menu</div><nav class='header-menu'>	<ul class='header-menu-items' id='headerMenuItems'>	<li class='menu-item menu-close-button mobile-only' id='menu-close-button'><a href='#'>Close</a></li>';
 echo $navMenu;
 */
 ?>
 <div class='mobile-only menu-open-button' id='mobile-menu'>Menu</div>
-<?php
-wp_nav_menu( array(
-	'theme_location'  => 'header-menu',
-	'menu_class'	  => 'header-menu-items',
-	'container'		  => 'nav',
-	'container_class' => 'header-menu',
-	'items_wrap'      => '<ul class=\'header-menu-items\' id=\'headerMenuItems\'><li class=\'menu-item menu-close-button mobile-only\' id=\'menu-close-button\'><a href=\'#\'>Close</a></li>%3$s</ul>',
- ) );
- ?>
+<nav class="header-menu">
+	<ul class='header-menu-items' id='headerMenuItems'>
+		<li class='menu-item menu-close-button mobile-only' id='menu-close-button'>
+			<a href='#'>Close</a>
+		</li>
+		<?php
+
+		$args = array(
+			'title_li' => '',
+			'depth'    => '2',
+		);
+
+		wp_list_pages( $args );
+
+		?>
+	</ul>
+</nav>
