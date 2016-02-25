@@ -117,14 +117,6 @@ dfn {
   font-style: italic; }
 
 /**
- * Address variable `h1` font-size and margin within `section` and `article`
- * contexts in Firefox 4+, Safari, and Chrome.
- */
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0; }
-
-/**
  * Address styling not present in IE 8/9.
  */
 mark {
@@ -413,22 +405,22 @@ h1 {
 
 h2 {
   font-size: 30px;
-  font-size: 1.66667rem;
+  font-size: 1.6666667rem;
   line-height: 1.8; }
 
 h3 {
   font-size: 26px;
-  font-size: 1.44444rem;
-  line-height: 1.03846; }
+  font-size: 1.4444444rem;
+  line-height: 1.0384615; }
 
 h4 {
   font-size: 22px;
-  font-size: 1.22222rem;
-  line-height: 1.22727; }
+  font-size: 1.2222222rem;
+  line-height: 1.2272727; }
 
 h5 {
   font-size: 20px;
-  font-size: 1.11111rem;
+  font-size: 1.1111111rem;
   line-height: 1.35; }
 
 h6 {
@@ -656,7 +648,7 @@ a {
 
 .post-title {
   font-size: 32px;
-  font-size: 1.77778rem;
+  font-size: 1.7777778rem;
   margin-top: 0;
   text-align: center;
   color: #0085a9; }
@@ -746,39 +738,39 @@ a {
         top: 0;
         z-index: 99; } }
 
-.menu-item {
+.page_item {
   display: inline-block; }
-  .menu-item:hover, .menu-item:focus {
+  .page_item:hover, .page_item:focus {
     background: #54adc5; }
-  .menu-item a {
+  .page_item a {
     color: #444;
     font-size: 16px;
-    font-size: 0.88889rem;
+    font-size: 0.8888889rem;
     line-height: 1.6875;
     font-weight: bold;
     width: 100%; }
-    .menu-item a:hover, .menu-item a:focus {
+    .page_item a:hover, .page_item a:focus {
       color: #fff;
       background: #0085a9; }
-    .menu-item a:focus {
+    .page_item a:focus {
       outline: none; }
   @media (min-width: 721px) {
-    .menu-item {
+    .page_item {
       margin-left: 0;
       margin-right: 0; }
-      .menu-item:hover .sub-menu, .menu-item:focus .sub-menu {
+      .page_item:hover .children, .page_item:focus .children {
         display: block; }
-      .menu-item a {
+      .page_item a {
         display: inline-block;
         padding: 13.5px;
         padding: 0.75rem; }
-        .menu-item a:active {
+        .page_item a:active {
           top: 0; } }
   @media (max-width: 719px) {
-    .menu-item {
+    .page_item {
       display: inline-block;
       width: 48%; }
-      .menu-item a {
+      .page_item a {
         display: block;
         padding: 6.75px;
         padding: 0.375rem;
@@ -798,12 +790,12 @@ a {
   margin-bottom: 6.75px;
   margin-bottom: 0.375rem; }
 
-.current-menu-item > a {
+.current_page_item > a {
   cursor: default;
-  background: #0085a9;
+  background: #1a91b2;
   color: #fff; }
 
-.sub-menu {
+.children {
   display: none;
   position: absolute;
   z-index: 10;
@@ -811,9 +803,9 @@ a {
   list-style: none;
   margin-left: 0;
   text-align: left; }
-  .sub-menu .menu-item {
+  .children .page_item {
     display: block; }
-  .sub-menu a {
+  .children a {
     padding-top: 4.05px;
     padding-top: 0.225rem;
     padding-bottom: 4.05px;
@@ -822,8 +814,8 @@ a {
 .footer {
   background: #fff;
   font-size: 14px;
-  font-size: 0.77778rem;
-  line-height: 1.92857;
+  font-size: 0.7777778rem;
+  line-height: 1.9285714;
   margin-top: 54px;
   margin-top: 3rem;
   margin-bottom: 0px;
@@ -877,7 +869,7 @@ a[href$=pdf],
     margin: 0px;
     margin: 0rem;
     font-size: 22px;
-    font-size: 1.22222rem;
+    font-size: 1.2222222rem;
     color: #0085a9;
     text-shadow: 0 1px 1px #999; }
 
@@ -891,12 +883,12 @@ a[href$=pdf],
 
 .timer__smalltext {
   font-size: 14px;
-  font-size: 0.77778rem;
+  font-size: 0.7777778rem;
   font-weight: normal; }
 
 .tagline {
   font-size: 28px;
-  font-size: 1.55556rem;
+  font-size: 1.5555556rem;
   color: #0085a9;
   font-style: italic;
   text-shadow: 0 1px 1px #999; }
@@ -904,7 +896,7 @@ a[href$=pdf],
     .tagline {
       text-align: center;
       font-size: 20px;
-      font-size: 1.11111rem;
+      font-size: 1.1111111rem;
       margin-bottom: 13.5px;
       margin-bottom: 0.75rem; } }
   @media (min-width: 721px) {
@@ -920,7 +912,7 @@ a[href$=pdf],
 
 .category {
   font-size: 24px;
-  font-size: 1.33333rem; }
+  font-size: 1.3333333rem; }
 
 .social {
   position: absolute;
@@ -983,5 +975,8 @@ a[href$=pdf],
   margin-left: 1.5rem;
   margin-bottom: 20.25px;
   margin-bottom: 1.125rem; }
+
+.awards-table td:first-child {
+  width: 1%; }
 
 /*# sourceMappingURL=main.css.map */

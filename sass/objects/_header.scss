@@ -73,7 +73,7 @@
 	}
 }
 
-.menu-item {
+.page_item {
 	display: inline-block;
 	&:hover,
 	&:focus {
@@ -98,7 +98,7 @@
 
 		&:hover,
 		&:focus {
-			.sub-menu{
+			.children{
 				display: block;
 			}
 		}
@@ -133,13 +133,13 @@
 	@include sizing(margin-bottom, .25);
 }
 
-.current-menu-item > a {
+.current_page_item > a {
 	cursor: default;
-	background: $color--primary;
+	background: tint( $color--primary, 10% );
 	color: #fff;
 }
 
-.sub-menu{
+.children{
 	display: none;
 	position: absolute;
 	z-index: 10;
@@ -147,7 +147,7 @@
 	list-style: none;
 	margin-left: 0;
 	text-align: left;
-	.menu-item{
+	.page_item{
 		display: block;
 	}
 	a {
