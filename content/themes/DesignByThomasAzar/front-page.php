@@ -12,6 +12,7 @@ $query = new WP_Query( $args );
 		<?php get_template_part( 'nav' ); ?>
 	</header>
 	<main class='container home'>
+		<?php get_search_form(); ?>
 		<?php if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
 		<article class='post container'>
 			<h1 class='post-title'><?php the_title(); ?></h1>

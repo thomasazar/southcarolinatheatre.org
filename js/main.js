@@ -78,3 +78,11 @@ var menuClose = document.getElementById("menu-close-button");
 
 menuOpen.addEventListener("click", showMobileMenu, false);
 menuClose.addEventListener("click", showMobileMenu, false);
+
+jQuery(document).ready(function(){
+	jQuery('.grid').masonry({
+		// options
+		itemSelector: '.post',
+		columnWidth: 200
+	});
+});

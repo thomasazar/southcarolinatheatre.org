@@ -540,7 +540,7 @@ html {
 
 body {
   font-family: Source Sans Pro, Helvetica, Helvetica Neue, Arial, sans-serif;
-  background: #c0c8ce;
+  background-color: #c0c8ce;
   min-width: 320px;
   color: #444; }
 
@@ -629,12 +629,7 @@ a {
 .post {
   background-color: #fff;
   word-wrap: break-word;
-  padding-left: 13.5px;
-  padding-left: 0.75rem;
-  padding-right: 13.5px;
-  padding-right: 0.75rem;
-  padding-bottom: 13.5px;
-  padding-bottom: 0.75rem;
+  padding: 1em;
   box-shadow: 0 4px 6px rgba(51, 51, 51, 0.7); }
   @media (min-width: 721px) {
     .post {
@@ -665,7 +660,7 @@ a {
   box-shadow: 0 4px 6px rgba(51, 51, 51, 0.7); }
 
 .header {
-  background: #fff;
+  background-color: #fff;
   box-shadow: 0 4px 6px rgba(51, 51, 51, 0.7);
   position: relative;
   text-align: center;
@@ -812,7 +807,7 @@ a {
     padding-bottom: 0.225rem; }
 
 .footer {
-  background: #fff;
+  background-color: #fff;
   font-size: 14px;
   font-size: 0.7777778rem;
   line-height: 1.9285714;
@@ -935,6 +930,23 @@ a[href$=pdf],
       margin-top: 0.75rem;
       margin-bottom: 13.5px;
       margin-bottom: 0.75rem; } }
+
+.search-result {
+  margin-bottom: 1em; }
+  .search-result p {
+    margin-bottom: 1em;
+    color: #222; }
+    .search-result p:hover {
+      color: #236693; }
+  .search-result:after {
+    content: "";
+    display: block;
+    border: 1px solid #54adc5;
+    width: 75%;
+    margin: 0 auto; }
+  .search-result:last-child:after {
+    border: none;
+    margin-bottom: 0; }
 
 @media (min-width: 721px) {
   .mobile-only {

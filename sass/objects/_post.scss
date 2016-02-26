@@ -1,9 +1,7 @@
 .post{
 	background-color: #fff;
 	word-wrap: break-word;
-	@include sizing(padding-left, 0.5);
-	@include sizing(padding-right, 0.5);
-	@include sizing(padding-bottom, 0.5);
+	padding: $layout-padding;
 	@include shadow();
 	@include media('>md') {
 		display: inline-block;
