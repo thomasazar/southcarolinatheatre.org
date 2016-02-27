@@ -8,10 +8,12 @@
 			<article class='post container' style='float: none;'>
 				<h1 class='post-title'>Search Results</h1>
 				<?php if ( have_posts() ) : while (have_posts()) : the_post(); ?>
-					<a class='search-result' href='<?php get_permalink(); ?>'>
-						<strong><?php the_title(); ?></strong>
-						<?php the_excerpt(); ?>
-					</a>
+						<article class='search-result'>
+							<a href='<?php echo get_permalink(); ?>'>
+								<strong><?php the_title(); ?></strong>
+							</a>
+							<?php the_excerpt(); ?>
+						</article>
 				<?php endwhile; else : ?>
 					<p>We couldn't find any results for <strong>'<?php echo get_search_query(); ?>'</strong>.</p>
 				<?php endif; ?>

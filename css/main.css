@@ -967,21 +967,15 @@ a[href$=pdf],
       background-color: #0085a9; }
 
 .search-result {
+  width: 100%;
+  padding: 1em;
+  background-color: #eee;
   margin-bottom: 1em; }
-  .search-result p {
-    margin-bottom: 1em;
-    color: #222; }
-    .search-result p:hover {
-      color: #236693; }
-  .search-result:after {
-    content: "";
-    display: block;
-    border: 1px solid #54adc5;
-    width: 75%;
-    margin: 0 auto; }
-  .search-result:last-child:after {
-    border: none;
-    margin-bottom: 0; }
+  @media (min-width: 721px) {
+    .search-result {
+      float: left;
+      width: 23%;
+      margin: 1em 1%; } }
 
 @media (min-width: 721px) {
   .mobile-only {
