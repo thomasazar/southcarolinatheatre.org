@@ -1,6 +1,5 @@
 .social{
-	position: absolute;
-	bottom: 0;
+	float: right;
 	@include sizing( right, 1 );
 	text-align: right;
 	svg{

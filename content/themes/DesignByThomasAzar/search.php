@@ -4,19 +4,18 @@
 		<?php get_template_part( 'page-header' ); ?>
 		<?php get_template_part( 'nav' ); ?>
 	</header>
-	<main class='container home grid' data-masonry='{ "itemSelector": ".post" }'>
-		<?php while (have_posts()) : the_post(); ?>
+	<main class='container'>
 			<article class='post container' style='float: none;'>
-				<h1 class='post-title'>
-					<a href='<?php get_permalink(); ?>'>
-						<?php the_title(); ?>
+				<h1 class='post-title'>Search Results</h1>
+				<?php if ( have_posts() ) : while (have_posts()) : the_post(); ?>
+					<a class='search-result' href='<?php get_permalink(); ?>'>
+						<strong><?php the_title(); ?></strong>
+						<?php the_excerpt(); ?>
 					</a>
-				</h1>
-				<a class='search-result' href='<?php get_permalink(); ?>'>
-					<?php the_excerpt(); ?>
-				</a>
+				<?php endwhile; else : ?>
+					<p>We couldn't find any results for <strong>'<?php echo get_search_query(); ?>'</strong>.</p>
+				<?php endif; ?>
 		    </article>
-		<?php endwhile; ?>
 	</main>
 	<?php get_footer('search'); ?>
 </body>

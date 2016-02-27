@@ -910,8 +910,7 @@ a[href$=pdf],
   font-size: 1.3333333rem; }
 
 .social {
-  position: absolute;
-  bottom: 0;
+  float: right;
   right: 27px;
   right: 1.5rem;
   text-align: right; }
@@ -930,6 +929,42 @@ a[href$=pdf],
       margin-top: 0.75rem;
       margin-bottom: 13.5px;
       margin-bottom: 0.75rem; } }
+
+.search-form {
+  display: inline-block;
+  width: 300px; }
+  @media (min-width: 481px) {
+    .search-form {
+      position: absolute;
+      right: 1.5rem;
+      bottom: 0; } }
+  .search-form label {
+    font-size: 14px;
+    font-size: 0.7777778rem;
+    color: #999;
+    position: relative;
+    top: 0.5rem; }
+  .search-form input {
+    padding: .375em 2% .375em 2%;
+    height: 40.5px;
+    height: 2.25rem;
+    width: 75%;
+    border: 1px solid #ddd;
+    border-right: 0; }
+  .search-form button {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    height: 40.5px;
+    height: 2.25rem;
+    width: 25%;
+    border: 1px solid #54adc5;
+    background: #54adc5;
+    color: #f2f2f2;
+    font-weight: bold; }
+    .search-form button:hover {
+      border-color: #0085a9;
+      background-color: #0085a9; }
 
 .search-result {
   margin-bottom: 1em; }

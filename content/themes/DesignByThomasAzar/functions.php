@@ -29,4 +29,12 @@ add_filter('script_loader_tag', function ( $tag ) {
     return str_replace( ' src', ' defer src', $tag );
 }, 10, 2);
 
+/**
+ * Add HTML5 theme support.
+ */
+function wpdocs_after_setup_theme() {
+    add_theme_support( 'html5', array( 'search-form' ) );
+}
+add_action( 'after_setup_theme', 'wpdocs_after_setup_theme' );
+
 ?>
