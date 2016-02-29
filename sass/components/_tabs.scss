@@ -1,8 +1,5 @@
 .tabs-content{
-	li{
-		display: none;
-		&.active{
-			display: block;
-		}
+	.active{
+		display: block;
 	}
 }

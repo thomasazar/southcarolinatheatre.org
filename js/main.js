@@ -81,6 +81,8 @@ var menuClose = document.getElementById("menu-close-button");
 menuOpen.addEventListener("click", showMobileMenu, false);
 menuClose.addEventListener("click", showMobileMenu, false);
 
+j('.tabs-content li').addClass('hidden');
+
 j('.tabs a').click(function(e){
 	e.preventDefault();
 	if (j(this).hasClass("active")){ // Do nothing if active
@@ -88,6 +90,6 @@ j('.tabs a').click(function(e){
 	};
 	link = j(this).attr("href");
 	j(".tabs a").removeClass("active");
-	j(".tabs-content li").removeClass("active");
-	j(".tabs-content li" + link).addClass("active");
+	j(".tabs-content li").removeClass("active").addClass('hidden');
+	j(".tabs-content li" + link).removeClass('hidden').addClass("active");
 });

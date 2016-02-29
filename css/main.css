@@ -977,10 +977,8 @@ a[href$=pdf],
       width: 23%;
       margin: 1em 1%; } }
 
-.tabs-content li {
-  display: none; }
-  .tabs-content li.active {
-    display: block; }
+.tabs-content .active {
+  display: block; }
 
 @media (min-width: 721px) {
   .mobile-only {
@@ -1024,5 +1022,8 @@ a[href$=pdf],
 
 .awards-table td:first-child {
   width: 1%; }
+
+.hidden {
+  display: none; }
 
 /*# sourceMappingURL=main.css.map */
