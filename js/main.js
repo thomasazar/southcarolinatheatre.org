@@ -1,3 +1,5 @@
+var j = jQuery.noConflict();
+
 function getTimeRemaining(endtime) {
 	var t = Date.parse(endtime) - Date.parse(new Date());
 	var seconds = Math.floor((t / 1000) % 60);
@@ -54,7 +56,7 @@ function hasClass(el, className) {
   if (el.classList)
     return el.classList.contains(className)
   else
-    return !!el.className.match(new RegExp('(\\s|^)' + className + '(\\s|$)'))
+    return !!el.className.match(new RegExp('(\\s|^)' + className + '(\\s|j)'))
 }
 
 function addClass(el, className) {
@@ -67,7 +69,7 @@ function removeClass(el, className) {
   if (el.classList)
     el.classList.remove(className)
   else if (hasClass(el, className)) {
-    var reg = new RegExp('(\\s|^)' + className + '(\\s|$)')
+    var reg = new RegExp('(\\s|^)' + className + '(\\s|j)')
     el.className=el.className.replace(reg, ' ')
   }
 }
@@ -79,10 +81,13 @@ var menuClose = document.getElementById("menu-close-button");
 menuOpen.addEventListener("click", showMobileMenu, false);
 menuClose.addEventListener("click", showMobileMenu, false);
 
-jQuery(document).ready(function(){
-	jQuery('.grid').masonry({
-		// options
-		itemSelector: '.post',
-		columnWidth: 200
-	});
+j('.tabs a').click(function(e){
+	e.preventDefault();
+	if (j(this).hasClass("active")){ // Do nothing if active
+		return;
+	};
+	link = j(this).attr("href");
+	j(".tabs a").removeClass("active");
+	j(".tabs-content li").removeClass("active");
+	j(".tabs-content li" + link).addClass("active");
 });
