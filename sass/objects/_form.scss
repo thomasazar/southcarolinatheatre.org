@@ -4,7 +4,7 @@ label{
 	color: #999;
 }
 
-button{
+button, .button{
 	@include sizing( height, 1.5 );
 	border: 1px solid tint( $color--primary, 33% );
 	background: tint( $color--primary, 33% );

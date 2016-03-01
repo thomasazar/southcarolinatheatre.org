@@ -1,5 +1,4 @@
 <?php
-require_once( 'lib/admin/menus.php' );
 
 require_once( 'lib/post-types/divisions.php' );
 require_once( 'lib/metabox/divisions.php' );
@@ -30,26 +29,18 @@ add_filter('script_loader_tag', function ( $tag ) {
 }, 10, 2);
 
 /**
- * Add HTML5 theme support.
- */
-function wpdocs_after_setup_theme() {
-    add_theme_support( 'html5', array( 'search-form' ) );
-}
-add_action( 'after_setup_theme', 'wpdocs_after_setup_theme' );
-
-/**
  * Filter the "read more" excerpt string link to the post.
  *
  * @param string $more "Read more" excerpt string.
  * @return string (Maybe) modified "read more" excerpt string.
  */
-function wpdocs_excerpt_more( $more ) {
+
+add_filter( 'excerpt_more', function ( $more ) {
     return sprintf( '<a class="read-more" href="%1$s">%2$s</a>',
         get_permalink( get_the_ID() ),
         __( ' [read more...]', 'textdomain' )
     );
-}
-add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
+} );
 
 function wpdocs_custom_excerpt_length( $length ) {
     return 20;

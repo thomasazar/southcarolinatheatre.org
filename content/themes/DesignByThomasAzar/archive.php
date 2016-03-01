@@ -23,7 +23,7 @@
 					foreach ( $posts_array as $category ) {
 						$href  = get_permalink($category->ID);
 						$title = $category->post_title;
-						echo "<a class='button category' href='$href'>$title</a></li>";
+						echo "<a class='category' href='$href'>$title</a></li>";
 					}
 					?>
 				</div>

@@ -16,7 +16,7 @@
 					foreach ( $child_pages as $child_page ) {
 						$title = $child_page->post_title;
 						$href  = get_permalink( $child_page->ID );
-						$output .= "<a href='$href' class='button category'>$title</a>";
+						$output .= "<a href='$href' class='category'>$title</a>";
 					}
 					$output .= '</div>';
 					echo $output;
