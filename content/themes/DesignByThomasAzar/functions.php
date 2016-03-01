@@ -2,6 +2,7 @@
 
 require_once( 'lib/post-types/divisions.php' );
 require_once( 'lib/metabox/divisions.php' );
+require_once( 'lib/clean-walker-page.php' );
 
 // Only show uploads for the current user (execpt for Site Admin)
 add_filter( 'ajax_query_attachments_args', function ( $query ) {
@@ -42,9 +43,6 @@ add_filter( 'excerpt_more', function ( $more ) {
     );
 } );
 
-function wpdocs_custom_excerpt_length( $length ) {
-    return 20;
-}
-add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
+add_filter( 'excerpt_length', function ( $length ) { return 20; }, 999 );
 
 ?>
