@@ -40,9 +40,14 @@
 	padding: $layout-padding;
 	background-color: #eee;
 	margin-bottom: $layout-padding;
-	@include media( '>md' ) {
+	@include media( '>sm') {
 		float: left;
-		width: 23%;
 		margin: $layout-padding 1%;
+	}
+	@include media( '>sm', '<md' ) {
+		width: 48%;
+	}
+	@include media( '>md' ) {
+		width: 23%;
 	}
 }

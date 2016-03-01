@@ -22,18 +22,19 @@
 
 .nav__checkbox{
 	display: none;
-	@include media('<md'){
+	@include media('<md') {
 		display: block;
 	}
 }
 
 .header-menu {
-	display: inline-block;
 	background: $color--secondary;
-
+	display: block;
 	@include media('>md') {
-		display: block;
 		@include clearfix();
+	}
+	@include media('<md') {
+		display: none;
 	}
 }
 .header-menu-items {
@@ -45,21 +46,11 @@
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
+	display: block;
 
-	@include media('>md') {
-		display: block;
-	}
-
-	@include media('<md'){
+	@include media('<md') {
 		background: $color--secondary;
 		background: transparentize( $color--secondary, 0.05 );
-		opacity: 0;
-		visibility: hidden;
-		position: fixed;
-		top: 20px;
-		bottom: 0;
-		left: 0;
-		right: 0;
 		margin-top: 0;
 		margin-bottom: 0;
 		transition: .2s all;
@@ -67,8 +58,6 @@
 		&.open{
 			opacity: 1;
 			visibility: visible;
-			top: 0;
-			z-index: 99;
 		}
 	}
 }
@@ -121,16 +110,11 @@
 	}
 }
 
-.menu-open-button{
+.mobile-menu{
 	background: #fff;
 	font-weight: bold;
 	@include sizing(margin-top, .25);
 	@include sizing(padding, .25);
-}
-
-.menu-close-button{
-	margin: 0 26%;
-	@include sizing(margin-bottom, .25);
 }
 
 .current_page_item > a {

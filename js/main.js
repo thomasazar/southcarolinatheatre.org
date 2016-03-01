@@ -42,44 +42,15 @@ function initializeClock(id, endtime) {
 var deadline = 'May 14 2016 19:00:00 GMT-05:00';
 initializeClock('timer', deadline);
 
-function showMobileMenu() {
-	menu = document.getElementById('headerMenuItems');
-	if ( hasClass(menu, 'open')){
-		removeClass(menu,'open');
+j('.mobile-menu').click(function(e){
+	j('.header-menu').stop().slideToggle('linear');
+	if (j(this).html() == 'Menu' ) {
+		j(this).html('Close');
 	}
 	else{
-		addClass(menu,'open');
+		j(this).html('Menu');
 	}
-}
-
-function hasClass(el, className) {
-  if (el.classList)
-    return el.classList.contains(className)
-  else
-    return !!el.className.match(new RegExp('(\\s|^)' + className + '(\\s|j)'))
-}
-
-function addClass(el, className) {
-  if (el.classList)
-    el.classList.add(className)
-  else if (!hasClass(el, className)) el.className += " " + className
-}
-
-function removeClass(el, className) {
-  if (el.classList)
-    el.classList.remove(className)
-  else if (hasClass(el, className)) {
-    var reg = new RegExp('(\\s|^)' + className + '(\\s|j)')
-    el.className=el.className.replace(reg, ' ')
-  }
-}
-
-
-var menuOpen = document.getElementById("mobile-menu");
-var menuClose = document.getElementById("menu-close-button");
-
-menuOpen.addEventListener("click", showMobileMenu, false);
-menuClose.addEventListener("click", showMobileMenu, false);
+});
 
 j('.tabs-content li').addClass('hidden');
 

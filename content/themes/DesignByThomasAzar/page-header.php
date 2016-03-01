@@ -22,5 +22,7 @@
 			<div class="timer__smalltext">Sec</div>
 		</div>
 	</div>
-	<?php get_search_form(); ?>
+	<div class='desktop-only'>
+		<?php get_search_form(); ?>
+	</div>
 </div>
