@@ -1,8 +1,20 @@
 <?php
 
-require_once( 'lib/post-types/divisions.php' );
-require_once( 'lib/metabox/divisions.php' );
-require_once( 'lib/clean-walker-page.php' );
+$theme_includes = [
+	'lib/post-types/divisions.php',
+	'lib/metabox/divisions.php',
+	'lib/clean-walker-page.php',
+	'lib/myfunctions.php',
+];
+
+foreach ($theme_includes as $file) {
+  if (!$filepath = locate_template($file)) {
+    trigger_error(sprintf( 'Error locating %s for inclusion', $file), E_USER_ERROR);
+  }
+
+  require_once $filepath;
+}
+unset($file, $filepath);
 
 // Only show uploads for the current user (execpt for Site Admin)
 add_filter( 'ajax_query_attachments_args', function ( $query ) {
@@ -44,5 +56,10 @@ add_filter( 'excerpt_more', function ( $more ) {
 } );
 
 add_filter( 'excerpt_length', function ( $length ) { return 20; }, 999 );
+
+// Hide Toolbar for logged in users (except admin)
+if ( ! current_user_can( 'manage_options' ) ) {
+    show_admin_bar( false );
+}
 
 ?>
