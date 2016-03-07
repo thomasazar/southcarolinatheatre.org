@@ -2,9 +2,7 @@
 	font-weight: bold;
 	text-align: center;
 	@include media('>md'){
-		position: absolute;
-		top: 0;
-		@include sizing(right, 1);
+        @include sizing( margin-bottom, 1 );
 	}
 	p{
 		@include sizing(margin, 0);

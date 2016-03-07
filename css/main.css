@@ -636,10 +636,10 @@ a {
       display: inline-block;
       float: left;
       width: 100%; } }
-
-.post + .post {
-  margin-top: 54px;
-  margin-top: 3rem; }
+  @media (max-width: 719px) {
+    .post + .post {
+      margin-top: 27px;
+      margin-top: 1.5rem; } }
 
 .post-title {
   font-size: 32px;
@@ -859,10 +859,8 @@ button, .button {
   text-align: center; }
   @media (min-width: 721px) {
     #timer {
-      position: absolute;
-      top: 0;
-      right: 27px;
-      right: 1.5rem; } }
+      margin-bottom: 27px;
+      margin-bottom: 1.5rem; } }
   #timer p {
     margin: 0px;
     margin: 0rem;
@@ -1076,10 +1074,10 @@ a[href$=pdf] {
   visibility: hidden; }
 
 @media (min-width: 721px) {
-  .home .post {
+  .half {
     width: 49%;
     margin: 0 1% 0 0; }
-    .home .post:last-child {
+    .half:last-child {
       margin: 0 0 0 1%; } }
 
 .alignleft {

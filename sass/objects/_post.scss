@@ -7,10 +7,12 @@
 		display: inline-block;
 		float: left;
 		width: 100%;
+    }
+    @include media('<md') {
+        &+ .post {
+            @include sizing(margin-top, 1);
+        }
 	}
-}
-.post + .post {
-	@include sizing(margin-top, 2);
 }
 
 .post-title {

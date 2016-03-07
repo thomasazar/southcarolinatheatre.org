@@ -1,11 +1,9 @@
-.home{
+.half{
 	@include media('>md') {
-		.post{
-			width: 49%;
-			margin: 0 1% 0 0;
-			&:last-child{
-				margin: 0 0 0 1%;
-			}
+		width: 49%;
+		margin: 0 1% 0 0;
+		&:last-child{
+			margin: 0 0 0 1%;
 		}
 	}
 }
