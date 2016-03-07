@@ -43,11 +43,12 @@ var deadline = 'May 14 2016 19:00:00 GMT-05:00';
 initializeClock('timer', deadline);
 
 j('.mobile-menu').click(function(e){
-	j('.header-menu').stop().slideToggle('linear');
+	j('.header-menu').stop();
 	if (j(this).html() == 'Menu' ) {
+        j('.header-menu').addClass('open');
 		j(this).html('Close');
-	}
-	else{
+	} else {
+        j('.header-menu').removeClass('open');
 		j(this).html('Menu');
 	}
 });

@@ -34,7 +34,13 @@
 		@include clearfix();
 	}
 	@include media('<md') {
-		display: none;
+		position: absolute;
+        transform: translateX(-100%);
+        transition: .275s all;
+        @include shadow();
+        &.open{
+            transform: translateX(0%);
+        }
 	}
 }
 .header-menu-items {
