@@ -45,9 +45,11 @@ initializeClock('timer', deadline);
 j('.mobile-menu').click(function(e){
 	j('.header-menu').stop();
 	if (j(this).html() == 'Menu' ) {
+        j('main').append('<div class="dim"></div>');
         j('.header-menu').addClass('open');
 		j(this).html('Close');
 	} else {
+        j('.dim').remove();
         j('.header-menu').removeClass('open');
 		j(this).html('Menu');
 	}
