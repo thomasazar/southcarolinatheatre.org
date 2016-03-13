@@ -1,25 +1,20 @@
-.download{
-	text-align: center;
-	margin: 0 auto;
-	@include sizing( 'margin-bottom', 1 );
-}
-
-.download-item,
-a[href$=pdf]{
+.download-item{
 	display: inline-block;
+    @include sizing( 'margin-bottom', 0.5 );
 	@include sizing( padding, 0.5 );
-	@include sizing( margin, 0.5 );
-	border: 2px dashed map-get($colors, link);
+    color: #fff;
+    background: tint( $color--primary, 33% );
 	font-weight: bold;
+    border-radius: 3px;
 	transition: 0.175s all ease-in;
-	transform: rotateZ(0);
 	&:hover, &:active {
 		color: #fff;
 		background: $color--primary;
-		border-style: solid;
-		border-color: $color--primary;
 	}
 	@include media('<md') {
 		display: block;
 	}
+}
+
+.download-item{
 }
