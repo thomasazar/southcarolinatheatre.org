@@ -3,6 +3,8 @@
 	text-align: center;
 	@include media('>md'){
         @include sizing( margin-bottom, 1 );
+        width: 50%;
+        margin-left: 25%;
 	}
 	p{
 		@include sizing(margin, 0);

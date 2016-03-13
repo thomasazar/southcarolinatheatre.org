@@ -1,10 +1,10 @@
 .footer{
-	background-color: #fff;
+	background-color: tint( $color--secondary, 50% );
 	@include font-size( 14px, true );
 	@include clearfix;
 	@include sizing( margin-top, 2 );
 	@include sizing( margin-bottom, 0 );
-	@include shadow( true );
+	@include shadow( $inset: true );
 	@include media( '>md' ) {
 		@include sizing(margin-top, 1);
 	}

@@ -540,7 +540,7 @@ html {
 
 body {
   font-family: Source Sans Pro, Helvetica, Helvetica Neue, Arial, sans-serif;
-  background-color: #c0c8ce;
+  background-color: #8496a7;
   min-width: 320px;
   color: #444; }
 
@@ -586,11 +586,11 @@ dfn {
   margin-bottom: 1.5em !important; }
 
 ::selection {
-  background-color: #c0c8ce;
+  background-color: #b0c8de;
   text-shadow: none; }
 
 ::-moz-selection {
-  background-color: #c0c8ce;
+  background-color: #b0c8de;
   text-shadow: none; }
 
 p:last-child {
@@ -690,7 +690,7 @@ a {
       display: block; } }
 
 .header-menu {
-  background: #c0c8ce;
+  background: #b0c8de;
   display: block; }
   @media (min-width: 721px) {
     .header-menu::after {
@@ -718,8 +718,8 @@ a {
   display: block; }
   @media (max-width: 719px) {
     .header-menu-items {
-      background: #c0c8ce;
-      background: rgba(192, 200, 206, 0.95);
+      background: #b0c8de;
+      background: rgba(176, 200, 222, 0.95);
       margin-top: 0;
       margin-bottom: 0;
       transition: .2s all;
@@ -787,7 +787,8 @@ a {
   background: #54adc5;
   list-style: none;
   margin-left: 0;
-  text-align: left; }
+  text-align: left;
+  box-shadow: 0 4px 6px rgba(51, 51, 51, 0.7); }
   .children .page_item {
     display: block; }
   .children a {
@@ -797,7 +798,7 @@ a {
     padding-bottom: 0.225rem; }
 
 .footer {
-  background-color: #fff;
+  background-color: #d8e4ef;
   font-size: 14px;
   font-size: 0.77778rem;
   line-height: 1.92857;
@@ -860,7 +861,9 @@ button, .button {
   @media (min-width: 721px) {
     #timer {
       margin-bottom: 27px;
-      margin-bottom: 1.5rem; } }
+      margin-bottom: 1.5rem;
+      width: 50%;
+      margin-left: 25%; } }
   #timer p {
     margin: 0px;
     margin: 0rem;

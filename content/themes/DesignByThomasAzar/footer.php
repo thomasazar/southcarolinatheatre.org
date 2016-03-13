@@ -1,6 +1,6 @@
 <footer class="footer">
 	<div class='container'>
-		<img class="footer__image" src='/img/scta-logo-small.jpg' />
+		<img class="footer__image" src='/img/scta-logo-small.png' />
 		<section class="footer__mission">
 			<p><strong>Mission:</strong>  To connect, create, and cultivate theatre in South Carolina.</p>
 			<p><strong>Vision:</strong>  To transform the lives of all South Carolinians through theatre.</p>
