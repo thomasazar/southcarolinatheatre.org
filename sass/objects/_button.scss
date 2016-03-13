@@ -1,18 +1,1 @@
-a[href$=pdf]{
-	display: inline-block;
-	@include sizing( padding, 0.5 );
-	@include sizing( margin, 0.5 );
-	border: 2px dashed map-get($colors, link);
-	font-weight: bold;
-	transition: 0.175s all ease-in;
-	transform: rotateZ(0);
-	&:hover, &:active {
-		color: #fff;
-		background: $color--primary;
-		border-style: solid;
-		border-color: $color--primary;
-	}
-	@include media('<md') {
-		display: block;
-	}
-}
+
