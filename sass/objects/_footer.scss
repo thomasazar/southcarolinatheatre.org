@@ -1,5 +1,5 @@
 .footer{
-	background-color: tint( $color--secondary, 50% );
+	background: tint( $color--secondary, 50% ) url('/img/scta-logo-big.png') center no-repeat;
 	@include font-size( 14px, true );
 	@include clearfix;
 	@include sizing( margin-top, 2 );
@@ -11,4 +11,12 @@
 	p{
 		@include sizing( margin-bottom, .5 );
 	}
+    a{
+        color: #444;
+        border-bottom: 1px dotted #444;
+        &:hover{
+            color: #666;
+            border-bottom: 1px solid #666;
+        }
+    }
 }
