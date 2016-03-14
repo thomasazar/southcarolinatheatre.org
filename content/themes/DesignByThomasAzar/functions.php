@@ -1,10 +1,10 @@
 <?php
 
 $theme_includes = [
-	'lib/post-types/divisions.php',
-	'lib/metabox/divisions.php',
+	'lib/metabox/aside.php',
 	'lib/clean-walker-page.php',
 	'lib/myfunctions.php',
+    'lib/functions/aside.php',
 ];
 
 foreach ($theme_includes as $file) {

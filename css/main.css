@@ -844,26 +844,25 @@ button, .button {
 
 .aside {
   background: #a8d6e2;
+  padding: 0.5em;
   margin-bottom: 27px;
   margin-bottom: 1.5rem;
-  padding: 0.5em;
+  width: 100%;
   box-shadow: 0 9px 9px rgba(51, 51, 51, 0.6); }
   @media (min-width: 721px) {
     .aside {
-      float: right;
-      width: 25%;
-      margin-left: 27px;
-      margin-left: 1.5rem; }
-      .aside + .post__content {
-        margin-right: 27%; } }
+      width: 25%; }
+      .aside.asideleft {
+        float: left; }
+        .aside.asideleft + .post__content {
+          margin-left: 27%; }
+      .aside.asideright {
+        float: right; }
+        .aside.asideright + .post__content {
+          margin-right: 27%; } }
   .aside p {
     margin-bottom: 13.5px;
     margin-bottom: 0.75rem; }
-
-.aside-title {
-  text-align: center;
-  margin-bottom: 13.5px;
-  margin-bottom: 0.75rem; }
 
 #timer {
   font-weight: bold;
@@ -931,11 +930,15 @@ button, .button {
     .download-item {
       display: block; } }
 
+.categories {
+  text-align: center; }
+
 .category {
   font-size: 24px;
   font-size: 1.33333rem;
   margin: 27px;
-  margin: 1.5rem; }
+  margin: 1.5rem;
+  display: inline-block; }
   @media (max-width: 719px) {
     .category {
       display: block; } }
