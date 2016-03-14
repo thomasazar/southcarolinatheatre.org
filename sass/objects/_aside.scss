@@ -1,22 +1,26 @@
 .aside{
     background: tint( $color--primary, 66% );
-    @include sizing( 'margin-bottom', 1 );
     padding: ($layout-padding/2);
+    @include sizing( 'margin-bottom', 1 );
+    width: 100%;
     @include shadow();
     @include media( '>md' ) {
-        float: right;
         width: 25%;
-        @include sizing( 'margin-left', 1 );
-        + .post__content{
-            margin-right: 27%;
+        &.asideleft{
+            float: left;
+            & + .post__content{
+                margin-left: 27%;
+            }
+        }
+
+        &.asideright{
+            float: right;
+            & + .post__content{
+                margin-right: 27%;
+            }
         }
     }
     p{
         @include sizing( 'margin-bottom', 0.5 );
     }
-}
-
-.aside-title{
-    text-align: center;
-    @include sizing( 'margin-bottom', 0.5 );
 }
