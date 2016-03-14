@@ -1,6 +1,11 @@
+.categories{
+    text-align: center;
+}
+
 .category{
 	@include font-size( 24px, false );
 	@include sizing( 'margin', 1 );
+    display: inline-block;
 	@include media( '<md' ) {
 		display: block;
 	}
