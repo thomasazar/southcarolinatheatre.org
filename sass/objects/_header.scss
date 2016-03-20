@@ -1,23 +1,24 @@
 .header {
+  padding: 0;
+  @include clearfix();
+  @include shadow();
 	background-color: #fff;
-	@include shadow();
 	position: relative;
 	text-align: center;
 	z-index: 2;
-	@include sizing(padding-top, .5);
-	@include sizing(padding-bottom, 0);
-	@include clearfix();
 
 	@include media('>md') {
 		text-align: left;
 	}
 }
 
-.header-logo-container{
+.logo{
 	max-width: $site-max-width;
 	width: 100%;
 	margin: 0 auto;
 	position: relative;
+  text-align: center;
+  padding: $layout-padding;
 }
 
 .nav__checkbox{
