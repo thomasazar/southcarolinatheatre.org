@@ -4,7 +4,6 @@
 	max-width: $site-max-width;
 	@include sizing(padding, 0.5);
 	@include clearfix();
-	position: relative;
 	z-index: 1;
 
 	@include media('>sm') {

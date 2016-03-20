@@ -5,6 +5,7 @@
   background-image: url('/img/bokeh.png'), linear-gradient(to right, #0e0e0e 0%,#7d7e7d 68%,#4f4f4f 100%);
   text-align: center;
   overflow: hidden;
+  position: relative;
 
   &__text {
     @include sizing(padding-top, 1.33);
@@ -14,7 +15,7 @@
     float: left;
 
     @include media('<md') {
-      padding: 0;
+      padding: 0.5rem 0;
       background: transparentize(#000, 0.33);
       position: absolute;
       float: none;

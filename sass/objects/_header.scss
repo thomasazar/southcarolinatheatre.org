@@ -2,10 +2,9 @@
   padding: 0;
   @include clearfix();
   @include shadow();
-	background-color: #fff;
 	position: relative;
+  background: #fff;
 	text-align: center;
-	z-index: 2;
 
 	@include media('>md') {
 		text-align: left;
@@ -19,6 +18,8 @@
 	position: relative;
   text-align: center;
   padding: $layout-padding;
+  background-color: #fff;
+  z-index: 20;
 }
 
 .nav__checkbox{
@@ -36,11 +37,12 @@
 	}
 	@include media('<md') {
 		position: absolute;
-        transform: translateX(-100%);
+        transform: translateY(-100%);
         transition: .275s all;
+        z-index: 15;
         @include shadow();
         &.open{
-            transform: translateX(0%);
+            transform: translateY(0%);
         }
 	}
 }
@@ -61,7 +63,6 @@
 		margin-top: 0;
 		margin-bottom: 0;
 		transition: .2s all;
-		transform: rotateZ(0);
 		&.open{
 			opacity: 1;
 			visibility: visible;
@@ -120,8 +121,9 @@
 .mobile-menu{
 	background: #fff;
 	font-weight: bold;
-	@include sizing(margin-top, .25);
 	@include sizing(padding, .25);
+  z-index: 20;
+  position: relative;
 }
 
 .current_page_item > a {
