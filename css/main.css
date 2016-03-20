@@ -1077,6 +1077,17 @@ label {
   .social-icon:hover {
     opacity: 1; }
 
+.wp-caption img {
+  border-radius: 50%;
+  opacity: 0.75; }
+.wp-caption-text {
+  text-align: center;
+  font-size: 75%;
+  font-style: italic; }
+@media (max-width: 719px) {
+  .wp-caption {
+    margin: 0; } }
+
 @media (min-width: 721px) {
   .mobile-only {
     display: none; } }
