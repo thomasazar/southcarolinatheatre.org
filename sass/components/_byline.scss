@@ -10,8 +10,4 @@
     font-size: 75%;
     font-style: italic;
   }
-
-  @include media('<md') {
-    margin: 0;
-  }
 }

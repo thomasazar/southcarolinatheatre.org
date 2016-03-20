@@ -5,11 +5,12 @@
 	</div>
 	<ul class='header-menu-items'>
 		<?php
+    $exclude = get_id_by_slug('member-login');
 		$args = [
       'title_li' => '',
       'depth'    => '2',
       'walker'   => new Clean_Walker_Page,
-      'exclude'  => get_id_by_slug('member-login'),
+      'exclude'  => $exclude,
     ];
 		wp_list_pages( $args );
 		?>

@@ -1,10 +1,13 @@
 <?php
 
 $theme_includes = [
+  'lib/functions/aside.php',
+  'lib/metabox/hero.php',
 	'lib/metabox/aside.php',
+  'lib/post-types/hero.php',
+  'lib/shortcodes/timer.php',
 	'lib/clean-walker-page.php',
 	'lib/myfunctions.php',
-    'lib/functions/aside.php',
 ];
 
 foreach ($theme_includes as $file) {
