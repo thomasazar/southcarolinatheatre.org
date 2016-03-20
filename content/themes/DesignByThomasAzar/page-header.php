@@ -19,6 +19,6 @@
 </div>
 <div class='logo'>
 	<a href='/' title='Return to home page'>
-		<img src="/img/scta-logo.png" />
+		<img src="/img/scta-logo.jpg" />
 	</a>
 </div>
