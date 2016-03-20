@@ -929,13 +929,6 @@ button, .button {
   right: 27px;
   right: 1.5rem;
   text-align: right; }
-  .social svg {
-    max-width: 40px;
-    margin-left: 13.5px;
-    margin-left: 0.75rem;
-    opacity: 0.5; }
-    .social svg:hover {
-      opacity: 1; }
   @media (max-width: 719px) {
     .social {
       position: static;
