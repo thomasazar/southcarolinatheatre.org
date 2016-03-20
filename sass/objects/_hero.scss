@@ -12,17 +12,37 @@
     color: #fff;
     width: 50%;
     float: left;
+
+    @include media('<md') {
+      padding: 0;
+      background: transparentize(#000, 0.33);
+      position: absolute;
+      float: none;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      z-index: 10;
+    }
   }
 
   &__headline {
     @include font-size(48px);
     font-weight: normal;
+
+    @include media('<md') {
+      @include font-size(24px);
+    }
   }
 
   &__focus {
     float: left;
     width: 50%;
     perspective: 1000px;
+
+    @include media('<md') {
+      float: none;
+      width: 100%;
+    }
   }
 
   &__img{

@@ -3,15 +3,3 @@ label{
 	@include font-size( 14px, false );
 	color: #999;
 }
-
-button, .button{
-	@include sizing( height, 1.5 );
-	border: 1px solid tint( $color--primary, 33% );
-	background: tint( $color--primary, 33% );
-	color: #f2f2f2;
-	font-weight: bold;
-	&:hover{
-		border-color: $color--primary;
-		background-color: $color--primary;
-	}
-}

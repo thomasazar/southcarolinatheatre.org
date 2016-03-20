@@ -11,29 +11,33 @@ $query = new WP_Query( $args );
         <?php get_template_part( 'page-header' ); ?>
         <?php get_template_part( 'nav' ); ?>
     </header>
+    <article class='hero' id='timer'>
+      <div class='container'>
+        <section class='hero__text'>
+          <h2 class='hero__headline'>Gilded Gala Countdown</h2>
+          <div class='timer__box'>
+            <span class="timer__days"></span>
+            <div class="timer__smalltext">Days</div>
+          </div>
+          <div class='timer__box'>
+            <span class="timer__hours"></span>
+            <div class="timer__smalltext">Hours</div>
+          </div>
+          <div class='timer__box'>
+            <span class="timer__minutes"></span>
+            <div class="timer__smalltext">Min</div>
+          </div>
+          <div class='timer__box'>
+            <span class="timer__seconds"></span>
+            <div class="timer__smalltext">Sec</div>
+          </div>
+        </section>
+        <section class='hero__focus'>
+          <img class='hero__img' src='/img/gala.jpg' />
+        </section>
+      </div>
+    </article>
     <main class='container'>
-        <article class='post container' id='timer'>
-            <h1 class='post-title'>Gilded Gala Countdown</h1>
-            <section class='post__content'>
-                <div class='timer__box'>
-                    <span class="timer__days"></span>
-                    <div class="timer__smalltext">Days</div>
-                </div>
-                <div class='timer__box'>
-                    <span class="timer__hours"></span>
-                    <div class="timer__smalltext">Hours</div>
-                </div>
-                <div class='timer__box'>
-                    <span class="timer__minutes"></span>
-                    <div class="timer__smalltext">Min</div>
-                </div>
-                <div class='timer__box'>
-                    <span class="timer__seconds"></span>
-                    <div class="timer__smalltext">Sec</div>
-                </div>
-            </section>
-        </article>
-    </div>
     <?php if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
         <article class='post container half'>
             <h1 class='post-title'><?php the_title(); ?></h1>

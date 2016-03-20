@@ -544,9 +544,6 @@ body {
   min-width: 320px;
   color: #444; }
 
-h1, h2, h3, h4, h5, h6 {
-  color: #222; }
-
 table {
   width: 100%; }
   table td {
@@ -673,15 +670,34 @@ a {
     color: #fff;
     width: 50%;
     float: left; }
+    @media (max-width: 719px) {
+      .hero__text {
+        padding: 0;
+        background: rgba(0, 0, 0, 0.67);
+        position: absolute;
+        float: none;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10; } }
   .hero__headline {
     font-size: 48px;
     font-size: 2.66667rem;
     line-height: 1.125;
     font-weight: normal; }
+    @media (max-width: 719px) {
+      .hero__headline {
+        font-size: 24px;
+        font-size: 1.33333rem;
+        line-height: 1.125; } }
   .hero__focus {
     float: left;
     width: 50%;
     perspective: 1000px; }
+    @media (max-width: 719px) {
+      .hero__focus {
+        float: none;
+        width: 100%; } }
   .hero__img {
     box-shadow: 0 9px 9px rgba(51, 51, 51, 0.6);
     transform: rotateY(-25deg); }
@@ -851,12 +867,6 @@ a {
       color: #666;
       border-bottom: 1px solid #666; }
 
-label {
-  display: block;
-  font-size: 14px;
-  font-size: 0.77778rem;
-  color: #999; }
-
 button, .button {
   height: 40.5px;
   height: 2.25rem;
@@ -867,6 +877,16 @@ button, .button {
   button:hover, .button:hover {
     border-color: #0085a9;
     background-color: #0085a9; }
+
+.search-submit {
+  font-size: 75%;
+  height: 1.5rem; }
+
+label {
+  display: block;
+  font-size: 14px;
+  font-size: 0.77778rem;
+  color: #999; }
 
 .aside {
   background: #a8d6e2;
@@ -890,35 +910,22 @@ button, .button {
     margin-bottom: 13.5px;
     margin-bottom: 0.75rem; }
 
-#timer {
-  font-weight: bold;
-  text-align: center; }
-  @media (min-width: 721px) {
-    #timer {
-      margin-bottom: 27px;
-      margin-bottom: 1.5rem;
-      width: 50%;
-      margin-left: 25%; } }
-  #timer p {
-    margin: 0px;
-    margin: 0rem;
-    font-size: 22px;
-    font-size: 1.22222rem;
-    color: #0085a9;
-    text-shadow: 0 1px 1px #999; }
-
 .timer__box {
+  font-size: 26px;
+  font-size: 1.44444rem;
   display: inline-block;
-  width: 50px;
-  background: rgba(0, 133, 169, 0.5);
-  font-size: 18px;
-  font-size: 1rem;
-  box-shadow: 0 9px 9px rgba(51, 51, 51, 0.6); }
+  width: 75px; }
 
 .timer__smalltext {
-  font-size: 14px;
-  font-size: 0.77778rem;
+  font-size: 22px;
+  font-size: 1.22222rem;
   font-weight: normal; }
+
+@media (max-width: 719px) {
+  .timer__box,
+  .timer__smalltext {
+    width: 50px;
+    font-size: 85%; } }
 
 .download-item {
   display: inline-block;
@@ -983,20 +990,6 @@ button, .button {
     width: 75%;
     border: 1px solid #ddd;
     border-right: 0; }
-  .search-form button {
-    position: relative;
-    right: 0;
-    bottom: -1px;
-    height: 27px;
-    height: 1.5rem;
-    width: 25%;
-    border: 1px solid #54adc5;
-    background: #54adc5;
-    color: #f2f2f2;
-    font-weight: bold; }
-    .search-form button:hover {
-      border-color: #0085a9;
-      background-color: #0085a9; }
 
 .search-result {
   width: 100%;

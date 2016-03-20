@@ -1,28 +1,18 @@
-#timer{
-	font-weight: bold;
-	text-align: center;
-	@include media('>md'){
-        @include sizing( margin-bottom, 1 );
-        width: 50%;
-        margin-left: 25%;
-	}
-	p{
-		@include sizing(margin, 0);
-		@include font-size( 22px, false);
-		color: $color--primary;
-		text-shadow: 0 1px 1px #999;
-	}
-}
-
-.timer__box{
+.timer__box {
+  @include font-size(26px, false);
 	display: inline-block;
-	width: 50px;
-	background: transparentize($color--primary, .5);
-	@include font-size(18px, false);
-	@include shadow();
+	width: 75px;
 }
 
-.timer__smalltext{
-	@include font-size(14px, false);
+.timer__smalltext {
+	@include font-size(22px, false);
 	font-weight: normal;
+}
+
+.timer__box,
+.timer__smalltext {
+  @include media('<md') {
+    width: 50px;
+    font-size: 85%;
+  }
 }
