@@ -19,6 +19,6 @@
 				<?php endif; ?>
 		    </article>
 	</main>
-	<?php get_footer('search'); ?>
+	<?php get_footer(); ?>
 </body>
 </html>

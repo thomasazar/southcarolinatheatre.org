@@ -985,10 +985,11 @@ label {
     position: relative;
     top: 0.5rem; }
   .search-form input {
-    color: #222;
-    font-size: 75%;
     height: 27px;
     height: 1.5rem;
+    color: #222;
+    font-size: 75%;
+    padding: 0 2px;
     width: 75%;
     border: 1px solid #ddd;
     border-right: 0; }
@@ -996,19 +997,7 @@ label {
 .search-result {
   width: 100%;
   padding: 1em;
-  background-color: #eee;
   margin-bottom: 1em; }
-  @media (min-width: 481px) {
-    .search-result {
-      float: left;
-      margin: 1em 1%; } }
-@media (min-width: 481px) and (max-width: 719px) {
-  .search-result {
-    width: 48%; } }
-
-  @media (min-width: 721px) {
-    .search-result {
-      width: 23%; } }
 
 .tabs-content {
   padding-left: 0;

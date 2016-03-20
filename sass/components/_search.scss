@@ -10,29 +10,20 @@
 	}
 
 	input {
+    @include sizing( height, 1 );
 		color: #222;
     font-size: 75%;
-		@include sizing( height, 1 );
+    padding: 0 2px;
 		width: 75%;
 		border: 1px solid #ddd;
 		border-right: 0;
 	}
 
-	
+
 }
+
 .search-result {
 	width: 100%;
 	padding: $layout-padding;
-	background-color: #eee;
 	margin-bottom: $layout-padding;
-	@include media( '>sm')  {
-		float: left;
-		margin: $layout-padding 1%;
-	}
-	@include media( '>sm', '<md' )  {
-		width: 48%;
-	}
-	@include media( '>md' )  {
-		width: 23%;
-	}
 }
