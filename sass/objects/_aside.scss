@@ -3,7 +3,6 @@
   @include shadow;
   background: tint($color--primary, 66%);
   padding: ($layout-padding / 2);
-  width: 100%;
 
   @include media('>md') {
     width: 25%;

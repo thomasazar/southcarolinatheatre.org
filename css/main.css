@@ -1,12 +1,4 @@
 @charset "UTF-8";
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-/**
- * Typecsset
- *
- * Typecsset is a small, unopinionated library for creating beautifully set type
- * on the web. Typecsset gives perfect vertical rhythm at any configurable font
- * size, as well as many other typographical niceties.
- */
 /*! normalize.css v4.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -787,8 +779,7 @@ label {
   margin-bottom: 1.5rem;
   box-shadow: 0 4px 4px rgba(51, 51, 51, 0.6);
   background: #a8d6e2;
-  padding: 0.5em;
-  width: 100%; }
+  padding: 0.5em; }
   @media (min-width: 721px) {
     .aside {
       width: 25%; }
@@ -809,8 +800,8 @@ label {
   list-style: none;
   margin: 0;
   padding: 0;
-  max-width: 1200px;
   width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
   text-align: center;
   display: block; }
@@ -834,6 +825,10 @@ label {
         display: block; } }
   .main-menu__item--login {
     background-color: #4fd2a6; }
+  .main-menu__item--current > .main-menu__link {
+    cursor: default;
+    background: #1a91b2;
+    color: #fff; }
   @media (max-width: 719px) {
     .main-menu__item {
       width: 49%; } }
@@ -863,11 +858,6 @@ label {
   font-weight: bold;
   z-index: 20;
   position: relative; }
-
-.current_page_item > .main-menu__link {
-  cursor: default;
-  background: #1a91b2;
-  color: #fff; }
 
 .children {
   box-shadow: 0 4px 4px rgba(51, 51, 51, 0.6);
@@ -930,9 +920,6 @@ label {
   margin: 27px;
   margin: 1.5rem;
   display: inline-block; }
-  @media (max-width: 719px) {
-    .category {
-      display: block; } }
 
 .search-form {
   display: inline-block;
@@ -1084,15 +1071,5 @@ label {
 .hidden {
   display: none;
   visibility: hidden; }
-
-.dim {
-  opacity: 0.75;
-  z-index: 100;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #000; }
 
 /*# sourceMappingURL=main.css.map */

@@ -3,8 +3,8 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  max-width: $site-max-width;
   width: 100%;
+  max-width: $site-max-width;
   margin: 0 auto;
   text-align: center;
   display: block;
@@ -41,6 +41,12 @@
     background-color: #4fd2a6;
   }
 
+  &--current > .main-menu__link {
+    cursor: default;
+    background: tint($color--primary, 10%);
+    color: #fff;
+  }
+
   @include media('<md') {
     width: 49%;
   }
@@ -72,12 +78,6 @@
   font-weight: bold;
   z-index: 20;
   position: relative;
-}
-
-.current_page_item > .main-menu__link {
-  cursor: default;
-  background: tint($color--primary, 10%);
-  color: #fff;
 }
 
 .children {

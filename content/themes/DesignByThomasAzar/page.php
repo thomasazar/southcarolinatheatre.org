@@ -5,7 +5,7 @@
 		<?php get_template_part( 'nav' ); ?>
 	</header>
 	<main class='container'>
-		<article class='post container'>
+		<article class='post'>
 			<?php while ( have_posts() ) : the_post(); ?>
 			<h1 class='post__title'><?php the_title(); ?></h1>
             <?php echo get_scta_aside(); ?>

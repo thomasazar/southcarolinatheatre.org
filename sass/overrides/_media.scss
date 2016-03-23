@@ -1,12 +1,10 @@
 .mobile-only {
-
   @include media('>md') {
     display: none;
   }
 }
 
 .desktop-only {
-
   @include media('<md') {
     display: none;
   }
@@ -19,7 +17,6 @@
 }
 
 .gt-lg {
-
   @include media('<lg') {
     display: none;
   }
