@@ -18,12 +18,12 @@ class Clean_Walker_Page extends Walker_Page {
 			$indent = '';
 		}
 
-		$css_class = array( 'page_item' );
+		$css_class = array( 'main-menu__item' );
 
 		if ( ! empty( $current_page ) ) {
 			$_current_page = get_post( $current_page );
 			if ( $page->ID == $current_page ) {
-				$css_class[] = 'current_page_item';
+				$css_class[] = 'main-menu__item--current';
 			}
 		}
 
@@ -39,7 +39,7 @@ class Clean_Walker_Page extends Walker_Page {
 
 		/** This filter is documented in wp-includes/post-template.php */
 		$output .= $indent . sprintf(
-			'<li class="%s"><a class="page_item__link" href="%s">%s%s%s</a>',
+			'<li class="%s"><a class="main-menu__link" href="%s">%s%s%s</a>',
 			$css_classes,
 			get_permalink( $page->ID ),
 			$args['link_before'],

@@ -2,7 +2,7 @@
   @include clearfix;
   padding: 1.5rem 3rem;
   background: #4f4f4f;
-  background-image: url('/img/bokeh.png'), linear-gradient(to right, #0e0e0e 0%,#7d7e7d 68%,#4f4f4f 100%);
+  background-image: url('/img/bokeh.png'), linear-gradient(to right, #0e0e0e 0%, #7d7e7d 68%, #4f4f4f 100%);
   text-align: center;
   overflow: hidden;
   position: relative;
@@ -46,7 +46,7 @@
     }
   }
 
-  &__img{
+  &__img {
     @include shadow;
     transform: rotateY(-25deg);
   }

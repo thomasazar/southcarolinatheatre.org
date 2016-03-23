@@ -11,7 +11,7 @@
   }
 
   @include media('<md') {
-    &+ .post {
+    + .post {
       @include sizing(margin-top, 1);
     }
   }
@@ -23,11 +23,11 @@
   text-align: center;
   color: $color--primary;
 
-  &:after {
-    content:"";
+  &::after {
+    @include sizing(width, 4);
+    content: '';
     display: block;
     border: 1px solid tint($color--primary, 33%);
-    @include sizing(width, 4);
     margin: 0 auto;
   }
 }

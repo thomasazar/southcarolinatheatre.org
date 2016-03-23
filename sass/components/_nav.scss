@@ -23,76 +23,64 @@
   }
 }
 
-.page_item {
+.main-menu__item {
   display: inline-block;
 
   &:hover,
   &:focus {
     background: tint($color--primary, 33%);
-  }
 
-  &--login {
-    background-color: #4FD2A6;
-  }
-
-  &__link {
-    @include font-size(16px);
-    font-weight: bold;
-    width: 100%;
-    border-bottom: 0;
-
-    &:hover,
-    &:focus {
-      color: #fff;
-      background: $color--primary;
-      border-bottom: 0;
-    }
-  }
-
-  @include media('>md') {
-    margin-left: 0;
-    margin-right: 0;
-
-    &:hover,
-    &:focus {
-      .children{
+    @include media('>md') {
+      .children {
         display: block;
       }
     }
+  }
 
-    a {
-      display: inline-block;
-      @include sizing(padding, .5);
-
-      &:active { top: 0; }
-    }
+  &--login {
+    background-color: #4fd2a6;
   }
 
   @include media('<md') {
-    display: inline-block;
-    width: 48%;
-    a{
-      display: block;
-      @include sizing(padding, .25);
-      @include sizing(margin-bottom, .25);
-    }
+    width: 49%;
   }
 }
 
-.mobile-menu{
+.main-menu__link {
+  @include font-size(16px);
+  @include sizing(padding, 0.5);
   font-weight: bold;
-  @include sizing(padding, .25);
+  width: 100%;
+  border-bottom: 0;
+  display: inline-block;
+  margin: 0;
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    background: $color--primary;
+    border-bottom: 0;
+  }
+
+  @include media('<md') {
+    display: block;
+  }
+}
+
+.mobile-menu {
+  @include sizing(padding, 0.25);
+  font-weight: bold;
   z-index: 20;
   position: relative;
 }
 
-.current_page_item > .page_item__link {
+.current_page_item > .main-menu__link {
   cursor: default;
   background: tint($color--primary, 10%);
   color: #fff;
 }
 
-.children{
+.children {
   @include shadow;
   display: none;
   position: absolute;
@@ -102,11 +90,11 @@
   margin-left: 0;
   text-align: left;
 
-  .page_item {
+  .main-menu__item {
     display: block;
   }
 
-  .page_item__link {
+  .main-menu__link {
     @include sizing(padding-top, 0.15);
     @include sizing(padding-bottom, 0.15);
   }

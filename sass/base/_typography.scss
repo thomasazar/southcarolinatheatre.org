@@ -5,16 +5,16 @@ p:last-child {
 table {
   width: 100%;
 
-  td{
+  td {
     vertical-align: top;
 
-    &:first-child{
+    &:first-child {
       text-align: right;
       font-weight: bold;
       width: 25%;
     }
 
-    p{
+    p {
       @include sizing(margin-bottom, 0.25);
     }
   }

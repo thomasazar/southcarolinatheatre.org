@@ -1,7 +1,7 @@
 .header {
+  @include clearfix;
+  @include shadow;
   padding: 0;
-  @include clearfix();
-  @include shadow();
   position: relative;
   background: #fff;
   text-align: center;
@@ -35,17 +35,17 @@
   display: block;
 
   @include media('>md') {
-    @include clearfix();
+    @include clearfix;
   }
 
   @include media('<md') {
+    @include shadow;
     position: absolute;
     transform: translateY(-100%);
-    transition: .275s all;
+    transition: 0.275s all;
     z-index: 15;
-    @include shadow();
 
-    &.open{
+    &.open {
       transform: translateY(0%);
     }
   }

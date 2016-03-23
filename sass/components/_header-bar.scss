@@ -26,8 +26,8 @@
 }
 
 .social-icon {
+  @include sizing(margin-left, 0.5);
   max-width: 40px;
-  @include sizing( margin-left, .5 );
   opacity: 0.5;
 
   &:hover {

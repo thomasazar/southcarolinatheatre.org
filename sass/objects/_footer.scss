@@ -10,7 +10,7 @@
     @include sizing(margin-top, 1);
   }
 
-  p{
-    @include sizing(margin-bottom, .5);
+  p {
+    @include sizing(margin-bottom, 0.5);
   }
 }
