@@ -1016,6 +1016,8 @@ label {
     text-shadow: 0 1px 1px #999; }
   .header-bar__social {
     text-align: center; }
+    .header-bar__social a {
+      border-bottom: 0; }
   .header-bar__search {
     text-align: right; }
 

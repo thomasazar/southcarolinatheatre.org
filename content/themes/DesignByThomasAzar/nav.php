@@ -14,8 +14,8 @@
     ];
 		wp_list_pages( $args );
 		?>
-    <li class='page_item page_item--login'>
-      <a class='page_item__link page_item__link--login' href='/member-login'>Members Only</a>
+    <li class='main-menu__item main-menu--login'>
+      <a class='main-menu__link main-menu__link--login' href='/member-login'>Members Only</a>
     </li>
 	</ul>
 </nav>

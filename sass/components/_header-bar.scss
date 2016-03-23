@@ -18,6 +18,10 @@
 
   &__social {
     text-align: center;
+
+    a {
+      border-bottom: 0;
+    }
   }
 
   &__search {
