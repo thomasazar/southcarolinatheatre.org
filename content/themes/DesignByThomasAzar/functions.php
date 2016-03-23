@@ -39,11 +39,6 @@ add_action( 'wp_enqueue_scripts', function () {
 	wp_enqueue_script( 'main', home_url( '/js/main.js'), ['jquery'], NULL, true );
 } );
 
-// Add async to all <script>s
-add_filter('script_loader_tag', function ( $tag ) {
-    return str_replace( ' src', ' defer src', $tag );
-}, 10, 2);
-
 /**
  * Filter the "read more" excerpt string link to the post.
  *
