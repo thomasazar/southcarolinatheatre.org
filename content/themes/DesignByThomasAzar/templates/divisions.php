@@ -13,7 +13,7 @@ get_header();
 	<main class='container'>
 		<article class='post container'>
 			<?php while ( have_posts() ) : the_post(); ?>
-			<h1 class='post-title'><?php the_title(); ?></h1>
+			<h1 class='post__title'><?php the_title(); ?></h1>
 			<section class='post__content'>
 				<div class='download'>
 					<?php

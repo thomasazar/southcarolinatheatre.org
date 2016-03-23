@@ -13,7 +13,7 @@
 
   &__tagline {
     font-style: italic;
-  	text-shadow: 0 1px 1px #999;
+    text-shadow: 0 1px 1px #999;
   }
 
   &__social {
@@ -25,11 +25,12 @@
   }
 }
 
-.social-icon{
+.social-icon {
   max-width: 40px;
   @include sizing( margin-left, .5 );
   opacity: 0.5;
-  &:hover{
+
+  &:hover {
     opacity: 1;
   }
 }

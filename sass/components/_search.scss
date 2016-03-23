@@ -1,29 +1,29 @@
 .search-form {
-	display: inline-block;
-	width: 300px;
+  display: inline-block;
+  width: 300px;
 
-	label {
-		@include font-size( 14px, false );
-		color: #999;
-		position: relative;
-		top: 0.5rem;
-	}
+  label {
+    @include font-size(14px, false);
+    color: #999;
+    position: relative;
+    top: 0.5rem;
+  }
 
-	input {
-    @include sizing( height, 1 );
-		color: #222;
+  input {
+    @include sizing(height, 1);
+    color: #222;
     font-size: 75%;
     padding: 0 2px;
-		width: 75%;
-		border: 1px solid #ddd;
-		border-right: 0;
-	}
+    width: 75%;
+    border: 1px solid #ddd;
+    border-right: 0;
+  }
 
 
 }
 
 .search-result {
-	width: 100%;
-	padding: $layout-padding;
-	margin-bottom: $layout-padding;
+  width: 100%;
+  padding: $layout-padding;
+  margin-bottom: $layout-padding;
 }

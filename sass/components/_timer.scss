@@ -1,16 +1,17 @@
 .timer__box {
   @include font-size(26px, false);
-	display: inline-block;
-	width: 75px;
+  display: inline-block;
+  width: 75px;
 }
 
 .timer__smalltext {
-	@include font-size(22px, false);
-	font-weight: normal;
+  @include font-size(22px, false);
+  font-weight: normal;
 }
 
 .timer__box,
 .timer__smalltext {
+
   @include media('<md') {
     width: 50px;
     font-size: 90%;

@@ -44,7 +44,7 @@ $query = new WP_Query( $args );
     <main class='container'>
     <?php if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
         <article class='post container half'>
-            <h1 class='post-title'><?php the_title(); ?></h1>
+            <h1 class='post__title'><?php the_title(); ?></h1>
             <section class='post__content'>
                 <?php the_content(); ?>
             </section>

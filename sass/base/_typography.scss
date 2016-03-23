@@ -1,57 +1,31 @@
+p:last-child {
+  margin-bottom: 0;
+}
+
 table {
-	width: 100%;
-	td{
-		vertical-align: top;
-		&:first-child{
-			text-align: right;
-			font-weight: bold;
-			width: 25%;
-		}
-		p{
-			@include sizing( margin-bottom, 0.25 );
-		}
-	}
+  width: 100%;
+
+  td{
+    vertical-align: top;
+
+    &:first-child{
+      text-align: right;
+      font-weight: bold;
+      width: 25%;
+    }
+
+    p{
+      @include sizing(margin-bottom, 0.25);
+    }
+  }
 }
 
-blockquote {
-	background-color: #f4f4f4;
-	border-left: 3px #eee solid;
-	margin-left: 0;
-	margin-right: 0;
-	padding: $typecsset-magic-number;
-	padding: $typecsset-magic-ratio + rem;
-	@include typecsset-space(padding-left);
-
-	p:last-child { margin-bottom: 0; }
+::selection {
+  background-color: $color--secondary;
+  text-shadow: none;
 }
 
-dfn {
-	font-style: normal;
-	position: relative;
-
-	&:before {
-		content: '';
-		position: absolute;
-		bottom: .125em;
-		left: 0;
-		right: 0;
-		border-bottom: 1px dotted #aaa;
-	}
-}
-
-[data-tweet-id] {
-	margin-bottom: 1.5em !important;
-}
-
-::selection    {
-	background-color: $color--secondary;
-	text-shadow: none;
-}
 ::-moz-selection {
-	background-color: $color--secondary;
-	text-shadow: none;
-}
-
-p {
-	&:last-child { margin-bottom: 0; }
+  background-color: $color--secondary;
+  text-shadow: none;
 }

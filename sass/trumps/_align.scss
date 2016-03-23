@@ -1,17 +1,17 @@
-.alignleft{
-	float: left;
+.alignleft {
+  float: left;
 
   @include media('>md') {
-    @include sizing( margin-right, 1 );
-    @include sizing( margin-bottom, 0.75 );
+    @include sizing(margin-right, 1);
+    @include sizing(margin-bottom, 0.75);
   }
 }
 
-.alignright{
-	float: right;
+.alignright {
+  float: right;
 
   @include media('>md') {
-    @include sizing( margin-left, 1 );
-    @include sizing( margin-bottom, 0.75 );
+    @include sizing(margin-left, 1);
+    @include sizing(margin-bottom, 0.75);
   }
 }

@@ -11,7 +11,7 @@
 			$obj = get_post_type_object( $post_type );
 			$category_name = $obj->labels->name;
 			?>
-			<h1 class='post-title'><?php echo $category_name; ?></h1>
+			<h1 class='post__title'><?php echo $category_name; ?></h1>
 			<section class='post__content'>
 				<div class='download'>
 					<?php

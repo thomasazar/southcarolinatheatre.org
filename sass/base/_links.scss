@@ -1,8 +1,15 @@
 a {
-  color: map-get($colors, link);
+  border-bottom: 1px dotted;
+  color: inherit;
   text-decoration: none;
-  transition: all .0625s ease;
-  &:hover{
-  	color: shade( map-get($colors, link), 33% );
+  transition: all 0.0625s ease;
+
+  &:hover {
+    border-bottom: 1px solid;
+    color: shade(map-get($colors, link), 33%);
+  }
+
+  &:focus {
+    outline: none;
   }
 }

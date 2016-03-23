@@ -13,7 +13,7 @@ get_header();
 	<main class='container'>
 		<article class='post container'>
 			<?php while ( have_posts() ) : the_post(); ?>
-			<h1 class='post-title'>Welcome, <?php echo $current_user->first_name; ?>!</h1>
+			<h1 class='post__title'>Welcome, <?php echo $current_user->first_name; ?>!</h1>
 			<section class='post__content'>
 				<?php
 				$child_pages = get_pages( array( 'parent' => $post->ID, 'sort_column' => 'menu_order' ) );

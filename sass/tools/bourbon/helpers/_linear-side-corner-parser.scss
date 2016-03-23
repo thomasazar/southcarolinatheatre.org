@@ -18,7 +18,7 @@
     @return (
       webkit-image: -webkit- + $prefix + $pos + $suffix,
       spec-image: $image
-    );
+   );
   }
 
   // Bring the code up to spec
@@ -26,6 +26,6 @@
     @return (
       webkit-image: -webkit- + $image,
       spec-image: $prefix + "to " + $pos + $suffix
-    );
+   );
   }
 }

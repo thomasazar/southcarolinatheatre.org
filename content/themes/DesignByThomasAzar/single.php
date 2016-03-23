@@ -7,7 +7,7 @@
 	<main class='container'>
 		<article class='post container'>
 			<?php while ( have_posts() ) : the_post(); ?>
-			<h1 class='post-title'><?php the_title(); ?></h1>
+			<h1 class='post__title'><?php the_title(); ?></h1>
             <aside class='aside'>
                 <?php // Get any uploads for division
 				$files = rwmb_meta( 'scta_uploads', 'type=file' );

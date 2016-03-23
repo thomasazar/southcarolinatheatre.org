@@ -105,7 +105,7 @@
   @include prefixer(flex, $value, webkit moz ms spec);
 }
 
-// 2009 - box-orient ( horizontal | vertical | inline-axis | block-axis)
+// 2009 - box-orient (horizontal | vertical | inline-axis | block-axis)
 //      - box-direction (normal | reverse)
 // 2011 - flex-direction (row | row-reverse | column | column-reverse)
 // 2012 - flex-direction (row | row-reverse | column | column-reverse)

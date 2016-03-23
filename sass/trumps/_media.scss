@@ -1,7 +1,26 @@
-.mobile-only { @include media('>md') { display: none; } }
-.desktop-only { @include media('<md') { display: none; } }
+.mobile-only {
 
-.lt-lg { @include media('>lg') { display: none; } }
-.gt-lg { @include media('<lg') { display: none; } }
+  @include media('>md') {
+    display: none;
+  }
+}
 
-.is-hidden { visibility: hidden; }
+.desktop-only {
+
+  @include media('<md') {
+    display: none;
+  }
+}
+
+.lt-lg {
+  @include media('>lg') {
+    display: none;
+  }
+}
+
+.gt-lg {
+
+  @include media('<lg') {
+    display: none;
+  }
+}

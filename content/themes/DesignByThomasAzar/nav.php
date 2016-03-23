@@ -3,7 +3,7 @@
 	<div class='mobile-only' style='padding: 1rem 0;'>
 		<?php get_search_form(); ?>
 	</div>
-	<ul class='header-menu-items'>
+	<ul class='main-menu'>
 		<?php
     $exclude = get_id_by_slug('member-login');
 		$args = [
@@ -15,7 +15,7 @@
 		wp_list_pages( $args );
 		?>
     <li class='page_item page_item--login'>
-      <a href='/member-login'>Members Only</a>
+      <a class='page_item__link page_item__link--login' href='/member-login'>Members Only</a>
     </li>
 	</ul>
 </nav>

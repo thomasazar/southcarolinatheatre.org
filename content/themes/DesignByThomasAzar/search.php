@@ -6,7 +6,7 @@
 	</header>
 	<main class='container'>
 			<article class='post container' style='float: none;'>
-				<h1 class='post-title'>Search Results</h1>
+				<h1 class='post__title'>Search Results</h1>
 				<?php if ( have_posts() ) : while (have_posts()) : the_post(); ?>
 						<article class='search-result'>
 							<a href='<?php echo get_permalink(); ?>'>

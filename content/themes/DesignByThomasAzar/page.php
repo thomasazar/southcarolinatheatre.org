@@ -7,7 +7,7 @@
 	<main class='container'>
 		<article class='post container'>
 			<?php while ( have_posts() ) : the_post(); ?>
-			<h1 class='post-title'><?php the_title(); ?></h1>
+			<h1 class='post__title'><?php the_title(); ?></h1>
             <?php echo get_scta_aside(); ?>
 			<section class='post__content'>
 				<?php

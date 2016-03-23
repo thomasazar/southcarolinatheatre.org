@@ -2,47 +2,51 @@
   padding: 0;
   @include clearfix();
   @include shadow();
-	position: relative;
+  position: relative;
   background: #fff;
-	text-align: center;
+  text-align: center;
 
-	@include media('>md') {
-		text-align: left;
-	}
+  @include media('>md') {
+    text-align: left;
+  }
 }
 
-.logo{
-	max-width: $site-max-width;
-	width: 100%;
-	margin: 0 auto;
-	position: relative;
+.logo {
+  max-width: $site-max-width;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
   text-align: center;
   padding: $layout-padding;
   background-color: #fff;
   z-index: 20;
 }
 
-.nav__checkbox{
-	display: none;
-	@include media('<md') {
-		display: block;
-	}
+.nav__checkbox {
+  display: none;
+
+  @include media('<md') {
+    display: block;
+  }
 }
 
 .header-menu {
-	background: $color--secondary;
-	display: block;
-	@include media('>md') {
-		@include clearfix();
-	}
-	@include media('<md') {
-		position: absolute;
-        transform: translateY(-100%);
-        transition: .275s all;
-        z-index: 15;
-        @include shadow();
-        &.open{
-            transform: translateY(0%);
-        }
-	}
+  background: $color--secondary;
+  display: block;
+
+  @include media('>md') {
+    @include clearfix();
+  }
+
+  @include media('<md') {
+    position: absolute;
+    transform: translateY(-100%);
+    transition: .275s all;
+    z-index: 15;
+    @include shadow();
+
+    &.open{
+      transform: translateY(0%);
+    }
+  }
 }

@@ -39,7 +39,7 @@ class Clean_Walker_Page extends Walker_Page {
 
 		/** This filter is documented in wp-includes/post-template.php */
 		$output .= $indent . sprintf(
-			'<li class="%s"><a href="%s">%s%s%s</a>',
+			'<li class="%s"><a class="page_item__link" href="%s">%s%s%s</a>',
 			$css_classes,
 			get_permalink( $page->ID ),
 			$args['link_before'],

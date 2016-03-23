@@ -20,6 +20,6 @@
     @return (
       webkit-image: -webkit- + $prefix + ($offset - $num) + $suffix,
       spec-image: $image
-    );
+   );
   }
 }

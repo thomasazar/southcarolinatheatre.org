@@ -22,7 +22,7 @@
     $gradients: (
       webkit-image: -webkit- + $image,
       spec-image: $prefix + "to " + $pos + $suffix
-    );
+   );
   }
 
   @else if $has-angle {
@@ -34,7 +34,7 @@
     $gradients: (
       webkit-image: -webkit- + $image,
       spec-image: $image
-    );
+   );
   }
 
   @return $gradients;
