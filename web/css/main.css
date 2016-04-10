@@ -665,12 +665,13 @@ a {
     line-height: 1.125;
     font-weight: normal;
     font-family: "League Spartan", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000; }
     @media (max-width: 719px) {
       .hero__headline {
-        font-size: 24px;
-        font-size: 1.3333333rem;
-        line-height: 1.125; } }
+        font-size: 20px;
+        font-size: 1.1111111rem;
+        line-height: 1.35; } }
   .hero__focus {
     float: left;
     width: 50%;
@@ -892,7 +893,6 @@ label {
 @media (max-width: 719px) {
   .timer__box,
   .timer__smalltext {
-    width: 50px;
     font-size: 90%; } }
 
 .download-item {

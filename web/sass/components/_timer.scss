@@ -13,7 +13,6 @@
 .timer__smalltext {
 
   @include media('<md') {
-    width: 50px;
     font-size: 90%;
   }
 }
