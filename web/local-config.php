@@ -6,9 +6,9 @@ In it, you *must* include the four main database defines
 You may include other settings here that you only want enabled on your local development checkouts
 */
 
-define( 'DB_NAME', 'southcarolinatheatre_local_development' );
-define( 'DB_USER', 'southcarolinatheatre_local' );
-define( 'DB_PASSWORD', 'southcarolinatheatre' );
+define( 'DB_NAME', 'scta' );
+define( 'DB_USER', 'scta' );
+define( 'DB_PASSWORD', 'scta' );
 define( 'DB_HOST', 'localhost' ); // Probably 'localhost'
 
 define('FS_METHOD','direct');
