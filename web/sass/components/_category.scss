@@ -1,5 +1,8 @@
 .categories {
+  @include shadow;
   text-align: center;
+  background: transparentize($color--primary, 0.85);
+  margin-bottom: 2rem;
 }
 
 .category {

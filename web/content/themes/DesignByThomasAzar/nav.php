@@ -5,17 +5,14 @@
 	</div>
 	<ul class='main-menu'>
 		<?php
-    $exclude = get_id_by_slug('member-login');
+		$exclude = get_id_by_slug('member-login');
 		$args = [
-      'title_li' => '',
-      'depth'    => '2',
-      'walker'   => new Clean_Walker_Page,
-      'exclude'  => $exclude,
-    ];
+			'title_li' => '',
+			'depth'    => '2',
+			'walker'   => new Clean_Walker_Page,
+			'exclude'  => $exclude,
+		];
 		wp_list_pages( $args );
 		?>
-    <li class='main-menu__item main-menu--login'>
-      <a class='main-menu__link main-menu__link--login' href='/member-login'>Members Only</a>
-    </li>
 	</ul>
 </nav>

@@ -412,22 +412,22 @@ h1 {
 
 h2 {
   font-size: 30px;
-  font-size: 1.6666667rem;
+  font-size: 1.66667rem;
   line-height: 1.8; }
 
 h3 {
   font-size: 26px;
-  font-size: 1.4444444rem;
-  line-height: 1.0384615; }
+  font-size: 1.44444rem;
+  line-height: 1.03846; }
 
 h4 {
   font-size: 22px;
-  font-size: 1.2222222rem;
-  line-height: 1.2272727; }
+  font-size: 1.22222rem;
+  line-height: 1.22727; }
 
 h5 {
   font-size: 20px;
-  font-size: 1.1111111rem;
+  font-size: 1.11111rem;
   line-height: 1.35; }
 
 h6 {
@@ -618,7 +618,7 @@ a {
 
 .post__title {
   font-size: 32px;
-  font-size: 1.7777778rem;
+  font-size: 1.77778rem;
   margin-top: 0;
   text-align: center;
   color: #0085a9; }
@@ -661,7 +661,7 @@ a {
         z-index: 10; } }
   .hero__headline {
     font-size: 48px;
-    font-size: 2.6666667rem;
+    font-size: 2.66667rem;
     line-height: 1.125;
     font-weight: normal;
     font-family: "League Spartan", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
@@ -670,7 +670,7 @@ a {
     @media (max-width: 719px) {
       .hero__headline {
         font-size: 20px;
-        font-size: 1.1111111rem;
+        font-size: 1.11111rem;
         line-height: 1.35; } }
   .hero__focus {
     float: left;
@@ -734,8 +734,8 @@ a {
 
 .footer {
   font-size: 14px;
-  font-size: 0.7777778rem;
-  line-height: 1.9285714;
+  font-size: 0.77778rem;
+  line-height: 1.92857;
   margin-top: 54px;
   margin-top: 3rem;
   margin-bottom: 0px;
@@ -758,7 +758,7 @@ button,
 .button {
   height: 40.5px;
   height: 2.25rem;
-  border: 1px solid #54adc5;
+  border: 0;
   background: #54adc5;
   color: #f2f2f2;
   font-weight: bold; }
@@ -771,9 +771,23 @@ button,
   font-size: 75%;
   height: 1.5rem; }
 
+.button--sign-in {
+  font-size: 14px;
+  font-size: 0.77778rem;
+  line-height: 1.92857;
+  padding: 0.5em;
+  position: absolute;
+  right: 2rem;
+  top: 3rem;
+  box-shadow: 0 2px 2px #666;
+  border-radius: 3px;
+  background-color: #09b67c; }
+  .button--sign-in:hover {
+    color: #fff; }
+
 label {
   font-size: 14px;
-  font-size: 0.7777778rem;
+  font-size: 0.77778rem;
   display: block;
   color: #999; }
 
@@ -838,7 +852,7 @@ label {
 
 .main-menu__link {
   font-size: 16px;
-  font-size: 0.8888889rem;
+  font-size: 0.88889rem;
   line-height: 1.6875;
   padding: 13.5px;
   padding: 0.75rem;
@@ -881,13 +895,13 @@ label {
 
 .timer__box {
   font-size: 26px;
-  font-size: 1.4444444rem;
+  font-size: 1.44444rem;
   display: inline-block;
   width: 75px; }
 
 .timer__smalltext {
   font-size: 22px;
-  font-size: 1.2222222rem;
+  font-size: 1.22222rem;
   font-weight: normal; }
 
 @media (max-width: 719px) {
@@ -914,11 +928,14 @@ label {
       display: block; } }
 
 .categories {
-  text-align: center; }
+  box-shadow: 0 4px 4px rgba(51, 51, 51, 0.6);
+  text-align: center;
+  background: rgba(0, 133, 169, 0.15);
+  margin-bottom: 2rem; }
 
 .category {
   font-size: 24px;
-  font-size: 1.3333333rem;
+  font-size: 1.33333rem;
   margin: 27px;
   margin: 1.5rem;
   display: inline-block; }
@@ -928,7 +945,7 @@ label {
   width: 300px; }
   .search-form label {
     font-size: 14px;
-    font-size: 0.7777778rem;
+    font-size: 0.77778rem;
     color: #999;
     position: relative;
     top: 0.5rem; }

@@ -21,4 +21,10 @@
 	<a href='/' title='Return to home page'>
 		<img src="/img/scta-logo.jpg" />
 	</a>
+  <?php
+  if ( is_user_logged_in() ) : ?>
+    <a class='button button--sign-in' href='/member-login'>Sign out</a>
+  <? else ?>
+  	<a class='button button--sign-in' href='/member-login'>Sign in</a>
+  <?php endif; ?>
 </div>
