@@ -23,7 +23,7 @@
   }
 }
 
-.main-menu__item {
+.menu-item {
   display: inline-block;
 
   &:hover,
@@ -31,7 +31,7 @@
     background: tint($color--primary, 33%);
 
     @include media('>md') {
-      .children {
+      .sub-menu {
         display: block;
       }
     }
@@ -41,36 +41,36 @@
     background-color: #4fd2a6;
   }
 
-  &--current > .main-menu__link {
-    cursor: default;
-    background: tint($color--primary, 10%);
-    color: #fff;
-  }
-
   @include media('<md') {
     width: 49%;
   }
+
+  a {
+    @include font-size(16px);
+    @include sizing(padding, 0.5);
+    font-weight: bold;
+    width: 100%;
+    border-bottom: 0;
+    display: inline-block;
+    margin: 0;
+
+    &:hover,
+    &:focus {
+      color: #fff;
+      background: $color--primary;
+      border-bottom: 0;
+    }
+
+    @include media('<md') {
+      display: block;
+    }
+  }
 }
 
-.main-menu__link {
-  @include font-size(16px);
-  @include sizing(padding, 0.5);
-  font-weight: bold;
-  width: 100%;
-  border-bottom: 0;
-  display: inline-block;
-  margin: 0;
-
-  &:hover,
-  &:focus {
-    color: #fff;
-    background: $color--primary;
-    border-bottom: 0;
-  }
-
-  @include media('<md') {
-    display: block;
-  }
+.active > a {
+  cursor: default;
+  background: tint($color--primary, 10%);
+  color: #fff;
 }
 
 .mobile-menu {
@@ -80,7 +80,7 @@
   position: relative;
 }
 
-.children {
+.sub-menu {
   @include shadow;
   display: none;
   position: absolute;
@@ -90,11 +90,11 @@
   margin-left: 0;
   text-align: left;
 
-  .main-menu__item {
+  .menu-item {
     display: block;
   }
 
-  .main-menu__link {
+  a {
     @include sizing(padding-top, 0.15);
     @include sizing(padding-bottom, 0.15);
   }

@@ -2,17 +2,38 @@
 <nav class="header-menu">
 	<div class='mobile-only' style='padding: 1rem 0;'>
 		<?php get_search_form(); ?>
-	</div>
-	<ul class='main-menu'>
-		<?php
-		$exclude = get_id_by_slug('member-login');
-		$args = [
-			'title_li' => '',
-			'depth'    => '2',
-			'walker'   => new Clean_Walker_Page,
-			'exclude'  => $exclude,
-		];
-		wp_list_pages( $args );
-		?>
-	</ul>
+    <div class='members-only'>
+      <?php
+      if ( is_user_logged_in() ):
+        $current_user = wp_get_current_user();
+        if ( $current_user->user_firstname ) {
+          $first_name = $current_user->user_firstname;
+        } else {
+          $first_name = 'My Profile';
+        } ?>
+        <a class='button button--sign-in' href='/member-login?loggedin=true'>Hi, <?= $first_name; ?>!</a>
+        <?php
+        $args = [
+          'theme_location' => 'extra-menu',
+          'menu_class' => 'members-only-menu members-only-menu--mobile sub-menu',
+          'container' => '',
+        ];
+
+        wp_nav_menu( $args );
+      else: ?>
+        <a class="button button--sign-in" href="/member-login">Sign in</a>
+      <?php endif; ?>
+	   </div>
+   </div>
+	<?php
+
+  $args = [
+    'theme_location' => 'header-menu',
+    'menu_class' => 'main-menu',
+    'container' => '',
+  ];
+
+  wp_nav_menu( $args );
+
+   ?>
 </nav>

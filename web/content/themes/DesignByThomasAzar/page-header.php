@@ -21,10 +21,26 @@
 	<a href='/' title='Return to home page'>
 		<img src="/img/scta-logo.jpg" />
 	</a>
-  <?php
-  if ( is_user_logged_in() ) : ?>
-    <a class='button button--sign-in' href='/member-login'>Sign out</a>
-  <? else ?>
-  	<a class='button button--sign-in' href='/member-login'>Sign in</a>
-  <?php endif; ?>
+  <div class='members-only desktop-only'>
+    <?php
+    if ( is_user_logged_in() ):
+      $current_user = wp_get_current_user();
+      if ( $current_user->user_firstname ) {
+        $first_name = $current_user->user_firstname;
+      } else {
+        $first_name = 'My Profile';
+      } ?>
+      <div class='button button--sign-in'><?= $first_name; ?></div>
+      <?php
+      $args = [
+        'theme_location' => 'extra-menu',
+        'menu_class' => 'members-only-menu sub-menu',
+        'container' => '',
+      ];
+
+      wp_nav_menu( $args );
+    else: ?>
+      <a class="button button--sign-in" href="/member-login">Sign in</a>
+    <?php endif; ?>
+  </div>
 </div>
