@@ -7,6 +7,7 @@ $theme_includes = [
   'lib/functions/aside.php',
   'lib/metabox/hero.php',
 	'lib/metabox/aside.php',
+  'lib/post-types/front-page.php',
   'lib/post-types/hero.php',
   'lib/shortcodes/timer.php',
 	'lib/myfunctions.php',

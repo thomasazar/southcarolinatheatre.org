@@ -5,19 +5,12 @@
 		<?php get_template_part( 'nav' ); ?>
 	</header>
 	<main class='container'>
-			<article class='post container' style='float: none;'>
-				<h1 class='post__title'>Search Results</h1>
-				<?php if ( have_posts() ) : while (have_posts()) : the_post(); ?>
-						<article class='search-result'>
-							<a href='<?php echo get_permalink(); ?>'>
-								<strong><?php the_title(); ?></strong>
-							</a>
-							<?php the_excerpt(); ?>
-						</article>
-				<?php endwhile; else : ?>
-					<p>We couldn't find any results for <strong>'<?php echo get_search_query(); ?>'</strong>.</p>
-				<?php endif; ?>
-		    </article>
+		<article class='post container' style='float: none;'>
+			<h1 class='post__title'>Search Results</h1>
+			<?php get_template_part( 'models/loop' ); ?>
+			<?php get_template_part( 'views/content', 'search' ); ?>
+			<?php get_template_part( 'models/endloop', 'search' ); ?>
+		</article>
 	</main>
 	<?php get_footer(); ?>
 </body>
