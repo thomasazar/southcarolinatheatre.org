@@ -1,26 +1,24 @@
 <?php get_header(); ?>
 <body>
 	<header class='header'>
-		<?php get_template_part( 'page-header' ); ?>
-		<?php get_template_part( 'nav' ); ?>
+		<?php get_template_part( 'views/header' ); ?>
+		<?php get_template_part( 'views/nav' ); ?>
 	</header>
 	<main class='container'>
 		<article class='post container'>
 			<?php while ( have_posts() ) : the_post(); ?>
 			<section class='post__content'>
 				<?php
+				if ( $current_user->user_firstname ) {
+					$greeting = 'Welcome, ' . $current_user->user_firstname . '!';
+				} else {
+					$greeting = 'Welcome!';
+				}
+				?>
+				<h1 class='post__title'><?= $greeting; ?></h1>
+				<?php
 				if ( is_user_logged_in() ) :
-          $child_pages = get_pages( array( 'parent' => $post->ID, 'sort_column' => 'menu_order' ) );
-          if ( $child_pages ){
-            $output = '<div class=\'categories\'>';
-            foreach ( $child_pages as $child_page ) {
-              $title = $child_page->post_title;
-              $href  = get_permalink( $child_page->ID );
-              $output .= "<a href='$href' class='category'>$title</a>";
-            }
-            $output .= '</div>';
-            echo $output;
-          }
+          get_template_part( 'views/children' );
 				endif; ?>
 				<?php the_content(); ?>
 			</section>

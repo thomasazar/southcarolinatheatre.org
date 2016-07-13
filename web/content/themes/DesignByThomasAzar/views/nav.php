@@ -31,6 +31,7 @@
     'theme_location' => 'header-menu',
     'menu_class' => 'main-menu',
     'container' => '',
+		'depth' => 2,
   ];
 
   wp_nav_menu( $args );
