@@ -16,9 +16,7 @@
     $hero_image = $hero->scta_hero_image;
     $hero_image = rwmb_meta( 'scta_hero_image', 'type=image&size=large', $post_id = $hero->ID );
     $hero_image = array_values( $hero_image );
-    print_r($hero_image);
   }
-  print_r($hero_image);
   ?>
 
   <div class='container'>
