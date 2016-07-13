@@ -1,6 +1,6 @@
 <?php
 // Register Custom Post Type
-function dbta_front_page item() {
+function dbta_front_page() {
 
 	$labels = array(
 		'name'                  => 'Home Page items',
