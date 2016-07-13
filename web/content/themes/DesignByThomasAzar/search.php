@@ -7,9 +7,11 @@
 	<main class='container'>
 		<article class='post container' style='float: none;'>
 			<h1 class='post__title'>Search Results</h1>
-			<?php get_template_part( 'models/loop' ); ?>
-			<?php get_template_part( 'views/content', 'search' ); ?>
-			<?php get_template_part( 'models/endloop', 'search' ); ?>
+			<?php if ( have_posts() ) : ?>
+				<?php while ( have_posts() ) : the_post(); ?>
+					<?php get_template_part( 'views/content', 'search' ); ?>
+				<?php endwhile; ?>
+			<?php endif;?>
 		</article>
 	</main>
 	<?php get_footer(); ?>
