@@ -27,7 +27,7 @@
     @include sizing(width, 4);
     content: '';
     display: block;
-    border: 1px solid tint($color--primary, 33%);
+    border: 1px solid $color--primary;
     margin: 0 auto;
   }
 }
