@@ -12,6 +12,7 @@ $theme_includes = [
   'lib/metabox/hero.php',
 
   'lib/post-types/countdown.php',
+  'lib/post-types/divisions.php',
   'lib/post-types/front-page.php',
   'lib/post-types/hero.php',
 
