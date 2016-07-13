@@ -5,27 +5,28 @@
 		<?php get_template_part( 'nav' ); ?>
 	</header>
 	<main class='container'>
-		<article class='post'>
+		<article class='post container'>
+			<?php
+			$post_type = get_post_type();
+			$obj = get_post_type_object( $post_type );
+			$category_name = $obj->labels->name;
+			?>
+			<h1 class='post__title'><?php echo $category_name; ?></h1>
 			<section class='post__content'>
-				<?php
-
-				$defaults = array( 'theme_location' => 'header-menu', 'level' => 2, 'child_of' => $post->ID, );
-
-				wp_nav_menu( $defaults );
-
-				$child_pages = get_pages( array( 'parent' => $post->ID, 'sort_column' => 'menu_order' ) );
-				if ( $child_pages ){
-					$output = '<div class=\'categories\'>';
-					foreach ( $child_pages as $child_page ) {
-						$title = $child_page->post_title;
-						$href  = get_permalink( $child_page->ID );
-						$output .= "<a href='$href' class='category'>$title</a>";
+				<div class='download'>
+					<?php
+					$args = array(
+						'post_type'        => $post_type,
+						'post_status'      => 'publish',
+					);
+					$posts_array = get_posts( $args );
+					foreach ( $posts_array as $category ) {
+						$href  = get_permalink($category->ID);
+						$title = $category->post_title;
+						echo "<a class='category' href='$href'>$title</a></li>";
 					}
-					$output .= '</div>';
-					echo $output;
-				}
-				?>
-				<?php the_content(); ?>
+					?>
+				</div>
 			</section>
 		</article>
 	</main>
