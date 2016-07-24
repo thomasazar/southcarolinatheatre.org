@@ -1,0 +1,53 @@
+.header {
+  @include clearfix;
+  @include shadow;
+  padding: 0;
+  position: relative;
+  background: #fff;
+  text-align: center;
+
+  @include media('>md') {
+    text-align: left;
+  }
+}
+
+.logo {
+  max-width: $site-max-width;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  padding: $layout-padding;
+  background-color: #fff;
+  z-index: 20;
+}
+
+.nav__checkbox {
+  display: none;
+
+  @include media('<md') {
+    display: block;
+  }
+}
+
+.header-menu {
+  background: $color--secondary;
+  display: block;
+
+  @include media('>md') {
+    @include clearfix;
+  }
+
+  @include media('<md') {
+    @include shadow;
+    position: absolute;
+    transform: translateY(-100%);
+    transition: 0.275s all;
+    z-index: 15;
+    text-align: center;
+
+    &.open {
+      transform: translateY(0%);
+    }
+  }
+}

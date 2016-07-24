@@ -1,0 +1,7 @@
+.main {
+  @include clearfix;
+
+  @include media('<md') {
+    padding: 0;
+  }
+}
