@@ -1,51 +1,31 @@
 <?php
-add_filter( 'rwmb_meta_boxes', 'scta_divisions_meta_boxes' );
-function scta_divisions_meta_boxes( $meta_boxes ){
+add_filter( 'rwmb_meta_boxes', 'scta_aside' );
+function scta_aside( $meta_boxes ){
     $prefix = 'scta_';
 
     $meta_boxes[] =
     [
-        'id'         => 'upload',
-        'title'      => 'Attachments',
-        'post_types' => 'divisions',
+        'id'         => "{$prefix}aside",
+        'title'      => 'Sidebar',
+        'post_types' => ['page', 'divisions'],
         'context'    => 'normal',
         'priority'   => 'high',
         'autosave'   => true,
         'fields'     => [
             [
                 'name' => 'Uploads',
-                'id'   => "{$prefix}uploads",
+                'id'   => "{$prefix}aside-uploads",
                 'type' => 'file_advanced',
             ],
+            [
+                'name' => 'Content (keep this brief)',
+                'id'   => "{$prefix}aside-content",
+                'type' => 'wysiwyg',
+                'options' => ['media_buttons' => false],
+            ]
         ],
     ];
 
-    $meta_boxes[] =
-    [
-        'id'         => 'contact',
-        'title'      => 'Division Chair',
-        'post_types' => 'divisions',
-        'context'    => 'normal',
-        'priority'   => 'high',
-        'autosave'   => true,
-        'fields'     => [
-            [
-                'name' => 'Name',
-                'id'   => "{$prefix}division-chair-name",
-                'type' => 'text',
-            ],
-            [
-                'name' => 'Email',
-                'id'   => "{$prefix}division-chair-email",
-                'type' => 'email',
-            ],
-            [
-                'name' => 'Phone',
-                'id'   => "{$prefix}division-chair-phone",
-                'type' => 'text',
-            ],
-        ],
-    ];
     return $meta_boxes;
 }
 ?>
