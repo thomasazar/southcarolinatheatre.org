@@ -1,4 +1,0 @@
-@mixin sizing($property, $magnitude: 1) {
-    #{$property}: $typecsset-magic-number * $magnitude;
-    #{$property}: ($typecsset-magic-ratio * $magnitude) + rem;
-}
