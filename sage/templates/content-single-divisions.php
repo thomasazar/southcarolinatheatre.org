@@ -1,5 +1,5 @@
 <?php while (have_posts()) : the_post(); ?>
-  <article class="post division">
+  <article class="post">
     <h1 class="post__title"><?php the_title(); ?></h1>
     <?php if( is_user_logged_in() && ( $post->post_author == get_current_user_id() ) ) : ?>
       <h4 class='edit-this-page'><?php edit_post_link( 'Edit this page' ); ?></h4>
@@ -10,7 +10,7 @@
         <?php the_post_thumbnail('thumbnail', ['class' => 'byline__image',]); ?>
         <p class="byline__author"><?php echo get_post(get_post_thumbnail_id())->post_title; //The Title ?></p>
       </section>
-    <section class="post__content">
+    <section class="post__content division">
       <?php endif; ?>
       <?php the_content(); ?>
     </section>
