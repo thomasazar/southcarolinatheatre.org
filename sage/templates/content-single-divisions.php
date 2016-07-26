@@ -1,5 +1,5 @@
 <?php while (have_posts()) : the_post(); ?>
-  <article class="post">
+  <article class="post division">
     <h1 class="post__title"><?php the_title(); ?></h1>
     <?php if( is_user_logged_in() && ( $post->post_author == get_current_user_id() ) ) : ?>
       <h4 class='edit-this-page'><?php edit_post_link( 'Edit this page' ); ?></h4>
