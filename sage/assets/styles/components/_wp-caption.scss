@@ -1,0 +1,5 @@
+.wp-caption {
+  @include media('<md') {
+    margin: 1em;
+  }
+}

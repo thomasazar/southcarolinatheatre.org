@@ -1,0 +1,3 @@
+[submodule "wp"]
+	path = web/wp
+	url = /home/thomas/Downloads/wordpress/

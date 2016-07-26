@@ -1,0 +1,30 @@
+.aside {
+  @include sizing('margin-bottom', 1);
+  @include shadow;
+  background: tint($color--primary, 66%);
+  padding: ($layout-padding / 2);
+
+  @include media('>md') {
+    width: 25%;
+
+    &.asideleft {
+      float: left;
+
+      + .post__content {
+        margin-left: 27%;
+      }
+    }
+
+    &.asideright {
+      float: right;
+
+      + .post__content {
+        margin-right: 27%;
+      }
+    }
+  }
+
+  p {
+    @include sizing('margin-bottom', 0.5);
+  }
+}

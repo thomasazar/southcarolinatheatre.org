@@ -1,0 +1,24 @@
+.byline {
+  text-align: center;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+
+  @include media('>md') {
+  }
+
+  @include media('<md') {
+    width: 75px;
+  }
+
+  &__image{
+    border-radius: 50%;
+    opacity: 0.75;
+  }
+
+  &__author {
+    text-align: center;
+    font-size: 75%;
+    font-style: italic;
+  }
+}

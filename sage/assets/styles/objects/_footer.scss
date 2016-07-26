@@ -1,0 +1,21 @@
+.footer {
+  @include font-size(14px, true);
+  @include sizing(margin-top, 2);
+  @include sizing(margin-bottom, 0);
+  @include shadow($inset: true);
+  @include clearfix;
+  background: tint($color--secondary, 50%) url('/img/scta-logo-big.png') center no-repeat;
+
+  @include media('>md') {
+    @include sizing(margin-top, 1);
+  }
+
+  @include media('<md') {
+    margin-top: 0;
+    padding-top: 1em;
+  }
+
+  p {
+    @include sizing(margin-bottom, 0.5);
+  }
+}
