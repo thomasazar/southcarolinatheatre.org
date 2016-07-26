@@ -31,3 +31,9 @@
     margin: 0 auto;
   }
 }
+
+.post__content {
+  @include media('>md') {
+    margin: 0 25% 0 160px;
+  }
+}
