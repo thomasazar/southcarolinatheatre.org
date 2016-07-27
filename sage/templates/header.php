@@ -33,7 +33,7 @@
         <div class='button button--sign-in'><?= $first_name; ?></div>
         <?php
           if ( has_nav_menu( 'extra-menu' ) ) :
-            wp_nav_menu(['theme_location' => 'extra-menu', 'menu_class' => 'members-only-menu sub-menu', 'container' => '' ]);
+            wp_nav_menu(['theme_location' => 'members_navigation', 'menu_class' => 'members-only-menu sub-menu', 'container' => '' ]);
           endif; ?>
       <?php else: ?>
         <a class="button button--sign-in" href="/member-login">Sign in</a>

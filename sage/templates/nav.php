@@ -14,7 +14,7 @@
         <a class='button button--sign-in' href='/member-login?loggedin=true'><?= $first_name; ?></a>
         <?php
         $args = [
-          'theme_location' => 'extra-menu',
+          'theme_location' => 'members_navigation',
           'menu_class' => 'members-only-menu members-only-menu--mobile sub-menu',
           'container' => '',
         ];
