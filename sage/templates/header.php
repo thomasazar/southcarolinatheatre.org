@@ -19,7 +19,7 @@
 </div>
 <div class='logo'>
 	<a href='/' title='Return to home page'>
-		<img src="/img/scta-logo.jpg" />
+		<img src="<?= get_stylesheet_directory_uri() . '/dist/images/scta-logo.jpg'; ?>" />
 	</a>
   <div class='members-only desktop-only'>
     <?php
