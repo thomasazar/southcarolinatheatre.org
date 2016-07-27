@@ -32,7 +32,7 @@
         } ?>
         <div class='button button--sign-in'><?= $first_name; ?></div>
         <?php
-          if ( has_nav_menu( 'extra-menu' ) ) :
+          if ( has_nav_menu( 'members_navigation' ) ) :
             wp_nav_menu(['theme_location' => 'members_navigation', 'menu_class' => 'members-only-menu sub-menu', 'container' => '' ]);
           endif; ?>
       <?php else: ?>
