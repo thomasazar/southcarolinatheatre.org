@@ -4,7 +4,8 @@
   @include sizing(margin-bottom, 0);
   @include shadow($inset: true);
   @include clearfix;
-  background: tint($color--secondary, 50%) url('/img/scta-logo-big.png') center no-repeat;
+  background: tint($color--secondary, 50%) url('../images/scta-logo-big.png') center no-repeat;
+  background-size: contain;
 
   @include media('>md') {
     @include sizing(margin-top, 1);
