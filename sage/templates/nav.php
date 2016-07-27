@@ -15,7 +15,7 @@
         <?php
         $args = [
           'theme_location' => 'members_navigation',
-          'menu_class' => 'members-only-menu members-only-menu--mobile sub-menu',
+          'menu_class' => 'sub-menu members-only-menu members-only-menu--mobile',
           'container' => '',
         ];
 
