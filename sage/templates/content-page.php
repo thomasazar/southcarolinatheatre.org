@@ -1,5 +1,5 @@
 <article class='post'>
-  <h1 class='post__title'><?php the_title(); ?></h1>
+  <?php get_template_part('templates/page', 'header'); ?>
   <section class='post__content'>
     <?php
     $child_pages = get_pages( array( 'parent' => $post->ID, 'sort_column' => 'menu_order' ) );
