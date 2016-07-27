@@ -25,5 +25,5 @@
       <?php endif; ?>
 	   </div>
    </div>
-	<?php wp_nav_menu( [ 'theme_location' => 'primary_navigation', 'menu_class' => 'main-menu', 'container' => '', ] ); ?>
+	<?php wp_nav_menu( [ 'theme_location' => 'primary_navigation', 'menu_class' => 'main-menu', 'container' => '', 'depth' => 2, ] ); ?>
 </nav>
