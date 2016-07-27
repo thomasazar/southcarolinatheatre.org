@@ -25,11 +25,12 @@ function title() {
     $title = '<div class="breadcrumb">';
     // If there is a parent, display the link.
     $parent_title = get_the_title( $post->post_parent );
-    if ( $parent_title != the_title( ' ', ' ', false ) ) {
-      $title .= '<a class="breadcrumb__parent" href="' . esc_url(get_permalink($post->post_parent)) . '" alt="' . esc_attr($parent_title) . '">' . $parent_title . '</a> »';
+    if ( $parent_title !== get_the_title() ) {
+      return '<p class="breadcrumb"> <a class="breadcrumb__parent" href="' . esc_url(get_permalink($post->post_parent)) . '">' . $parent_title . '</a> » </p>' . get_the_title();
     }
-    // Then go on to the current page link.
-    $title .= '</div>' . get_the_title();
-    return $title;
+    else {
+      return get_the_title();
+    }
   }
 }
+?>
