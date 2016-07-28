@@ -17,7 +17,7 @@
           <h2 class='hero__headline'><?php the_excerpt(); ?></h2>
         </section>
         <section class='hero__focus'>
-          <?php the_post_thumbnail('thumbnail', ['class' => 'hero__img',]); ?>
+          <?php the_post_thumbnail('large', ['class' => 'hero__img',]); ?>
         </section>
       </div>
     </article>
