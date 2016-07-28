@@ -19,6 +19,7 @@ use Roots\Sage\Wrapper;
       get_template_part('templates/header');
       get_template_part('templates/nav');
     ?>
+    <?php if (is_front_page()) { get_template_part('templates/hero'); }; ?>
         <main class="main container">
           <?php include Wrapper\template_path(); ?>
         </main><!-- /.main -->

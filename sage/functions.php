@@ -12,6 +12,7 @@
 $sage_includes = [
   // Custom Post Types
   'lib/post-types/divisions.php', // Divisions
+  'lib/post-types/hero.php',      // Front page Hero
 
   // Metaboxes
   'lib/metabox/divisions.php', // Divisions
