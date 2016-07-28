@@ -36,7 +36,7 @@
             wp_nav_menu(['theme_location' => 'members_navigation', 'menu_class' => 'sub-menu members-only-menu', 'container' => '' ]);
           endif; ?>
       <?php else: ?>
-        <a class="button button--sign-in" href="/member-login">Sign in</a>
+        <a class="button button--sign-in" href="/member">Sign in</a>
       <?php endif; ?>
   </div>
 </div>

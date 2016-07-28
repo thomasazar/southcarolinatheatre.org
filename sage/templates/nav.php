@@ -11,7 +11,7 @@
         } else {
           $first_name = 'My Profile';
         } ?>
-        <a class='button button--sign-in' href='/member-login?loggedin=true'><?= $first_name; ?></a>
+        <a class='button button--sign-in' href='/member?loggedin=true'><?= $first_name; ?></a>
         <?php
         $args = [
           'theme_location' => 'members_navigation',
