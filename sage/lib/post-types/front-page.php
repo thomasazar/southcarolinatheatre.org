@@ -1,6 +1,6 @@
 <?php
 // Register Custom Post Type
-function dbta_front_page() {
+function scta_front_page() {
 
 	$labels = array(
 		'name'                  => 'Home Page items',
@@ -51,4 +51,4 @@ function dbta_front_page() {
 	register_post_type( 'front_page', $args );
 
 }
-add_action( 'init', 'dbta_front_page', 0 );
+add_action( 'init', 'scta_front_page', 0 );

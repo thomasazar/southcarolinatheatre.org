@@ -1,4 +1,4 @@
-<?php $thequery = new WP_Query( [ 'category_name' => 'Home Page', ] ); ?>
+<?php $thequery = new WP_Query( [ 'post_type' => 'scta_frontpage', 'posts_per_page' => 2, ] ); ?>
 <?php if( $thequery->have_posts() ) : ?>
   <?php while( $thequery-> have_posts() ) : $thequery->the_post(); ?>
     <article class='post half'>
