@@ -1,3 +1,4 @@
+<header class="banner">
 <div class='header-bar desktop-only'>
   <section class='header-bar__tagline'>
     Connect. Create. Cultivate.
@@ -40,3 +41,4 @@
       <?php endif; ?>
   </div>
 </div>
+</header>

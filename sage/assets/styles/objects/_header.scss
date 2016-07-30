@@ -1,3 +1,7 @@
+.banner {
+  background: #fff;
+}
+
 .header {
   @include clearfix;
   @include shadow;
