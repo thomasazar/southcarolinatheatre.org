@@ -5,7 +5,8 @@
   @include shadow($inset: true);
   @include clearfix;
   background: tint($color--secondary, 50%) url('../images/scta-logo-big.png') center no-repeat;
-  background-size: contain;
+  background-size: auto;
+  min-height: 225px; // Make sure logo is entirely visible
 
   @include media('>md') {
     @include sizing(margin-top, 1);
