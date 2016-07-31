@@ -22,7 +22,16 @@
 }
 
 .search-result {
+  display: block;
   width: 100%;
   padding: $layout-padding;
   margin-bottom: $layout-padding;
+  border: none;
+  background: tint($color--secondary, 33%);
+  border-radius: 3px;
+}
+
+.screen-reader-text {
+  font-size: 1em;
+  margin-bottom: 10px;
 }
