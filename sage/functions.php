@@ -10,6 +10,9 @@
  * @link https://github.com/roots/sage/pull/1042
  */
 $sage_includes = [
+  // Admin stuff
+  'lib/admin/hide-admin-menu.php', // Hide admin menu unless user is at least an Editor
+
   // Custom Post Types
   'lib/post-types/divisions.php',  // Divisions
   'lib/post-types/front-page.php', // Home page news items
