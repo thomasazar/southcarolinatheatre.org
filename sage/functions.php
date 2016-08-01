@@ -11,7 +11,7 @@
  */
 $sage_includes = [
   // Admin stuff
-  'lib/admin/hide-admin-menu.php', // Hide admin menu unless user is at least an Editor
+  'lib/admin/hide-admin-bar.php', // Hide admin menu unless user is at least an Editor
 
   // Custom Post Types
   'lib/post-types/divisions.php',  // Divisions
