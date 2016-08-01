@@ -29,10 +29,13 @@
   position: absolute;
   top: 36px;
   right: 0;
-  background-color: tint($color--action, 50%);
   min-width: 150px;
-}
 
-.menu-item--sign-out {
-  background-color: tint($color--action, 25%);
+  .menu-item {
+    background-color: tint($color--action, 50%);
+  }
+  
+  .menu-item--sign-out {
+    background-color: tint($color--action, 25%);
+  }
 }
