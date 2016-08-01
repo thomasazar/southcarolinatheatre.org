@@ -27,7 +27,7 @@
       if ( is_user_logged_in() ):
         $current_user = wp_get_current_user();
         if ( $current_user->user_firstname ) {
-          $first_name = $current_user->user_firstname;
+          $first_name = 'Hi,' . $current_user->user_firstname . '!';
         } else {
           $first_name = 'My Profile';
         } ?>
