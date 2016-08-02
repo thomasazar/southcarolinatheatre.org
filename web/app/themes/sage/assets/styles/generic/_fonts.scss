@@ -1,4 +1,4 @@
-$font-dir: '/css/fonts/';
+$font-dir: '../fonts/';
 
 @mixin font-face($name, $font-files, $weight: false, $style: false){
   @font-face {
