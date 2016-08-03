@@ -6,4 +6,4 @@ define('SCRIPT_DEBUG', false);
 /** Disable all file modifications including updates and update notifications */
 define('DISALLOW_FILE_MODS', true);
 
-define('RT_WP_NGINX_HELPER_CACHE_PATH', '/etc/nginx/cache/' . $SERVER_NAME);
+define('RT_WP_NGINX_HELPER_CACHE_PATH', '/etc/nginx/cache/' . $_SERVER['SERVER_NAME']);
