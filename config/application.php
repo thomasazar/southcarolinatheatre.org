@@ -7,6 +7,7 @@ $config_dir  = $root_dir . '/config';
 $defines_config = $config_dir . '/.env';
 $defines = parse_ini_file($defines_config);
 
+define('WP_ENV', $defines['WP_ENV']);
 $env_config = $config_dir . '/environments/' . WP_ENV . '.php';
 if (file_exists($env_config)) {
   require_once($env_config);

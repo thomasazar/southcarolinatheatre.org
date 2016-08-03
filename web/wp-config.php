@@ -6,7 +6,6 @@
 if ( !defined('ABSPATH') )
     define('ABSPATH', dirname(__FILE__) . '/wp/');
 
-define('WP_ENV', 'development');
 define('FS_METHOD','direct');
 
 /** Location of your WordPress configuration. */
