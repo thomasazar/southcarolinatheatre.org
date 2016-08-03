@@ -1,0 +1,9 @@
+.maps {
+  border: 0;
+
+  &__iframe {
+    width: 100%;
+    border: 0;
+    pointer-events: none;
+  }
+}

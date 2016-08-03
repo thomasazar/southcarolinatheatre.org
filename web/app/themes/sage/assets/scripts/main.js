@@ -49,6 +49,18 @@
         // JavaScript to be fired on the about us page
       }
     },
+    'single_divisions': {
+      init: function() {
+        console.log('single-divisions');
+        $('.maps').click(function () {
+          $('.maps__iframe').css("pointer-events", "auto");
+        });
+
+        $( ".maps" ).mouseleave(function() {
+          $('.maps__iframe').css("pointer-events", "none");
+        });
+      }
+    },
     // About us page, note the change from about-us to about_us.
     'registration': {
       init: function() {
