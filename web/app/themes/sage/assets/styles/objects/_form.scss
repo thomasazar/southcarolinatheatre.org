@@ -3,3 +3,23 @@ label {
   display: block;
   color: #999;
 }
+
+.form-section {
+  background: tint($color--secondary, 33%);
+  border-radius: 3px;
+  margin-bottom: 30px;
+  padding: 10px;
+
+  &__header {
+    text-align: center;
+    margin-bottom: 0;
+  }
+}
+
+span.wpcf7-list-item {
+  margin-left: 0;
+}
+
+.wpcf7-list-item-label {
+  color: #333;
+}
