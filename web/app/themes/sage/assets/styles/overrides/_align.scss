@@ -15,3 +15,8 @@
     @include sizing(margin-bottom, 0.75);
   }
 }
+
+.aligncenter {
+  display: block;
+  margin: 0 auto;
+}
