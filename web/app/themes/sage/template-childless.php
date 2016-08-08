@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Convention Page
+ * Template Name: Childless Page
  */
 ?>
 
