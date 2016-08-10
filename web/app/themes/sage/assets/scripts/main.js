@@ -49,6 +49,48 @@
         // JavaScript to be fired on the about us page
       }
     },
+    'exhibitor': {
+      init: function() {
+        $('#total-payment').attr({
+          disabled: 'disabled',
+          value: 100,
+        });
+        $("#awards-donation").keyup(function(){
+          update_total();
+        });
+        $("#registration").change(function(){
+          update_total();
+        });
+        $("#additional-fees").change(function(){
+          update_total();
+        })
+        function update_total() {
+          var awards_donation = $("#awards-donation").val();
+          var registration = $("#registration input:checked").val();
+          if (registration === "$25 SCTA Member Organization") {
+            registration = 25;
+          } else {
+            registration = 100;
+          }
+          var additional_fees = $("#additional-fees input:checked").map(function () {
+            return this.value;
+          }).get();
+          switch (additional_fees.length) {
+            case 1:
+              additional_fees = 25;
+              break;
+            case 2:
+              additional_fees = 50;
+              break;
+            default:
+              additional_fees = 0;
+              break;
+          }
+          var total_payment = +awards_donation + +registration + +additional_fees;
+          $('#total-payment').val(total_payment);
+        }
+      }
+    },
     'single_divisions': {
       init: function() {
         console.log('single-divisions');
