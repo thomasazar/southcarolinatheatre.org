@@ -55,15 +55,6 @@
           disabled: 'disabled',
           value: 100,
         });
-        $("#awards-donation").keyup(function(){
-          update_total();
-        });
-        $("#registration").change(function(){
-          update_total();
-        });
-        $("#additional-fees").change(function(){
-          update_total();
-        })
         function update_total() {
           var awards_donation = $("#awards-donation").val();
           var registration = $("#registration input:checked").val();
@@ -86,9 +77,18 @@
               additional_fees = 0;
               break;
           }
-          var total_payment = +awards_donation + +registration + +additional_fees;
+          var total_payment = (+awards_donation) + (+registration) + (+additional_fees);
           $('#total-payment').val(total_payment);
         }
+        $("#awards-donation").keyup(function(){
+          update_total();
+        });
+        $("#registration").change(function(){
+          update_total();
+        });
+        $("#additional-fees").change(function(){
+          update_total();
+        });
       }
     },
     'single_divisions': {
