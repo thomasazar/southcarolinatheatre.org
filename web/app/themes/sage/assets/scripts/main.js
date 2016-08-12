@@ -51,10 +51,6 @@
     },
     'exhibitor': {
       init: function() {
-        $('#total-payment').attr({
-          disabled: 'disabled',
-          value: 100,
-        });
         function update_total() {
           var awards_donation = $("#awards-donation").val();
           var registration = $("#registration input:checked").val();
@@ -78,6 +74,7 @@
               break;
           }
           var total_payment = (+awards_donation) + (+registration) + (+additional_fees);
+          $('#total-payment-placeholder').html(total_payment);
           $('#total-payment').val(total_payment);
         }
         $("#awards-donation").keyup(function(){
