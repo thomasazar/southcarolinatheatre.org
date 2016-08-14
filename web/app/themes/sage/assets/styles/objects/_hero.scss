@@ -53,4 +53,12 @@
     @include shadow;
     transform: rotateY(-25deg);
   }
+
+  @include media('>md') {
+    opacity: 0.8;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
 }
