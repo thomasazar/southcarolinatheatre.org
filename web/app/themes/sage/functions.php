@@ -22,6 +22,7 @@ $sage_includes = [
 
   // Metaboxes
   'lib/metabox/divisions.php', // Divisions
+  'lib/metabox/hero.php',      // Hero Image
 
   'lib/assets.php',    // Scripts and stylesheets
   'lib/extras.php',    // Custom functions

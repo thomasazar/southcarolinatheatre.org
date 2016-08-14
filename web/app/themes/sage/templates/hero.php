@@ -12,6 +12,8 @@
 <?php if ($the_query->have_posts()) : ?>
   <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
     <article class='hero'>
+      <?php $hero__link = rwmb_meta($field_id = 'scta_link-address', $post_id = $the_query->ID); ?>
+      <a class="hero__link" href="<?php echo esc_url(get_permalink($hero__link)); ?>">
       <div class='container'>
         <section class='hero__text'>
           <h2 class='hero__headline'><?php the_excerpt(); ?></h2>
@@ -20,6 +22,7 @@
           <?php the_post_thumbnail('large', ['class' => 'hero__img',]); ?>
         </section>
       </div>
+    </a>
     </article>
     <?php wp_reset_postdata(); ?>
   <?php endwhile; ?>
