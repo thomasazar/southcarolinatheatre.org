@@ -21,7 +21,7 @@
 
         wp_nav_menu( $args );
       else: ?>
-        <a class="button button--sign-in" href="/member-login">Sign in</a>
+        <a class="button button--sign-in" href="/member">Sign in</a>
       <?php endif; ?>
 	   </div>
    </div>
