@@ -5,7 +5,7 @@
   <meta property="og:title" content="South Carolina Theatre Association">
   <meta property="og:type" content="website">
   <meta property="og:url" content="<?php echo get_permalink($post->ID); ?>">
-  <meta property="og:image" content="<?php echo get_site_icon_url(); ?>">
+  <meta property="og:image" content="<?php echo get_home_url(); echo get_site_icon_url(); ?>">
   <link rel="author" href="/humans.txt" />
   <?php wp_head(); ?>
 </head>
