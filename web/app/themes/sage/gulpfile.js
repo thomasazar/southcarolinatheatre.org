@@ -69,6 +69,13 @@ var enabled = {
 // Path to the compiled assets manifest in the dist directory
 var revManifest = path.dist + 'assets.json';
 
+function throwError(taskName, msg) {
+  throw new gutil.PluginError({
+      plugin: taskName,
+      message: msg
+    });
+}
+
 // ## Reusable Pipelines
 // See https://github.com/OverZealous/lazypipe
 
@@ -338,11 +345,3 @@ gulp.task('deploy', function() {
   .pipe(rsync(rsyncConf));
 
 });
-
-
-function throwError(taskName, msg) {
-  throw new gutil.PluginError({
-      plugin: taskName,
-      message: msg
-    });
-}
