@@ -11,10 +11,14 @@
  */
 $sage_includes = [
   // Admin stuff
+  'lib/admin/editor-styles.php',      // Custom styles for TinyMCE Editor
   'lib/admin/hide-admin-bar.php',     // Hide admin menu unless user is at least an Editor
   'lib/admin/maps-shortcode.php',     // Add Logout to members_navigation
   'lib/admin/members-navigation.php', // Add Logout to members_navigation
   'lib/admin/wpcf7-date.php',         // Enable JS date and number fallbacks
+
+  // Classes
+  'lib/class/frontend.php', // Frontend stuff (Boxes, Hero image)
 
   // Custom Post Types
   'lib/post-types/divisions.php',  // Divisions
