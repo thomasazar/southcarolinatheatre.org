@@ -5,7 +5,11 @@ $webroot_dir = $root_dir . '/web';
 $config_dir  = $root_dir . '/config';
 
 $defines_config = $config_dir . '/.env';
-$defines = parse_ini_file($defines_config);
+if (file_exists($defines_config)) {
+  $defines = parse_ini_file($defines_config);
+} else {
+  die('No configuration file found.');
+}
 
 define('WP_ENV', $defines['WP_ENV']);
 $env_config = $config_dir . '/environments/' . WP_ENV . '.php';
@@ -17,7 +21,7 @@ if (file_exists($env_config)) {
  * URLs
  */
 define('WP_HOME', $defines['WP_HOME']);
-define('WP_SITEURL', $defines['WP_SITEURL']);
+define('WP_SITEURL', WP_HOME . '/wp');
 
 /**
  * Custom Content Directory
@@ -55,6 +59,7 @@ define('NONCE_SALT', $defines['NONCE_SALT']);
 define('AUTOMATIC_UPDATER_DISABLED', true);
 define('DISABLE_WP_CRON', $defines['DISABLE_WP_CRON'] ?: false);
 define('DISALLOW_FILE_EDIT', true);
+define('WPCF7_LOAD_CSS', false);
 
 /**
  * Bootstrap WordPress
