@@ -14,7 +14,9 @@ var less         = require('gulp-less');
 var merge        = require('merge-stream');
 var cssNano      = require('gulp-cssnano');
 var plumber      = require('gulp-plumber');
+var prompt       = require('gulp-prompt');
 var rev          = require('gulp-rev');
+var rsync        = require('gulp-rsync');
 var runSequence  = require('run-sequence');
 var sass         = require('gulp-sass');
 var sourcemaps   = require('gulp-sourcemaps');
@@ -66,6 +68,13 @@ var enabled = {
 
 // Path to the compiled assets manifest in the dist directory
 var revManifest = path.dist + 'assets.json';
+
+function throwError(taskName, msg) {
+  throw new gutil.PluginError({
+      plugin: taskName,
+      message: msg
+    });
+}
 
 // ## Reusable Pipelines
 // See https://github.com/OverZealous/lazypipe
@@ -285,4 +294,54 @@ gulp.task('wiredep', function() {
 // `gulp` - Run a complete build. To compile for production run `gulp --production`.
 gulp.task('default', ['clean'], function() {
   gulp.start('build');
+});
+
+gulp.task('deploy', function() {
+
+  // Dirs and Files to sync
+  rsyncPaths = [path.dist, 'lang', 'lib', 'templates', './*.php', './style.css' ];
+
+  // Default options for rsync
+  rsyncConf = {
+    progress: true,
+    incremental: true,
+    relative: true,
+    emptyDirectories: true,
+    recursive: true,
+    clean: true,
+    exclude: [],
+  };
+
+  // Staging
+  if (argv.staging) {
+
+    rsyncConf.hostname = 'digitalocean'; // hostname
+    rsyncConf.username = 'deploy'; // ssh username
+    rsyncConf.destination = '/var/www/southcarolinatheatre.org-staging/web/app/themes/sage'; // path where uploaded files go
+
+  // Production
+  } else if (argv.production) {
+
+    rsyncConf.hostname = 'digitalocean'; // hostname
+    rsyncConf.username = 'deploy'; // ssh username
+    rsyncConf.destination = '/var/www/southcarolinatheatre.org/web/app/themes/sage'; // path where uploaded files go
+
+
+  // Missing/Invalid Target
+  } else {
+    throwError('deploy', gutil.colors.red('Missing or invalid target'));
+  }
+
+
+  // Use gulp-rsync to sync the files
+  return gulp.src(rsyncPaths)
+  .pipe(gulpif(
+      argv.production,
+      prompt.confirm({
+        message: 'Heads Up! Are you SURE you want to push to PRODUCTION?',
+        default: false
+      })
+  ))
+  .pipe(rsync(rsyncConf));
+
 });

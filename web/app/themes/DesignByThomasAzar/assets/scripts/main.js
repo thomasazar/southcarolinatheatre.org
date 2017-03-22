@@ -19,6 +19,16 @@
     'common': {
       init: function() {
         // JavaScript to be fired on all pages
+        $('.mobile-menu').click(function(e){
+          $('.header-menu').stop();
+          if ($(this).html() === 'Menu' ) {
+            $('.header-menu').addClass('open');
+            $(this).html('Close');
+          } else {
+            $('.header-menu').removeClass('open');
+            $(this).html('Menu');
+          }
+        });
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
@@ -38,7 +48,75 @@
       init: function() {
         // JavaScript to be fired on the about us page
       }
-    }
+    },
+    'exhibitor': {
+      init: function() {
+        function update_total() {
+          var awards_donation = $("#awards-donation").val();
+          var registration = $("#registration input:checked").val();
+          if (registration === "$25 SCTA Member Organization") {
+            registration = 25;
+          } else {
+            registration = 100;
+          }
+          var additional_fees = $("#additional-fees input:checked").map(function () {
+            return this.value;
+          }).get();
+          switch (additional_fees.length) {
+            case 1:
+              additional_fees = 25;
+              break;
+            case 2:
+              additional_fees = 50;
+              break;
+            default:
+              additional_fees = 0;
+              break;
+          }
+          var total_payment = (+awards_donation) + (+registration) + (+additional_fees);
+          $('#total-payment-placeholder').html(total_payment);
+          $('#total-payment').val(total_payment);
+        }
+        $("#awards-donation").keyup(function(){
+          update_total();
+        });
+        $("#registration").change(function(){
+          update_total();
+        });
+        $("#additional-fees").change(function(){
+          update_total();
+        });
+      }
+    },
+    'single_divisions': {
+      init: function() {
+        console.log('single-divisions');
+        $('.maps').click(function () {
+          $('.maps__iframe').css("pointer-events", "auto");
+        });
+
+        $( ".maps" ).mouseleave(function() {
+          $('.maps__iframe').css("pointer-events", "none");
+        });
+      }
+    },
+    // About us page, note the change from about-us to about_us.
+    'registration': {
+      init: function() {
+        $('.tabs-content li').addClass('hidden');
+
+        $('.tabs a').click(function(e){
+          e.preventDefault();
+          if ($(this).hasClass("active")){ // Do nothing if active
+            return;
+          }
+          link = $(this).attr("href");
+          $(".tabs a").removeClass("active");
+          $(".tabs-content li").removeClass("active").addClass('hidden');
+          $(".tabs-content li" + link).removeClass('hidden').addClass("active");
+        });
+      }
+    },
   };
 
   // The routing fires all common scripts, followed by the page specific scripts.

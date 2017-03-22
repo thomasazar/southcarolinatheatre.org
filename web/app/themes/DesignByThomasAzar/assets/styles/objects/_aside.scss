@@ -1,0 +1,17 @@
+.aside {
+  @include shadow;
+  background: tint($color--primary, 66%);
+  margin: 0 0 1em;
+  padding: ($layout-padding / 2);
+
+  @include media('>md') {
+    max-width: 250px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    @include sizing('margin-bottom', 0.5);
+  }
+}

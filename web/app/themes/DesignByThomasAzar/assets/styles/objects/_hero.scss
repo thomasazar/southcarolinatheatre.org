@@ -1,0 +1,64 @@
+.hero {
+  @include clearfix;
+  padding: 1.5rem 3rem;
+  background: #4f4f4f;
+  background-image: url('../images/bokeh.png'), linear-gradient(to right, #0e0e0e 0%, #7d7e7d 68%, #4f4f4f 100%);
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+
+  &__text {
+    @include sizing(padding-top, 1.33);
+    @include sizing(padding-left, 2);
+    color: #fff;
+    width: 50%;
+    float: left;
+
+    @include media('<md') {
+      padding: 0.5rem 0;
+      background: transparentize(#000, 0.33);
+      position: absolute;
+      float: none;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      z-index: 10;
+    }
+  }
+
+  &__headline {
+    @include font-size(48px);
+    font-weight: normal;
+    font-family: 'League Spartan', $helvetica;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000;
+
+    @include media('<md') {
+      @include font-size(20px);
+    }
+  }
+
+  &__focus {
+    float: left;
+    width: 50%;
+    perspective: 1000px;
+
+    @include media('<md') {
+      float: none;
+      width: 100%;
+    }
+  }
+
+  &__img {
+    @include shadow;
+    transform: rotateY(-25deg);
+  }
+
+  @include media('>md') {
+    opacity: 0.8;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

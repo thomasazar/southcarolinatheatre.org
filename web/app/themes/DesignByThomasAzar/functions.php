@@ -10,6 +10,25 @@
  * @link https://github.com/roots/sage/pull/1042
  */
 $sage_includes = [
+  // Admin stuff
+  'lib/admin/editor-styles.php',      // Custom styles for TinyMCE Editor
+  'lib/admin/hide-admin-bar.php',     // Hide admin menu unless user is at least an Editor
+  'lib/admin/maps-shortcode.php',     // Add Logout to members_navigation
+  'lib/admin/members-navigation.php', // Add Logout to members_navigation
+  'lib/admin/wpcf7-date.php',         // Enable JS date and number fallbacks
+
+  // Classes
+  'lib/class/frontend.php', // Frontend stuff (Boxes, Hero image)
+
+  // Custom Post Types
+  'lib/post-types/divisions.php',  // Divisions
+  'lib/post-types/front-page.php', // Home page news items
+  'lib/post-types/hero.php',       // Front page Hero
+
+  // Metaboxes
+  'lib/metabox/divisions.php', // Divisions
+  'lib/metabox/hero.php',      // Hero Image
+
   'lib/assets.php',    // Scripts and stylesheets
   'lib/extras.php',    // Custom functions
   'lib/setup.php',     // Theme setup

@@ -1,2 +1,8 @@
-<?php the_content(); ?>
-<?php wp_link_pages(['before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']); ?>
+<article class='post'>
+  <?php get_template_part('templates/page', 'header'); ?>
+  <section class='post__content'>
+    <?php get_template_part('templates/child-pages'); ?>
+    <?php get_template_part('templates/aside'); ?>
+    <?php the_content(); ?>
+  </section>
+</article>

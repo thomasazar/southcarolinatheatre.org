@@ -15,6 +15,21 @@ function setup() {
   add_theme_support('soil-nice-search');
   add_theme_support('soil-jquery-cdn');
   add_theme_support('soil-relative-urls');
+  add_theme_support('soil-google-analytics', 'UA-1242748-13');
+
+  // WooCommerce stuff
+  // Declare support for WooCommerce
+  add_theme_support('woocommerce');
+  // Don't show title on archive- and single-product
+  add_filter('woocommerce_show_page_title', '__return_false');
+  remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_title', 5);
+  // Don't show Reviews tab
+  // https://support.woothemes.com/hc/en-us/articles/203447633-How-to-Disable-Product-Reviews
+  add_filter( 'woocommerce_product_tabs', 'wcs_woo_remove_reviews_tab', 98 );
+  function wcs_woo_remove_reviews_tab($tabs) {
+    unset($tabs['reviews']);
+    return $tabs;
+  }
 
   // Make theme available for translation
   // Community translations can be found at https://github.com/roots/sage-translations
@@ -27,7 +42,8 @@ function setup() {
   // Register wp_nav_menu() menus
   // http://codex.wordpress.org/Function_Reference/register_nav_menus
   register_nav_menus([
-    'primary_navigation' => __('Primary Navigation', 'sage')
+    'primary_navigation' => __('Primary Navigation', 'sage'),
+    'members_navigation' => __('Member Menu', 'sage'),
   ]);
 
   // Enable post thumbnails
