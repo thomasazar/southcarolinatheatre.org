@@ -17,7 +17,7 @@
 			$text = 'My Profile';
 			$menu = wp_nav_menu( [ 'theme_location' => 'members_navigation', 'menu_class' => 'sub-menu', 'container' => '', 'depth' => 1, 'echo' => false, ] );
 		} else {
-			$href = esc_url(get_permalink(get_page_by_title('Member')));
+			$href = esc_url(get_permalink(get_page_by_title('SCTA Members')));
 		}
 
 		?>

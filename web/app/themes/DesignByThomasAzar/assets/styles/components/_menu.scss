@@ -1,7 +1,56 @@
 .menu-item {
     vertical-align: top;
+    display: inline-block;
+
+    &:hover,
+    &:focus {
+        background: tint($color--primary, 33%);
+
+        @include media('>md') {
+            .sub-menu {
+                display: block;
+            }
+        }
+    }
 
     &--login {
-        background: $color--secondary;
+        background-color: #4fd2a6;
     }
+
+    @include media('<md') {
+        width: 49%;
+    }
+
+    a {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+        font-weight: bold;
+        border-bottom: 0;
+        display: block;
+        margin: 0;
+
+        &:hover,
+        &:focus {
+            color: #fff;
+            background: $color--primary;
+            border-bottom: 0;
+        }
+    }
+
+    &.active > a {
+        background: tint($color--primary, 10%);
+        color: #fff;
+    }
+}
+
+/*
+ * The "Menu/Close" button, only visible on mobile
+ */
+
+.mobile-menu {
+    padding: 0.25rem;
+    font-weight: bold;
+    z-index: 20;
+    position: relative;
+    text-align: center;
 }

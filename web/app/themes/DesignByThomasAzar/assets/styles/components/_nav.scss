@@ -23,64 +23,6 @@
   }
 }
 
-.menu-item {
-  display: inline-block;
-
-  &:hover,
-  &:focus {
-    background: tint($color--primary, 33%);
-
-    @include media('>md') {
-      .sub-menu {
-        display: block;
-      }
-    }
-  }
-
-  &--login {
-    background-color: #4fd2a6;
-  }
-
-  @include media('<md') {
-    width: 49%;
-  }
-
-  a {
-    @include font-size(16px);
-    @include sizing(padding, 0.5);
-    font-weight: bold;
-    width: 100%;
-    border-bottom: 0;
-    display: inline-block;
-    margin: 0;
-
-    &:hover,
-    &:focus {
-      color: #fff;
-      background: $color--primary;
-      border-bottom: 0;
-    }
-
-    @include media('<md') {
-      display: block;
-    }
-  }
-}
-
-.active > a {
-  cursor: default;
-  background: tint($color--primary, 10%);
-  color: #fff;
-}
-
-.mobile-menu {
-  @include sizing(padding, 0.25);
-  font-weight: bold;
-  z-index: 20;
-  position: relative;
-  text-align: center;
-}
-
 .sub-menu {
   @include shadow;
   display: none;
