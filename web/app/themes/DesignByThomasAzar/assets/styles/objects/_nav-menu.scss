@@ -1,0 +1,16 @@
+.nav-menu {
+    background: $color--secondary;
+
+    @include media('<md') {
+        box-shadow: 0 2px 2px #666;
+        position: absolute;
+        transform: translateY(-100%);
+        transition: 0.275s all;
+        z-index: 15;
+        text-align: center;
+
+        &.open {
+            transform: translateY(0%);
+        }
+    }
+}

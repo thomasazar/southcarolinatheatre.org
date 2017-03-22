@@ -1,29 +1,29 @@
 <div class='button mobile-only mobile-menu'>Menu</div>
-<nav class="header-menu">
-	<div class='mobile-only' style='padding: 1rem 0;'>
+<nav class="nav-menu">
+	<div class='nav-menu__search mobile-only' style='padding: 1rem 0;'>
 		<?php get_search_form(); ?>
-    <div class='members-only'>
-      <?php
-      if ( is_user_logged_in() ):
-        $current_user = wp_get_current_user();
-        if ( $current_user->user_firstname ) {
-          $first_name = 'Hi, ' . $current_user->user_firstname . '!';
-        } else {
-          $first_name = 'My Profile';
-        } ?>
-        <a class='button button--sign-in' href='/member?loggedin=true'><?= $first_name; ?></a>
-        <?php
-        $args = [
-          'theme_location' => 'members_navigation',
-          'menu_class' => 'sub-menu members-only-menu members-only-menu--mobile',
-          'container' => '',
-        ];
+	</div>
+	<ul class="main-menu">
+		<?php wp_nav_menu( [ 'theme_location' => 'primary_navigation', 'menu_class' => 'main-menu', 'container' => '', 'depth' => 2, 'items_wrap' =>  '%3$s', ] ); ?>
 
-        wp_nav_menu( $args );
-      else: ?>
-        <a class="button button--sign-in" href="/member">Sign in</a>
-      <?php endif; ?>
-	   </div>
-   </div>
-	<?php wp_nav_menu( [ 'theme_location' => 'primary_navigation', 'menu_class' => 'main-menu', 'container' => '', 'depth' => 2, ] ); ?>
+		<?php
+
+		$class = 'menu-item menu-item--login';
+		$text = 'Login';
+		$menu = '';
+		if (is_user_logged_in()) {
+			$class .= ' menu-item-has-children';
+			$href = esc_url(get_permalink(get_page_by_title('My Information')));
+			$text = 'My Profile';
+			$menu = wp_nav_menu( [ 'theme_location' => 'members_navigation', 'menu_class' => 'sub-menu', 'container' => '', 'depth' => 1, 'echo' => false, ] );
+		} else {
+			$href = esc_url(get_permalink(get_page_by_title('Member')));
+		}
+
+		?>
+		<li class="<?= $class; ?>">
+			<a href="<?= $href; ?>"><?= $text; ?></a>
+			<?= $menu; ?>
+		</li>
+	</ul>
 </nav>

@@ -18,6 +18,9 @@
 @import "base/page";
 @import "base/typography";
 
+@import "objects/banner";
+@import "objects/nav-menu";
+
 @import "objects/aside";
 @import "objects/button";
 @import "objects/container";
@@ -27,6 +30,10 @@
 @import "objects/hero";
 @import "objects/main";
 @import "objects/post";
+
+@import "components/banner";
+@import "components/menu";
+@import "components/nav-menu";
 
 @import "components/alert";
 @import "components/breadcrumb";
@@ -47,6 +54,8 @@
 @import "components/timer";
 @import "components/wp-caption";
 @import "components/wpcf7";
+
+@import "overrides/ui-link";
 
 @import "overrides/align";
 @import "overrides/awards-table";

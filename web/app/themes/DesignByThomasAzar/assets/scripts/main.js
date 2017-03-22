@@ -20,14 +20,12 @@
       init: function() {
         // JavaScript to be fired on all pages
         $('.mobile-menu').click(function(e){
-          $('.header-menu').stop();
-          if ($(this).html() === 'Menu' ) {
-            $('.header-menu').addClass('open');
-            $(this).html('Close');
-          } else {
-            $('.header-menu').removeClass('open');
-            $(this).html('Menu');
-          }
+          var nav_menu = $('.nav-menu');
+          var menu_button = $('.mobile-menu');
+          var text = menu_button.text();
+          nav_menu.stop();
+          nav_menu.toggleClass('open');
+          menu_button.text(text === 'Menu' ? 'Close' : 'Menu');
         });
       },
       finalize: function() {
