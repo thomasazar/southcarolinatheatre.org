@@ -47,7 +47,7 @@
         // JavaScript to be fired on the about us page
       }
     },
-    'exhibitor': {
+    'commercial_expo_vendor': {
       init: function() {
         function update_total() {
           var awards_donation = $("#awards-donation").val();
