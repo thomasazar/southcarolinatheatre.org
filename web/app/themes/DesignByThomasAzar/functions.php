@@ -12,7 +12,6 @@
 $sage_includes = [
   // Admin stuff
   'lib/admin/editor-styles.php',      // Custom styles for TinyMCE Editor
-  'lib/admin/expired-forum-post.php',      // Custom styles for TinyMCE Editor
   'lib/admin/hide-admin-bar.php',     // Hide admin menu unless user is at least an Editor
   'lib/admin/maps-shortcode.php',     // Add Logout to members_navigation
   'lib/admin/members-navigation.php', // Add Logout to members_navigation
