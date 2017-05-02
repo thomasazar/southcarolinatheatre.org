@@ -15,5 +15,8 @@
             <?php endif; ?>
         <?php endwhile; ?>
         <?php wp_reset_postdata(); ?>
+        <p style="text-align: center; margin-top: 2rem;">
+            <a class="download-item" href="<?= admin_url('post-new.php?post_type=forum-post'); ?>">Submit new post</a>
+        </p>
     </section>
 </article>
