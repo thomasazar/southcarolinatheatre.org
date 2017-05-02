@@ -7,5 +7,8 @@
                 <a class="category" href="<?= esc_url(get_category_link($category->term_id)); ?>"><?= $category->name; ?></a>
             <?php endforeach; ?>
         </div>
+        <p style="text-align: center;">
+            <a class="download-item" href="<?= admin_url('post-new.php?post_type=forum-post'); ?>">Submit new post</a>
+        </p>
     </section>
 </article>
