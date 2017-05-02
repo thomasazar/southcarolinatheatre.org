@@ -1,0 +1,15 @@
+.forum-post {
+    display: block;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-bottom: 1px dashed #999;
+
+    &:hover {
+        background: $color--primary;
+        color: #fff;
+    }
+
+    em {
+        font-size: 0.8rem;
+    }
+}
