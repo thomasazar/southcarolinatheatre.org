@@ -1,3 +1,4 @@
+<?php $today = date('Ymd'); ?>
 <article class="post">
     <h1 class="post__title">
         <p class="breadcrumb">
@@ -7,9 +8,11 @@
     </h1>
     <section class="post__content">
         <?php while (have_posts()) : the_post(); ?>
-            <a class="forum-post" href="<?php the_permalink(); ?>">
-                <?php the_title(); ?> <em>posted by <?php the_author(); ?> on <?php the_date(); ?></em>
-            </a>
+            <?php if (get_field('expires') > $today) : ?>
+                <a class="forum-post" href="<?php the_permalink(); ?>">
+                    <?php the_title(); ?> <em>posted by <?php the_author(); ?> on <?php the_date(); ?></em>
+                </a>
+            <?php endif; ?>
         <?php endwhile; ?>
         <?php wp_reset_postdata(); ?>
     </section>
