@@ -16,6 +16,7 @@ $sage_includes = [
   'lib/admin/hide-admin-bar.php',     // Hide admin menu unless user is at least an Editor
   'lib/admin/maps-shortcode.php',     // Add Logout to members_navigation
   'lib/admin/members-navigation.php', // Add Logout to members_navigation
+  'lib/admin/remove-menu-pages.php', // Add Logout to members_navigation
   'lib/admin/wpcf7-date.php',         // Enable JS date and number fallbacks
 
   // Classes
