@@ -12,6 +12,7 @@
 $sage_includes = [
   // Admin stuff
   'lib/admin/editor-styles.php',      // Custom styles for TinyMCE Editor
+  'lib/admin/expired-forum-post.php',      // Custom styles for TinyMCE Editor
   'lib/admin/hide-admin-bar.php',     // Hide admin menu unless user is at least an Editor
   'lib/admin/maps-shortcode.php',     // Add Logout to members_navigation
   'lib/admin/members-navigation.php', // Add Logout to members_navigation
@@ -22,12 +23,16 @@ $sage_includes = [
 
   // Custom Post Types
   'lib/post-types/divisions.php',  // Divisions
+  'lib/post-types/forum-post.php', // Forum posts
   'lib/post-types/front-page.php', // Home page news items
   'lib/post-types/hero.php',       // Front page Hero
 
   // Metaboxes
   'lib/metabox/divisions.php', // Divisions
   'lib/metabox/hero.php',      // Hero Image
+
+  // Taxonomies
+  'lib/taxonomies/forum-post-categories.php', // Forum post Categories
 
   'lib/assets.php',    // Scripts and stylesheets
   'lib/extras.php',    // Custom functions
