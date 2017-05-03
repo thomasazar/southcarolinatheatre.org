@@ -26,6 +26,9 @@ function remove_menus(){
         remove_menu_page( 'edit.php' );                   //Posts
         remove_menu_page( 'upload.php' );                 //Media
         remove_menu_page( 'edit.php?post_type=page' );    //Pages
+        remove_menu_page( 'edit.php?post_type=divisions' );    //Pages
+        remove_menu_page( 'edit.php?post_type=front_page' );    //Pages
+        remove_menu_page( 'edit.php?post_type=scta_hero' );    //Pages
         remove_menu_page( 'edit-comments.php' );          //Comments
         remove_menu_page( 'themes.php' );                 //Appearance
         remove_menu_page( 'plugins.php' );                //Plugins
@@ -33,6 +36,8 @@ function remove_menus(){
         remove_menu_page( 'tools.php' );                  //Tools
         remove_menu_page( 'options-general.php' );        //Settings
         remove_menu_page('profile.php');                  // Profile
+        remove_menu_page('admin.php?page=wpcf7');                  // Profile
+        remove_menu_page('admin.php?page=CF7DBPluginSubmissions');                  // Profile
     }
 }
 
@@ -45,10 +50,10 @@ add_action( 'admin_menu', 'remove_menus' );
 function posts_for_current_author($query) {
 	global $pagenow;
     if (!current_user_can('administrator')) {
-        if( 'edit.php' != $pagenow || !$query->is_admin )
+        if( 'edit.php' != $pagenow && 'admin.php' != $pagenow || !$query->is_admin )
         return $query;
 
-        if( !current_user_can( 'edit_others_posts' ) ) {
+        if( !current_user_can( 'administrator' ) ) {
             global $user_ID;
             $query->set('author', $user_ID );
         }
