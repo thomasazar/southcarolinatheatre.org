@@ -36,8 +36,8 @@ function remove_menus(){
         remove_menu_page( 'tools.php' );                  //Tools
         remove_menu_page( 'options-general.php' );        //Settings
         remove_menu_page('profile.php');                  // Profile
-        remove_menu_page('admin.php?page=wpcf7');                  // Profile
-        remove_menu_page('admin.php?page=CF7DBPluginSubmissions');                  // Profile
+        remove_menu_page('wpcf7');                  // Profile
+        remove_menu_page('CF7DBPluginSubmissions');                  // Profile
     }
 }
 
