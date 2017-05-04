@@ -7,6 +7,9 @@
     <?php else : ?>
         <?php while (have_posts()) : the_post(); ?>
             <?php get_template_part('templates/page', 'header'); ?>
+            <?php if( is_user_logged_in() && ( $post->post_author == get_current_user_id() ) ) : ?>
+                <h4 class='edit-this-page'><?php edit_post_link( 'Edit this post' ); ?></h4>
+            <?php endif; ?>
             <section class="post__content">
                 <?php the_field('description'); ?>
                 <section class="post__contact">
