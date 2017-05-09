@@ -21,6 +21,9 @@ function title() {
     } elseif (is_singular('forum-post')) {
         $categories = get_the_terms(get_the_ID(), 'forum-category');
         return '<p class="breadcrumb"> <a class="breadcrumb__parent" href="' . esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . esc_html( $categories[0]->name ) . '</a> » </p>' . get_the_title();
+    } elseif (is_singular('newsletter')) {
+        $categories = get_the_terms(get_the_ID(), 'forum-category');
+        return '<p class="breadcrumb"> <a class="breadcrumb__parent" href="' . get_post_type_archive_link('newsletter') . '">SC Curtain Call</a> » </p>' . get_the_title();
     } elseif (is_singular('divisions')){
         global $post;
         return '<div class="breadcrumb"><a class="breadcrumb__parent" href="'. get_post_type_archive_link('divisions') . '">Divisions</a> » </div>' . get_the_title();
