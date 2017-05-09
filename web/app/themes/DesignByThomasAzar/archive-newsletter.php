@@ -10,7 +10,7 @@ $args = [
     'post_status'    => 'publish',
     'year'           => $lastyear,
     'monthnum'       => $lastmonth,
-    'order'          => 'DESC',
+    'order'          => 'ASC',
     'posts_per_page' => -1,
 ];
 
