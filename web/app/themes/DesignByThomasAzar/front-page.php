@@ -1,6 +1,8 @@
-<?php
-
-use Dbta\Frontend\Box;
-
-new Box('first_box');
-new Box('second_box');
+<?php $boxes = ['first_box', 'second_box']; ?>
+<?php foreach ($boxes as $box) : ?>
+    <article class="post half">
+        <section class="post__content">
+            <?php the_field($box); ?>
+        </section>
+    </article>
+<?php endforeach;
