@@ -5,7 +5,7 @@
  */
 
 function remove_wp_nodes() {
-    if (!current_user_can('administrator') || !current_user_can('editor')) {
+    if (!current_user_can('administrator') && !current_user_can('editor')) {
         global $wp_admin_bar;
         $wp_admin_bar->remove_node( 'wp-logo' );
         $wp_admin_bar->remove_node( 'comments' );
@@ -20,7 +20,7 @@ add_action( 'admin_bar_menu', 'remove_wp_nodes', 999 );
  */
 
 function remove_menus(){
-    if (!current_user_can('administrator') || !current_user_can('editor')) {
+    if (!current_user_can('administrator') && !current_user_can('editor')) {
         remove_menu_page( 'index.php' );                  //Dashboard
         remove_menu_page( 'jetpack' );                    //Jetpack*
         remove_menu_page( 'edit.php' );                   //Posts
@@ -49,11 +49,11 @@ add_action( 'admin_menu', 'remove_menus' );
 
 function posts_for_current_author($query) {
 	global $pagenow;
-    if (!current_user_can('administrator') || !current_user_can('editor')) {
-        if( 'edit.php' != $pagenow && 'admin.php' != $pagenow || !$query->is_admin )
+    if (!current_user_can('administrator') && !current_user_can('editor')) {
+        if( 'edit.php' != $pagenow && 'admin.php' != $pagenow && !$query->is_admin )
         return $query;
 
-        if( !current_user_can('administrator') || !current_user_can('editor') ) {
+        if( !current_user_can('administrator') && !current_user_can('editor') ) {
             global $user_ID;
             $query->set('author', $user_ID );
         }
