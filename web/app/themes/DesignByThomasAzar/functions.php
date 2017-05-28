@@ -19,19 +19,10 @@ $sage_includes = [
   'lib/admin/remove-menu-pages.php', // Add Logout to members_navigation
   'lib/admin/wpcf7-date.php',         // Enable JS date and number fallbacks
 
-  // Classes
-  'lib/class/frontend.php', // Frontend stuff (Boxes, Hero image)
-
   // Custom Post Types
   'lib/post-types/divisions.php',  // Divisions
   'lib/post-types/forum-post.php', // Forum posts
-  'lib/post-types/front-page.php', // Home page news items
-  'lib/post-types/hero.php',       // Front page Hero
   'lib/post-types/newsletter.php', // SC Curtain Call newsletter articles
-
-  // Metaboxes
-  'lib/metabox/divisions.php', // Divisions
-  'lib/metabox/hero.php',      // Hero Image
 
   // Taxonomies
   'lib/taxonomies/forum-post-categories.php', // Forum post Categories

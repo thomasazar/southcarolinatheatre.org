@@ -42,7 +42,7 @@ function dbta_forum_post() {
 		'label'                 => __( 'Forum Post', 'sage' ),
 		'description'           => __( 'Forum Post', 'sage' ),
 		'labels'                => $labels,
-		'supports'              => array( 'title', ),
+		'supports'              => array( 'title', 'author' ),
 		'taxonomies'            => array(  ),
 		'hierarchical'          => false,
 		'public'                => true,
