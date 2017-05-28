@@ -19,6 +19,10 @@ $sage_includes = [
   'lib/admin/remove-menu-pages.php', // Add Logout to members_navigation
   'lib/admin/wpcf7-date.php',         // Enable JS date and number fallbacks
 
+  // Metaboxes
+  'lib/metabox/divisions.php',
+  'lib/metabox/hero.php',
+
   // Custom Post Types
   'lib/post-types/divisions.php',  // Divisions
   'lib/post-types/forum-post.php', // Forum posts
