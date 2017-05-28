@@ -315,16 +315,16 @@ gulp.task('deploy', function() {
   // Staging
   if (argv.staging) {
 
-    rsyncConf.hostname = 'digitalocean'; // hostname
+    rsyncConf.hostname = 'southcarolinatheatre.org'; // hostname
     rsyncConf.username = 'deploy'; // ssh username
-    rsyncConf.destination = '/var/www/southcarolinatheatre.org-staging/web/app/themes/sage'; // path where uploaded files go
+    rsyncConf.destination = '/var/www/southcarolinatheatre.org-staging/web/app/themes/DesignByThomasAzar'; // path where uploaded files go
 
   // Production
   } else if (argv.production) {
 
-    rsyncConf.hostname = 'digitalocean'; // hostname
+    rsyncConf.hostname = 'southcarolinatheatre.org'; // hostname
     rsyncConf.username = 'deploy'; // ssh username
-    rsyncConf.destination = '/var/www/southcarolinatheatre.org/web/app/themes/sage'; // path where uploaded files go
+    rsyncConf.destination = '/var/www/southcarolinatheatre.org/web/app/themes/DesignByThomasAzar'; // path where uploaded files go
 
 
   // Missing/Invalid Target
