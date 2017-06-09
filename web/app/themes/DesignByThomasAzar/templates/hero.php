@@ -6,7 +6,7 @@
                 <h2 class="hero__headline"><?php the_field('text'); ?></h2>
             </section>
             <section class="hero__focus">
-                <img src="<?= $image['sizes']['large']; ?>" class="hero__img">
+                <img src="<?= $image['sizes']['medium']; ?>" class="hero__img">
             </section>
         </div>
     </a>
