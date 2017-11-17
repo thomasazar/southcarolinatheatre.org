@@ -1,0 +1,30 @@
+.simple {
+  .first {
+    margin-left: 0;
+  }
+
+  label {
+    border: 1px solid #dedede;
+    border-radius: 3px;
+    text-align: center;
+  }
+
+  input {
+    display: none;
+
+    &:checked + span {
+      background: lighten($color--primary, 25%);
+      color: #f2f2f2;
+      border-color: lighten($color--primary, 25%);
+    }
+  }
+
+  .wpcf7-list-item {
+    margin: 0 1rem 0 0;
+  }
+}
+
+.wpcf7-list-item-label {
+  display: block;
+  padding: 1rem;
+}

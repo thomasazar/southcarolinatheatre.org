@@ -1,8 +1,8 @@
-<article class='post'>
-  <?php get_template_part('templates/page', 'header'); ?>
-  <section class='post__content'>
-    <?php get_template_part('templates/child-pages'); ?>
-    <?php get_template_part('templates/aside'); ?>
-    <?php the_content(); ?>
-  </section>
-</article>
+<?php get_template_part('templates/page', 'header'); ?>
+<aside class="aside">
+  <?php get_template_part('templates/page', 'attachments'); ?>
+  <?php get_template_part('templates/page', 'children'); ?>
+</aside>
+<section class="content">
+  <?php the_content(); ?>
+</section>

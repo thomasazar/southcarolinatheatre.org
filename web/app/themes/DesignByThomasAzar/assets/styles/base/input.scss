@@ -1,0 +1,29 @@
+input {
+  background-color: #f2f2f2;
+  outline: none;
+  border: 1px solid #cecece;
+  border-radius: 3px;
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 200px;
+
+  &[type=text],
+  &[type=textarea],
+  &[type=email] {
+    max-width: 350px;
+  }
+
+  &[type=number]::-webkit-outer-spin-button,
+  &[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  &[type=number] {
+    -moz-appearance:textfield;
+  }
+
+  &:focus {
+    border-color: lighten($color--primary, 25%);
+  }
+}

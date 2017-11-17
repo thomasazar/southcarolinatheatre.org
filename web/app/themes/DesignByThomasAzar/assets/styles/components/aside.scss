@@ -1,0 +1,16 @@
+.aside {
+  float: left;
+  grid-area: aside;
+  padding-right: 0.5rem;
+  border-right: 2px solid lighten($color--primary, 15%);
+  background: url('../images/scta-logo.jpg') center top no-repeat;
+  background-size: contain;
+
+  @media screen and (max-width: 800px) {
+    border-right: 0;
+  }
+  
+  @media screen and (min-width: 801px) {
+    min-height: 288px;
+  }
+}

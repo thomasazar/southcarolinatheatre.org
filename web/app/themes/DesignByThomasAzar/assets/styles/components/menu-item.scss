@@ -1,0 +1,57 @@
+.menu-item {
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  position: relative;
+  text-shadow: 1px 1px 1px transparentize(#000, 0.9);
+
+  @media screen and (max-width: 768px) {
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+  }
+
+  a {
+    color: #f2f2f2;
+  }
+
+  &--logo {
+    margin-right: auto;
+    padding: 0 1rem 0 0;
+  }
+
+  &:hover {
+    @media screen and (min-width: 769px) {
+      .sub-menu {
+        display: block;
+      }
+    }
+  }
+
+  &-has-children {
+    flex: auto;
+    height: 75px;
+    line-height: 75px;
+    margin: 0;
+    padding: 0;
+    transition: line-height 0.2s ease;
+
+    a {
+      color: $color--primary;
+      display: block;
+
+      &:hover {
+        text-decoration: none;
+        background: lighten($color--primary, 25%);
+      }
+    }
+
+    &:hover {
+      @include hasShadow;
+      background: lighten($color--primary, 15%);
+
+      a {
+        color: #d2d2d2;
+      }
+    }
+  }
+}

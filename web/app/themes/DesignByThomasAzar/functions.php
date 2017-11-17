@@ -1,42 +1,30 @@
 <?php
 /**
- * Sage includes
- *
- * The $sage_includes array determines the code library included in your theme.
- * Add or remove files to the array as needed. Supports child theme overrides.
- *
- * Please note that missing files will produce a fatal error.
- *
- * @link https://github.com/roots/sage/pull/1042
- */
+* Sage includes
+*
+* The $sage_includes array determines the code library included in your theme.
+* Add or remove files to the array as needed. Supports child theme overrides.
+*
+* Please note that missing files will produce a fatal error.
+*
+* @link https://github.com/roots/sage/pull/1042
+*/
 $sage_includes = [
-  // Admin stuff
-  'lib/admin/editor-styles.php',      // Custom styles for TinyMCE Editor
-  'lib/admin/forum-post-conditional-logic.php',     // Hide admin menu unless user is at least an Editor
-  'lib/admin/hide-admin-bar.php',     // Hide admin menu unless user is at least an Editor
-  'lib/admin/maps-shortcode.php',     // Add Logout to members_navigation
-  'lib/admin/members-navigation.php', // Add Logout to members_navigation
-  'lib/admin/remove-menu-pages.php', // Add Logout to members_navigation
-  'lib/admin/wpcf7-date.php',         // Enable JS date and number fallbacks
+  'lib/assets.php',     // Scripts and stylesheets
+  'lib/extras.php',     // Custom functions
+  'lib/setup.php',      // Theme setup
+  'lib/titles.php',     // Page titles
+  'lib/wrapper.php',    // Theme wrapper class
+  'lib/customizer.php', // Theme customizer
 
-  // Metaboxes
-  'lib/metabox/divisions.php',
-  'lib/metabox/hero.php',
+  'lib/functions.php',  // Custom functions for this theme
+  'lib/menus.php',      // Add custom items to menus
+  'lib/shortcodes.php', // Custom shortcodes
+  'lib/wp_head.php',    // Clean up <head> depending on shortcode usage
 
-  // Custom Post Types
-  'lib/post-types/divisions.php',  // Divisions
-  'lib/post-types/forum-post.php', // Forum posts
-  'lib/post-types/newsletter.php', // SC Curtain Call newsletter articles
-
-  // Taxonomies
-  'lib/taxonomies/forum-post-categories.php', // Forum post Categories
-
-  'lib/assets.php',    // Scripts and stylesheets
-  'lib/extras.php',    // Custom functions
-  'lib/setup.php',     // Theme setup
-  'lib/titles.php',    // Page titles
-  'lib/wrapper.php',   // Theme wrapper class
-  'lib/customizer.php' // Theme customizer
+  'lib/post-type/convention.php',
+  'lib/post-type/divisions.php',
+  'lib/post-type/events.php',
 ];
 
 foreach ($sage_includes as $file) {
@@ -47,3 +35,9 @@ foreach ($sage_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
+
+add_filter( 'wpcf7_form_elements', 'remove_attr_size' );
+function remove_attr_size( $content ) {
+  $content = preg_replace('/ size=".*?"/i', '', $content);
+  return $content;
+}
