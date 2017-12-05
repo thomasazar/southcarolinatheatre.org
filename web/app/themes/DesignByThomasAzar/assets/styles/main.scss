@@ -1,9 +1,11 @@
 @import "settings/variables";
+@import "settings/mixins";
 
 @import "tools/bourbon";
 @import "tools/mixins";
 
 @import "generic/bootstrap-reboot";
+@import "generic/typography";
 
 @import "base/body";
 @import "base/headings";
