@@ -7,7 +7,9 @@ function dbta_add_menu_item ( $items, $args ) {
     $href = esc_url(home_url('/'));
     $src  = get_template_directory_uri() . '/dist/images/scta-logo-transparent.png';
     $alt  = get_bloginfo('name');
-    $logo = "<li class='menu-item menu-item--logo'><a class='brand' href='$href'><img src='$src' alt='$alt'></a></li>";
+    $svg  = get_template_directory_uri() . '/dist/images/logo-no-text.svg';
+    $svg  = file_get_contents($svg);
+    $logo = "<li class='menu-item menu-item--logo'><a class='brand' href='$href'>$svg</a></li>";
 
     $items = $logo . $items;
   }
