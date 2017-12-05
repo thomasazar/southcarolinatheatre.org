@@ -19,4 +19,4 @@ web/.htaccess
 vendor/*
 !vendor/.gitkeep
 
-!web/app/plugins/dbta-post-types/*
+!web/app/plugins/dbta-post-types
