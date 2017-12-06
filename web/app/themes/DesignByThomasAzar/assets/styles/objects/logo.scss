@@ -1,0 +1,11 @@
+.logo {
+  pointer-events: none;
+
+  &--nav {
+    width: 75px;
+  }
+
+  &__link {
+    display: block;
+  }
+}
