@@ -1,4 +1,5 @@
+@include font-face('Lovelo', 'lovelo-black-webfont');
 @include font-face('PT Serif', 'pt_serif-web-regular-webfont');
-@include font-face('PT Serif', 'pt_serif-web-italic-webfont', $style: 'italic');
-@include font-face('PT Serif', 'pt_serif-web-bold-webfont', $weight: 'bold');
-@include font-face('PT Serif', 'pt_serif-web-bold-webfont', $weight: 'bold', $style: 'italic');
+@include font-face('PT Serif', 'pt_serif-web-bold-webfont', $weight: bold);
+@include font-face('PT Serif', 'pt_serif-web-italic-webfont', $style: italic);
+@include font-face('PT Serif', 'pt_serif-web-bolditalic-webfont', $weight: bold, $style: italic);
