@@ -1,11 +1,17 @@
 .logo {
   pointer-events: none;
+  max-width: 100%;
 
   &--nav {
-    width: 75px;
+    height: 55px;
+    padding: 0 1rem;
   }
 
   &__link {
-    display: block;
+    display: inherit;
+
+    &--mobile {
+      order: 1;
+    }
   }
 }
