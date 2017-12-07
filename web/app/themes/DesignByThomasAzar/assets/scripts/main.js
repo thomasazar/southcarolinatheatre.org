@@ -21,6 +21,14 @@
         // JavaScript to be fired on all pages
       },
       finalize: function() {
+        $(".mobile-menu__button").click(function() {
+          $(".banner__menus").toggleClass("open");
+          if ($(this).html() === "Menu") {
+            $(this).html("Close");
+          } else {
+            $(this).html("Menu");
+          }
+        });
         $("input[type='tel']").each(function(){
           $(this).on("change keyup paste", function (e) {
             var output,
