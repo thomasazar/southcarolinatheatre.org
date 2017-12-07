@@ -1,0 +1,6 @@
+.desktop-only {
+  @media screen and (max-width: 480px) {
+    display: none;
+    visibility: hidden;
+  }
+}
