@@ -5,8 +5,8 @@ add_filter( 'wp_nav_menu_items', 'dbta_add_menu_item', 10, 2 );
 function dbta_add_menu_item ( $items, $args ) {
   if ($args->theme_location == 'primary') {
     $href = esc_url(home_url('/'));
-    $svg  = get_template_directory_uri() . '/dist/images/logo-no-text.svg';
-    $logo = "<a class='menu-item menu-item--logo logo__link' href='$href'><object class='logo logo--nav' type='image/svg+xml' data='$svg'>SCTA</object></a>";
+    $svg  = get_template_directory_uri() . '/dist/images/logo-side-text.svg';
+    $logo = "<a class='logo__link desktop-only' href='$href'><object class='logo logo--nav' type='image/svg+xml' data='$svg'>SCTA</object></a>";
     $items = $logo . $items;
   }
 
