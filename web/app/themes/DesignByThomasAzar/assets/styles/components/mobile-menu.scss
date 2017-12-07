@@ -1,0 +1,20 @@
+.mobile-menu {
+  display: flex;
+  background: #f2f2f2;
+  color: $color--primary;
+  height: 70px;
+
+  &__logo {
+    flex: auto;
+    order: 1;
+    padding: 1rem 0.5rem;
+  }
+
+  &__button {
+    order: 2;
+    align-self: center;
+    margin-left: auto;
+    padding: 0 1rem;
+    font-family: "Lovelo", $georgia;
+  }
+}

@@ -5,10 +5,28 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 2rem;
+  position: relative;
 
-  &__nav {
+  &__menus {
     @include container;
-    text-align: right;
     font-family: 'Lovelo', $fontStack;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (max-width: 480px) {
+      transform: translateX(110%);
+      transition: .2s ease transform;
+      background: #f2f2f2;
+      position: absolute;
+      top: 70px;
+      width: 100%;
+      z-index: 2;
+      box-shadow: 0 3px 2px #333;
+
+      &.open {
+        transform: translateX(0);
+      }
+    }
   }
 }
