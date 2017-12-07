@@ -1,7 +1,8 @@
 body {
   background: #f2f2f2;
-  font-family: 'PT Serif', $georgia;
+  font-family: 'Nunito', $fontStack;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
