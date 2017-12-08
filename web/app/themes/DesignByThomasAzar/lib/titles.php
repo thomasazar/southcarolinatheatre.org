@@ -24,6 +24,7 @@ function title() {
   } else {
     if ($archive_link = get_post_type_archive_link(get_post_type($post))) {
       $archive_label = get_post_type_object(get_post_type($post))->label;
+      if ($archive_label == 'Posts') { $archive_label = 'News'; }
       echo '<a class="post__categoryLink" href="' . $archive_link . '">' . $archive_label . '</a> &raquo; ';
     }
     $parents = get_post_ancestors($post->ID);
