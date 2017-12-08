@@ -13,13 +13,6 @@
     .menu-item {
       width: 44%;
       display: inline-block;
-    }
-  }
-
-  @media screen and (max-width: 768px) {
-    justify-content: center;
-    .menu-item {
-      flex-wrap: nowrap;
       font-size: 0.8rem;
     }
   }
