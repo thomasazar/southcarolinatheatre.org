@@ -1,9 +1,8 @@
 <?php use function DesignByThomasAzar\Functions\get_menu; ?>
-<?php $frontpage = get_option('page_on_front'); ?>
-<?php $image = get_field('image', $frontpage); ?>
+<?php $image = get_field('image'); ?>
 <?php $background = $image['sizes']['large']; ?>
 
-<header class="banner">
+<header class="banner" style="background-image: linear-gradient(to bottom, rgba(0,103,140,0.75) 0%, rgba(61,170,213,0.5) 100%), url('<?= $background; ?>');">
     <section class="mobile-only mobile-menu">
       <?php $svg  = get_template_directory_uri() . '/dist/images/logo-side-text.svg'; ?>
       <a class="logo__link mobile-menu__logo" href="<?= esc_url(home_url('/')); ?>">

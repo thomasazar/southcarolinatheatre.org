@@ -16,7 +16,11 @@ use Roots\Sage\Wrapper;
     <![endif]-->
     <?php
       do_action('get_header');
-      get_template_part('templates/header');
+      if (is_front_page()) {
+        get_template_part('templates/header', 'front-page');
+      } else {
+        get_template_part('templates/header');
+      }
     ?>
     <main>
       <?php include Wrapper\template_path(); ?>
