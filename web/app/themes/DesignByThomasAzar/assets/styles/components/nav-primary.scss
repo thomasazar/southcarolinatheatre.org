@@ -4,16 +4,19 @@
   width: 100%;
   order: 2;
 
+  @media screen and (min-width: 481px) {
+    box-shadow: 0 2px 2px #333;
+  }
+
   @media screen and (max-width: 480px) {
     order: 1;
   }
 
-  > .menu-item {
+  .menu-item {
     flex: auto;
     height: 75px;
     line-height: 75px;
     padding: 0;
-    transition: line-height 0.2s ease;
 
     a {
       color: $color--primary;
