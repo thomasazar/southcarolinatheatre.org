@@ -1,6 +1,6 @@
 <?php
 $args = [
-  'post_type'   => 'page',
+  'post_type'   => 'any',
   'post_parent' => $post->ID,
   'post_status' => 'publish',
   'order'       => 'ASC',
