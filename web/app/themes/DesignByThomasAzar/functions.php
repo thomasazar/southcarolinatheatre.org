@@ -32,7 +32,9 @@ foreach ($sage_includes as $file) {
 }
 unset($file, $filepath);
 
-add_filter('show_admin_bar', '__return_false');
+if (!current_user_can('manage_options')) {
+  add_filter('show_admin_bar', '__return_false');
+}
 
 add_filter( 'wpcf7_form_elements', 'remove_attr_size' );
 function remove_attr_size( $content ) {
