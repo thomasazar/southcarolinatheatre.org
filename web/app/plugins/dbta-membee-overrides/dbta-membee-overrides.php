@@ -2,7 +2,7 @@
 /*
 Plugin Name: Membee overrides
 Description: Override stuff from Membee plugin
-Version: 1.0
+Version: 1.0.1
 Author: Design by Thomas Azar
 Author URI: https://design.thomasazar.net
 */
