@@ -21,6 +21,8 @@ function title() {
     return sprintf(__('Search Results for %s', 'sage'), get_search_query());
   } elseif (is_404()) {
     return __('Not Found', 'sage');
+  } elseif (bbp_is_single_topic()) {
+    return '<a class="post__categoryLink" href="/forums/">Forums</a> &raquo; <a href="' . bbp_get_forum_permalink() . '">' . bbp_get_forum_title() . '</a> &raquo;' . get_the_title();
   } else {
     if ($archive_link = get_post_type_archive_link(get_post_type($post))) {
       $archive_label = get_post_type_object(get_post_type($post))->label;
