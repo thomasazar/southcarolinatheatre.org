@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name:        Custom Post Types - maeganmcnerneyazar.com
+Plugin Name:        Custom Post Types - southcarolinatheatre.org
 Description:        A collection of custom post types for Maegan's website.
-Version:            1.0.0
+Version:            1.0.1
 Author:             Design by Thomas Azar
 Author URI:         https://design.thomasazar.net/
 */
