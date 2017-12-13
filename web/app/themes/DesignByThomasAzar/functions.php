@@ -32,6 +32,8 @@ foreach ($sage_includes as $file) {
 }
 unset($file, $filepath);
 
+add_filter('show_admin_bar', '__return_false');
+
 add_filter( 'wpcf7_form_elements', 'remove_attr_size' );
 function remove_attr_size( $content ) {
   $content = preg_replace('/ size=".*?"/i', '', $content);
