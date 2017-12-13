@@ -9,15 +9,14 @@ Author URI: https://design.thomasazar.net
 
 function membee_login_dbta( $atts ) {
   global $membee_options;
-  $default_destURL = urlencode('http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
+  $default_destURL = urlencode('https://www.southcarolinatheatre.org/my-profile/');
 	extract( shortcode_atts( array(
 		'type' => 'iframe',
     'destURL' => $default_destURL,
 	), $atts ) );
 
 	if (is_user_logged_in()) {
-	  wp_safe_redirect('https://www.southcarolinatheatre.org/my-profile/');
-    exit;
+	  return '<a href="'.wp_logout_url( 'https://memberservices.membee.com/feeds/Login/Logout.aspx?clientid='.$membee_options['membee_client_id'].'&appid='.$membee_options['membee_app_id'].'&returnURL='.urlencode('http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']) ).'">Log out</a>';
   } else {
     $membee = '';
     if ($_REQUEST['error']) $membee .= '<div id="membee-error-message">'.strip_tags(urldecode($_GET['error_description'])).'</div>';
