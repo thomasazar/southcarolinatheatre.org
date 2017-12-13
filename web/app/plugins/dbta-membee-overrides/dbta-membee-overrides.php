@@ -11,7 +11,7 @@ function membee_login_dbta( $atts ) {
   global $membee_options;
   $default_destURL = urlencode('http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
 	extract( shortcode_atts( array(
-		'type' => 'iframe'
+		'type' => 'iframe',
     'destURL' => $default_destURL,
 	), $atts ) );
 
