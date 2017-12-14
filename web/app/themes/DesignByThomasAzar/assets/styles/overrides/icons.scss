@@ -3,14 +3,9 @@
  */
 
 a[href$=".pdf"] {
-  position: relative;
-  margin-right: 34px;
-
   &::after {
-    content: '';
-    position: absolute;
-    right: -29px;
-    top: 1px;
+    display: inline-block;
+    margin-left: 0.5rem;
     background: url('../images/icons/pdf.png') no-repeat;
     background-size: contain;
     width: 24px;
