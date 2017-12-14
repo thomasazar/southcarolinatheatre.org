@@ -1,4 +1,5 @@
-input {
+input,
+textarea {
   background-color: #f2f2f2;
   outline: none;
   border: 1px solid #bbb;
@@ -26,4 +27,8 @@ input {
   &:focus {
     border-color: lighten($color--primary, 25%);
   }
+}
+
+textarea {
+  max-width: 350px;
 }
