@@ -30,3 +30,18 @@ function membee_login_dbta( $atts ) {
 }
 
 add_shortcode('membee_login_dbta', 'membee_login_dbta');
+
+add_shortcode('membee_event', 'dbta_membee_event');
+
+function dbta_membee_event($atts) {
+  $cid = '1134';
+  $wid = '801';
+  $a = shortcode_atts( array(
+        'event' => NULL,
+    ), $atts );
+    if ($a['event']) {
+      $src = 'https://memberservices.membee.com/feeds/events/event.aspx?id=' . $a['event'] . '&amp;cid=' . $cid . '&amp;wid=' . $wid;
+      $output = '<div class="iframe-holder"><iframe frameborder="0" src="' . $src .'"></iframe></div>';
+      return $output;
+    }
+}
