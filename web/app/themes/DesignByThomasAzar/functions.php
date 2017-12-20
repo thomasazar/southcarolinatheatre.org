@@ -21,6 +21,11 @@ $sage_includes = [
   'lib/menus.php',      // Add custom items to menus
   'lib/shortcodes.php', // Custom shortcodes
   'lib/wp_head.php',    // Clean up <head> depending on shortcode usage
+
+  // Custom Post Types
+  'lib/post-types/convention.php',
+  'lib/post-types/divisions.php',
+  'lib/post-types/events.php',
 ];
 
 foreach ($sage_includes as $file) {
