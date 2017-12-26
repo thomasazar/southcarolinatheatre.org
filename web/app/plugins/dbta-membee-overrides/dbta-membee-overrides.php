@@ -21,7 +21,7 @@ function membee_login_dbta( $atts ) {
     $membee = '';
     if ($_REQUEST['error']) $membee .= '<div id="membee-error-message">'.strip_tags(urldecode($_GET['error_description'])).'</div>';
     if ($type == 'iframe') {
-      $membee .= '<script src="https://memberservices.membee.com/feeds/Login/LoginFrameScript.ashx?clientid='.$membee_options['membee_client_id'].'&appid='.$membee_options['membee_app_id'].'&destURL='.$destURL.'" type="text/javascript"></script>';
+      $membee .= '<div class="iframe-holder>"<script src="https://memberservices.membee.com/feeds/Login/LoginFrameScript.ashx?clientid='.$membee_options['membee_client_id'].'&appid='.$membee_options['membee_app_id'].'&destURL='.$destURL.'" type="text/javascript"></script></div>';
     } else if ($type == 'flyout') {
       $membee .= '<a id="MembeeSignInLink" href="#">Sign In</a> <div id="MembeeSignInModal" />';
     }
