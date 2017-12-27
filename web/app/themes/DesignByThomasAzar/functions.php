@@ -37,7 +37,7 @@ foreach ($sage_includes as $file) {
 }
 unset($file, $filepath);
 
-if (!current_user_can('manage_options')) {
+if (!current_user_can('manage_categories')) {
   add_filter('show_admin_bar', '__return_false');
 }
 
