@@ -1,0 +1,41 @@
+.wpcf7-form,
+#acf-form {
+  margin: 0 0 2rem;
+  padding: 0.5rem;
+  background: #ededed;
+  border: 1px solid #dedede;
+  border-radius: 3px;
+
+  h3 {
+    border-bottom: 1px solid #dedede;
+    margin-top: 2rem;
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+
+  p {
+    margin-bottom: 1.25rem;
+  }
+  
+  label {
+    color: #5e5e5e;
+    font-size: 0.8rem;
+    display: block;
+    margin-bottom: 4px;
+
+    span {
+      padding-left: 1rem;
+      vertical-align: top;
+    }
+  }
+
+  .small {
+    width: 75px;
+  }
+
+  .medium {
+    width: 150px;
+  }
+}

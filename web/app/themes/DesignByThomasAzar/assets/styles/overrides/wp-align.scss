@@ -1,0 +1,24 @@
+.alignright {
+  float: right;
+  padding: 10px;
+}
+
+.alignleft {
+  float: left;
+  padding: 10px;
+}
+
+.aligncenter {
+  text-align: center;
+  padding: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .alignright, .alignleft, .aligncenter {
+    float: none;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+}

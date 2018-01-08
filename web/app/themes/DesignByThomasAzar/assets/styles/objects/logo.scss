@@ -1,0 +1,17 @@
+.logo {
+  pointer-events: none;
+  max-width: 100%;
+
+  &--nav {
+    height: 55px;
+    padding: 0 1rem;
+  }
+
+  &__link {
+    display: inherit;
+
+    &--mobile {
+      order: 1;
+    }
+  }
+}

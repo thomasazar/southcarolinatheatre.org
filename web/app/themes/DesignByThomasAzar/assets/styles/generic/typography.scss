@@ -1,0 +1,5 @@
+@include font-face('Lovelo', 'lovelo_black-webfont');
+@include font-face('Nunito', 'nunito-regular-webfont');
+@include font-face('Nunito', 'nunito-italic-webfont', $style: italic);
+@include font-face('Nunito', 'nunito-bold-webfont', $weight: bold);
+@include font-face('Nunito', 'nunito-bolditalic-webfont', $style: italic, $weight: bold);

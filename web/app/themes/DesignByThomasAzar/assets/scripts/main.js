@@ -1,14 +1,14 @@
 /* ========================================================================
- * DOM-based Routing
- * Based on http://goo.gl/EUTi53 by Paul Irish
- *
- * Only fires on body classes that match. If a body class contains a dash,
- * replace the dash with an underscore when adding it to the object below.
- *
- * .noConflict()
- * The routing is enclosed within an anonymous function so that you can
- * always reference jQuery with $, even when in .noConflict() mode.
- * ======================================================================== */
+* DOM-based Routing
+* Based on http://goo.gl/EUTi53 by Paul Irish
+*
+* Only fires on body classes that match. If a body class contains a dash,
+* replace the dash with an underscore when adding it to the object below.
+*
+* .noConflict()
+* The routing is enclosed within an anonymous function so that you can
+* always reference jQuery with $, even when in .noConflict() mode.
+* ======================================================================== */
 
 (function($) {
 
@@ -19,17 +19,38 @@
     'common': {
       init: function() {
         // JavaScript to be fired on all pages
-        $('.mobile-menu').click(function(e){
-          var nav_menu = $('.nav-menu');
-          var menu_button = $('.mobile-menu');
-          var text = menu_button.text();
-          nav_menu.stop();
-          nav_menu.toggleClass('open');
-          menu_button.text(text === 'Menu' ? 'Close' : 'Menu');
-        });
       },
       finalize: function() {
-        // JavaScript to be fired on all pages, after page specific JS is fired
+        $(".mobile-menu__button").click(function() {
+          $(".banner__menus").toggleClass("open");
+          if ($(this).html() === "Menu") {
+            $(this).html("Close");
+          } else {
+            $(this).html("Menu");
+          }
+        });
+        $("input[type='tel']").each(function(){
+          $(this).on("change keyup paste", function (e) {
+            var output,
+            $this = $(this),
+            input = $this.val();
+
+            if(e.keyCode !== 8) {
+              input = input.replace(/[^0-9]/g, '');
+              var area = input.substr(0, 3);
+              var pre = input.substr(3, 3);
+              var tel = input.substr(6, 4);
+              if (area.length < 3) {
+                output = "(" + area;
+              } else if (area.length === 3 && pre.length < 3) {
+                output = "(" + area + ")" + " " + pre;
+              } else if (area.length === 3 && pre.length === 3) {
+                output = "(" + area + ")" + " " + pre + "-" + tel;
+              }
+              $this.val(output);
+            }
+          });
+        });
       }
     },
     // Home page
@@ -46,75 +67,7 @@
       init: function() {
         // JavaScript to be fired on the about us page
       }
-    },
-    'commercial_expo_vendor': {
-      init: function() {
-        function update_total() {
-          var awards_donation = $("#awards-donation").val();
-          var registration = $("#registration input:checked").val();
-          if (registration === "$25 SCTA Member Organization") {
-            registration = 25;
-          } else {
-            registration = 100;
-          }
-          var additional_fees = $("#additional-fees input:checked").map(function () {
-            return this.value;
-          }).get();
-          switch (additional_fees.length) {
-            case 1:
-              additional_fees = 25;
-              break;
-            case 2:
-              additional_fees = 50;
-              break;
-            default:
-              additional_fees = 0;
-              break;
-          }
-          var total_payment = (+awards_donation) + (+registration) + (+additional_fees);
-          $('#total-payment-placeholder').html(total_payment);
-          $('#total-payment').val(total_payment);
-        }
-        $("#awards-donation").keyup(function(){
-          update_total();
-        });
-        $("#registration").change(function(){
-          update_total();
-        });
-        $("#additional-fees").change(function(){
-          update_total();
-        });
-      }
-    },
-    'single_divisions': {
-      init: function() {
-        console.log('single-divisions');
-        $('.maps').click(function () {
-          $('.maps__iframe').css("pointer-events", "auto");
-        });
-
-        $( ".maps" ).mouseleave(function() {
-          $('.maps__iframe').css("pointer-events", "none");
-        });
-      }
-    },
-    // About us page, note the change from about-us to about_us.
-    'registration': {
-      init: function() {
-        $('.tabs-content li').addClass('hidden');
-
-        $('.tabs a').click(function(e){
-          e.preventDefault();
-          if ($(this).hasClass("active")){ // Do nothing if active
-            return;
-          }
-          link = $(this).attr("href");
-          $(".tabs a").removeClass("active");
-          $(".tabs-content li").removeClass("active").addClass('hidden');
-          $(".tabs-content li" + link).removeClass('hidden').addClass("active");
-        });
-      }
-    },
+    }
   };
 
   // The routing fires all common scripts, followed by the page specific scripts.

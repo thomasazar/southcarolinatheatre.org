@@ -1,3 +1,5 @@
 <?php use Roots\Sage\Titles; ?>
 
-<h1 class="post__title"><?= Titles\title(); ?></h1>
+<header class="title">
+  <h1><?= Titles\title(); ?></h1>
+</header>

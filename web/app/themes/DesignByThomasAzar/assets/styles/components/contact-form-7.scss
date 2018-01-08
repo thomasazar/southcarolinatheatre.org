@@ -1,0 +1,9 @@
+.wpcf7-form {
+  display: flex;
+  flex-wrap: wrap;
+
+  .first-name,
+  .last-name {
+    width: 50%;
+  }
+}

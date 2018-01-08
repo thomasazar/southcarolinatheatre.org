@@ -17,6 +17,11 @@
         "scripts/customizer.js"
       ]
     },
+    "fonts.css": {
+      "files": [
+        "styles/fonts.scss"
+      ]
+    },
     "jquery.js": {
       "bower": ["jquery"]
     }
