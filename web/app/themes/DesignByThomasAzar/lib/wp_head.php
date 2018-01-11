@@ -32,4 +32,5 @@ function add_wpcf7_js(){
     }
   }
 }
+add_filter( 'wpcf7_load_js', '__return_false' );
 add_action( 'wp_head', 'add_wpcf7_js', 7 );
