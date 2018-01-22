@@ -21,7 +21,8 @@
     "build": "bower install && gulp",
     "jshint": "gulp jshint",
     "jscs": "jscs gulpfile.js assets/scripts/*.js",
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "watch": "gulp watch"
   },
   "engines": {
     "node": ">= 4.5"
