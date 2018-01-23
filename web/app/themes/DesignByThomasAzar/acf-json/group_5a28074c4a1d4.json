@@ -42,10 +42,10 @@
                     "mime_types": ""
                 },
                 {
-                    "key": "field_5a66059d5c2ff",
+                    "key": "field_5a6605a75c300",
                     "label": "Caption",
                     "name": "caption",
-                    "type": "text",
+                    "type": "wysiwyg",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
@@ -55,10 +55,10 @@
                         "id": ""
                     },
                     "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
+                    "tabs": "visual",
+                    "toolbar": "basic",
+                    "media_upload": 0,
+                    "delay": 0
                 },
                 {
                     "key": "field_5a66042862666",
@@ -76,9 +76,9 @@
                     "default_value": ""
                 },
                 {
-                    "key": "field_5a6605a75c300",
-                    "label": "Credit",
-                    "name": "credit",
+                    "key": "field_5a66059d5c2ff",
+                    "label": "Link text",
+                    "name": "link_text",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -131,5 +131,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1516635912
+    "modified": 1516724655
 }
