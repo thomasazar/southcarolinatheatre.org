@@ -18,10 +18,10 @@
     <h1><?= bloginfo('description'); ?></h1>
     <p>SCTA's vision is to transform the lives of all South Carolinians through theatre</p>
   </section>
-  <?php if ($hero['caption']) : ?>
+  <?php if ($hero['link_text']) : ?>
     <section class="photo-credit">
-      <a class="photo-credit__link" href="<?= $hero['image']['url']; ?>">
-        <?= $hero['caption']; ?>
+      <a class="photo-credit__link" href="<?= $hero['image']['sizes']['large']; ?>" data-caption="<?= $hero['caption']; ?>">
+        <?= $hero['link_text']; ?>
       </a>
     </section>
   <?php endif; ?>
