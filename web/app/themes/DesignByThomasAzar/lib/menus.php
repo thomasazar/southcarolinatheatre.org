@@ -6,7 +6,7 @@ function dbta_add_menu_item ( $items, $args ) {
   if ($args->theme_location == 'primary') {
     $href = esc_url(home_url('/'));
     $svg  = get_template_directory_uri() . '/dist/images/logo-side-text.svg';
-    $logo = "<a class='logo__link desktop-only' href='$href'><object class='logo logo--nav' type='image/svg+xml' data='$svg'>SCTA</object></a>";
+    $logo = "<a class='logo__link desktop-only' href='$href'><img class='logo logo--nav' src='$svg' alt='SCTA' description='SCTA logo'></a>";
     $items = $logo . $items;
   }
 

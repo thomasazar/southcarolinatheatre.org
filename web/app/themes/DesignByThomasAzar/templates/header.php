@@ -1,13 +1,10 @@
 <?php use function DesignByThomasAzar\Functions\get_menu; ?>
-<?php $frontpage = get_option('page_on_front'); ?>
-<?php $image = get_field('image', $frontpage); ?>
-<?php $background = $image['sizes']['large']; ?>
 
 <header class="banner">
     <section class="mobile-only mobile-menu">
       <?php $svg  = get_template_directory_uri() . '/dist/images/logo-side-text.svg'; ?>
       <a class="logo__link mobile-menu__logo" href="<?= esc_url(home_url('/')); ?>">
-        <object class="logo" type="image/svg+xml" data="<?= $svg; ?>">SCTA</object>
+        <img class="logo" src="<?= $svg; ?>" alt="SCTA" description="SCTA logo">
       </a>
       <a class="mobile-menu__button">Menu</a>
     </section>
