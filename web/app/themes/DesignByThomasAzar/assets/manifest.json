@@ -28,6 +28,6 @@
     }
   },
   "config": {
-    "devUrl": "http://southcarolinatheatre.dev"
+    "devUrl": "http://www.southcarolinatheatre.test"
   }
 }

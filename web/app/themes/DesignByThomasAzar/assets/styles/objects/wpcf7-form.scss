@@ -26,7 +26,6 @@
       margin-bottom: 4px;
 
       span {
-        padding-left: 1rem;
         vertical-align: top;
       }
     }
@@ -41,7 +40,19 @@
   }
 }
 
-.form-section {
+.mailing-address {
+  display: flex;
+  max-width: 350px;
 
+  > label::nth-child(1) {
+    width: 50%;
+  }
 
+  > label::nth-child(2) {
+    width: 15%;
+  }
+
+  > label::nth-child(3) {
+    width: 35%;
+  }
 }

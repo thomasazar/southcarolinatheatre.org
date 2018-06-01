@@ -4,7 +4,7 @@
   }
 
   label {
-    border: 1px solid #dedede;
+
     border-radius: 3px;
     text-align: center;
   }
@@ -20,11 +20,25 @@
   }
 
   .wpcf7-list-item {
-    margin: 0 1rem 0 0;
+    margin: 20px 1rem 0 0;
+    display: inline-block;
+  }
+
+  .wpcf7-list-item-label {
+    border: 1px solid #dedede;
   }
 }
 
 .wpcf7-list-item-label {
-  display: block;
   padding: 1rem;
+}
+
+input[type="checkbox"] {
+  display: inline;
+  width: auto;
+
+  + span.wpcf7-list-item-label {
+    display: inline;
+    padding-left: 4px;
+  }
 }

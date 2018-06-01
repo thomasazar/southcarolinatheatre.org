@@ -64,9 +64,46 @@
       }
     },
     // About us page, note the change from about-us to about_us.
-    'about_us': {
+    'vendors': {
       init: function() {
-        // JavaScript to be fired on the about us page
+
+      },
+      finalize: function() {
+        function update_total() {
+          var awards_donation = $("#awards-donation").val();
+          var registration = $("#registration input:checked").val();
+          if (registration === "$30 SCTA Member Organization") {
+            registration = 30;
+          } else {
+            registration = 150;
+          }
+          var additional_fees = [];
+          $('#additional-fees input:checked').each(function(i){
+            additional_fees[i] = $(this).val();
+          });
+          console.log(additional_fees.length);
+          if (additional_fees.length === 2) {
+            additional_fees = 60;
+          } else if (additional_fees[0] === "$25 SCTA Individual Adult membership") {
+            additional_fees = 25;
+          } else if (additional_fees[0] === "$35 SCTA 2017 Convention fee") {
+            additional_fees = 35;
+          } else {
+            additional_fees = 0;
+          }
+          var total_payment = (+awards_donation) + (+registration) + (+additional_fees);
+          $('#total-payment-placeholder').html(total_payment);
+          $('#total-payment').val(total_payment);
+        }
+        $("#awards-donation").keyup(function(){
+          update_total();
+        });
+        $("#registration").change(function(){
+          update_total();
+        });
+        $("#additional-fees").change(function(){
+          update_total();
+        });
       }
     }
   };
