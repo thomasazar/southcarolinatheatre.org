@@ -57,3 +57,6 @@ function ac_remove_cf7_scripts() {
 	wp_deregister_style( 'contact-form-7' );
 	wp_deregister_script( 'contact-form-7' );
 }
+
+// Remove automatic <p> and <br> from forms
+add_filter( 'wpcf7_autop_or_not', '__return_false' );
