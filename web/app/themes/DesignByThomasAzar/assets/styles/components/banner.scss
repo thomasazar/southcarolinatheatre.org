@@ -13,6 +13,10 @@
     display: flex;
     flex-direction: column;
 
+    a {
+      text-decoration: none;
+    }
+
     @media screen and (max-width: 480px) {
       transform: translateX(110%);
       transition: .2s ease transform;
