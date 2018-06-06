@@ -4,7 +4,8 @@
 @import "tools/bourbon";
 @import "tools/mixins";
 
-@import "generic/bootstrap-reboot";
+@import "generic/box-sizing";
+@import "generic/normalize";
 @import "generic/typography";
 
 @import "base/body";
@@ -25,20 +26,26 @@
 @import "objects/logo";
 @import "objects/nav-menu";
 
+@import "components/acceptance";
 @import "components/aside";
 @import "components/banner";
 @import "components/bbp-the-content";
 @import "components/content";
+@import "components/label";
+@import "components/mailing-address";
 //import "components/main-footer";
 @import "components/menu-item";
 @import "components/menu-login";
 @import "components/mobile-menu";
 @import "components/nav-primary";
 @import "components/nav-secondary";
+@import "components/phone";
 @import "components/photo-credit";
+@import "components/simple";
 @import "components/sub-menu";
 @import "components/tagline";
 @import "components/title";
+@import "components/wpcf7-checkbox";
 @import "components/wpcf7-form";
 @import "components/wpcf7-list-item";
 

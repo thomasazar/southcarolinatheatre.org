@@ -1,0 +1,18 @@
+.wpcf7-checkbox {
+  font-size: 0.85rem;
+  color: #555;
+  
+  .wpcf7-list-item {
+    display: block;
+
+    > label {
+      display: flex;
+      align-items: center;
+      margin-bottom: 8px;
+
+      .wpcf7-list-item-label {
+        margin-left: 4px;
+      }
+    }
+  }
+}

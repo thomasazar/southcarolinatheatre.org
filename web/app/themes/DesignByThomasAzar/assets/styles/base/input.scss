@@ -4,14 +4,13 @@ textarea {
   outline: none;
   border: 1px solid #bbb;
   border-radius: 3px;
-  padding: 0.5rem;
-  width: 100%;
-  max-width: 200px;
+  padding: 9px;
 
   &[type=text],
   &[type=textarea],
   &[type=email] {
-    max-width: 350px;
+    font-size: 1rem;
+    width: 100%;
   }
 
   &[type=number]::-webkit-outer-spin-button,

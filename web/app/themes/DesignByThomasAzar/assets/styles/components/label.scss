@@ -1,0 +1,21 @@
+.label {
+  display: block;
+  margin-top: 1.25rem;
+  font-size: 0.85rem;
+  color: #555;
+
+  .wpcf7-form-control-wrap {
+    display: block;
+    margin-top: 4px;
+  }
+
+  &--acceptance {
+    @extend .label;
+    display: flex;
+    align-items: flex-start;
+
+    > p {
+      margin: 4px;
+    }
+  }
+}
