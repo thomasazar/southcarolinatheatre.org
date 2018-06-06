@@ -1,6 +1,9 @@
 body {
   background: #f2f2f2;
   font-family: 'Nunito', $fontStack;
-  text-rendering: optimizeLegibility;  
+  text-rendering: optimizeLegibility;
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
