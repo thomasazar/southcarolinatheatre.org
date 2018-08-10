@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fd8092510e6a97068bb5277cdf2034e6",
+    "content-hash": "0ce13799d81e8486b6690465a07f3b43",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -538,6 +538,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/bbpress/"
+        },
+        {
+            "name": "wpackagist-plugin/cf7-repeatable-fields",
+            "version": "1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/cf7-repeatable-fields/",
+                "reference": "tags/1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/cf7-repeatable-fields.1.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/cf7-repeatable-fields/"
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
