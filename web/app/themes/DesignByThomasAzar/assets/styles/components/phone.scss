@@ -8,4 +8,12 @@
   > .wpcf7-form-control-wrap {
     margin: 41px 0 0 8px;
   }
+
+  > .label {
+    flex: auto;
+  }
+
+  > .label--name:not(:first-child) {
+    padding-right: 4px;
+  }
 }

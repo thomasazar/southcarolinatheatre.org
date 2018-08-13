@@ -23,6 +23,13 @@ textarea {
     -moz-appearance:textfield;
   }
 
+  &.show-spinner,
+  &.show-spinner::-webkit-outer-spin-button,
+  &.show-spinner::-webkit-inner-spin-button {
+    -moz-appearance: initial;
+    -webkit-appearance: none;
+  }
+
   &:focus {
     border-color: lighten($color--primary, 25%);
   }
