@@ -13,7 +13,7 @@
     flex: auto;
   }
 
-  > .label--name:not(:first-child) {
+  > .label:not(:first-child) {
     padding-right: 4px;
   }
 }
