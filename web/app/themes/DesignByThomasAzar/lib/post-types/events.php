@@ -32,6 +32,12 @@ function dbta_event() {
 		'items_list_navigation' => __( 'Event list navigation', 'sage' ),
 		'filter_items_list'     => __( 'Filter Event list', 'sage' ),
 	);
+	$rewrite = array(
+		'slug'                  => 'event',
+		'with_front'            => true,
+		'pages'                 => true,
+		'feeds'                 => true,
+	);
 	$args = array(
 		'label'                 => __( 'Event', 'sage' ),
 		'description'           => __( 'Event', 'sage' ),
@@ -50,6 +56,7 @@ function dbta_event() {
 		'has_archive'           => true,
 		'exclude_from_search'   => false,
 		'publicly_queryable'    => true,
+		'rewrite'								=> $rewrite,
 		'capability_type'       => 'post',
 	);
 	register_post_type( 'events', $args );
