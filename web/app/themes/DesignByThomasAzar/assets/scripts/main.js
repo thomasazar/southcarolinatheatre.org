@@ -72,10 +72,10 @@
         function update_total() {
           var awards_donation = $("#awards-donation").val();
           var registration = $("#registration input:checked").val();
-          if (registration === "$30 SCTA Member Organization") {
-            registration = 30;
+          if (registration === "$75 SCTA Member Organization") {
+            registration = 75;
           } else {
-            registration = 150;
+            registration = 200;
           }
           var additional_fees = [];
           $('#additional-fees input:checked').each(function(i){
@@ -86,7 +86,7 @@
             additional_fees = 60;
           } else if (additional_fees[0] === "$25 SCTA Individual Adult membership") {
             additional_fees = 25;
-          } else if (additional_fees[0] === "$35 SCTA 2017 Convention fee") {
+          } else if (additional_fees[0] === "$35 SCTA 2018 Convention fee") {
             additional_fees = 35;
           } else {
             additional_fees = 0;
