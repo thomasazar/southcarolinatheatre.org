@@ -8,7 +8,7 @@
       "./scripts/customizer.js"
     ]
   },
-  "publicPath": "/app/themes/dbta",
+  "publicPath": "/app/themes/DesignByThomasAzar",
   "devUrl": "http://www.southcarolinatheatre.test",
   "proxyUrl": "http://localhost:3000",
   "cacheBusting": "[name]_[hash:8]",
