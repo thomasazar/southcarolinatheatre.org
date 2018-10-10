@@ -83,17 +83,11 @@ add_filter('comments_template', function ($comments_template) {
 
 
 /**
- * Add SCTA logo to the Primary Navigation menu
+ * If the user is logged in, add a "My Profile" button,
+ * otherwise add a "Login" button to the secondary menu
  */
 
 add_filter('wp_nav_menu_items', function ($items, $args) {
-   if ($args->theme_location == 'primary') {
-     $href = esc_url(home_url('/'));
-     $svg  = get_template_directory_uri() . '/../dist/images/logo-side-text.svg';
-     $logo = "<a class='logo__link desktop-only' href='$href'><img class='logo logo--nav' src='$svg' alt='SCTA' description='SCTA logo'></a>";
-     $items = $logo . $items;
-   }
-
    if ($args->theme_location == 'secondary') {
      if (is_user_logged_in()) {
        $href = get_permalink(get_page_by_title('My Profile'));

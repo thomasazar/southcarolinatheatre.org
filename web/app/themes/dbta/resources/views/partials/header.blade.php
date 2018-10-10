@@ -7,13 +7,20 @@
 @endif
   <section class="mobile-only mobile-menu">
     <a class="logo__link mobile-menu__logo" href="{{ home_url('/') }}">
-      <img class="logo" src="@asset('logo-side-text.svg')" alt="SCTA logo">
+      <img class="logo" src="@asset('images/logo-side-text.svg')" alt="SCTA logo">
     </a>
     <a class="mobile-menu__button">Menu</a>
   </section>
   <section class="banner__menus">
     @if (has_nav_menu('primary'))
-      {!! wp_nav_menu(['theme_location' => 'primary', 'menu_class' => 'nav-menu nav-primary']) !!}
+      <ul class="nav-menu nav-primary">
+        <li>
+          <a class="logo__link desktop-only" href="{{ home_url('/') }}">
+            <img class="logo logo--nav" src="@asset('images/logo-side-text.svg')" alt="SCTA logo">
+          </a>
+        </li>
+        {!! wp_nav_menu(['theme_location' => 'primary', 'items_wrap' => '%3$s']) !!}
+      </ul>
     @endif
     @if (has_nav_menu('secondary'))
       {!! wp_nav_menu(['theme_location' => 'secondary', 'menu_class' => 'nav-menu nav-secondary']) !!}
