@@ -8,8 +8,8 @@
 @import "generic/normalize";
 @import "generic/typography";
 
-@import "base/body";
 @import "base/headings";
+@import "base/html";
 @import "base/iframe";
 @import "base/img";
 @import "base/input";
@@ -19,7 +19,10 @@
 @import "base/textarea";
 @import "base/ul";
 
-@import "objects/aside-list";
+@import "objects/content";
+@import "objects/links";
+@import "objects/title";
+
 @import "objects/button";
 @import "objects/container";
 @import "objects/iframe-holder";
@@ -30,7 +33,6 @@
 @import "components/aside";
 @import "components/banner";
 @import "components/bbp-the-content";
-@import "components/content";
 @import "components/label";
 @import "components/mailing-address";
 //import "components/main-footer";
@@ -44,7 +46,6 @@
 @import "components/simple";
 @import "components/sub-menu";
 @import "components/tagline";
-@import "components/title";
 @import "components/wpcf7-checkbox";
 @import "components/wpcf7-form";
 @import "components/wpcf7-list-item";
