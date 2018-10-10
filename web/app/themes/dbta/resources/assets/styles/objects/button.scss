@@ -1,0 +1,21 @@
+.button {
+  display: inline-block;
+  margin: 1rem auto;
+  padding: 1rem 2rem;
+  width: auto;
+  max-width: none;
+
+  background: $color--secondary;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px #999;
+
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &:active {
+    position: relative;
+    top: 1px;
+  }
+}

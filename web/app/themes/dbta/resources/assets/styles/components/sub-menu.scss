@@ -1,0 +1,27 @@
+.sub-menu {
+  @include hasShadow;
+  display: none;
+  z-index: 10;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  background: lighten($color--primary, 15%);
+  list-style: none;
+  padding: 0;
+
+  .menu-item {
+    margin: 0 0 0.5rem;
+    padding: 0;
+
+    line-height: normal;
+    height: auto;
+
+    font-size: 0.8rem;
+    text-align: left;
+
+    a {
+      padding: 0.5rem;
+    }
+  }
+}

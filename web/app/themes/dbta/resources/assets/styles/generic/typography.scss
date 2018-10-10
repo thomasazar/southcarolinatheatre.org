@@ -1,0 +1,5 @@
+@include font-face('Lovelo', 'lovelo_black-webfont');
+@include font-face('Lato', 'lato-regular-webfont');
+@include font-face('Lato', 'lato-italic-webfont', $style: italic);
+@include font-face('Lato', 'lato-bold-webfont', $weight: bold);
+@include font-face('Lato', 'lato-bolditalic-webfont', $style: italic, $weight: bold);

@@ -1,0 +1,24 @@
+.aside-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  &__item,
+  & > li {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    line-height: 1.3;
+    vertical-align: top;
+  }
+
+  @media screen and (max-width: 800px) {
+    &__item,
+    & > li {
+      display: inline-block;
+      width: 40%;
+      margin-right: 4%;
+      font-size: 0.9rem;
+    }
+  }
+}

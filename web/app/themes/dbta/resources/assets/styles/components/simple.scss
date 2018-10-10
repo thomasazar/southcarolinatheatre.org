@@ -1,0 +1,50 @@
+.simple {
+  color: #555;
+  margin-top: 4px;
+  display: flex;
+
+  label {
+    display: inline-block;
+    text-align: center;
+  }
+
+  input {
+    display: none;
+
+    &:checked {
+      + .wpcf7-list-item-label {
+        background: $color--secondary;
+      }
+    }
+  }
+
+  .wpcf7-list-item {
+    display: flex;
+    
+    .wpcf7-list-item-label {
+      padding: 0.5rem;
+      display: block;
+      border-style: solid;
+      border-color: #bbb;
+      border-width: 1px 0 1px 1px;
+      font-size: 0.85rem;
+      max-width: 100px;
+      height: 100%;
+    }
+
+    &:first-of-type {
+      .wpcf7-list-item-label {
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+      }
+    }
+
+    &:last-of-type {
+      .wpcf7-list-item-label {
+        border-right-width: 1px;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+      }
+    }
+  }
+}

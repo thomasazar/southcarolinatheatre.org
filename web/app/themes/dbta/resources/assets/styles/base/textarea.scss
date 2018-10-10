@@ -1,0 +1,14 @@
+textarea {
+  background-color: #f2f2f2;
+  outline: none;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 350px;
+  max-height: 100px;
+
+  &:focus {
+    border-color: lighten($color--primary, 25%);
+  }
+}
