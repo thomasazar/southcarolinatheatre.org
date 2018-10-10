@@ -29,9 +29,6 @@ class App extends Controller
         if (is_404()) {
             return __('Not Found', 'sage');
         }
-        if (bbp_is_single_topic()) {
-            return '<a class="post__categoryLink" href="/forums/">Forums</a> &raquo; <a href="' . bbp_get_forum_permalink() . '">' . bbp_get_forum_title() . '</a> &raquo;' . get_the_title();
-        }
         if (is_front_page()) {
             return;
         }
