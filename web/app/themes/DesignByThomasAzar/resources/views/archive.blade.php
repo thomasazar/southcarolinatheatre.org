@@ -2,7 +2,7 @@
 
 @section('content')
   @include ('partials.page-header')
-  <ul class="aside">
+  <ul class="links">
     @include ('partials.aside-archive-children')
   </ul>
   @include ('partials.content-archive')

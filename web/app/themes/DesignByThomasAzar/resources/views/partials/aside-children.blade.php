@@ -12,7 +12,7 @@
 @if ($children->have_posts())
   @while ($children->have_posts())
     @php $children->the_post() @endphp
-    <li class="aside-list__item">
+    <li class="links__item">
       <a href="{{ the_permalink() }}">
         @php the_title() @endphp
       </a>

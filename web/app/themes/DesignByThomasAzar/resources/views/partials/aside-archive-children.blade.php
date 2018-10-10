@@ -15,7 +15,7 @@
 @endphp
 
 @while ($query->have_posts()) @php $query->the_post() @endphp
-  <li class="aside-list__item">
+  <li class="links__item">
     <a href="{{ the_permalink() }}">
       @php the_title() @endphp
     </a>
