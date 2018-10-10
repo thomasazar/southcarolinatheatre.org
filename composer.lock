@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bf3ed996bce92180a9c64f8f60e1e18a",
+    "content-hash": "e646b8ba6ac82e4d4eb6ad27c325ba62",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -660,16 +660,16 @@
             "homepage": "https://wordpress.org/plugins/membees-member-login-widget/"
         },
         {
-            "name": "wpackagist-plugin/nginx-helper",
-            "version": "1.9.11",
+            "name": "wpackagist-plugin/wordpress-importer",
+            "version": "0.6.4",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/nginx-helper/",
-                "reference": "tags/1.9.11"
+                "url": "https://plugins.svn.wordpress.org/wordpress-importer/",
+                "reference": "tags/0.6.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/nginx-helper.1.9.11.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.6.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -677,7 +677,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/nginx-helper/"
+            "homepage": "https://wordpress.org/plugins/wordpress-importer/"
         }
     ],
     "packages-dev": [
