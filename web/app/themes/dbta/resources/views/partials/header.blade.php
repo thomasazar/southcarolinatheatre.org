@@ -33,8 +33,8 @@
     </section>
     @if ($hero['link_text'])
       <section class="photo-credit">
-        <a class="photo-credit__link" href="{{ $hero['image']['sizes']['large'] }}" data-caption="{!!  $hero['caption'] !!}">
-          {{ $hero['link_text'] }}
+        <a class="photo-credit__link" href="{{ $hero['image']['sizes']['large'] }}" data-caption="{{  $hero['caption'] }}">
+          {!! $hero['link_text'] !!}
         </a>
       </section>
     @endif
