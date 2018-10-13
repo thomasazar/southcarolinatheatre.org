@@ -139,5 +139,5 @@ add_action('after_setup_theme', function () {
 
 add_shortcode('logout', function ($atts) {
   $a = shortcode_atts([], $atts);
-  return '<a class="button" href="' . wp_logout_url(home_url()) . '">Logout</a>';
+  return '<a class="button" href="' . wp_logout_url(home_url('/')) . '">Logout</a>';
 });
