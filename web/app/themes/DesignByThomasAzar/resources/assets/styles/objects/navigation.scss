@@ -1,18 +1,50 @@
 .navigation {
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 3;
+  display: flex;
+  margin: 0 auto;
   width: 100%;
   max-width: 1000px;
-  margin: 0 auto;
+  font-family: 'Lovelo', $fontStack, sans-serif;
+  flex-direction: column;
 
-  &--about {
-    text-align: right;
-
-    a {
-      color: #f2f2f2;
-    }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
   }
 
   a {
-    margin: 0 1rem;
-    padding: 1rem;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: $mobileWidth) {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background: #f2f2f2;
+    padding: 1em 0;
+    transform: translate3d(0,-150%,0);
+    visibility: hidden;
+    transition: .25s ease all;
+    box-shadow: 0 3px 3px transparentize(#333, .3);
+
+    &.open {
+      transform: translate3d(0,0,0,);
+      visibility: visible;
+    }
+
+    a {
+      color: lighten($color--primary, 10%);
+    }
+
+    .nav-menu--secondary {
+      a {
+        color: #444;
+      }
+    }
   }
 }

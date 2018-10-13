@@ -4,7 +4,7 @@
     @php $post_id = get_sub_field('link', false, false) @endphp
     <li class="links__item">
       <a href="{{ get_the_permalink($post_id) }}">
-        {{ get_the_title($post_id) }}
+        {{ apply_filters('the_title', get_the_title($post_id)) }}
       </a>
     </li>
   @endwhile

@@ -1,14 +1,16 @@
 .links {
   grid-column: 1;
   grid-row: 2;
-  margin: 0;
+  margin: 1em 0;
   padding: 0 10px 0 0;
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: $mobileWidth) {
     border-bottom: 2px solid lighten($color--primary, 15%);
+    display: flex;
+    flex-wrap: wrap;
   }
 
-  @media screen and (min-width: 801px) {
+  @media screen and (min-width: $mobileWidth + 1px) {
     min-height: 288px;
     background: url('../images/scta-logo.png') top/contain no-repeat;
     border-right: 2px solid lighten($color--primary, 15%);
@@ -18,4 +20,8 @@
 .links__item {
   display: block;
   margin-bottom: 1em;
+
+  @media screen and (max-width: $mobileWidth) {
+    margin: 0.5em;
+  }
 }
