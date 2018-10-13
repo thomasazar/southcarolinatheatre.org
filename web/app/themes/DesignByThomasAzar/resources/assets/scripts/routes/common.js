@@ -4,8 +4,8 @@ export default {
   },
   finalize() {
     // JavaScript to be fired on all pages, after page specific JS is fired
-    $(".mobile-menu__button").click(function() {
-      $(".banner__menus").toggleClass("open");
+    $("#mobile-menu__button").click(function() {
+      $(".navigation").toggleClass("open");
       if ($(this).html() === "Menu") {
         $(this).html("Close");
       } else {
