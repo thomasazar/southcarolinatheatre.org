@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "94480b2ce8f284f5895c72979cc869f9",
+    "content-hash": "a7dcbc76edcdf8ad81f4ff6590452915",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -520,46 +520,6 @@
             "time": "2018-07-29T20:33:41+00:00"
         },
         {
-            "name": "wpackagist-plugin/cf7-repeatable-fields",
-            "version": "1.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/cf7-repeatable-fields/",
-                "reference": "tags/1.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cf7-repeatable-fields.1.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/cf7-repeatable-fields/"
-        },
-        {
-            "name": "wpackagist-plugin/contact-form-7",
-            "version": "5.0.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "tags/5.0.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.0.3.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/contact-form-7/"
-        },
-        {
             "name": "wpackagist-plugin/contact-form-cfdb7",
             "version": "1.2.3",
             "source": {
@@ -600,16 +560,16 @@
             "homepage": "https://wordpress.org/plugins/database-for-cf7/"
         },
         {
-            "name": "wpackagist-plugin/listo",
-            "version": "1.2.1",
+            "name": "wpackagist-plugin/happyforms",
+            "version": "1.6.11",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/listo/",
-                "reference": "tags/1.2.1"
+                "url": "https://plugins.svn.wordpress.org/happyforms/",
+                "reference": "tags/1.6.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/listo.1.2.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/happyforms.1.6.11.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -617,7 +577,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/listo/"
+            "homepage": "https://wordpress.org/plugins/happyforms/"
         },
         {
             "name": "wpackagist-plugin/membees-member-login-widget",
@@ -638,26 +598,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/membees-member-login-widget/"
-        },
-        {
-            "name": "wpackagist-plugin/wordpress-importer",
-            "version": "0.6.4",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wordpress-importer/",
-                "reference": "tags/0.6.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.6.4.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wordpress-importer/"
         }
     ],
     "packages-dev": [
