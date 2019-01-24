@@ -507,15 +507,15 @@
         },
         {
             "name": "wpackagist-plugin/happyforms",
-            "version": "1.6.17",
+            "version": "1.6.18",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/happyforms/",
-                "reference": "tags/1.6.17"
+                "reference": "tags/1.6.18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/happyforms.1.6.17.zip",
+                "url": "https://downloads.wordpress.org/plugin/happyforms.1.6.18.zip",
                 "reference": null,
                 "shasum": null
             },
