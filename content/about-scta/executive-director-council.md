@@ -1,5 +1,6 @@
 ---
 title: Executive Director Council
+weight: 10
 ---
 
 SCTA is pleased to announce a new initiative to provide leadership experience and gather constituent information to ensure we are fulfilling our mission to connect, create, and cultivate theatre in South Carolina. Participants on the Executive Director Council will be responsible for attending **three meetings annually** (two virtual/video conference meetings and one at the annual convention). You do not have to have a computer to participate in the virtual conference meetings, it is helpful but phone in is acceptable. The meetings will be scheduled as follows:

@@ -1,0 +1,9 @@
+{{ define "header" }}
+    <h1><a href="/news/">News</a> &raquo; {{ .Date.Format "January 2006" }}</h1>
+{{ end }}
+
+{{ define "main" }}
+    <div class="iframe-holder">
+        <iframe style="width: 100%; min-height: 750px;" src="{{ .Params.iframe }}" width="300" height="150">{{ .Date.Format "January 2006" }}</iframe>
+    </div>
+{{ end }}

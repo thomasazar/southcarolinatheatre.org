@@ -2,7 +2,7 @@
     {{ with .Parent }}
         {{ template "breadcrumb" . }}
         {{ if not .IsHome }}
-            <a href="{{ .URL }}">{{.Title}}</a> &raquo;
+            <a href="{{ .Permalink }}">{{.Title}}</a> &raquo;
         {{ end }}
     {{ end }}
 {{ end }}
