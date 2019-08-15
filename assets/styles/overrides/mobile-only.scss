@@ -1,0 +1,6 @@
+.mobile-only {
+  @media screen and (min-width: 481px) {
+    display: none;
+    visibility: hidden;
+  }
+}

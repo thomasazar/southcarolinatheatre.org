@@ -1,0 +1,14 @@
+.photo-credit {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 3px 10px;
+  background: lighten($color--primary, 15%);
+  font-size: 0.8rem;
+  text-transform: none;
+
+  &__link,
+  &__link:visited {
+    color: #f2f2f2;
+  }
+}

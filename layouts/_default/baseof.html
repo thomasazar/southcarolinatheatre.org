@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+{{ partial "head" . }}
+<body @php body_class() @endphp>
+    {{ partial "header" . }}
+    <main>
+        <header class="title">
+            <h1>
+                {{ partial "breadcrumb" . }}
+            </h1>
+        </header>
+        <ul class="links">
+            {{ range .Params.attachments }}
+                <li class="links__item">
+                    <a href="{{ .file }}">{{ .caption }}</a>
+                </li>
+            {{ end }}
+            {{ range .Pages }}
+                <li class="links__item">
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                </li>
+            {{ end }}
+        </ul>
+        <section class="content">
+            {{ block "main" . }}{{ end }}
+        </section>
+    </main>
+</body>
+</html>

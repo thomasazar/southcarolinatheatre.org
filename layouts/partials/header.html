@@ -1,0 +1,44 @@
+<header class="banner">
+    <nav class="mobile-menu">
+        <a href="/">
+            <img class="logo" src="/images/logo-side-text.svg" alt="SCTA logo">
+        </a>
+        <button id="mobile-menu__button">Menu</button>
+    </nav>
+    {{ if .IsHome }}
+        <div class="hero">
+            {{ $resources := ($.Site.GetPage "section" "uploads").Resources }}
+            {{ $hero := $resources.GetMatch .Params.hero }}
+            <img class="hero__image" src="{{ $hero.Permalink }}">
+        </div>
+    {{ end }}
+    <nav class="navigation">
+        <ul class="nav-menu nav-menu--primary">
+            <li class="logo-item">
+                <a href="/">
+                    <img class="logo" src="/images/logo-side-text.svg" alt="SCTA logo">
+                </a>
+            </li>
+            <ul class="nav-menu nav-menu--primary">
+                {{ range $.Site.Menus.main }}
+                    <li class="menu-item menu-item-has-children">
+                        <a href="{{ .URL }}">{{ .Name }}</a>
+                    </li>
+                {{ end }}
+            </ul>
+        </ul>
+        <ul id="menu-secondary-navigation" class="nav-menu nav-menu--secondary">
+            {{ range $.Site.Menus.secondary }}
+                <li class="menu-item">
+                    <a href="{{ .URL }}">{{ .Name }}</a>
+                </li>
+            {{ end }}
+        </ul>
+    </nav>
+    {{ if .IsHome }}
+        <section class="tagline">
+            <h1>{{ $.Site.Params.tagline }}</h1>
+            <p>Transforming the lives of all South Carolinians through theatre</p>
+        </section>
+    {{ end }}
+</header>

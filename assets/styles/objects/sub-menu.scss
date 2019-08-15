@@ -1,0 +1,28 @@
+.sub-menu {
+  display: none !important;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  background: lighten($color--primary, 15%);
+  padding: 0;
+
+  a {
+    color: #f2f2f2;
+  }
+
+  .menu-item {
+    margin: 0 0 0.5rem;
+    padding: 0;
+
+    line-height: normal;
+    height: auto;
+
+    font-size: 0.8rem;
+    text-align: left;
+
+    a {
+      padding: 0.5rem;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+/*
+ * These are icons that appear after a given element
+ */
+
+a[href$=".pdf"] {
+  &::after {
+    content: '';
+    display: inline-block;
+    margin-left: 0.5rem;
+    background: url('../images/icons/pdf.svg') no-repeat;
+    background-size: contain;
+    width: 1em;
+    height: 1em;
+  }
+}
