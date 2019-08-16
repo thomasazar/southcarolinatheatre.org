@@ -1,24 +1,7 @@
-<!doctype html>
-<html>
-{{ partial "head" . }}
-<body>
-    {{ partial "header" . }}
-    <main>
-        <header class="title">
-            <h1>
-                {{ partial "breadcrumb" . }}
-            </h1>
-        </header>
-        <ul class="links">
-            {{ range .Pages }}
-                <li class="links__item">
-                    <a href="{{ .Permalink }}">{{ .Date.Format "January 2006" }}</a>
-                </li>
-            {{ end }}
-        </ul>
-        <section class="content">
-            {{ block "main" . }}{{ end }}
-        </section>
-    </main>
-</body>
-</html>
+{{ define "aside" }}
+    {{ range .Pages }}
+        <li class="links__item">
+            <a href="{{ .Permalink }}">{{ .Date.Format "January 2006" }}</a>
+        </li>
+    {{ end }}
+{{ end }}

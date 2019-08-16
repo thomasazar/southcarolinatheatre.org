@@ -6,38 +6,38 @@ weight: 1
 
 ## Executive Committee
 
-- **President**  
-Marcus G. McIntyre  
+- **President**
+Marcus G. McIntyre
 *Coastal Carolina University*
-- **Vice-President**  
-Will Ragland  
+- **Vice-President**
+Will Ragland
 *Mill Town Players*
-- **Past President**  
-Harry Culpepper, Jr.  
+- **Past President**
+Harry Culpepper, Jr.
 *Woodmont High School*
-- **Secretary**  
-Angela Rogers  
+- **Secretary**
+Angela Rogers
 *Howe Hall Arts Infused Magnet School*
-- **Treasurer**  
-Charles Atkins III  
+- **Treasurer**
+Charles Atkins III
 *Phillip Simmons Middle School*
 
 ## Division Chairs
 
-- **College/University**  
-Joshua Webb  
+- **College/University**
+Joshua Webb
 *Coker College*
-- **Community**  
-Noah Taylor  
+- **Community**
+Noah Taylor
 *The Market Theatre Company*
-- **High School**  
-Matthew Ward  
+- **High School**
+Matthew Ward
 *Carolina Forest High School*
-- **Professional**  
-Blake White  
+- **Professional**
+Blake White
 *Lean Ensemble Theatre*
-- **Theatre for Youth**  
-Derek Pickens  
+- **Theatre for Youth**
+Derek Pickens
 *Cario Middle School*
 
 ## Program Committee
@@ -125,9 +125,9 @@ Derek Pickens
 
 ## Staff
 
-- Anita Sleeman, Executive Director  
-655H Fairview Road, Suite 258  
-Simpsonville, SC 29680  
-[864-844-8111](tel:864-844-8111) (phone/fax)  
-[864-380-6934](tel:864-380-6934) (cell)  
+- Anita Sleeman, Executive Director
+655H Fairview Road, Suite 258
+Simpsonville, SC 29680
+[864-844-8111](tel:864-844-8111) (phone/fax)
+[864-380-6934](tel:864-380-6934) (cell)
 E-Mail: [asleeman@southcarolinatheatre.org](mailto:asleeman@southcarolinatheatre.org)

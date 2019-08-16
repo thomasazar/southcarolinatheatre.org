@@ -5,20 +5,24 @@
     {{ partial "header" . }}
     <main>
         <header class="title">
-            <h1>
-                {{ partial "breadcrumb" . }}
-            </h1>
+            {{ block "header" . }}
+                <h1>
+                    {{ partial "breadcrumb" . }}
+                </h1>
+            {{ end }}
         </header>
         <ul class="links">
-            {{ range .Params.attachments }}
-                <li class="links__item">
-                    <a href="{{ .file }}">{{ .caption }}</a>
-                </li>
-            {{ end }}
-            {{ range .Pages }}
-                <li class="links__item">
-                    <a href="{{ .Permalink }}">{{ .Title }}</a>
-                </li>
+            {{ block "aside" . }}
+                {{ range .Params.attachments }}
+                    <li class="links__item">
+                        <a href="{{ .file }}">{{ .caption }}</a>
+                    </li>
+                {{ end }}
+                {{ range where .Pages "Parent.RelPermalink" "eq" $.RelPermalink }}
+                     <li class="links__item">
+                         <a href="{{ .Permalink }}">{{ .Title }}</a>
+                     </li>
+                {{ end }}
             {{ end }}
         </ul>
         <section class="content">

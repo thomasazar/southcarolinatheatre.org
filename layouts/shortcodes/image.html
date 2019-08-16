@@ -1,0 +1,6 @@
+{{ $file := .Get 0 }}
+{{ $float := .Get 1 }}
+{{ if eq $float nil }}
+    {{ $float = "center" }}
+{{ end }}
+<img src="/uploads/{{ $file }}" class="align{{ $float | default "center" }}">

@@ -39,7 +39,7 @@ Board Members are also expected to actively participate in the SCTA at a committ
 
 ### Board Meetings
 
-Board meetings are outlined in the SCTA rules. Board Members are expected to be on time to board meetings; the President will make every effort to adjourn the meeting in a timely manner. If a Board Member misses meetings without an excuse deemed valid by the current President, they may be relieved of their duties as a Board member. The Board will be updated regularly and asked to make governance decisions about SCTA operations and finances as well as committee activities. 
+Board meetings are outlined in the SCTA rules. Board Members are expected to be on time to board meetings; the President will make every effort to adjourn the meeting in a timely manner. If a Board Member misses meetings without an excuse deemed valid by the current President, they may be relieved of their duties as a Board member. The Board will be updated regularly and asked to make governance decisions about SCTA operations and finances as well as committee activities.
 
 ### Committee reports
 

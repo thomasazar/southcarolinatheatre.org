@@ -1,0 +1,11 @@
+{{ define "main" }}
+    {{ $pid := 401}}
+    {{ if eq .Title "Individual" }}
+        {{ $pid = 1001 }}
+    {{ else if eq .Title "Student" }}
+        {{ $pid = 301 }}
+    {{ end }}
+    <div class="iframe-holder">
+        <iframe id="membeeProfile301" src="https://memberservices.membee.com/feeds/newprofile/NewMember.aspx?cid=1134&amp;pid={{ $pid }}&amp;retval=" style="height: 2399px;" width="100%" frameborder="0"> </iframe>
+    </div>
+{{ end }}
