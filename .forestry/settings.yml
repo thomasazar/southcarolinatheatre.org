@@ -15,11 +15,6 @@ sections:
   templates:
   - news-item
 - type: directory
-  path: content/uploads
-  label: Uploads
-  create: all
-  match: "**/*"
-- type: directory
   path: content/about-scta
   label: About scta
   create: all
