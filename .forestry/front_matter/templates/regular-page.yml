@@ -32,6 +32,7 @@ fields:
     field: has_attachments
     value: true
 pages:
+- content/about-scta/donate.md
 - content/divisons/theatre-for-youth.md
 - content/events/_index.md
 - content/events/theatre-for-youth-festival/_index.md
