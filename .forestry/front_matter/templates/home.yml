@@ -1,4 +1,16 @@
 ---
 label: Home
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  default: Home
+  hidden: true
+- name: hero
+  type: file
+  config:
+    maxSize: 250
+  label: Splash image
