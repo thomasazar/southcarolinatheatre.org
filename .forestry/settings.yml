@@ -16,7 +16,7 @@ sections:
   - news-item
 - type: directory
   path: content/about-scta
-  label: About scta
+  label: About SCTA
   create: all
   match: "**/*"
 - type: directory
