@@ -4,7 +4,15 @@ hide_body: true
 fields:
 - type: datetime
   name: date
-  label: date
+  label: Date
+  config:
+    date_format: MM YYYY
+    export_format: YYYY-MM-DD
+    required: true
+  description: eg., April 2019
 - type: text
   name: iframe
-  label: iframe
+  label: Link
+  description: Paste the link to the newsletter here
+  config:
+    required: true
