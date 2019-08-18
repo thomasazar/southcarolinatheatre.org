@@ -1,4 +1,14 @@
 ---
 label: Membee page
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: membee_link
+  type: text
+  config:
+    required: true
+  label: Membee link
