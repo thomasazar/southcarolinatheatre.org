@@ -17,4 +17,5 @@ fields:
   config:
     required: true
 pages:
+- content/news/2019-06.md
 - content/news/2019-05.md
