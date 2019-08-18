@@ -12,3 +12,5 @@ fields:
   config:
     required: false
   label: Google Forms link
+pages:
+- content/convention/register/vendors.md
