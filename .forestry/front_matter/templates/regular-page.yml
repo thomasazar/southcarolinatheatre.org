@@ -32,6 +32,7 @@ fields:
     field: has_attachments
     value: true
 pages:
+- content/events/theatre-for-youth-festival/_index.md
 - content/convention/hotels.md
 - content/convention/_index.md
 - content/divisons/theatre-for-youth.md
