@@ -8,11 +8,6 @@ sections:
   path: content/_index.md
   label: Home page
 - type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
-- type: directory
   path: content/news
   label: News
   create: documents
