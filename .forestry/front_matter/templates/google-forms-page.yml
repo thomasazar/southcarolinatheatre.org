@@ -20,5 +20,6 @@ fields:
   default: google-forms
   hidden: true
 pages:
+- content/convention/register/propose-a-workshop.md
 - content/convention/register/college-recruting-and-exhibits.md
 - content/convention/register/vendors.md
