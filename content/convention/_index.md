@@ -37,13 +37,14 @@ Each year, South Carolina Theatre Association invites theatre lovers from across
 * **SETC Screening Auditions  
   Open**: September 16, 2019  
   **Deadline**: October 24, 2019
-* **Conference Registration Group  
-  Open**: July 1, 2019  
-  **Deadline**: September 11, 2019  
-  **Payment Deadline**: Oct. 2, 2019
-* **Individual**  
-  **Open**: July 1, 2019  
-  **Deadline**: None, Available through conference, late fees apply
+* **Conference Registration**
+  * **Group  
+    Open**: July 1, 2019  
+    **Deadline**: September 11, 2019  
+    **Payment Deadline**: Oct. 2, 2019
+  * **Individual**  
+    **Open**: July 1, 2019  
+    **Deadline**: None, Available through conference, late fees apply
 * **Playbill Information Form  
   Open**: July 1, 2019  
   **Deadline**: Oct. 2, 2019
