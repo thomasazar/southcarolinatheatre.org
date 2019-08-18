@@ -12,3 +12,5 @@ fields:
   config:
     required: true
   label: Membee link
+pages:
+- content/convention/register/register.md
