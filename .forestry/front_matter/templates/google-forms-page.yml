@@ -20,4 +20,5 @@ fields:
   default: google-forms
   hidden: true
 pages:
+- content/convention/register/college-recruting-and-exhibits.md
 - content/convention/register/vendors.md
