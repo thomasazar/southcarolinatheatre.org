@@ -1,4 +1,14 @@
 ---
 label: Google Forms page
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: google_forms_link
+  type: text
+  config:
+    required: false
+  label: Google Forms link
