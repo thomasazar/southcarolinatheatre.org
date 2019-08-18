@@ -13,4 +13,4 @@ fields:
     required: true
   label: Membee link
 pages:
-- content/convention/register/register.md
+- content/convention/register/_index.md
