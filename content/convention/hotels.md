@@ -2,6 +2,9 @@
 attachments = []
 has_attachments = false
 title = "Hotels"
+[menu.main]
+parent = "Convention"
+weight = 2
 
 +++
 ![Raines Hospitality logo](/uploads/raines.png)
