@@ -14,9 +14,9 @@ SCTA invites you to join us at our annual convention for workshops, networking a
 If you find yourself in need of assistance in any capacity, whether it’s with a unit or lesson plan in the classroom, choosing your next show at your school or theatre, or anything else you can think of, please don’t hesitate to get in touch!
 
 Best,  
- Derek T. Pickens  
- _Theatre for Youth Division Chair_
+Derek T. Pickens  
+_Theatre for Youth Division Chair_
 
 ## About Derek T. Pickens
 
-![Derek Pickens](https://www.southcarolinatheatre.org/app/uploads/2017/12/PickensHeadshot-240x300.jpg =240x300)Derek is the theatre teacher at Cario Middle School in Mount Pleasant. He is also a member of the Charleston Stage Professional Acting Ensemble, which performs out of the Historic Dock Street Theatre in downtown Charleston. Derek, originally from Maryland, has taught and performed across the country but after landing a job with Charleston Stage, he fell in love with Charleston and this beautiful state, and decided to make it his home when his contract was up. He has been teaching in the Charleston County School District for the past four years at the elementary and middle school levels. Derek received his BA in Theatre Education from Greensboro College in North Carolina, and his MFA in Performance from the Savannah College of Art and Design in Georgia. He is absolutely thrilled to be a part of the South Carolina Theatre Association.
+![Derek Pickens](https://www.southcarolinatheatre.org/app/uploads/2017/12/PickensHeadshot-240x300.jpg =240x300)Derek is the theatre teacher at Charleston County School of the Arts. He is also a member of the Charleston Stage Professional Acting Ensemble, which performs out of the Historic Dock Street Theatre in downtown Charleston. Derek, originally from Maryland, has taught and performed across the country but after landing a job with Charleston Stage, he fell in love with Charleston and this beautiful state, and decided to make it his home when his contract was up. He has been teaching in the Charleston County School District for the past four years at the elementary and middle school levels. Derek received his BA in Theatre Education from Greensboro College in North Carolina, and his MFA in Performance from the Savannah College of Art and Design in Georgia. He is absolutely thrilled to be a part of the South Carolina Theatre Association.
