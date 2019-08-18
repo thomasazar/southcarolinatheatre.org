@@ -1,0 +1,10 @@
+---
+label: News item
+hide_body: true
+fields:
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: iframe
+  label: iframe
