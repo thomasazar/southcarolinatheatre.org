@@ -1,6 +1,6 @@
 ---
 title: Convention
-weight: "1"
+weight: 1
 menu:
   main:
     weight: 1
