@@ -7,7 +7,7 @@ fields:
   config:
     required: false
   label: Title
-- name: google_forms_link
+- name: iframe
   type: text
   config:
     required: false
