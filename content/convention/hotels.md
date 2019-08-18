@@ -1,4 +1,6 @@
 +++
+attachments = []
+has_attachments = false
 title = "Hotels"
 
 +++
@@ -8,8 +10,7 @@ South Carolina Theatre Association has selected Raines Hospitality to serve as o
 
 ## **Hotels offering a special group rate**
 
-* Courtyard Florence
-
+* Courtyard Florence  
   $104 per night **(Central host hotel)**
 * SpringHill Suites Florence  
   $104 per night
