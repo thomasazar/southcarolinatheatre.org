@@ -7,6 +7,31 @@ fields:
   config:
     required: true
   label: Title
+- name: has_attachments
+  type: boolean
+  label: Has attachments?
+- name: attachments
+  type: field_group_list
+  fields:
+  - name: file
+    type: file
+    config:
+      maxSize: 250
+    label: File
+  - name: caption
+    type: text
+    config:
+      required: false
+    label: Caption
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Attachments
+  showOnly:
+    field: has_attachments
+    value: true
 pages:
-- content/convention/hotels.md
 - content/convention/_index.md
+- content/divisons/theatre-for-youth.md
+- content/convention/hotels.md
