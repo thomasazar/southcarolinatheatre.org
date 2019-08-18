@@ -2,6 +2,9 @@
 draft = true
 has_attachments = false
 title = "Theatre for Youth"
+[menu.main]
+parent = "Divisions"
+weight = 1
 [[attachments]]
 caption = ""
 file = ""

@@ -1,5 +1,8 @@
 ---
 title: Divisions
-menu: main
-weight: 2
+weight: "2"
+menu:
+  main:
+    weight: 2
+
 ---
