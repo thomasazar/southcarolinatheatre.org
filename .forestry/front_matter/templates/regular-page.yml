@@ -8,5 +8,5 @@ fields:
     required: true
   label: Title
 pages:
-- content/convention/hotels.md
 - content/convention/_index.md
+- content/convention/hotels.md
