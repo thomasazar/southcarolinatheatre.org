@@ -8,5 +8,6 @@ fields:
     required: true
   label: Title
 pages:
+- content/divisons/theatre-for-youth.md
 - content/convention/_index.md
 - content/convention/hotels.md
