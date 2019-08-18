@@ -28,7 +28,7 @@ Each year, South Carolina Theatre Association invites theatre lovers from across
 * [**Workshop Proposal Form**](https://www.southcarolinatheatre.org/convention/propose-a-workshop/)  
   **Open**: May 1, 2019  
   **Deadline**: Aug. 1, 2019
-* [**_Play Entry Form_**](https://forms.gle/4TDYDLcD38mPFL8QA)  
+* [**Play Entry Form**](register/festival-intent-to-participate/)  
   **Open**: May 5, 2019  
   **Deadline**: Aug. 21, 2019
 * **Scholarship Form  
