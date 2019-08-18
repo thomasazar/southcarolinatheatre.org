@@ -15,3 +15,5 @@ fields:
   name: caption
   label: Caption
   description: Photography credit and information for splash image
+pages:
+- content/_index.md
