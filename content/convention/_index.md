@@ -21,13 +21,13 @@ Each year, South Carolina Theatre Association invites theatre lovers from across
 * [**Commercial Exhibitors Registration**](https://www.southcarolinatheatre.org/convention/register/vendors/)  
   **Open**: May 1, 2019  
   **Deadline**: Oct. 2, 2019
-* [**Recruiting College Exhibitor Registration**](https://www.southcarolinatheatre.org/convention/register/college-recruiting-and-exhibits/)  
+* [**Recruiting College Exhibitor Registration**](register/college-recruting-and-exhibits/)  
   **Open**: May 1, 2019  
   **Deadline**: Oct. 2, 2019
 * [**Conference & Festivals Program Advertising**](https://www.southcarolinatheatre.org/about-scta/support-scta/index.html)[  
   ](https://www.virginiatheatre.org/sponsor-advertise)**Open**: May 1, 2019  
   **Deadline**: Oct. 2, 2019
-* [**Workshop Proposal Form**](https://www.southcarolinatheatre.org/convention/propose-a-workshop/)  
+* [**Workshop Proposal Form**](register/propose-a-workshop/)  
   **Open**: May 1, 2019  
   **Deadline**: Aug. 1, 2019
 * [**Play Entry Form**](register/festival-intent-to-participate/)  
