@@ -8,7 +8,7 @@ attachments:
   caption: Rules (revised January 1, 2019)
 menu:
   secondary:
-    weight: 2
+    weight: 3
 
 ---
 In 2017, SCTA (South Carolina Theatre Association) celebrated 50 years of work in creating, connecting, and cultivating theatre in South Carolina.  The South Carolina Theatre Association, a subset of the Southeastern Theatre Conference, was founded on September 23, 1967 in Greenwood, South Carolina, by the 30 delegates representing community and educational theaters in South Carolina. SETC appointed Phillip Hill to be its representative in South Carolina, who worked diligently alongside SCTA’s first President, Donald McKellar, to call the meeting to order, appoint a committee to create a constitution, and elect officers.
