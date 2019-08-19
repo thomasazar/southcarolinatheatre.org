@@ -44,6 +44,7 @@ fields:
       path: 
   label: Links
 pages:
+- content/divisions/theatre-for-youth/_index.md
 - content/about-scta/donate.md
 - content/events/_index.md
 - content/events/theatre-for-youth-festival/_index.md

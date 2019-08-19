@@ -1,5 +1,6 @@
 +++
 has_attachments = false
+links = "events/theatre-for-youth-festival/_index.md"
 title = "Theatre for Youth"
 [[attachments]]
 caption = ""
