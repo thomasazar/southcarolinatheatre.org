@@ -31,7 +31,7 @@ Executive Director Council Member duties:
 
 ## Want to join?
 
-Submit your application today by emailing Executive Director Anita Sleeman with the following information:
+Submit your application today by emailing [Executive Director Anita Sleeman](mailto:asleeman@southcarolinatheatre.org) with the following information:
 
 * Name
 * Email

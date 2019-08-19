@@ -1,9 +1,6 @@
 +++
 has_attachments = false
 title = "Theatre for Youth"
-[menu.main]
-parent = "Divisions"
-weight = 2
 [[attachments]]
 caption = ""
 file = ""
