@@ -32,16 +32,24 @@ fields:
     field: has_attachments
     value: true
 - name: links
-  type: select
-  default: []
+  type: field_group_list
+  fields:
+  - name: link
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: 
+        file: 
+        path: 
+    label: Link
   config:
-    required: false
-    options: []
-    source:
-      type: pages
-      section: 
-      file: 
-      path: 
+    min: 
+    max: 
+    labelField: 
   label: Links
 pages:
 - content/divisions/theatre-for-youth/_index.md
