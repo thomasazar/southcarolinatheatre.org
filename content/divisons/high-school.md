@@ -4,7 +4,7 @@ has_attachments = false
 title = "High School"
 [menu.main]
 parent = "Divisions"
-weight = 2
+weight = 1
 
 +++
 **Division Chair:** Matt Ward, [matt.ward82@gmail.com](mailto:matt.ward82@gmail.com)
