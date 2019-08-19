@@ -1,10 +1,11 @@
 {{ $resources := ($.Site.GetPage "section" "uploads").Resources }}
 {{ $file := $resources.GetMatch (.Get 0) }}
 {{ $image := $file }}
-{{ $float := .Get 1 | default nil }}
+{{ $float := .Get 1 | default "center" }}
 {{ $thumb := .Get 2 | default nil }}
+{{ $alt := .Get 3 | default nil }}
 {{ if $thumb }}
     {{ $image = $file.Resize "223x" }}
 {{ else }}
 {{ end }}
-<img src="{{ $image.Permalink }}" class="align{{ $float | default "center" }}">
+<img src="{{ $image.Permalink }}" alt="{{ $alt | safeHTMLAttr }}" class="align{{ $float }}">
