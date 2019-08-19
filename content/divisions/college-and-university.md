@@ -1,11 +1,7 @@
-+++
-attachments = []
-draft = true
-has_attachments = false
-title = "College and University"
-
-+++
-**Division Chair:** Josh Webb, [jwebb@coker.edu](mailto:jwebb@coker.edu)
+---
+title: College and University
+---
+**Division Chair:** Josh Webb, <mailto:jwebb@coker.edu>
 
 The College and University Division of SCTA is committed to the cultivation and promotion of theatre and theatre artists at the full variety of educational institutions across South Carolina. We are committed to providing opportunities for faculty, staff, and students to learn and connect with each other and professional companies throughout the state and region through our association with SETC and in-state professional auditions.
 
@@ -15,10 +11,10 @@ For faculty, we provide an opportunity to connect with high school students from
 
 As your division chair, I would be thrilled to hear from any of you regarding any questions or suggestions on how to improve the convention experience for you and your students. I am looking forward to seeing you all in Anderson this fall!
 
-Sincerely,  
- Josh Webb  
- _College and University Division Chair, SCTA_  
- _Associate Professor of Theatre, Coker College_
+Sincerely,\
+Josh Webb\
+_College and University Division Chair, SCTA_\
+_Associate Professor of Theatre, Coker College_
 
 ## About Josh Webb
 
