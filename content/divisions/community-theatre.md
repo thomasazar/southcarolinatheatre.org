@@ -14,3 +14,15 @@ The Community Theatre Division of SCTA is committed to connecting, creating, and
 * The Community Theatre Division’s flagship program is the annual **Community Theatre Festival**. South Carolina’s community theatres are invited to submit and perform one-hour productions at the convention each fall. This offers theatres the opportunity to share their work with other artists, receive professional feedback, and compete for awards in acting, design, direction, and overall production. Winners at the SCTA Community Theatre Festival will move on to represent South Carolina at SETC (the Southeastern Theatre Conference) and possibly at AACT (the American Association of Community Theatre).
 
 Whether you are part of a community theatre that’s new to SCTA, a veteran organization, or you’re starting a new community theatre, let SCTA’s Community Theatre Division help you connect, cultivate, and create in 2019.
+
+Sincerely,
+
+Noah Taylor\
+Community Theatre Division Chair, SCTA\
+_Executive Artistic Director, The Market Theatre Company_
+
+## About Noah Taylor
+
+![Noah Taylor](/uploads/noah-taylor-240x300.jpg)
+
+Noah Taylor is the Executive Artistic Director of The Market Theatre Company in downtown Anderson, SC. He also founded and serves as Executive Artistic Director of Anderson’s 24 Hour Musical, which produces an annual show to benefit local charities such as the Anderson Free Clinic, Meals on Wheels, the Cancer Association of Anderson, and others. Noah also serves as a producer of Anderson’s Shakespeare in the Park and the Anderson Theatre Festival. He graduated from the South Carolina School of the Arts at Anderson University in 2012 with a degree in Theatre and Graphic Design. Noah was recently selected as one of the Anderson Independent Mail’s 20 Under 40 rising community leaders. He enjoys working as a graphic designer and commercial photo retoucher in addition to directing, designing, and producing for theatre. Some of his favorite directing credits include Next to Normal, Sweeney Todd, Almost, Maine, and Willy Wonka. He is thrilled to serve the South Carolina Theatre Association, and looks forward to bringing the annual convention to his hometown in 2018.
