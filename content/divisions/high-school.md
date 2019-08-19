@@ -1,15 +1,9 @@
-+++
-attachments = []
-has_attachments = false
-title = "High School"
-[menu.main]
-parent = "Divisions"
-weight = 1
+---
+title: High School
+---
+**Division Chair:** Matt Ward, <mailto:matt.ward82@gmail.com>
 
-+++
-**Division Chair:** Matt Ward, [matt.ward82@gmail.com](mailto:matt.ward82@gmail.com)
-
-**Division Vice Chair:** Blair Dawkins, [dawkinsbb@spart6.org](mailto:dawkinsbb@spart6.org)
+**Division Vice Chair:** Blair Dawkins, <mailto:dawkinsbb@spart6.org>
 
 I want to take this opportunity to invite all of you and your students to participate in the annual High School Theatre Festival which will be held in conjunction with the SCTA Convention, November 14-17, at Francis Marion University in Florence, South Carolina. All schools participating may receive individual trophies, and the productions and actors will be eligible for numerous awards. The adjudicators will select the first, second, and third place productions, and the first and second place productions will represent South Carolina at the SETC Festival in March 2020. The Southeastern Theatre Conference, of which SCTA is an affiliate, is the largest theatre organization in the United States and offers teachers and students four full days of invaluable workshops, master classes, performances, college auditions, scholarships and opportunities for networking. The Festival showcases the talent of more than 700 students from 100+ schools, in 30 productions.
 
@@ -17,11 +11,11 @@ At the SCTA Festival, schools from all across the state come together to share t
 
 New Participants – The Play Festival can seem complicated and overwhelming at first, but we are here to help. If you are a new participant this year and have any questions, please contact us and we will talk you through the process and can even connect you with an experienced teacher to help in your first year.
 
-Other opportunities for you and your students include our Annual Unified Auditions held in February and the HS Improv Tourney held in May. Also, mark your calendars to join us on May 18th in Greenville for the Annual Awards Celebration.
+Other opportunities for you and your students include our Annual Unified Auditions held in February. Also, mark your calendars to join us on May 18th in Greenville for the Annual Awards Celebration.
 
-Sincerely,  
-Matt Ward  
-_High School Theatre Division Chair, SCTA_  
+Sincerely,\
+Matt Ward\
+_High School Theatre Division Chair, SCTA_\
 _Carolina Forest High School_
 
 Helpful Links:
@@ -36,9 +30,7 @@ Helpful Links:
 
 ## About Matt Ward
 
-{{< image "matt-ward.jpeg" "left" "thumb" >}}
-
-Dr. Matt Ward has been a member of the faculty at Carolina Forest High School since 2012 where he teaches Piano, Musical Theatre and AP Music Theory. He is the International Thespian Society troupe sponsor and also a co-director of the competition drama team. He has served on the board for the South Carolina Theatre Association as the high school division chair and South Carolina Thespians. He is a graduate of UNC-Greensboro, the University of Illinois, West Virginia University and the University of South Carolina.​
+{{< image "matt-ward.jpeg" "left" "thumb" >}} Dr. Matt Ward has been a member of the faculty at Carolina Forest High School since 2012 where he teaches Piano, Musical Theatre and AP Music Theory. He is the International Thespian Society troupe sponsor and also a co-director of the competition drama team. He has served on the board for the South Carolina Theatre Association as the high school division chair and South Carolina Thespians. He is a graduate of UNC-Greensboro, the University of Illinois, West Virginia University and the University of South Carolina.​
 
 ## About Blair Dawkins
 
