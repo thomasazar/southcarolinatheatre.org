@@ -21,25 +21,10 @@ collections:
     label: "News" # Used in the UI
     folder: "content/news" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    identifier_field: "date"
     editor:
       preview: false
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Order", name: "weight", widget: "number"}
-      - label: "Footer"
-        name: "footer"
-        widget: "object"
-        fields:
-          - {label: "Where", name: "where", widget: "string"}
-          - {label: "When", name: "when", widget: "string"}
-          - label: "Footer"
-            name: "footer"
-            widget: "object"
-            fields:
-              - {label: "Link", name: "link", widget: "string"}
-              - {label: "Text", name: "text", widget: "string"}
-              - {label: "Phone", name: "phone", widget: "string"}
-          - {label: "Director", name: "director", widget: "string"}
-          - {label: "Featuring", name: "featuring", widget: "string"}
+      - {label: "Date", name: "date", widget: "YYYY-MMM"}
+      - {label: "Adobe newsletter link", name: "iframe", widget: "string"}
+      
