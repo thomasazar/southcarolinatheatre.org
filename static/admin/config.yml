@@ -49,5 +49,5 @@ collections:
       preview: false
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Membee link", name: "iframe", widget: "string"}
+      - {label: "Membee link", name: "iframe", widget: "string", required: "false"}
       - {label: "Content", name: "body", widget: "markdown"}
