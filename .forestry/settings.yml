@@ -12,6 +12,7 @@ sections:
   label: News
   create: documents
   match: "**/*"
+  exclude: "_index.md"
   templates:
   - news-item
 - type: directory
