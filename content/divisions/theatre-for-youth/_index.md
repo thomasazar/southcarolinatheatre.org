@@ -4,6 +4,8 @@ title = "Theatre for Youth"
 [[attachments]]
 caption = ""
 file = ""
+[[links]]
+link = "events/theatre-for-youth-festival/_index.md"
 
 +++
 **Division Chair:** Derek T. Pickens, [derek_pickens@charleston.k12.sc.us](mailto:derek_pickens@charleston.k12.sc.us)
