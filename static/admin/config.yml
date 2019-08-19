@@ -26,6 +26,6 @@ collections:
     editor:
       preview: false
     fields: # The fields for each document, usually in front matter
-      - {label: "Date", name: "date", widget: "date", format: "MMMM YYYY"}
+      - {label: "Date", name: "date", widget: "date", format: "YYYY-MM-DD"}
       - {label: "Adobe newsletter link", name: "iframe", widget: "string"}
       
