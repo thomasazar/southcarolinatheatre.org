@@ -6,10 +6,9 @@ fields:
   name: date
   label: Date
   config:
-    date_format: MM YYYY
+    date_format: MMMM YYYY
     export_format: YYYY-MM-DD
     required: true
-  description: eg., April 2019
 - type: text
   name: iframe
   label: Link
