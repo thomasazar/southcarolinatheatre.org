@@ -4,7 +4,7 @@ membee_link = "https://memberservices.membee.com/feeds/events/event.aspx?id=139&
 title = "Register"
 [menu.main]
 parent = "Convention"
-weight = 1
 type = "membee"
+weight = 1
 
 +++

@@ -2,3 +2,10 @@
 title: South Carolina Theatre Association
 params:
   tagline: Connect. Create. Cultivate.
+menu:
+  main:
+  - name: Theatre for Youth
+    parent: Divisions
+    weight: 2
+  - name: Divisions
+    weight: 2
