@@ -1,0 +1,72 @@
+backend:
+  name: git-gateway
+  branch: netlify-cms
+publish_mode: editorial_workflow
+site_url: https://www.thomasazar.net
+logo_url: https://www.thomasazar.net/uploads/logo.svg
+media_folder: "content/uploads"
+public_folder: "/uploads"
+collections:
+  - name: "pages"
+    label: "Pages"
+    folder: "content"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Order", name: "weight", widget: "number"}
+      - {label: "Content", name: "body", widget: "markdown"}
+      - {label: "Menu", name: "menu", widget: "hidden", default: "main"}
+  - name: "news" # Used in routes, e.g., /admin/collections/blog
+    label: "News" # Used in the UI
+    folder: "content/news" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    editor:
+      preview: false
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Order", name: "weight", widget: "number"}
+      - label: "Footer"
+        name: "footer"
+        widget: "object"
+        fields:
+          - {label: "Where", name: "where", widget: "string"}
+          - {label: "When", name: "when", widget: "string"}
+          - label: "Footer"
+            name: "footer"
+            widget: "object"
+            fields:
+              - {label: "Link", name: "link", widget: "string"}
+              - {label: "Text", name: "text", widget: "string"}
+              - {label: "Phone", name: "phone", widget: "string"}
+          - {label: "Director", name: "director", widget: "string"}
+          - {label: "Featuring", name: "featuring", widget: "string"}
+  - name: "galleries"
+    label: "Galleries"
+    folder: "content/media" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    editor:
+      preview: false
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Order", name: "weight", widget: "number"}
+      - {label: "Venue", name: "venue", widget: "string"}
+      - {label: "City", name: "city", widget: "string"}
+      - {label: "Director", name: "director", widget: "string"}
+      - {label: "Photos by", name: "photos_by", widget: "string"}
+      - {label: "Role", name: "role", widget: "string"}
+      - {label: "Logo", name: "svg", widget: "image"}
+      - {label: "Logo direction", name: "logo", widget: "select", options: ["east", "north", "northeast", "northwest", "southeast", "south", "southwest", "west"]}
+      - label: "Images"
+        name: "images"
+        widget: "list"
+        fields:
+          - {label: "File", name: "file", widget: "image"}
+          - {label: "Caption", name: "caption", widget: "string"}
+          - {label: "Major?", name: "major", widget: "boolean", default: false}
+      
