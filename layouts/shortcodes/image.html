@@ -1,6 +1,10 @@
-{{ $file := .Get 0 }}
-{{ $float := .Get 1 }}
-{{ if eq $float nil }}
-    {{ $float = "center" }}
+{{ $resources := ($.Site.GetPage "section" "uploads").Resources }}
+{{ $file := $resources.GetMatch (.Get 0) }}
+{{ $image := $file }}
+{{ $float := .Get 1 | default nil }}
+{{ $thumb := .Get 2 | default nil }}
+{{ if $thumb }}
+    {{ $image = $file.Resize "223x" }}
+{{ else }}
 {{ end }}
-<img src="/uploads/{{ $file }}" class="align{{ $float | default "center" }}">
+<img src="{{ $image.Permalink }}" class="align{{ $float | default "center" }}">
