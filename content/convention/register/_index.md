@@ -5,5 +5,6 @@ title = "Register"
 [menu.main]
 parent = "Convention"
 weight = 1
+type = "membee"
 
 +++
