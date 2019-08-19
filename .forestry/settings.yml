@@ -25,7 +25,7 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/divisons
+  path: content/divisions
   label: Divisons
   create: all
   match: "**/*"
