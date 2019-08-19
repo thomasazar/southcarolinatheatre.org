@@ -1,5 +1,10 @@
 ---
 title: High School
+links:
+- link: convention/register/festival-intent-to-participate.md
+has_attachments: false
+attachments: []
+
 ---
 **Division Chair:** Matt Ward, <mailto:matt.ward82@gmail.com>
 
