@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   branch: hugo
-publish_mode: editorial_workflow
+#publish_mode: editorial_workflow
 #site_url: https://www.thomasazar.net
 #logo_url: https://www.thomasazar.net/uploads/logo.svg
 media_folder: "content/uploads"
