@@ -46,6 +46,14 @@ fields:
         file: 
         path: 
     label: Link
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+    description: "(Optional) Rename this link to something else"
+    showOnly:
+      field: link
   config:
     min: 
     max: 
