@@ -46,16 +46,10 @@ fields:
         file: 
         path: 
     label: Link
-  - name: title
-    type: text
-    config:
-      required: false
-    label: Title
-    description: "(Optional) Rename this link to something else"
   config:
     min: 
     max: 
-    labelField: 
+    labelField: link
   label: Links
 pages:
 - content/divisions/high-school/_index.md
