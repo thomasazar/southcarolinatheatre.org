@@ -32,6 +32,7 @@ fields:
     field: has_attachments
     value: true
 pages:
+- content/divisons/college-and-university.md
 - content/divisons/high-school.md
 - content/about-scta/donate.md
 - content/divisons/theatre-for-youth.md
