@@ -52,6 +52,7 @@ fields:
     labelField: link
   label: Links
 pages:
+- content/divisions/professional/_index.md
 - content/divisions/high-school/_index.md
 - content/divisions/theatre-for-youth/_index.md
 - content/about-scta/donate.md
