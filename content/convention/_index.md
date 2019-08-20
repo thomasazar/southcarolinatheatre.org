@@ -3,6 +3,7 @@ title: Convention
 weight: 1
 has_attachments: false
 attachments: []
+links: []
 menu:
   main:
     weight: 1
@@ -24,7 +25,7 @@ Each year, South Carolina Theatre Association invites theatre lovers from across
 * [**Recruiting College Exhibitor Registration**](register/college-recruting-and-exhibits/)  
   **Open**: May 1, 2019  
   **Deadline**: Oct. 2, 2019
-* [**Conference & Festivals Program Advertising**](https://www.southcarolinatheatre.org/about-scta/support-scta/index.html)[  
+* [**Conference & Festivals Program Advertising**](/about-scta/donate/)[  
   ](https://www.virginiatheatre.org/sponsor-advertise)**Open**: May 1, 2019  
   **Deadline**: Oct. 2, 2019
 * [**Workshop Proposal Form**](register/propose-a-workshop/)  
