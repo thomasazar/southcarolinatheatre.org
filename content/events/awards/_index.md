@@ -5,6 +5,8 @@ links = []
 title = "Awards"
 
 +++
+![SCTA Awards Party logo](/uploads/SCTA-Awards-Logo.png)
+
 ## 2020 Awards Party at Furman University
 
 Saturday, February 22, 2020  
