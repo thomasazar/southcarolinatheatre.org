@@ -1,5 +1,11 @@
 ---
 title: College and University
+links:
+- link: convention/register/propose-a-workshop.md
+- link: convention/register/college-recruting-and-exhibits.md
+has_attachments: false
+attachments: []
+
 ---
 **Division Chair:** Josh Webb, <mailto:jwebb@coker.edu>
 
