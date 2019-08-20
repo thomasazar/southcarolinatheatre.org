@@ -52,6 +52,7 @@ fields:
     labelField: link
   label: Links
 pages:
+- content/events/awards/previous-award-winners.md
 - content/events/awards/awards.md
 - content/events/cultivate-series.md
 - content/divisions/college-and-university/_index.md
