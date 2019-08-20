@@ -52,6 +52,7 @@ fields:
     labelField: link
   label: Links
 pages:
+- content/events/cultivate-series.md
 - content/divisions/college-and-university/_index.md
 - content/divisions/professional/_index.md
 - content/divisions/high-school/_index.md
