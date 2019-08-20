@@ -26,7 +26,7 @@ The Outstanding Theatre Educator Award is given to the K-12 theatre educator, co
 
 ### Deborah Smith Hoffman Outstanding Mentor Teacher Award
 
-The outstanding mentor teacher award shall be a plaque awarded to that K-12 theatre educator judged to have contributed the most to rising, new, and even experienced theatre educators in South Carolina during the year most recently concluded. The “year” for the purposes of making this award shall run from July 1- June 30, and the award shall be presented at the SCTA convention immediately following the end of the year for which it is conferred.
+The outstanding mentor teacher award shall be a plaque awarded to that K-12 theatre educator judged to have contributed the most to rising, new, and even experienced theatre educators in South Carolina during the year most recently concluded.
 
 ### SC Theatre of Distinction Award
 
