@@ -21,7 +21,7 @@
                 {{ range .Params.links }}
                     {{ with $.Site.GetPage .link }}
                         <li class="links__item">
-                            <a href="/{{ .Permalink }}">{{ .Title }}</a>
+                            <a href="{{ .Permalink }}">{{ .Title }}</a>
                         </li>
                     {{ end }}
                 {{ end }}
