@@ -2,3 +2,7 @@
 title: South Carolina Theatre Association
 params:
   tagline: Connect. Create. Cultivate.
+menu:
+  secondary:
+  - name: News
+    weight: 2

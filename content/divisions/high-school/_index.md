@@ -5,6 +5,10 @@ links:
   title: High School Festival
 has_attachments: false
 attachments: []
+menu:
+  main:
+    weight: 3
+    parent: Divisions
 
 ---
 **Division Chair:** Matt Ward, <mailto:matt.ward82@gmail.com>

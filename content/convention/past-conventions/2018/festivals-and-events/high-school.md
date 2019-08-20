@@ -1,9 +1,5 @@
 ---
 title: High School
-menu:
-  main:
-    weight: 3
-    parent: Divisions
 
 ---
 Thank you to everyone who participated in the 2018 High School Theatre Festival. Congratulations to all the award winners!
