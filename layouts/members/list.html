@@ -1,0 +1,8 @@
+{{ define "main" }}
+    {{ if .Params.iframe }}
+        {{ partial "iframe" . }}
+    {{ end }}
+    {{ if .Params.script }}
+        {{ partial "script" . }}
+    {{ end }}
+{{ end }}
