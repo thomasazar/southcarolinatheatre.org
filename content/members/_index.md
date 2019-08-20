@@ -1,4 +1,4 @@
 ---
-title: Login
-script: https://memberservices.membee.com/feeds/Login/LoginFrameScript.ashx?clientid=1134&appid=1908&destURL=https%3A%2F%2Fwww.southcarolinatheatre.org%2Fmy-profile%2F
+title: My Profile
+script: https://memberservices.membee.com/feeds/Profile/ProfileScript.ashx?cid=1134&pid=5501
 ---
