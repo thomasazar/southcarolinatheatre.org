@@ -1,5 +1,10 @@
 ---
 title: Community Theatre
+menu:
+  main:
+    weight: 2
+    parent: Divisions
+
 ---
 **Division Chair**: Noah Taylor, <mailto:j.noah.taylor@gmail.com>
 
