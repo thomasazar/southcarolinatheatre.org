@@ -3,7 +3,7 @@ title: Membership
 weight: "4"
 menu:
   secondary:
-    weight: 4
+    weight: 3
 
 ---
 Each member of SCTA chooses to select one of five divisions to serve as its primary interest:
