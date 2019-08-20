@@ -1,8 +1,5 @@
 [build]
-  base = "/"
-
-  publish = "public/"
-
+  base = ""
+  publish = "public"
   command = "hugo --gc --minify"
-
   environment = { HUGO_VERSION = "0.57.2" }
