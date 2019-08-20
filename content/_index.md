@@ -4,7 +4,7 @@ hero: HonkyTonk-26.jpg
 caption: ''
 
 ---
-## Convention 2019: Theatre 4 You
+## Convention 2019: Theatre 4 Everyone
 
 It's right around the corner -- Convention 2019 is coming to Francis Marion University! [Register today](/convention/) to be a part of the conversation!
 
