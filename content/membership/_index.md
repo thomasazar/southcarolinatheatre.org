@@ -1,6 +1,5 @@
 ---
 title: Membership
-weight: "4"
 menu:
   secondary:
     weight: 4

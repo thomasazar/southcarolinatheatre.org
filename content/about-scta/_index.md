@@ -1,6 +1,5 @@
 ---
 title: About SCTA
-weight: "2"
 attachments:
 - file: By-laws-rev.-11-10-2018-1.pdf
   caption: By-Laws (revised November 11, 2018)
