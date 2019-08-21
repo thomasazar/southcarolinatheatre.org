@@ -1,6 +1,6 @@
 ---
 title: Home
-hero: HonkyTonk-26.jpg
+hero: "/uploads/Logo-Theatre-for-Everyone-300x181.jpg"
 caption: ''
 
 ---
