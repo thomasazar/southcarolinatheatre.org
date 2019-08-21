@@ -49,8 +49,4 @@
 
     {{ $js := resources.Get "scripts/main.js" | minify | fingerprint }}
     <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}" defer async></script>
-
-    {{ if .IsHome }}
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    {{ end }}
 </head>
