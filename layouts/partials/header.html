@@ -8,8 +8,13 @@
     {{ if .IsHome }}
         <div class="hero">
             {{ $resources := ($.Site.GetPage "section" "uploads").Resources }}
-            {{ $hero := $resources.GetMatch .Params.hero }}
-            <img class="hero__image" src="{{ $hero.Permalink }}">
+            {{ $splash := $resources.GetMatch .Params.hero }}
+            {{ $splash300 := $splash.Resize "300x" }}
+            {{ $splash768 := $splash.Resize "768x" }}
+            {{ $splash1024 := $splash.Resize "1024x" }}
+            <img src="{{ $splash.Permalink }}" class="hero__image" alt="{{ .Params.caption }}"
+                 srcset="{{ $splash.Permalink }} 4292w, {{ $splash300.Permalink}} 300w, {{ $splash768.Permalink}} 768w, {{ $splash1024.Permalink }} 1024w"
+                 sizes="(max-width: 4292px), 100vw, 4292px">
         </div>
     {{ end }}
     <nav class="navigation">
