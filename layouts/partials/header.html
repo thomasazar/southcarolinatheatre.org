@@ -8,7 +8,7 @@
     {{ if .IsHome }}
         <div class="hero">
             {{ $resources := ($.Site.GetPage "section" "uploads").Resources }}
-            {{ $splash := $resources.GetMatch .Params.hero }}
+            {{ $splash := $resources.GetMatch (strings.TrimPrefix "/uploads/" .Params.hero) }}
             {{ $splash300 := $splash.Resize "300x" }}
             {{ $splash768 := $splash.Resize "768x" }}
             {{ $splash1024 := $splash.Resize "1024x" }}
