@@ -1,6 +1,6 @@
 ---
 title: Home
-hero: HonkyTonk-26.jpg
+hero: "/uploads/HonkyTonk-26.jpg"
 caption: ''
 
 ---

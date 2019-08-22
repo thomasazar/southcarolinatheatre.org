@@ -8,6 +8,21 @@ sections:
   path: content/_index.md
   label: Home page
 - type: directory
+  path: content/convention
+  label: Convention
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/divisions
+  label: Divisions
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/events
+  label: Events
+  create: all
+  match: "**/*"
+- type: directory
   path: content/news
   label: News
   create: documents
@@ -23,21 +38,6 @@ sections:
 - type: directory
   path: content/membership
   label: Membership
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/divisions
-  label: Divisions
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/convention
-  label: Convention
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/events
-  label: Events
   create: all
   match: "**/*"
 upload_dir: content/uploads
