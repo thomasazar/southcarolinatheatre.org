@@ -1,9 +1,0 @@
-/* TEAM */
-Designer and developer: Thomas Azar
-Site: design.thomasazar.net
-Email: design [at] thomasazar [dot net]
-Location: South Carolina, USA
-
-/* THANKS */
-Jordan Koschei: jordankoschei.com
-The Roots team: roots.io
