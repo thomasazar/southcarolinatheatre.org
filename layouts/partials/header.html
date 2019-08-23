@@ -14,7 +14,7 @@
             {{ $splash1024 := $splash.Resize "1024x" }}
             {{ $splash1500 := $splash.Resize "1500x"}}
             <img src="{{ $splash1500.Permalink }}" class="hero__image" alt="{{ .Params.caption }}"
-                 srcset="{{ $splash1500.Permalink }} 4292w, {{ $splash300.Permalink}} 300w, {{ $splash768.Permalink}} 768w, {{ $splash1024.Permalink }} 1024w"
+                 srcset="{{ $splash1500.Permalink }} 1500w, {{ $splash300.Permalink}} 300w, {{ $splash768.Permalink}} 768w, {{ $splash1024.Permalink }} 1024w"
                  sizes="(max-width: 4292px), 100vw, 4292px">
         </div>
     {{ end }}
