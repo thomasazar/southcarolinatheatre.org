@@ -1,6 +1,7 @@
 +++
 attachments = []
 has_attachments = false
+links = []
 title = "Hotels"
 [menu.main]
 parent = "Convention"
@@ -21,8 +22,7 @@ South Carolina Theatre Association has selected Raines Hospitality to serve as o
   $124 per night
 * TownePlace Suites Florence  
   $104–124 per night
-* Fairfield Inn & Suites Florence I-20
-
+* Fairfield Inn & Suites Florence I-20  
   $104–114 per night
 
 [**Book your group rate for South Carolina Theatre Association Convention**](https://www.marriott.com/events/start.mi?id=1557436470173&key=GRP)
