@@ -1,0 +1,10 @@
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: lighten($color--primary, 10%);
+    
+    &:hover {
+        color: lighten($color--primary, 20%);
+        text-decoration: underline;
+    }
+}
