@@ -4,6 +4,8 @@ html {
   font-size: 18px;
   line-height: 1.5;
   text-rendering: optimizeLegibility;
+  overflow-y: scroll;
+  overflow-x: hidden;
 
   @media screen and (min-width: 800px) {
     font-size: 125%;
