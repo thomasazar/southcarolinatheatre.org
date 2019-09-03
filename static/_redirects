@@ -1,5 +1,5 @@
-/login                          /members/login/             301!
-/my-profile                     /members/                   301!
-/member/renew-my-membership/*   /members/renew/:splat       301!
-/members/renew-my-membership/*  /members/renew/:splat       301!
-/members/password-reset/ value=:value       /password-reset/?value=:value      301!
+/login                                      /members/login/                     301!
+/my-profile                                 /members/                           301!
+/member/renew-my-membership/ d=:d           /members/renew/?d=:d                301!
+/members/renew-my-membership/ d=:d          /members/renew/?d=:d                301!
+/members/password-reset/ value=:value       /password-reset/?value=:value       301!
