@@ -2,3 +2,4 @@
 /my-profile                     /members/                   301!
 /member/renew-my-membership/*   /members/renew/:splat       301!
 /members/renew-my-membership/*  /members/renew/:splat       301!
+/members/password-reset/*       /password-reset/:splat      301!
