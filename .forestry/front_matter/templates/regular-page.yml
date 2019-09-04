@@ -52,6 +52,7 @@ fields:
     labelField: link
   label: Links
 pages:
+- content/divisions/high-school/high-school-theatre-festival.md
 - content/convention/_index.md
 - content/events/awards/_index.md
 - content/events/cultivate-series.md
