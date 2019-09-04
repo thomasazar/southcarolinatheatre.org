@@ -1,6 +1,5 @@
 +++
 attachments = []
-draft = true
 has_attachments = false
 title = "High School Theatre Festival"
 [[links]]
