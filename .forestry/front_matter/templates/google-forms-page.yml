@@ -20,6 +20,7 @@ fields:
   default: google-forms
   hidden: true
 pages:
+- content/convention/register/tech-olympics.md
 - content/convention/register/scholarship-screening-auditions.md
 - content/convention/register/festival-intent-to-participate.md
 - content/events/awards/nominate-someone-for-an-award.md
