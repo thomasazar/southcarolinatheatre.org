@@ -1,10 +1,11 @@
-+++
-attachments = []
-has_attachments = false
-links = []
-title = "Ten Minute Playworks"
-
-+++
+---
+title: "Ten Minute Playworks"
+attachments:
+has_attachments: false
+links:
+- link: "https://forms.gle/XaMBwMk79g746Ehb6"
+  title: "Submit Your Play"
+---
 Welcome to the new school year/season! Now that our batteries are recharged, and our imaginations are brimming with energy it is TIME to get WRITING! SCTA is looking for submissions for this year’s Ten Minute Playworks. We encourage all members to submit their original ten minute plays to be considered for the SCTA 2019 Convention.
 
 Selected plays will be presented in staged readings at the convention in November which will be cast and rehearsed on site. After the staged readings, playwrights, directors, and cast will receive a response from a working professional to encourage growth and development of the writing.
