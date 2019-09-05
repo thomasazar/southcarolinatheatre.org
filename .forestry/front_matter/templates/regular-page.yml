@@ -52,7 +52,7 @@ fields:
     labelField: link
   label: Links
 pages:
-- content/divisions/high-school/lip-sync-battle.md
+- content/convention/Events/ten-minute-playworks.md
 - content/divisions/high-school/high-school-theatre-festival.md
 - content/convention/_index.md
 - content/events/awards/_index.md
