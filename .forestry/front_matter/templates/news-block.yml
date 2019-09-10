@@ -1,0 +1,29 @@
+---
+label: News block
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: file
+  name: hero
+  label: hero
+- type: text
+  name: caption
+  label: caption
+- type: field_group_list
+  name: blocks
+  label: blocks
+  fields:
+  - type: text
+    name: template
+    label: template
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: content
+    label: content
+  - type: text
+    name: link
+    label: link
