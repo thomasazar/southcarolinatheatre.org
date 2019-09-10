@@ -1,7 +1,6 @@
 ---
 label: News block
 hide_body: true
-is_partial: true
 fields:
 - name: title
   type: text
@@ -25,7 +24,7 @@ fields:
     options: []
     source:
       type: pages
-      section:
-      file:
-      path:
+      section: 
+      file: 
+      path: 
   label: Link

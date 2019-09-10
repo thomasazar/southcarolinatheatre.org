@@ -20,5 +20,13 @@ fields:
     required: false
   label: Caption
   description: Photography credit and information about the splash image
+- name: blocks
+  type: blocks
+  label: Blocks
+  template_types:
+  - news-block
+  config:
+    min: 
+    max: 
 pages:
 - content/_index.md
