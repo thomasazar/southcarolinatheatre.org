@@ -1,4 +1,5 @@
-<a class="news" href="{{ .Params.link }}">
+{{ $link := .Site.GetPage .Params.link }}
+<a class="news" href="{{ $link.Permalink }}">
     <header class="news__title">
         <h1>{{ .Params.title }}</h1>
     </header>
