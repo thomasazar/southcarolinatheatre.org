@@ -1,0 +1,8 @@
+<a class="news" href="{{ .Params.link }}">
+    <header class="news__title">
+        <h1>{{ .Params.title }}</h1>
+    </header>
+    <section class="news__content">
+        {{ markdownify .Params.content }}
+    </section>
+</a>

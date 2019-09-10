@@ -10,8 +10,10 @@
                 </h1>
             {{ end }}
         </header>
-        <main>
-            {{ .Content }}
+        <main class="news-list">
+            {{- range .Params.blocks -}}
+                {{- if eq .template "news" -}}{{ partial "blocks/news" (dict "Params" .) }}{{- end -}}
+            {{- end -}}
         </main>
     </body>
 </html>
