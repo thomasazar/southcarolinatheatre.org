@@ -21,6 +21,7 @@ fields:
     min: 
     max: 
 pages:
+- content/about-scta/board-of-directors/board-nominations.md
 - content/events/_index.md
 - content/convention/Events/tech-olympics.md
 - content/convention/Events/ten-minute-playworks.md
