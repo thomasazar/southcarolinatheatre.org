@@ -1,8 +1,9 @@
 ---
 title: Board Nominations
 weight: 3
----
+blocks: []
 
+---
 The mission of the South Carolina Theatre Association is to connect, create and cultivate theatre in South Carolina.
 
 ## SCTA Board Members Expectations

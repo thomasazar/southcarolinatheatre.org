@@ -10,9 +10,9 @@ fields:
     options: []
     source:
       type: pages
-      section:
-      file:
-      path:
+      section: 
+      file: 
+      path: 
   label: Page
 - name: title
   type: text
