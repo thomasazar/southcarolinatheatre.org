@@ -51,6 +51,16 @@ fields:
     max: 
     labelField: link
   label: Links
+- name: blocks
+  type: blocks
+  label: Blocks
+  template_types:
+  - google-form
+  - membee
+  - membee-script
+  config:
+    min: 
+    max: 
 pages:
 - content/convention/Events/tech-olympics.md
 - content/convention/Events/ten-minute-playworks.md
