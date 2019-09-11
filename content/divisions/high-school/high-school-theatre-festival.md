@@ -1,11 +1,13 @@
-+++
-attachments = []
-has_attachments = false
-title = "High School Theatre Festival"
-[[links]]
-link = "convention/register/festival-intent-to-participate.md"
+---
+attachments: []
+has_attachments: false
+title: "High School Theatre Festival"
+blocks:
+- template: link
+  link: "convention/register/festival-intent-to-participate.md"
+  title: Register
 
-+++
+---
 ## Deadlines for the Festival
 
 * **May 1:** Online Registration opens

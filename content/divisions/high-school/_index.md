@@ -1,8 +1,6 @@
 ---
 title: High School
-links:
-- link: convention/register/festival-intent-to-participate.md
-  title: High School Festival
+blocks:
 has_attachments: false
 attachments: []
 menu:

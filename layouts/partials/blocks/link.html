@@ -1,0 +1,8 @@
+{{ $page := .Site.GetPage .Params.link }}
+{{ $title := $page.Title }}
+{{ if ne .Params.title "" }}
+  {{ $title = .Params.title }}
+{{ end }}
+<li class="links__item">
+    <a href="{{ $page.Permalink }}">{{ $title }}</a>
+</li>

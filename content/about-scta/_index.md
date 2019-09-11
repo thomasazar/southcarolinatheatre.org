@@ -1,10 +1,12 @@
 ---
 title: About SCTA
-attachments:
-- file: By-laws-rev.-11-10-2018-1.pdf
-  caption: By-Laws (revised November 11, 2018)
-- file: Rules-revised-1-26-2019.pdf
-  caption: Rules (revised January 1, 2019)
+blocks:
+- template: attachment
+  file: /uploads/By-laws-rev.-11-10-2018-1.pdf
+  title: By-Laws (revised November 11, 2018)
+- template: attachment
+  file: /uploads/Rules-revised-1-26-2019.pdf
+  title: Rules (revised January 1, 2019)
 menu:
   secondary:
     weight: 3
