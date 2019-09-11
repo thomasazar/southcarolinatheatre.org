@@ -1,6 +1,7 @@
 ---
 label: Google Form
 hide_body: true
+display_field: link
 fields:
 - name: link
   type: text
