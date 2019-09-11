@@ -20,10 +20,10 @@ fields:
   default: google-forms
   hidden: true
 pages:
+- content/events/awards/nominate-someone-for-an-award.md
 - content/convention/register/propose-a-workshop.md
 - content/convention/register/vendors.md
 - content/convention/register/tech-olympics.md
 - content/convention/register/festival-intent-to-participate.md
 - content/convention/register/college-recruting-and-exhibits.md
 - content/convention/register/scholarship-screening-auditions.md
-- content/events/awards/nominate-someone-for-an-award.md
