@@ -13,23 +13,18 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/divisions
-  label: Divisions
-  create: all
-  match: "**/*"
-- type: directory
   path: content/events
   label: Events
   create: all
   match: "**/*"
 - type: directory
   path: content/news
-  label: News
+  label: Newsletters
   create: documents
   match: "**/*"
   exclude: _index.md
   templates:
-  - news-item
+  - newsletter
 - type: directory
   path: content/about-scta
   label: About SCTA
@@ -40,6 +35,43 @@ sections:
   label: Membership
   create: all
   match: "**/*"
+- type: heading
+  label: Divisions
+- type: directory
+  path: content/divisions/college-and-university
+  label: College and University
+  create: documents
+  match: "**/*"
+  templates:
+  - regular-page
+- type: directory
+  path: content/divisions/community-theatre
+  label: Community Theatre
+  create: documents
+  match: "**/*"
+  templates:
+  - regular-page
+- type: directory
+  path: content/divisions/high-school
+  label: High School
+  create: documents
+  match: "**/*"
+  templates:
+  - regular-page
+- type: directory
+  path: content/divisions/professional
+  label: Professional
+  create: documents
+  match: "**/*"
+  templates:
+  - regular-page
+- type: directory
+  path: content/divisions/theatre-for-youth
+  label: Theatre for Youth
+  create: documents
+  match: "**/*"
+  templates:
+  - regular-page
 upload_dir: content/uploads
 public_path: "/uploads"
 front_matter_path: ''
