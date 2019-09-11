@@ -1,6 +1,6 @@
 ---
 title: Home
-hero: "/uploads/HonkyTonk-26.jpg"
+hero: "/uploads/photo_2019-09-11_11-24-45.jpg"
 caption: ''
 blocks:
 - template: news-block
