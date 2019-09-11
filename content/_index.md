@@ -1,7 +1,7 @@
 ---
 title: Home
-hero: "/uploads/HonkyTonk-26.jpg"
-caption: ''
+hero: "/uploads/photo_2019-09-11_11-22-59.jpg"
+caption: HAIR at Furman University
 blocks:
 - template: news-block
   title: 'Convention 2019: Theatre 4 Everyone'
