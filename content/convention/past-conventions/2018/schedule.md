@@ -1,5 +1,7 @@
 ---
 title: Schedule
+blocks:
+  - template: membee
+    link: https://createyourworldscta52ndannu2018.sched.com/
 ---
 
-{{< iframe "https://createyourworldscta52ndannu2018.sched.com/" "Convention 2018: Create Your World" >}}

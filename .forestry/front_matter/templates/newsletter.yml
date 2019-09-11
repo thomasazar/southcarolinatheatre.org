@@ -1,5 +1,5 @@
 ---
-label: News item
+label: Newsletter
 hide_body: true
 fields:
 - type: datetime
@@ -10,11 +10,8 @@ fields:
     export_format: YYYY-MM-DD
     required: true
 - type: text
-  name: iframe
+  name: link
   label: Link
   description: Paste the link to the newsletter here
   config:
     required: true
-pages:
-- content/news/2019-06.md
-- content/news/2019-05.md

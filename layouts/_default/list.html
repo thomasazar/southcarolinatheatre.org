@@ -1,3 +1,8 @@
 {{ define "main" }}
+    {{- range .Params.blocks -}}
+        {{- if eq .template "membee" -}}{{ partial "blocks/iframe" (dict "Params" .) }}{{- end -}}
+        {{- if eq .template "google-form" -}}{{ partial "blocks/iframe" (dict "Params" .) }}{{- end -}}
+        {{- if eq .template "membee-script" -}}{{ partial "blocks/script" (dict "Params" .) }}{{- end -}}
+    {{- end -}}
     {{ .Content }}
 {{ end }}
