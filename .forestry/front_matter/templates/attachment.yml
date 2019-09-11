@@ -1,4 +1,15 @@
 ---
 label: Attachment
 hide_body: true
-fields: []
+display_field: title
+fields:
+- name: file
+  type: file
+  config:
+    maxSize: 250
+  label: File
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
