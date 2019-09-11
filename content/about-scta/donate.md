@@ -4,10 +4,12 @@ has_attachments = false
 title = "Donate"
 [menu.secondary]
 weight = 1
+[[blocks]]
+link = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YN3VTL4UQ6W9A"
+template = "external-link"
+title = "Donate Today"
 
 +++
-[Donate today](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YN3VTL4UQ6W9A)
-
 ## Why Partner with SCTA?
 
 ### Your message targets a top‐quality diverse audience

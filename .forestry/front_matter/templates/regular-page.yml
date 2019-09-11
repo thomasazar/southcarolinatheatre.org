@@ -21,6 +21,7 @@ fields:
     min: 
     max: 
 pages:
+- content/about-scta/donate.md
 - content/about-scta/board-of-directors/board-nominations.md
 - content/events/_index.md
 - content/convention/Events/tech-olympics.md
@@ -30,6 +31,5 @@ pages:
 - content/events/cultivate-series.md
 - content/events/awards/previous-award-winners.md
 - content/events/awards/awards-categories.md
-- content/about-scta/donate.md
 - content/events/theatre-for-youth-festival/_index.md
 - content/convention/hotels.md
