@@ -4,29 +4,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="SCTA's vision is to transform the lives of all South Carolinians through theatre. Connect, create, cultivate.">
 
-    <title>{{ .Title }} | {{ $.Site.Title }}</title>
+    <title>{{- partial "title" . -}}</title>
 
-    {{ $options := (dict "targetPath" "css/main.css" "outputStyle" "compressed" "enableSourceMap" true ) }}
-    {{ $style := resources.Get "styles/main.scss" | resources.ToCSS $options | fingerprint }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
+    {{- $options := (dict "targetPath" "css/main.css" "outputStyle" "compressed" "enableSourceMap" true ) -}}
+    {{- $style := resources.Get "styles/main.scss" | resources.ToCSS $options | fingerprint -}}
+    <link rel="stylesheet" href="{{- $style.Permalink -}}" integrity="{{- $style.Data.Integrity -}}">
 
+    {{- $resources := ($.Site.GetPage "/uploads").Resources -}}
+    {{- $homepage := $.Site.GetPage "/" -}}
+    {{- $file := $resources.GetMatch (strings.TrimPrefix "/uploads/" $homepage.Params.hero) -}}
+    {{- $image := $file.Fill "1024x683" -}}
     <!-- Google / Search Engine Tags -->
     <meta itemprop="name" content="South Carolina Theatre Association">
     <meta itemprop="description" content="SCTA's vision is to transform the lives of all South Carolinians through theatre. Connect, create, cultivate.">
-    <meta itemprop="image" content="https://www.southcarolinatheatre.org/app/uploads/2018/01/RingOfFire-186-1024x683.jpg">
+    <meta itemprop="image" content="{{- $image.Permalink -}}">
 
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://www.southcarolinatheatre.org">
     <meta property="og:type" content="website">
     <meta property="og:title" content="South Carolina Theatre Association">
     <meta property="og:description" content="SCTA's vision is to transform the lives of all South Carolinians through theatre. Connect, create, cultivate.">
-    <meta property="og:image" content="https://www.southcarolinatheatre.org/app/uploads/2018/01/RingOfFire-186-1024x683.jpg">
+    <meta property="og:image" content="{{- $image.Permalink -}}">
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="South Carolina Theatre Association">
     <meta name="twitter:description" content="SCTA's vision is to transform the lives of all South Carolinians through theatre. Connect, create, cultivate.">
-    <meta name="twitter:image" content="https://www.southcarolinatheatre.org/app/uploads/2018/01/RingOfFire-186-1024x683.jpg">
+    <meta name="twitter:image" content="{{- $image.Permalink -}}">
 
     <!-- Meta Tags Generated via http://heymeta.com -->
 
@@ -47,6 +51,6 @@
     <noscript><p><img src="//piwik.thomasazar.net/piwik.php?idsite=3&rec=1" style="border:0;" alt="" /></p></noscript>
     <!-- End Piwik Code -->
 
-    {{ $js := resources.Get "scripts/main.js" | minify | fingerprint }}
-    <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}" defer async></script>
+    {{- $js := resources.Get "scripts/main.js" | minify | fingerprint -}}
+    <script src="{{- $js.Permalink -}}" integrity="{{- $js.Data.Integrity -}}" defer async></script>
 </head>
