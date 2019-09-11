@@ -1,7 +1,5 @@
 ---
 title: Past Conventions
-weight: "100"
-
 ---
 ## Where have we been?
 
