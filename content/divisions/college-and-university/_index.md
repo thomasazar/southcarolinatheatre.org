@@ -1,10 +1,12 @@
 ---
 title: College and University
-links:
-- link: convention/register/propose-a-workshop.md
-- link: convention/register/college-recruting-and-exhibits.md
-has_attachments: false
-attachments: []
+blocks:
+- template: link
+  link: convention/register/propose-a-workshop.md
+  title: ''
+- template: link
+  link: convention/register/college-recruting-and-exhibits.md
+  title: ''
 menu:
   main:
     weight: 1

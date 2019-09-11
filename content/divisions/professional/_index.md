@@ -1,8 +1,5 @@
 ---
 title: Professional
-has_attachments: false
-attachments: []
-links: []
 menu:
   main:
     weight: 4

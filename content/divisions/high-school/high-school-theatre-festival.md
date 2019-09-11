@@ -1,6 +1,4 @@
 ---
-attachments: []
-has_attachments: false
 title: "High School Theatre Festival"
 blocks:
 - template: link

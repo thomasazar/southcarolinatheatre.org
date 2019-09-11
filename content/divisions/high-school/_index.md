@@ -1,8 +1,6 @@
 ---
 title: High School
 blocks:
-has_attachments: false
-attachments: []
 menu:
   main:
     weight: 3

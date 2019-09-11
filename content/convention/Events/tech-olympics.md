@@ -2,8 +2,10 @@
 title: Tech Olympics
 has_attachments: false
 attachments: []
-links:
-- link: convention/register/tech-olympics.md
+blocks:
+- template: link
+  link: convention/register/tech-olympics.md
+  title: "Register"
 
 ---
 The South Carolina Theatre Association is thrilled to once again offer our Tech Olympics! This event allows theatre students to demonstrate their accuracy, speed, and efficiency as well as creativity, ingenuity, and teamwork in executing technical theatre skills in a fun and competitive arena. This competition is open to all schools (all teams must be SCTA members and registered for the convention). There are 6 challenges that may include things like: knot tying, light focus, prop shift, costume change, button sewing, or stage management, and more for the fastest time.

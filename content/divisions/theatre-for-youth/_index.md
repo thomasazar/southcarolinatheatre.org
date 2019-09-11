@@ -1,16 +1,15 @@
-+++
-has_attachments = false
-title = "Theatre for Youth"
-[menu.main]
-parent = "Divisions"
-weight = 5
-[[attachments]]
-caption = ""
-file = ""
-[[links]]
-link = "events/theatre-for-youth-festival/_index.md"
+---
+title: "Theatre for Youth"
+menu:
+  main:
+    parent: "Divisions"
+    weight: 5
+blocks:
+- template: link
+  link: "events/theatre-for-youth-festival/_index.md"
+  title: ""
 
-+++
+---
 **Division Chair:** Derek T. Pickens, [derek_pickens@charleston.k12.sc.us](mailto:derek_pickens@charleston.k12.sc.us)
 
 Across the state of South Carolina, there are a wide variety of Theatre for Youth programs in many different settings ranging from educational programs in Elementary and Middle schools, all the way up to professional theatre companies producing content for Young Audiences. The goal of each of these programs is to reach out and affect the lives of young people through the power of theatre by providing culturally diverse and bold, curriculum-based performances, workshops and residencies in support of literacy and K-12 learning.
@@ -21,8 +20,8 @@ SCTA invites you to join us at our annual convention for workshops, networking a
 
 If you find yourself in need of assistance in any capacity, whether it’s with a unit or lesson plan in the classroom, choosing your next show at your school or theatre, or anything else you can think of, please don’t hesitate to get in touch!
 
-Best,  
-Derek T. Pickens  
+Best,
+Derek T. Pickens
 _Theatre for Youth Division Chair_
 
 ## About Derek T. Pickens

@@ -2,7 +2,10 @@
 title: Ten Minute Playworks
 has_attachments: false
 attachments: []
-links: []
+blocks:
+- template: external-link
+  link: "https://forms.gle/XaMBwMk79g746Ehb6"
+  title: "Submit Your Play"
 
 ---
 Welcome to the new school year/season! Now that our batteries are recharged, and our imaginations are brimming with energy it is TIME to get WRITING! SCTA is looking for submissions for this year’s Ten Minute Playworks. We encourage all members to submit their original ten minute plays to be considered for the SCTA 2019 Convention.

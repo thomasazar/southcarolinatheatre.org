@@ -15,6 +15,7 @@
                 {{ range .Params.blocks }}
                     {{- if eq .template "attachment" -}}{{ partial "blocks/attachment" (dict "Params" .) }}{{- end -}}
                     {{- if eq .template "link" -}}{{ partial "blocks/link" (dict "Params" . "Site" $.Site) }}{{- end -}}
+                    {{- if eq .template "external-link" -}}{{ partial "blocks/external-link" (dict "Params" . "Site" $.Site) }}{{- end -}}
                 {{ end }}
                 {{ range where .Pages "Parent.RelPermalink" "eq" $.RelPermalink }}
                      <li class="links__item">
