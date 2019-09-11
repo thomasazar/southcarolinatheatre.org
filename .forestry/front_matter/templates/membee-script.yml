@@ -1,11 +1,10 @@
 ---
 label: Membee Script
 hide_body: true
-is_partial: true
 fields:
 - name: link
   type: text
   config:
     required: true
   label: Link
-  description: "Note: This is only for Membee links that begin with <script ..."
+  description: 'Note: This is only for Membee links that begin with <script ...'
