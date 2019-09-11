@@ -1,6 +1,7 @@
 ---
 label: Links
 hide_body: true
+is_partial: true
 fields:
 - name: page
   type: select
@@ -10,9 +11,9 @@ fields:
     options: []
     source:
       type: pages
-      section: 
-      file: 
-      path: 
+      section:
+      file:
+      path:
   label: Page
 - name: title
   type: text
