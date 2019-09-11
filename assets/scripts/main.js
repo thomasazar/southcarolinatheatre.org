@@ -8,3 +8,5 @@ navButton.addEventListener('click', function () {
     navButton.innerHTML = 'Menu';
   }
 });
+
+baguetteBox.run('.hero');
