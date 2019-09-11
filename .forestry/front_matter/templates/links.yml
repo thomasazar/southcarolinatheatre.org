@@ -1,4 +1,23 @@
 ---
 label: Links
 hide_body: true
-fields: []
+fields:
+- name: page
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: 
+      file: 
+      path: 
+  label: Page
+- name: title
+  type: text
+  config:
+    required: false
+  label: Custom Title
+  description: 'Use this if you want to change the name of the link (note: this will
+    not change the name of the page itself)'
