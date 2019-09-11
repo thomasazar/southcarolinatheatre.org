@@ -12,11 +12,11 @@
             {{ $splash300 := $splash.Resize "300x" }}
             {{ $splash768 := $splash.Resize "768x" }}
             {{ $splash1024 := $splash.Resize "1024x" }}
-            {{ $splash1500 := $splash.Resize "1500x"}}
+            {{ $splash1500 := $splash.Resize "1500x q85"}}
             <img src="{{ $splash1500.Permalink }}" class="hero__image" alt="{{ .Params.caption }}"
                  srcset="{{ $splash1500.Permalink }} 1500w, {{ $splash300.Permalink}} 300w, {{ $splash768.Permalink}} 768w, {{ $splash1024.Permalink }} 1024w"
                  sizes="(max-width: 4292px), 100vw, 4292px">
-            <p class="hero__caption">{{ .Params.caption }}</p>
+            <a class="hero__caption" href="{{ $splash1500.Permalink }}" data-caption="{{ .Params.caption }}">{{ .Params.caption }}</a>
         </div>
     {{ end }}
     <nav class="navigation">
