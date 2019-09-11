@@ -13,6 +13,7 @@ fields:
   template_types:
   - attachment
   - links
+  - external-link
   - google-form
   - membee
   - membee-script
@@ -20,19 +21,19 @@ fields:
     min: 
     max: 
 pages:
-- content/divisions/high-school/_index.md
-- content/divisions/high-school/high-school-theatre-festival.md
+- content/events/_index.md
 - content/convention/Events/tech-olympics.md
 - content/convention/Events/ten-minute-playworks.md
 - content/convention/_index.md
+- content/divisions/high-school/high-school-theatre-festival.md
+- content/divisions/high-school/_index.md
+- content/divisions/college-and-university/_index.md
+- content/divisions/professional/_index.md
+- content/divisions/theatre-for-youth/_index.md
 - content/events/awards/_index.md
 - content/events/cultivate-series.md
 - content/events/awards/previous-award-winners.md
 - content/events/awards/awards-categories.md
-- content/divisions/college-and-university/_index.md
-- content/divisions/professional/_index.md
-- content/divisions/theatre-for-youth/_index.md
 - content/about-scta/donate.md
-- content/events/_index.md
 - content/events/theatre-for-youth-festival/_index.md
 - content/convention/hotels.md
