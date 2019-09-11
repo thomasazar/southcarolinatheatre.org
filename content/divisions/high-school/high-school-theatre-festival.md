@@ -1,9 +1,10 @@
 ---
-title: "High School Theatre Festival"
+title: High School Theatre Festival
 blocks:
 - template: link
-  link: "convention/register/festival-intent-to-participate.md"
+  link: convention/register/festival-intent-to-participate.md
   title: Register
+  page: convention/register/festival-intent-to-participate.md
 
 ---
 ## Deadlines for the Festival

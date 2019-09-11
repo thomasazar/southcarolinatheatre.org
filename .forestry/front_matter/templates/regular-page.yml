@@ -12,7 +12,7 @@ fields:
   label: Blocks
   template_types:
   - attachment
-  - links
+  - link
   - external-link
   - google-form
   - membee
