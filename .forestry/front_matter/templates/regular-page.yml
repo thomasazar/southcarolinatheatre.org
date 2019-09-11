@@ -7,54 +7,12 @@ fields:
   config:
     required: true
   label: Title
-- name: has_attachments
-  type: boolean
-  label: Has attachments?
-- name: attachments
-  type: field_group_list
-  fields:
-  - name: file
-    type: file
-    config:
-      maxSize: 250
-    label: File
-  - name: caption
-    type: text
-    config:
-      required: false
-    label: Caption
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: Attachments
-  showOnly:
-    field: has_attachments
-    value: true
-- name: links
-  type: field_group_list
-  fields:
-  - name: link
-    type: select
-    default: []
-    config:
-      required: false
-      options: []
-      source:
-        type: pages
-        section: 
-        file: 
-        path: 
-    label: Link
-  config:
-    min: 
-    max: 
-    labelField: link
-  label: Links
 - name: blocks
   type: blocks
   label: Blocks
   template_types:
+  - attachment
+  - links
   - google-form
   - membee
   - membee-script
@@ -62,9 +20,10 @@ fields:
     min: 
     max: 
 pages:
+- content/divisions/high-school/_index.md
+- content/divisions/high-school/high-school-theatre-festival.md
 - content/convention/Events/tech-olympics.md
 - content/convention/Events/ten-minute-playworks.md
-- content/divisions/high-school/high-school-theatre-festival.md
 - content/convention/_index.md
 - content/events/awards/_index.md
 - content/events/cultivate-series.md
@@ -72,7 +31,6 @@ pages:
 - content/events/awards/awards-categories.md
 - content/divisions/college-and-university/_index.md
 - content/divisions/professional/_index.md
-- content/divisions/high-school/_index.md
 - content/divisions/theatre-for-youth/_index.md
 - content/about-scta/donate.md
 - content/events/_index.md
