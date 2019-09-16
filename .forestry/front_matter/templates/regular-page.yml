@@ -21,6 +21,7 @@ fields:
     min: 
     max: 
 pages:
+- content/convention/register/monologue-competition.md
 - content/convention/Events/monologue-competition.md
 - content/convention/Events/high-school-auditions.md
 - content/convention/hotels.md
