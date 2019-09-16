@@ -12,5 +12,3 @@ fields:
   config:
     required: true
   label: Link
-pages:
-- content/convention/register/monologue-competition.md
