@@ -13,6 +13,9 @@ blocks:
 - template: external-link
   link: https://docs.google.com/forms/d/e/1FAIpQLSfBZcOjpLIvVd3njhnM_gqIXYyYTEv-6_ATT2ZXck5g32wkNQ/viewform
   title: School Guidance Counselor
+- template: link
+  link: convention/Events/high-school-auditions.md
+  title: Register
 
 ---
 Auditions for high school juniors and seniors are once again a part of the SCTA Convention hosted by Francis Marion University, SC, November 15 – 17, 2019.
