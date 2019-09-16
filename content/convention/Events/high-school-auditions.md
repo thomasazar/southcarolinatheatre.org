@@ -4,15 +4,6 @@ blocks:
 - template: attachment
   file: "/uploads/High school auditions rules.pdf"
   title: Rules and Information
-- template: external-link
-  link: https://forms.gle/Wz4bcupikXZ69r3s7
-  title: Audition Registration
-- template: external-link
-  link: https://docs.google.com/forms/d/e/1FAIpQLSeoKj3pE8cLlmkxye_X0dqN7gfmfVU2UxsWq5jZWLvyr-nSDw/viewform
-  title: Nominating Teacher
-- template: external-link
-  link: https://docs.google.com/forms/d/e/1FAIpQLSfBZcOjpLIvVd3njhnM_gqIXYyYTEv-6_ATT2ZXck5g32wkNQ/viewform
-  title: School Guidance Counselor
 - template: link
   link: convention/Events/high-school-auditions.md
   title: Register
