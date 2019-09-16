@@ -21,6 +21,7 @@ fields:
     min: 
     max: 
 pages:
+- content/convention/Events/high-school-auditions.md
 - content/convention/hotels.md
 - content/events/theatre-for-youth-festival/_index.md
 - content/about-scta/donate.md
