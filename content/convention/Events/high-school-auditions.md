@@ -3,7 +3,7 @@ title: High School Auditions
 blocks:
 - template: attachment
   file: "/uploads/High school auditions rules.pdf"
-  title: Rules
+  title: Rules and Information
 - template: external-link
   link: https://forms.gle/Wz4bcupikXZ69r3s7
   title: Audition Registration
