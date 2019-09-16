@@ -1,6 +1,9 @@
 ---
 title: High School
 blocks:
+- template: link
+  link: convention/Events/high-school-auditions.md
+  title: High School Auditions
 menu:
   main:
     weight: 3
