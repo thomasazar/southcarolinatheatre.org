@@ -5,7 +5,7 @@ blocks:
   file: "/uploads/High school auditions rules.pdf"
   title: Rules and Information
 - template: link
-  link: convention/Events/high-school-auditions.md
+  link: convention/register/high-school-auditions.md
   title: Register
 
 ---
