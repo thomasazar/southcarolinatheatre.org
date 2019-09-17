@@ -3,6 +3,7 @@ title: South Carolina Theatre Association
 metaDataFormat: yaml
 params:
   tagline: Connect. Create. Cultivate.
+  matomoid: 3
 menu:
   secondary:
   - url: "/news"
