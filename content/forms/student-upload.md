@@ -2,7 +2,7 @@
 title: Upload Headshot
 url: /convention/register/upload-headshot/
 ---
-<form name="contact" method="POST" data-netlify="true">
+<form name="contact" method="post" action="mailto:design@thomasazar.net?subject=SCTA%20High%20School%headshot">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>
   </p>
