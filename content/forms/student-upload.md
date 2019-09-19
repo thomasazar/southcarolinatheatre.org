@@ -2,7 +2,7 @@
 title: Upload Headshot
 url: /convention/register/upload-headshot/
 ---
-<form name="contact" method="post" action="mailto:design@thomasazar.net?subject=SCTA%20High%20School%headshot">
+<form name="contact" action="https://formsubmit.co/c36b36ceffbfb00f8a49b5fc1e9da491" method="POST" enctype="multipart/form-data">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>
   </p>
@@ -10,8 +10,15 @@ url: /convention/register/upload-headshot/
     <label>Your Email: <input type="email" name="email" /></label>
   </p>
   <p>
-    <label>Headshot (must be either .jpg or .pdf): <input type="file" accept="image/jpeg, application/pdf">
+    <label>Headshot (must be either .jpg or .pdf, less than 5MB):</label>
+    <input type="file" accept="image/jpeg, application/pdf" name="headshot" id="file"/>
   </p>
+  <input type="hidden" name="_replyto">
+  <input type="hidden" name="_subject" value="SCTA Convention 2019: High School Audition Headshot">
+  <input type="hidden" name="_next" value="https://www.southcarolinatheatre.org/convention/register/received/">
+  <input type="text" name="_honey" style="display:none">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="table">
   <p>
     <button type="submit">Send</button>
   </p>
