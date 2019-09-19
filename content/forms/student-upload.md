@@ -2,7 +2,7 @@
 title: Upload Headshot
 url: /convention/register/upload-headshot/
 ---
-<form name="contact" action="https://formsubmit.co/c36b36ceffbfb00f8a49b5fc1e9da491" method="POST" enctype="multipart/form-data">
+<form name="contact" action="https://formsubmit.co/asleeman@southcarolinatheatre.org" method="POST" enctype="multipart/form-data">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>
   </p>
