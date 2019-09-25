@@ -3,7 +3,7 @@
   X-Content-Type-Options: nosniff
 
   # Block site from being framed with X-Frame-Options and CSP
-  Content-Security-Policy: frame-ancestors 'none'
+  default-src 'none'; font-src 'self'; frame-src https://docs.google.com https://indd.adobe.com https://memberservices.membee.com; img-src 'self' https://analytics.thomasazar.net; script-src 'self' 'unsafe-inline' https://analytics.thomasazar.net/matomo.js https://memberservices.membee.com/feeds/Login/LoginFrameScript.ashx; style-src 'self' 'unsafe-inline'
   X-Frame-Options: DENY
 
   # Block pages from loading when they detect reflected XSS attacks
