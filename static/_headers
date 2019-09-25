@@ -1,6 +1,13 @@
 /*
   # Prevent browsers from incorrectly detecting non-scripts as scripts
   X-Content-Type-Options: nosniff
+
   # Block site from being framed with X-Frame-Options and CSP
   Content-Security-Policy: frame-ancestors 'none'
   X-Frame-Options: DENY
+
+  # Block pages from loading when they detect reflected XSS attacks
+  X-XSS-Protection: 1; mode=block
+
+  # Only connect to this site and subdomains via HTTPS for the next two years and also include in the preload list
+  # Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
