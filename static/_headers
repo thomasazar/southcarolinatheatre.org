@@ -4,5 +4,3 @@
   # Block site from being framed with X-Frame-Options and CSP
   Content-Security-Policy: frame-ancestors 'none'
   X-Frame-Options: DENY
-  # Only connect to this site and subdomains via HTTPS for the next two years and also include in the preload list
-  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
