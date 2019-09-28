@@ -10,7 +10,7 @@ fields:
     export_format: YYYY-MM-DD
     required: true
 - type: text
-  name: link
+  name: iframe
   label: Link
   description: Paste the link to the newsletter here
   config:
