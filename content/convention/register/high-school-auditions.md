@@ -1,9 +1,6 @@
 ---
 title: High School Auditions
 blocks:
-- template: google-form
-  title: High School Audition registration
-  link: https://docs.google.com/forms/d/e/1FAIpQLScWCXmg7j4Wb1g9I3MpNgKersnfZ_pX4gfIc7ek7k15Bo-weQ/viewform?usp=sf_link
 - template: external-link
   title: Nominating Teacher
   link: https://docs.google.com/forms/d/e/1FAIpQLSeoKj3pE8cLlmkxye_X0dqN7gfmfVU2UxsWq5jZWLvyr-nSDw/viewform
@@ -13,4 +10,7 @@ blocks:
 - template: link
   link: /forms/student-upload.md
   title: Upload Headshot
+- template: google-form
+  title: High School Audition registration
+  link: https://docs.google.com/forms/d/e/1FAIpQLScWCXmg7j4Wb1g9I3MpNgKersnfZ_pX4gfIc7ek7k15Bo-weQ/viewform?usp=sf_link
 ---
