@@ -2,8 +2,15 @@ html {
     color: #013440;
     font-family: 'Lato', sans-serif;
     border-top: 4px solid $color--primary;
+    box-sizing: border-box;
 
     @media screen and (min-width: 1000px) {
         font-size: 125%;
     }
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
 }
