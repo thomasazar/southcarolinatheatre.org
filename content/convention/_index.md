@@ -1,10 +1,10 @@
 ---
 title: Convention
 weight: 1
+hero: /uploads/hayley-catherine-2l5okfhfIU0-unsplash.jpg
 menu:
   main:
     weight: 1
-
 ---
 ![Convention 2019 logo: Theatre 4 Everyone](/uploads/Logo-Theatre-for-Everyone-300x181.jpg)
 
