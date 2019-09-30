@@ -1,13 +1,9 @@
 html {
-  background: #f2f2f2;
-  font-family: 'Lato', $fontStack, sans-serif;
-  font-size: 18px;
-  line-height: 1.5;
-  text-rendering: optimizeLegibility;
-  overflow-y: scroll;
-  overflow-x: hidden;
+    color: #013440;
+    font-family: 'Lato', sans-serif;
+    border-top: 4px solid $color--primary;
 
-  @media screen and (min-width: 800px) {
-    font-size: 125%;
-  }
+    @media screen and (min-width: 1000px) {
+        font-size: 125%;
+    }
 }

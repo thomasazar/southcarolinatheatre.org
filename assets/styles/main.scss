@@ -1,69 +1,21 @@
-@import "settings/variables";
-@import "settings/mixins";
+@import "settings/variables.scss";
 
-@import "tools/bourbon";
-@import "tools/mixins";
-
-@import "generic/box-sizing";
-@import "generic/normalize";
-@import "generic/typography";
+@import "generic/fonts.scss";
+@import "generic/normalize.scss";
 
 @import "base/a.scss";
-@import "base/body";
-@import "base/headings";
-@import "base/html";
-@import "base/iframe";
-@import "base/img";
-//@import "base/input";
-@import "base/main";
-//@import "base/select";
-@import "base/table";
-//@import "base/textarea";
-@import "base/ul";
+@import "base/body.scss";
+@import "base/html.scss";
+@import "base/iframe.scss";
+@import "base/img.scss";
+@import "base/main.scss";
 
-@import "objects/banner";
-@import "objects/content";
-@import "objects/hero";
-@import "objects/links";
-@import "objects/menu-item";
-@import "objects/mobile-menu";
-@import "objects/nav-menu";
-@import "objects/navigation";
-@import "objects/news";
-@import "objects/sub-menu";
-@import "objects/tagline";
-@import "objects/title";
-
-@import "objects/button";
-@import "objects/container";
-@import "objects/iframe-holder";
-@import "objects/logo";
-
-@import "components/acceptance";
-@import "components/bbp-the-content";
-@import "components/label";
-//@import "components/mailing-address";
-//import "components/main-footer";
-//@import "components/menu-item";
-@import "components/menu-login";
-//@import "components/mobile-menu";
-@import "components/nav-primary";
-@import "components/nav-secondary";
-//@import "components/phone";
-@import "components/photo-credit";
-//@import "components/simple";
-//@import "components/sub-menu";
-//@import "components/tagline";
-//@import "components/wpcf7-checkbox";
-//@import "components/wpcf7-form";
-//@import "components/wpcf7-list-item";
-//@import "components/wpcf7-not-valid-tip";
-
-//@import "overrides/bbpress";
-@import "overrides/desktop-only";
-@import "overrides/hidden";
-@import "overrides/icons";
-@import "overrides/mobile-only";
-@import "overrides/wp-align";
-
-@import "plugins/baguetteBox";
+@import "objects/button.scss";
+@import "objects/footer.scss";
+@import "objects/hero.scss";
+@import "objects/iframe-holder.scss";
+@import "objects/nav.scss";
+@import "objects/news.scss";
+@import "objects/pages.scss";
+@import "objects/tagline.scss";
+@import "objects/title.scss";

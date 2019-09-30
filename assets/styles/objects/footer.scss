@@ -1,0 +1,27 @@
+.footer {
+    margin-top: 5em;
+    font-size: 0.75em;
+}
+
+.footer__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__list,
+.footer__sublist {
+    list-style: none;
+    padding: 0;
+}
+
+.footer__sublist{
+    margin: 0 2em 2em 0;
+
+    a {
+        font-weight: normal;
+    }
+}
+
+.footer__link {
+    background: none;
+}

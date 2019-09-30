@@ -1,10 +1,12 @@
 a {
-    font-weight: bold;
     text-decoration: none;
-    color: lighten($color--primary, 10%);
-    
+    position: relative;
+    font-weight: bold;
+    padding: 0.125em 0.25em;
+    background: transparentize($color: $color--primary, $amount: 0.5);
+    color: inherit;
+
     &:hover {
-        color: lighten($color--primary, 20%);
-        text-decoration: underline;
+        background: transparentize($color: $color--primary, $amount: 0.67);
     }
 }

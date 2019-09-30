@@ -1,16 +1,22 @@
 .news {
-    display: block;
-    margin-bottom: 2em;
-    font-weight: normal;
-    text-decoration: none;
-    color: #3a3a3a;
+    display: grid;
+    grid-template-columns: [start content] 4fr [link] 1fr [end];
+    grid-template-rows: [title] auto [content link] auto;
+    grid-column-gap: 1em;
 }
 
 .news__title {
-    font-size: 0.75em;
-    font-weight: bold;
+    grid-column: start / end;
+    grid-row: title;
+    margin: 0;
+}
 
-    h1 {
-        margin-bottom: 0;
-    }
+.news__content {
+    grid-column: content;
+    grid-row: content;
+}
+
+.news__link {
+    grid-column: link;
+    grid-row: link;
 }

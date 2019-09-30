@@ -1,21 +1,18 @@
 .button {
-  display: inline-block;
-  margin: 1rem auto;
-  padding: 1rem 2rem;
-  width: auto;
-  max-width: none;
+    background: linear-gradient(to bottom, $color--primary 50%, lighten($color--primary, 5%));
+    color: #f2f2f2;
+    border-radius: 10px;
+    padding: 0.5em;
+    box-shadow: 0 4px 8px #9a9a9a;
+    text-shadow: 0 1px 2px #6a6a6a;
+    display: inline-block;
+    margin: 0.25em;
 
-  background: $color--secondary;
-  border: 0;
-  border-radius: 3px;
-  box-shadow: 0 2px 2px #999;
+    &::before {
+        display: none;
+    }
 
-  font-weight: bold;
-  text-decoration: none;
-  text-transform: uppercase;
-
-  &:active {
-    position: relative;
-    top: 1px;
-  }
+    &:hover {
+        background: linear-gradient(to bottom, lighten($color--primary, 5%) 50%, lighten($color--primary, 10%));
+    }
 }

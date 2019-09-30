@@ -1,20 +1,18 @@
 .tagline {
-  grid-column: 1;
-  grid-row: 2;
-  margin: 0 0 1em;
-  z-index: 2;
-  text-align: center;
-  color: #f2f2f2;
-  text-shadow: 0 2px 2px transparentize(#333, 0.33);
+    display: flex;
+    margin: 0.5em 0;
+    align-items: center;
+    padding: 0 1em;
+}
 
-  p {
-    text-transform: none;
-    font-size: 1.5em;
-    margin: 1em auto;
-    max-width: 360px;
-    
-    @media screen and (max-width: $mobileWidth) {
-      font-size: 1.2em;
-    }
-  }
+.tagline__logo {
+    max-height: 2.5em;
+    margin-right: auto;
+    background: none;
+}
+
+.tagline__text {
+    font-style: italic;
+    color: #7a7a7a;
+    text-align: right;
 }
