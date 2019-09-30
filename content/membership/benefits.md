@@ -1,6 +1,5 @@
 ---
 title: Benefits
-weight: 1
 ---
 
 ## Discounts
