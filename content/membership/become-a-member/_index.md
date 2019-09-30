@@ -1,6 +1,5 @@
 ---
 title: Become a Member
-weight: 2
 ---
 
 Join us in **Connecting, Creating, and Cultivating** theatre in South Carolina!
