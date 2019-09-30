@@ -1,0 +1,8 @@
+{{ $resources := ($.Site.GetPage "/uploads").Resources }}
+{{ $file := $resources.GetMatch (strings.TrimPrefix "/uploads/" (.Params.hero | default "HonkyTonk-26.jpg")) }}
+{{ $hero := $file.Fill "1200x532" }}
+<header class="hero">
+    <h1 class="hero__title">{{ ($.Site.GetPage .Section).Title }}</h1>
+    <p class="hero__caption">{{ $.Page.Params.caption }}</p>
+    <img class="hero__image" src="{{ $hero.Permalink }}">
+</header>

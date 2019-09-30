@@ -1,0 +1,12 @@
+{{ $link := .Page.Site.GetPage .Params.link }}
+<article class="news" href="{{ $link.Permalink }}">
+    <header class="news__title">
+        <h2>{{ .Params.title }}</h2>
+    </header>
+    <section class="news__content">
+        {{ markdownify .Params.content }}
+    </section>
+    <section class="news__link">
+        <a class="button" href="{{ $link.Permalink }}">{{ .Params.linktext }}</a>
+    </section>
+</article>

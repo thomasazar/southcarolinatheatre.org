@@ -1,8 +1,15 @@
 {{ define "main" }}
+    {{ with .Pages }}
+        <ul class="pages">
+            {{ range . }}
+                <li class="pages__item">
+                    <a class="pages__link button" href="{{ .Permalink }}">{{ .Title }}</a>
+                </li>
+            {{ end }}
+        </ul>
+    {{ end }}
     {{- range .Params.blocks -}}
-        {{- if eq .template "membee" -}}{{ partial "blocks/iframe" (dict "Params" .) }}{{- end -}}
-        {{- if eq .template "google-form" -}}{{ partial "blocks/iframe" (dict "Params" .) }}{{- end -}}
-        {{- if eq .template "membee-script" -}}{{ partial "blocks/script" (dict "Params" .) }}{{- end -}}
+        {{ partial (printf "blocks/%s" .template) (dict "Params" . "Page" $) }}
     {{- end -}}
     {{ .Content }}
 {{ end }}

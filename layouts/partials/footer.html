@@ -1,0 +1,25 @@
+<footer class="footer">
+    <nav class="footer__nav">
+        <ul class="footer__list">
+            {{ template "footernav" $.Site.Menus.main }}
+            {{ template "footernav" $.Site.Menus.secondary }}
+        </ul>
+    </nav>
+</footer>
+
+{{ define "footernav" }}
+    {{ range . }}
+        <li class="footer__item">
+            <a class="footer__link" href="{{ .URL }}">{{ .Name }}</a>
+            {{ with .Page.Pages }}
+                <ul class="footer__sublist">
+                    {{ range . }}
+                        <li class="footer__item">
+                            <a class="footer__link" href="{{ .Permalink }}">{{ .Title }}</a>
+                        </li>
+                    {{ end }}
+                </ul>
+            {{ end }}
+        </li>
+    {{ end }}
+{{ end }}

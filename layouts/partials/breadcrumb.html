@@ -2,13 +2,16 @@
     {{ with .Parent }}
         {{ template "breadcrumb" . }}
         {{ if not .IsHome }}
-            <a href="{{ .Permalink }}">{{.Title}}</a> &raquo;
+            <a class="breadcrumbs__link" href="{{ .Permalink }}">{{ .Title }}</a> &raquo;
         {{ end }}
     {{ end }}
 {{ end }}
+
 {{ if not .IsHome }}
-    <div class="breadcrumb">
-        {{ template "breadcrumb" . }}
-        {{.Title}}
-    </div>
+    <header class="title">
+        <div class="breadcrumbs">
+            {{ template "breadcrumb" . }}
+        </div>
+        <h1 class="title__text">{{ if ne .Title (title .Section) }}{{ .Title }}{{ end }}</h1>
+    </header>
 {{ end }}

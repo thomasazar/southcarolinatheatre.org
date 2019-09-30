@@ -1,0 +1,17 @@
+{{ $currentPage := . }}
+<nav class="nav">
+    <ul class="nav__list">
+        {{ range $.Site.Menus.main }}
+            <li class="nav__item">
+                <a class="nav__link{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .)}} active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+                <ul class="nav__sublist">
+                    {{ range .Children }}
+                        <li class="nav__item">
+                            <a class="nav__link" href="{{ .URL }}">{{ .Name }}</a>
+                        </li>
+                    {{ end }}
+                </ul>
+            </li>
+        {{ end }}
+    </ul>
+</nav>

@@ -2,30 +2,18 @@
 <html>
 {{ partial "head" . }}
 <body>
-    {{ partial "header" . }}
-        <header class="title">
-            {{ block "header" . }}
-                <h1>
-                    {{ partial "breadcrumb" . }}
-                </h1>
-            {{ end }}
-        </header>
-        <ul class="links">
-            {{ block "aside" . }}
-                {{ range .Params.blocks }}
-                    {{- if eq .template "attachment" -}}{{ partial "blocks/attachment" (dict "Params" .) }}{{- end -}}
-                    {{- if eq .template "link" -}}{{ partial "blocks/link" (dict "Params" . "Site" $.Site) }}{{- end -}}
-                    {{- if eq .template "external-link" -}}{{ partial "blocks/external-link" (dict "Params" . "Site" $.Site) }}{{- end -}}
-                {{ end }}
-                {{ range .Pages }}
-                     <li class="links__item">
-                         <a href="{{ .Permalink }}">{{ .Title }}</a>
-                     </li>
-                {{ end }}
-            {{ end }}
-        </ul>
-        <main>
-            {{ block "main" . }}{{ end }}
-        </main>
-    </body>
+    {{ partial "tagline" .Site.Params }}
+    {{ partial "hero" . }}
+    {{ partial "nav" . }}
+    {{ partial "breadcrumb" . }}
+    <main>
+        {{ block "main" . }}
+            {{- range .Params.blocks -}}
+                {{ partial (printf "blocks/%s" .template) (dict "Params" . "Page" $) }}
+            {{- end -}}
+            {{ .Content }}
+        {{ end }}
+    </main>
+    {{ partial "footer" . }}
+</body>
 </html>

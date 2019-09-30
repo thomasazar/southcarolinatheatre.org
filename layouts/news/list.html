@@ -1,7 +1,9 @@
-{{ define "aside" }}
-    {{ range .Pages }}
-        <li class="links__item">
-            <a href="{{ .Permalink }}">{{ .Date.Format "January 2006" }}</a>
-        </li>
-    {{ end }}
+{{ define "main" }}
+    <ul class="pages">
+        {{ range .Pages }}
+            <li class="pages__item">
+                <a class="button" href="{{ .Permalink }}">{{ .Date.Format "January 2006" }}</a>
+            </li>
+        {{ end }}
+    </ul>
 {{ end }}

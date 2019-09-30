@@ -34,9 +34,8 @@
 
     <!-- Meta Tags Generated via http://heymeta.com -->
 
-    {{ $baguetteBox := resources.Get "scripts/vendor/baguetteBox.js" }}
     {{ $jsMain := resources.Get "scripts/main.js" }}
-    {{ $js := slice $baguetteBox $jsMain | resources.Concat "js/scripts.js" | minify | fingerprint }}
+    {{ $js := $jsMain | minify | fingerprint }}
     <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}" defer async></script>
 
     {{ partialCached "matomo" . }}
