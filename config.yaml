@@ -4,8 +4,3 @@ metaDataFormat: yaml
 params:
   tagline: Connect. Create. Cultivate.
   matomoid: 3
-menu:
-  secondary:
-  - url: "/news"
-    name: News
-    weight: 2
