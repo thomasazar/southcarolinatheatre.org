@@ -1,6 +1,5 @@
 ---
 title: Where We Stand on Arts Education
-weight: 5
 ---
 
 SCTA believes that arts education is integral to educational excellence. We are represented on the Arts in Basic Curriculum Committee to ensure the voice of theatre artists in education is heard. We know that the arts are essential in learning and they enliven learning in all subject areas.

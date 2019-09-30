@@ -2,9 +2,6 @@
 attachments = []
 has_attachments = false
 title = "Donate"
-[menu.secondary]
-weight = 1
-
 +++
 [Donate today](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YN3VTL4UQ6W9A)
 

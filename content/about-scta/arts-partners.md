@@ -1,6 +1,5 @@
 ---
 title: Arts Partners
-weight: 6
 ---
 
 The South Carolina Council of Arts Education Presidents (CAEP) comprises leadership from eight state arts organizations and the South Carolina Department of Education (SDE). The council meets biannually and exists to address issues of recruitment and retention of arts teachers and arts education advocacy strategies.

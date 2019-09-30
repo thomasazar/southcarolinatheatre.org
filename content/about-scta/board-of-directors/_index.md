@@ -1,7 +1,5 @@
 ---
 title: Board of Directors
-weight: "1"
-
 ---
 ## Executive Committee
 
