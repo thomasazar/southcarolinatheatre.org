@@ -4,8 +4,8 @@
 {{ $hero := $file.Fill "1200x532" }}
 {{ $large := $file.Resize "1200x q90"}}
 <header class="hero">
-    <h1 class="hero__title">{{ ($.Site.GetPage .Section).Title }}</h1>
-    <a class="hero__caption" href="{{ $large.Permalink }}">{{ $.Page.Params.caption }}</a>
+    <h1 class="hero__title">{{ $section.Title }}</h1>
+    <a class="hero__caption" href="{{ $large.Permalink }}">{{ $section.Params.caption }}</a>
     <img class="hero__image" src="{{ $hero.Permalink }}">
 </header>
 
