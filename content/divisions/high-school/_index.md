@@ -3,7 +3,10 @@ title: High School
 blocks:
 - template: link
   link: convention/Events/high-school-auditions.md
-  title: High School Auditions
+  title:
+- template: link
+  link: convention/Events/high-school-theatre-festival.md
+  title:
 menu:
   main:
     weight: 3
