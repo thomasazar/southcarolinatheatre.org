@@ -1,12 +1,16 @@
+{{ $resources := (.Page.Site.GetPage "/uploads").Resources }}
+{{ $file := $resources.GetMatch (strings.TrimPrefix "/uploads/" .Params.image) }}
+{{ $image := $file.Fill "600x338"}}
 {{ $link := .Page.Site.GetPage .Params.link }}
-<article class="news" href="{{ $link.Permalink }}">
+<article class="news">
+    <a class="news__image" href="{{ $link.Permalink }}">
+        <img src="{{ $image.Permalink }}">
+    </a>
     <header class="news__title">
         <h2>{{ .Params.title }}</h2>
     </header>
     <section class="news__content">
         {{ markdownify .Params.content }}
     </section>
-    <section class="news__link">
-        <a class="button" href="{{ $link.Permalink }}">{{ .Params.linktext }}</a>
-    </section>
+    <a class="news__link" href="{{ $link.Permalink }}"><span class="news__linklight">Go to:</span> {{ $link.Title }}</a>
 </article>

@@ -1,22 +1,59 @@
 .news {
+    @include prettyShadows;
     display: grid;
-    grid-template-columns: [start content] 4fr [link] 1fr [end];
-    grid-template-rows: [title] auto [content link] auto;
-    grid-column-gap: 1em;
+    grid-template-columns: [start image] 3fr [title content link] 2fr [end];
+    grid-template-rows: [start title] auto [content] 1fr [link] auto [end];
+    font-size: 0.8em;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 2em;
+    background: transparentize($color--primary, 0.85);
+
+    @media screen and (max-width: 700px) {
+        grid-template-columns: [start image title content link] 1fr [end];
+        grid-template-rows: [start image] 1fr [title] auto [content] auto [link] auto [end];
+    }
+}
+
+.news__image {
+    grid-column: image;
+    grid-row: start / end;
+    padding: 0;
+    background: none;
+
+    @media screen and (max-width: 700px) {
+        grid-row: image;
+    }
+
+    img {
+        display: block;
+    }
 }
 
 .news__title {
-    grid-column: start / end;
+    grid-column: title;
     grid-row: title;
-    margin: 0;
+    background: transparentize($color--primary, 0.5);
+    padding: 1em;
+
+    h2 {
+        margin: 0;
+    }
 }
 
 .news__content {
     grid-column: content;
     grid-row: content;
+    background: linear-gradient(to bottom, transparentize($color--primary, 0.5), transparentize($color--primary, 0.67), transparentize($color--primary, 0.5));
+    padding: 1em;
 }
 
 .news__link {
     grid-column: link;
     grid-row: link;
+    padding: 1em;
+}
+
+.news__linklight {
+    font-weight: normal;
 }
