@@ -7,11 +7,6 @@ blocks:
 - template: link
   link: convention/Events/high-school-theatre-festival.md
   title:
-menu:
-  main:
-    weight: 3
-    parent: Divisions
-
 ---
 **Division Chair:** Matt Ward, <mailto:matt.ward82@gmail.com>
 

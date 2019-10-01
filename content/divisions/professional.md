@@ -1,10 +1,5 @@
 ---
 title: Professional
-menu:
-  main:
-    weight: 4
-    parent: Divisions
-
 ---
 **Division Chair**: Blake White, <mailto:blake@leanensemble.org>
 

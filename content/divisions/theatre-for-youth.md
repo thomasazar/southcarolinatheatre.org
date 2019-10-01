@@ -1,9 +1,5 @@
 ---
 title: "Theatre for Youth"
-menu:
-  main:
-    parent: "Divisions"
-    weight: 5
 blocks:
 - template: link
   link: "events/theatre-for-youth-festival/_index.md"

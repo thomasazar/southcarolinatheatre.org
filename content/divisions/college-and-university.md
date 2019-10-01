@@ -7,11 +7,6 @@ blocks:
 - template: link
   link: convention/register/college-recruting-and-exhibits.md
   title: ''
-menu:
-  main:
-    weight: 1
-    parent: Divisions
-
 ---
 **Division Chair:** Josh Webb, <mailto:jwebb@coker.edu>
 
