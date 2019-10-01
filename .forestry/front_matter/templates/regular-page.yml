@@ -21,6 +21,7 @@ fields:
     min: 
     max: 
 pages:
+- content/events/awards/awards-categories.md
 - content/convention/register/high-school-auditions.md
 - content/convention/register/monologue-competition.md
 - content/convention/Events/high-school-auditions.md
@@ -28,7 +29,6 @@ pages:
 - content/convention/hotels.md
 - content/events/theatre-for-youth-festival/_index.md
 - content/about-scta/donate.md
-- content/events/awards/awards-categories.md
 - content/events/awards/previous-award-winners.md
 - content/events/cultivate-series.md
 - content/events/awards/_index.md
