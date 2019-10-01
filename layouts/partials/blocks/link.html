@@ -1,7 +1,3 @@
 {{ $page := .Page.Site.GetPage .Params.link }}
-{{ $title := .Page.Title }}
-{{ if ne .Params.title "" }}
-  {{ $title = .Params.title }}
-{{ end }}
-<a class="button" href="{{ $page.Permalink }}">{{ $title }}</a>
+<a class="button" href="{{ $page.Permalink }}">{{ .Params.title | default $page.Title }}</a>
 
