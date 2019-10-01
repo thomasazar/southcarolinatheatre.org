@@ -3,7 +3,7 @@
     <ul class="nav__list">
         {{ range $.Site.Menus.main }}
             <li class="nav__item">
-                <a class="nav__link{{ if or ($currentPage.IsMenuCurrent "main" .) (in .URL $currentPage.Section) }} active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+                <a class="nav__link{{ if and (in .URL $currentPage.Section) (ne $currentPage.Section "") }} active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
                 <ul class="nav__sublist">
                     {{ range .Children }}
                         <li class="nav__item">
