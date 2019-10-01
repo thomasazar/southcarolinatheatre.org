@@ -1,6 +1,5 @@
 ---
 title: Upload Headshot
-url: /convention/register/upload-headshot/
 ---
 <form name="contact" action="https://formsubmit.co/asleeman@southcarolinatheatre.org" method="POST" enctype="multipart/form-data">
   <p>
@@ -15,7 +14,7 @@ url: /convention/register/upload-headshot/
   </p>
   <input type="hidden" name="_replyto">
   <input type="hidden" name="_subject" value="SCTA Convention 2019: High School Audition Headshot">
-  <input type="hidden" name="_next" value="https://www.southcarolinatheatre.org/convention/register/received/">
+  <input type="hidden" name="_next" value="https://www.southcarolinatheatre.org/received/">
   <input type="text" name="_honey" style="display:none">
   <input type="hidden" name="_captcha" value="false">
   <input type="hidden" name="_template" value="table">
