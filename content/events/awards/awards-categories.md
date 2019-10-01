@@ -9,8 +9,7 @@ Each year SCTA calls for nominations to recognize a person or an organization th
 
 Each award is for contributions made between July 2018 and June 2019.
 
-Nominations open June 30, 2019  
-**Deadline:** September 30, 2019
+*(Next year's awards nominations will open on May 31, 2020.)*
 
 ### Founders Award
 
