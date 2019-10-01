@@ -8,7 +8,7 @@ blocks:
   link: https://docs.google.com/forms/d/e/1FAIpQLSfBZcOjpLIvVd3njhnM_gqIXYyYTEv-6_ATT2ZXck5g32wkNQ/viewform
   title: School Guidance Counselor
 - template: link
-  link: /forms/student-upload.md
+  link: /student-upload.md
   title: Upload Headshot
 - template: google-form
   title: High School Audition registration
