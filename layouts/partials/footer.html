@@ -9,7 +9,7 @@
 
 {{ define "footernav" }}
     {{ range . }}
-        <li class="footer__item">
+        <li class="footer__heading">
             <a class="footer__link" href="{{ .URL }}">{{ .Name }}</a>
             {{ with .Page.Pages }}
                 <ul class="footer__sublist">

@@ -28,11 +28,9 @@
     padding: 0;
 }
 
-.footer__list {
-    & > .footer__item {
-        @media screen and (max-width: 450px) {
-            flex: 33%;
-        }
+.footer__heading {
+    @media screen and (max-width: 450px) {
+        flex: 33%;
     }
 }
 
