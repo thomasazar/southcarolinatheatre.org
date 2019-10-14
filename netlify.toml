@@ -1,5 +1,6 @@
+[Settings]
+  ID = "56667805-6a6b-424e-9746-96bcda952f9a"
+
 [build]
   base = ""
   publish = "public"
-  command = "hugo --gc --minify"
-  environment = { HUGO_VERSION = "0.58.2" }
