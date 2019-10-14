@@ -21,6 +21,7 @@ fields:
     min: 
     max: 
 pages:
+- content/convention/Events/tech-olympics.md
 - content/events/awards/awards-categories.md
 - content/convention/register/high-school-auditions.md
 - content/convention/register/monologue-competition.md
@@ -34,6 +35,5 @@ pages:
 - content/events/awards/_index.md
 - content/convention/_index.md
 - content/convention/Events/ten-minute-playworks.md
-- content/convention/Events/tech-olympics.md
 - content/events/_index.md
 - content/about-scta/board-of-directors/board-nominations.md
