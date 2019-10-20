@@ -1,6 +1,9 @@
 ---
 title: Monologue Competition
-blocks: []
+blocks:
+- template: link
+  link: convention/register/monologue-competition.md
+  title: Register
 
 ---
 The Monologue Competition will be divided into the following categories:
