@@ -21,12 +21,12 @@ fields:
     min: 
     max: 
 pages:
+- content/convention/Events/monologue-competition.md
 - content/convention/Events/tech-olympics.md
 - content/events/awards/awards-categories.md
 - content/convention/register/high-school-auditions.md
 - content/convention/register/monologue-competition.md
 - content/convention/Events/high-school-auditions.md
-- content/convention/Events/monologue-competition.md
 - content/convention/hotels.md
 - content/events/theatre-for-youth-festival/_index.md
 - content/about-scta/donate.md
