@@ -21,19 +21,19 @@ fields:
     min: 
     max: 
 pages:
-- content/convention/Events/monologue-competition.md
-- content/convention/Events/tech-olympics.md
-- content/events/awards/awards-categories.md
 - content/convention/register/high-school-auditions.md
+- content/events/awards/awards-categories.md
+- content/about-scta/board-of-directors/board-nominations.md
+- content/events/theatre-for-youth-festival/_index.md
+- content/events/_index.md
+- content/convention/Events/ten-minute-playworks.md
+- content/convention/_index.md
+- content/events/awards/_index.md
+- content/events/cultivate-series.md
+- content/events/awards/previous-award-winners.md
+- content/about-scta/donate.md
+- content/convention/hotels.md
+- content/convention/Events/monologue-competition.md
 - content/convention/register/monologue-competition.md
 - content/convention/Events/high-school-auditions.md
-- content/convention/hotels.md
-- content/events/theatre-for-youth-festival/_index.md
-- content/about-scta/donate.md
-- content/events/awards/previous-award-winners.md
-- content/events/cultivate-series.md
-- content/events/awards/_index.md
-- content/convention/_index.md
-- content/convention/Events/ten-minute-playworks.md
-- content/events/_index.md
-- content/about-scta/board-of-directors/board-nominations.md
+- content/convention/Events/tech-olympics.md
