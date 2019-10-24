@@ -1,6 +1,7 @@
 ---
 title: Convention
 weight: 1
+blocks: []
 menu:
   main:
     weight: 1
@@ -16,7 +17,7 @@ Each year, South Carolina Theatre Association invites theatre lovers from across
 
 ### **Important Dates and Deadlines**
 
-* [**Commercial Exhibitors Registration**](https://www.southcarolinatheatre.org/convention/register/vendors/)
+* [**Commercial Exhibitors Registration  **](https://www.southcarolinatheatre.org/convention/register/vendors/)
   **Open**: May 1, 2019
   **Deadline**: Oct. 2, 2019
 * [**Recruiting College Exhibitor Registration**](register/college-recruting-and-exhibits/)
@@ -36,7 +37,7 @@ Each year, South Carolina Theatre Association invites theatre lovers from across
   **Deadline**: Oct. 15, 2019
 * **SETC Screening Auditions
   Open**: September 16, 2019
-  **Deadline**: October 24, 2019
+  **Deadline**: October 30, 2019 at noon
 * **Conference Registration**
   * **Group
     Open**: July 1, 2019
