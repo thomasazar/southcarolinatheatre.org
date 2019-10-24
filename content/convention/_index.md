@@ -17,40 +17,40 @@ Each year, South Carolina Theatre Association invites theatre lovers from across
 
 ### **Important Dates and Deadlines**
 
-* [**Commercial Exhibitors Registration  **](https://www.southcarolinatheatre.org/convention/register/vendors/)
-  **Open**: May 1, 2019
+* [**Commercial Exhibitors Registration**](https://www.southcarolinatheatre.org/convention/register/vendors/)  
+  **Open**: May 1, 2019  
   **Deadline**: Oct. 2, 2019
-* [**Recruiting College Exhibitor Registration**](register/college-recruting-and-exhibits/)
-  **Open**: May 1, 2019
+* [**Recruiting College Exhibitor Registration**](register/college-recruting-and-exhibits/)  
+  **Open**: May 1, 2019  
   **Deadline**: Oct. 2, 2019
-* [**Conference & Festivals Program Advertising**](/about-scta/donate/)[
-  ](https://www.virginiatheatre.org/sponsor-advertise)**Open**: May 1, 2019
+* [**Conference & Festivals Program Advertising**](/about-scta/donate/)  
+  **Open**: May 1, 2019  
   **Deadline**: Oct. 2, 2019
-* [**Workshop Proposal Form**](register/propose-a-workshop/)
-  **Open**: May 1, 2019
+* [**Workshop Proposal Form**](register/propose-a-workshop/)  
+  **Open**: May 1, 2019  
   **Deadline**: Aug. 1, 2019
-* [**Play Entry Form**](register/festival-intent-to-participate/)
-  **Open**: May 5, 2019
+* [**Play Entry Form**](register/festival-intent-to-participate/)  
+  **Open**: May 5, 2019  
   **Deadline**: Aug. 21, 2019
-* **Scholarship Form
-  Open**: August 1, 2019
+* **Scholarship Form**  
+  **Open**: August 1, 2019  
   **Deadline**: Oct. 15, 2019
-* **SETC Screening Auditions
-  Open**: September 16, 2019
+* **SETC Screening Auditions**  
+  **Open**: September 16, 2019  
   **Deadline**: October 30, 2019 at noon
-* **Conference Registration**
-  * **Group
-    Open**: July 1, 2019
-    **Deadline**: September 11, 2019
+* **Conference Registration**  
+  * **Group**  
+    **Open**: July 1, 2019  
+    **Deadline**: September 11, 2019  
     **Payment Deadline**: Oct. 2, 2019
-  * **Individual**
-    **Open**: July 1, 2019
+  * **Individual**  
+    **Open**: July 1, 2019  
     **Deadline**: None, Available through conference, late fees apply
-* **Playbill Information Form
-  Open**: July 1, 2019
+* **Playbill Information Form**  
+  **Open**: July 1, 2019  
   **Deadline**: Oct. 2, 2019
-* **HS Audition/Portfolio Review Form**[
-  ](https://www.virginiatheatre.org/auditions)**Open**: July 1, 2019
+* **HS Audition/Portfolio Review Form**    
+  **Open**: July 1, 2019  
   **Deadline**: Oct. 2, 2019
-* **Event Tickets and Passes
-  Deadline:** 1 week prior to convention
+* **Event Tickets and Passes**  
+  **Deadline:** 1 week prior to convention
