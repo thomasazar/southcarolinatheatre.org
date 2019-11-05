@@ -70,7 +70,7 @@ weight: "1"
 
 * Chair – Maegan Azar
 * Jon Tuttle
-* Ken May
+* David Platts
 
 ## Playwriting Committee
 
