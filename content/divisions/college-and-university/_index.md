@@ -1,12 +1,6 @@
 ---
 title: College and University
 blocks:
-- template: link
-  link: convention/register/propose-a-workshop.md
-  title: ''
-- template: link
-  link: convention/register/college-recruting-and-exhibits.md
-  title: ''
 menu:
   main:
     weight: 1

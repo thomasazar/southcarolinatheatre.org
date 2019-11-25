@@ -6,20 +6,20 @@ weight: "1"
 ## Executive Committee
 
 * **President**
-  Marcus G. McIntyre
-  _Coastal Carolina University_
-* **Vice-President**
   Will Ragland
   _Mill Town Players_
+* **Vice-President**
+  Megan Link
+  _Rollings Middle School of the Arts_
 * **Past President**
-  Harry Culpepper, Jr.
-  _Woodmont High School_
+  Marcus G. McIntyre
+  _Coastal Carolina University_
 * **Secretary**
   Angela Rogers
   _Howe Hall Arts Infused Magnet School_
 * **Treasurer**
-  Charles Atkins III
-  _Phillip Simmons Middle School_
+  Stephen Gilbert
+  _Greenwood Community Theatre_
 
 ## Division Chairs
 
@@ -30,14 +30,15 @@ weight: "1"
   Noah Taylor
   _The Market Theatre Company_
 * **High School**
-  Matthew Ward
-  _Carolina Forest High School_
+  Blair Dawkins
+  _Dorman High School_
 * **Professional**
   Blake White
   _Lean Ensemble Theatre_
 * **Theatre for Youth**
   Derek Pickens
   _Charleston County School of the Arts_
+
 
 ## Program Committee
 
@@ -59,12 +60,10 @@ weight: "1"
 
 ## Nominating Committee
 
-* Chair – Josh Webb
-* Matt Ward
-* Harry Culpepper, Jr. (Ex-officio, non-voting member)
-* Brian Porter
-* JoAnna Chriswell
-* Glen Gourley
+* Derek Pickens
+* Angela Rogers
+* Noah Taylor
+* Matt Leckenbusch
 
 ## Founders Award Committee
 
@@ -85,14 +84,6 @@ weight: "1"
 * Josh Webb
 * Danielle Hernandez
 
-## Terms Expiring 2019
-
-* Glen Gourley
-* Megan Link
-* Annette Grevious
-* Kris McIntyre
-* Josetra Robinson
-
 ## Terms Expiring 2020
 
 * Maegan Azar
@@ -108,6 +99,13 @@ weight: "1"
 * Danielle Hernandez
 * Amy McLaren
 * David Sollish
+
+## Terms Expiring 2022
+
+* Harry Culpepper Jr.
+* Kris McIntyre
+* Kristin Hall
+* Donna Wilson
 
 ## Special Appointments
 
@@ -129,3 +127,6 @@ weight: "1"
   [864-844-8111](tel:864-844-8111) (phone/fax)
   [864-380-6934](tel:864-380-6934) (cell)
   E-Mail: [asleeman@southcarolinatheatre.org](mailto:asleeman@southcarolinatheatre.org)
+* Lunch Box Creative – Marketing
+* Your Cabas – Accounting and Finance
+* Design by Thomas Azar – Website

@@ -1,12 +1,14 @@
 ---
 title: Unified Auditions
 ---
+***Registration opening December 1***
+
 ## When
 
-Saturday, February 22, 2019, 9:00am–4:00pm (**ages 15 and up**)\
+Saturday, February 22, 2020, 9:00am–4:00pm (**ages 15 and up**)\
 Dance call from 12:00 – 1:30 PM
 
-Sunday, February 23, 2019, 10:00am–12:00pm (**children only**)\
+Sunday, February 23, 2020, 10:00am–12:00pm (**children only**)\
 Dance call from 12:00 – 1:00 PM
 
 ## Where

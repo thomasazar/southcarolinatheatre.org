@@ -10,4 +10,4 @@ Saturday, April 4, 2020
 
 Saluda River Academy for the Arts
 
-_Registration and information will be available November 1, 2019_
+_Registration and information will be available December 1, 2019_

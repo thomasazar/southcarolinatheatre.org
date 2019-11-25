@@ -2,10 +2,7 @@
 title: Ten Minute Playworks
 has_attachments: false
 attachments: []
-blocks:
-- template: external-link
-  link: "https://forms.gle/XaMBwMk79g746Ehb6"
-  title: "Submit Your Play"
+
 
 ---
 Welcome to the new school year/season! Now that our batteries are recharged, and our imaginations are brimming with energy it is TIME to get WRITING! SCTA is looking for submissions for this year’s Ten Minute Playworks. We encourage all members to submit their original ten minute plays to be considered for the SCTA 2019 Convention.
@@ -32,7 +29,3 @@ So....get writing and encourage those budding playwrights to get busy creating!
 * Standard play format required. (Samples [here](https://shop.samuelfrench.com/content/files/upload/General%20SFI%20Formatting%20Guidelines%20Complete.pdf) and [here](https://www.playwriting101.com/).) Cover sheet of play should have title, author, author’s address, author’s telephone number, and author’s email address (if available).
 * The work must have a beginning that grabs your attention, a middle with some meat and character development, and an ending that makes sense. It can surprise you, shock you, make you laugh, make you cry, make you think, but it must have an ending.
 * Also ask yourself these questions: Is the dialogue natural for the characters created? Are the characters ones that an audience can hate, love, believe ... is there some emotion touched? Is it something that an audience will remember? Something to tell someone else about? In short, is it a good story?
-
-So, ready to submit a play?
-
-If you would like to enter your play for consideration into this year's Playworks, [submit it here](https://forms.gle/XaMBwMk79g746Ehb6)!

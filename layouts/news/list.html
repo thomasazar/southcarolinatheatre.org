@@ -1,3 +1,18 @@
+{{ define "header" }}
+    {{ range first 1 .Pages }}
+        <h1><a href="/news/">News</a> &raquo; {{ .Date.Format "January 2006" }}</h1>
+    {{ end }}
+{{ end }}
+
+{{ define "main" }}
+    <h2>Latest Issue</h2>
+    {{ range first 1 .Pages }}
+        <div class="iframe-holder">
+            <iframe style="width: 100%; min-height: 750px;" src="{{ .Params.iframe }}" width="300" height="150">{{ .Date.Format "January 2006" }}</iframe>
+        </div>
+    {{ end }}
+{{ end }}
+
 {{ define "aside" }}
     {{ range .Pages }}
         <li class="links__item">

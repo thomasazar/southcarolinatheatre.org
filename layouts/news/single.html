@@ -7,3 +7,11 @@
         <iframe style="width: 100%; min-height: 750px;" src="{{ .Params.iframe }}" width="300" height="150">{{ .Date.Format "January 2006" }}</iframe>
     </div>
 {{ end }}
+
+{{ define "aside" }}
+    {{ range .Pages }}
+        <li class="links__item">
+            <a href="{{ .Permalink }}">{{ .Date.Format "January 2006" }}</a>
+        </li>
+    {{ end }}
+{{ end }}
