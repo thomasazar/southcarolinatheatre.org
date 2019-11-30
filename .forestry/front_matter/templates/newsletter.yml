@@ -16,5 +16,6 @@ fields:
   config:
     required: true
 pages:
+- content/news/november-2019.md
 - content/news/october-2019.md
 - content/news/2019-09.md
