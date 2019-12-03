@@ -1,7 +1,6 @@
 ---
 title: Unified Auditions
 ---
-***Registration opening December 1***
 
 ## When
 
