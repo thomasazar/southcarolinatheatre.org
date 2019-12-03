@@ -4,13 +4,14 @@ hero: "/uploads/photo_2019-09-11_11-22-59.jpg"
 caption: HAIR at Furman University
 blocks:
 - template: news-block
-  title: 'Convention 2019: Theatre 4 Everyone'
-  content: It's right around the corner -- Convention 2019 is coming to Francis Marion
-    University! Register today to be a part of the conversation!
-  link: convention/_index.md
+  title: Awards Gala
+  content: Have you got your ticket for the SCTA Awards Gala? Join the party on February
+    22, 2020, at Furman University.
+  link: events/awards/_index.md
 - template: news-block
-  title: Renew your membership & update your profile
-  content: Login today and renew your membership!
-  link: "/members/login.md"
+  title: Unified Auditions
+  content: South Carolina's top theatre directors and producers are seeking hundreds
+    of actors, designers, and technicians for the 2020-2021 theatre season!
+  link: events/unified-auditions/_index.md
 
 ---
