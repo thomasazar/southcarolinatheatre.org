@@ -21,6 +21,7 @@ fields:
     min: 
     max: 
 pages:
+- content/events/awards/_index.md
 - content/events/theatre-for-youth-festival/_index.md
 - content/convention/_index.md
 - content/events/_index.md
@@ -28,5 +29,4 @@ pages:
 - content/about-scta/donate.md
 - content/events/awards/previous-award-winners.md
 - content/events/cultivate-series.md
-- content/events/awards/_index.md
 - content/about-scta/board-of-directors/board-nominations.md
