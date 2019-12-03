@@ -2,12 +2,12 @@
 attachments = []
 has_attachments = false
 title = "Theatre for Youth Festival"
+[[blocks]]
+link = "https://memberservices.membee.com/feeds/events/event.aspx?id=145&cid=1134&wid=5601"
+template = "membee"
+[[blocks]]
+file = "/uploads/THEATRE For YOUTH Packet.pdf"
+template = "attachment"
+title = "Festival Packet"
 
 +++
-## 2020 Theatre for Youth Festival
-
-Saturday, April 4, 2020
-
-Saluda River Academy for the Arts
-
-_Registration and information will be available December 1, 2019_

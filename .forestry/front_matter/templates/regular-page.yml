@@ -21,8 +21,8 @@ fields:
     min: 
     max: 
 pages:
-- content/convention/_index.md
 - content/events/theatre-for-youth-festival/_index.md
+- content/convention/_index.md
 - content/events/_index.md
 - content/events/awards/awards-categories.md
 - content/convention/register/high-school-auditions.md
