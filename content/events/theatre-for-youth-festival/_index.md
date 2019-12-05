@@ -1,6 +1,7 @@
 ---
 title: "Theatre for Youth Festival"
-blocks:
-- template: membee
-  link: "https://memberservices.membee.com/feeds/events/event.aspx?id=145&cid=1134&wid=5601"
 ---
+
+![Theatre for Youth Festival logo](/uploads/Cover-SCTA-Events-2020-TFY.jpg)
+
+Elementary and Middle School students from all over the Palmetto State will pour into the Midlands to not only show off their talents, but also share their love for the performing arts.
