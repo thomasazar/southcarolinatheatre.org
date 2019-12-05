@@ -17,7 +17,7 @@ blocks:
   link: events/awards/_index.md
 - template: news-block
   title: Theatre for Youth Festival
-  image: /uploads/Cover-SCTA-Events-2020-TFY.jpg
+  image: /uploads/Logo-TYF.png
   content: The Theatre for Youth Festival is back! Come celebrate the great work of young theatre practitioners in South Carolina. Find more information about the festival here.
   link: events/theatre-for-youth-festival/_index.md
 ---
