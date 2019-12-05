@@ -6,7 +6,7 @@ links = []
 title = "Awards"
 
 +++
-![](/uploads/Cover-SCTA-Events-2020-Awards.jpg.png)
+![](/uploads/Cover-SCTA-Events-2020-Awards.jpg)
 
 ## 2020 Awards Gala at Furman University
 
