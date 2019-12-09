@@ -13,7 +13,7 @@ title = "Awards"
 Saturday, February 22, 2020
 7:00–11:00 PM
 
-Tickets on Sale beginning December 1
+Tickets on Sale beginning December 15
 
 _Sponsorships available now!_
 
