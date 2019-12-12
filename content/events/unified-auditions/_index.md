@@ -1,6 +1,9 @@
 ---
 title: Unified Auditions
-
+blocks:
+- template: external-link
+  link: https://www.southcarolinatheatre.org/events/#id=144&cid=1134&wid=5701
+  title: Register
 ---
 ![Unified Auditions logo](/uploads/Logo-Unified.png)
 
