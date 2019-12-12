@@ -4,19 +4,6 @@ weight: 3
 menu:
   main:
     weight: 3
-
 ---
 
-SCTA hosts several events annually...
-
-* The Annual Convention, held in November each year, including:
-  * High School Theatre Festival
-  * Community Theatre Festival
-  * SETC Screening Auditions
-  * High School Auditions
-* Awards Gala in February each year
-* Unified Auditions in February each year
-* Theatre for Youth Festival in April each year
-* Cultivate Series, which hosts a variety of education and experiential events annually
-
-...and many more!
+<script src="https://memberservices.membee.com/feeds/Events/EventScript.ashx?cid=1134&wid=5701" type="text/javascript"></script><a style='visibility: hidden;' href='https://memberservices.membee.com/feeds/Events/Event.aspx?cid=1134&wid=5701'></a>
