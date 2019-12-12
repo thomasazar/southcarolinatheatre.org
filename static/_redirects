@@ -1,5 +1,7 @@
-/login                                      /members/login/                     301!
-/my-profile                                 /members/                           301!
-/member/renew-my-membership/ d=:d           /members/renew/?d=:d                301!
-/members/renew-my-membership/ d=:d          /members/renew/?d=:d                301!
-/members/password-reset/ value=:value       /password-reset/?value=:value       301!
+/login                                         /members/login/                     301!
+/my-profile                                    /members/                           301!
+/member/renew-my-membership/ d=:d              /members/renew/?d=:d                301!
+/members/renew-my-membership/ d=:d             /members/renew/?d=:d                301!
+/members/password-reset/ value=:value          /password-reset/?value=:value       301!
+/events/theatre-for-youth-festival/register/   /events/#id=145&cid=1134&wid=5701   301!
+/events/unified-auditions/register/            /events/#id=144&cid=1134&wid=5701   301!
