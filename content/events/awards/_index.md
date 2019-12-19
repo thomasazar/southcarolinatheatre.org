@@ -1,9 +1,12 @@
 +++
 attachments = []
-blocks = []
 has_attachments = false
 links = []
 title = "Awards"
+[[blocks]]
+link = "https://www.southcarolinatheatre.org/events/#id=146&wid=5701&cid=1134"
+template = "external-link"
+title = "Buy Tickets"
 
 +++
 ![](/uploads/Cover-SCTA-Events-2020-Awards.jpg)
