@@ -44,17 +44,12 @@ One submission per student, only unproduced works will be accepted, no adaptatio
 
 ## Studio Theatre Monologue Competition
 
-All entries must be suitable for middle school students. 
-
-**All performance selections must come from a play, screenplay, teleplay or monologue.**
-
-**All performance entries must be memorized with the exception of Cold Read which will be provided at competition.**
-
-No props or costumes of any kind will be allowed. Do-overs are not permitted.
-
-Maximum Length of entry must be no longer than 90 seconds or 1 minute and thirty seconds. (Does not include introduction.) A 15-second grace period will apply; after the grace period, points are deducted from the performance.
-
-**Performance Rights:** All entries are required to show proof of performance rights for any work under copyright for an audience. _Please note any work under copyright must be licensed, regardless of whether or not admission is charged, whether the performance is public or private, and whether or not it is for charity or gain. Licensing ensures that playwrights and composers are being fairly compensated for the use of their work._
+* All entries must be suitable for middle school students. 
+* **All performance selections must come from a play, screenplay, teleplay or monologue.**
+* **All performance entries must be memorized with the exception of Cold Read which will be provided at competition.**
+* No props or costumes of any kind will be allowed. Do-overs are not permitted.
+* Maximum Length of entry must be no longer than 90 seconds or 1 minute and thirty seconds. (Does not include introduction.) A 15-second grace period will apply; after the grace period, points are deducted from the performance.
+* **Performance Rights:** All entries are required to show proof of performance rights for any work under copyright for an audience. _Please note any work under copyright must be licensed, regardless of whether or not admission is charged, whether the performance is public or private, and whether or not it is for charity or gain. Licensing ensures that playwrights and composers are being fairly compensated for the use of their work._
 
 ## Sound File Upload Instructions
 
