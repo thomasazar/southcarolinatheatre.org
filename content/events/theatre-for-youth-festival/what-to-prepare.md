@@ -1,5 +1,5 @@
 ---
-title: What to Prepare
+title: Events
 blocks: []
 
 ---
