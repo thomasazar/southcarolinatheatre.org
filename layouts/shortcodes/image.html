@@ -5,7 +5,7 @@
 {{ $thumb := .Get 2 | default nil }}
 {{ $alt := .Get 3 | default nil }}
 {{ if $thumb }}
-    {{ $image = $file.Resize "223x" }}
+    {{ $image = $file.Resize "200x" }}
 {{ else }}
 {{ end }}
 <img src="{{ $image.Permalink }}" alt="{{ $alt | safeHTMLAttr }}" class="align{{ $float }}">
