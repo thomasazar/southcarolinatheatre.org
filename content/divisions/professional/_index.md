@@ -6,7 +6,7 @@ menu:
     parent: Divisions
 
 ---
-**Division Chair**: Blake White, <mailto:blake@leanensemble.org>
+**Division Chair**: Blake White, <blake@leanensemble.org>
 
 The professional division seeks to connect professional producing organizations as well as professional actors with resources and auditions. As professional theatre grows in our state, SCTA hopes that it can become an integral part in both the development and maintenance of these organizations and artists.  It is also our desire that professional theatre faculty become involved with the Professional Division as part of their own career development.  Let us know how we can help YOU!
 
