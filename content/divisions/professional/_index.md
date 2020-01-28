@@ -14,6 +14,6 @@ Don’t be fooled– professional theatre in the state of South Carolina is aliv
 
 ## About Blake White
 
-![Blake White](/uploads/blake-headshot.jpg)
+{{% image "blake-white.jpg" left true %}}
 
 Blake White is the Founding Artistic & Executive Director of Lean Ensemble Theater. His other credits include work with the Southeastern Summer Theatre Institute, The Warehouse Theatre, The Shuler Theater, Brown County Playhouse, South Carolina Repertory Company, Actors Theatre of Louisville, Cider Mill Playhouse. Upstate Shakespeare Festival, Actors Workshop of Boston, as well as several off, off-off, and no-where near Broadway companies. Blake is a member of the Stage Directors & Choreographers Society and the boards of the Hilton Head Symphony Orchestra, South Carolina Theatre Association and Lean Ensemble Theater.
