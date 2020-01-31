@@ -24,8 +24,7 @@ If you have questions or issues registering, please contact Anita Sleeman at [as
 
 ## Technicians
 
-A presentation of your work
-
+* A presentation of your work
 * Must bring your portfolio
 * May bring any examples
 * You and your portfolio will be posted in a room for the casting directors to come visit and chat with you during their lunch break
