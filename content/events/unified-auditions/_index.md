@@ -27,7 +27,7 @@ Greenville, South Carolina 29601
 
 ## Participating Theatres
 
-* Lean Ensemble 
+* Lean Ensemble
 * Glow Lyric Theatre
 * South Carolina Children's Theatre
 * Misfit Theatre Company
@@ -38,6 +38,7 @@ Greenville, South Carolina 29601
 * Centre Stage
 * Greenwood Community Theatre
 * Greenville Theatre
+* Foothills Playhouse
 
 ## Cost
 
