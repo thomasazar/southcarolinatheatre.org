@@ -39,6 +39,7 @@ Greenville, South Carolina 29601
 * Greenwood Community Theatre
 * Greenville Theatre
 * Foothills Playhouse
+* Trustus Theatre
 
 ## Cost
 
