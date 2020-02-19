@@ -9,7 +9,11 @@
     {{ else }}
         {{ partial "banner-hero" . }}
     {{ end }}
-    <main{{ if .IsHome }} class="home"{{ end }}>
+    {{ if .IsHome }}
+    <main class="home">
+    {{ else }}
+    <main>
+    {{ end }}
         {{ block "main" . }}{{ end }}
     </main>
     </body>
