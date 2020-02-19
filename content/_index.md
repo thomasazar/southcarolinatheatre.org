@@ -15,7 +15,7 @@ blocks:
   title: Awards Gala
   image: /uploads/Cover-SCTA-Events-2020-Awards.jpg
   content: Have you got your ticket for the SCTA Awards Gala? Join the party on February
-    22, 2020, at Furman University. And check out the [City Basket Silent Auction](https://www.32auctions.com/SCTACityBasket2020)!
+    22, 2020, at Hartness Pavilion at Furman University. And check out the [City Basket Silent Auction](https://www.32auctions.com/SCTACityBasket2020)!
   link: events/awards/_index.md
 - template: news-block
   title: Theatre for Youth Festival
