@@ -16,7 +16,7 @@ blocks:
 
 Saturday, February 22, 2020, 7:00–11:00 PM
 
-_Sponsorships available now!_
+[Get your tickets today!](https://www.southcarolinatheatre.org/events/#id=146&wid=5701&cid=1134)
 
 ## Honorees
 
