@@ -1,0 +1,16 @@
+<aside class="links">
+    <ul class="links__list">
+        {{ block "aside" . }}
+            {{ range .Params.blocks }}
+                {{- if eq .template "attachment" -}}{{ partial "blocks/attachment" (dict "Params" .) }}{{- end -}}
+                {{- if eq .template "link" -}}{{ partial "blocks/link" (dict "Params" . "Site" $.Site) }}{{- end -}}
+                {{- if eq .template "external-link" -}}{{ partial "blocks/external-link" (dict "Params" . "Site" $.Site) }}{{- end -}}
+            {{ end }}
+            {{ range .Pages }}
+                 <li class="links__item">
+                     <a href="{{ .Permalink }}">{{ .Title | default (.Date.Format "January 2006") }}</a>
+                 </li>
+            {{ end }}
+        {{ end }}
+    </ul>
+</aside>

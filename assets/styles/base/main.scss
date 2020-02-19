@@ -1,14 +1,14 @@
 main {
-  grid-column: main;
-  grid-row: content;
-  padding: 0 4px;
-  color: #3a3a3a;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1em 0;
 
-  p,
-  h1,
-  h2 {
-    &:first-child {
-      margin-top: 0;
+    p {
+        padding-left: 1em;
+        padding-right: 1em;
     }
-  }
+
+    &.home {
+        max-width: 1336px;
+    }
 }

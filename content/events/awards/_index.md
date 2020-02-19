@@ -1,17 +1,16 @@
-+++
-attachments = []
-has_attachments = false
-links = []
-title = "Awards"
-[[blocks]]
-link = "https://www.southcarolinatheatre.org/events/#id=146&wid=5701&cid=1134"
-template = "external-link"
-title = "Buy Tickets"
-
-+++
+---
+title: Awards
+blocks:
+- template: external-link
+  link: https://www.southcarolinatheatre.org/events/#id=146&wid=5701&cid=1134
+  title: Buy Tickets
+- template: external-link
+  link: https://www.32auctions.com/SCTACityBasket2020
+  title: City Basket Silent Auction
+---
 ![](/uploads/Cover-SCTA-Events-2020-Awards.jpg)
 
-## 2020 Awards Gala 
+## 2020 Awards Gala
 
 ### Hartness Pavilion at Furman University
 
@@ -32,7 +31,6 @@ _Sponsorships available now!_
 * **Deborah Smith Hoffman Outstanding Mentor Teacher Award**: Anne Lavely, Wade Hampton High School
 
 ## Hall of Fame Inductees
-
-* Allen McCalla
-* Suzanne McCalla
-* Michael Genevie
+- Allen McCalla
+- Suzanne McCalla
+- Michael Genevie
