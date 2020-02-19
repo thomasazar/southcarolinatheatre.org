@@ -1,1 +1,5 @@
-{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ $.Site.Title }}
+<header class="title">
+    <h1 class="title__text">
+        {{ partial "breadcrumb" . }}
+    </h1>
+</header>

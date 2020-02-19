@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="SCTA's vision is to transform the lives of all South Carolinians through theatre. Connect, create, cultivate.">
 
-    <title>{{- partial "title" . -}}</title>
+    <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ $.Site.Title }}</title>
 
     {{- $options := (dict "targetPath" "css/main.css" "outputStyle" "compressed" "enableSourceMap" true ) -}}
     {{- $style := resources.Get "styles/main.scss" | resources.ToCSS $options | fingerprint -}}

@@ -1,0 +1,5 @@
+{{ $resources := (.Site.GetPage "uploads").Resources }}
+{{ $resources := ($.Site.GetPage "section" "uploads").Resources }}
+{{ $file := $resources.GetMatch (strings.TrimPrefix "/uploads/" .Params.hero) }}
+{{ $hero := $file.Resize "1500x q85"}}
+<a class="hero__caption" href="{{ $hero.Permalink }}" data-caption="{{ .Params.caption }}">{{ .Params.caption }}</a>

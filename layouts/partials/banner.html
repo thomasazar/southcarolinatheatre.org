@@ -1,0 +1,39 @@
+<header class="banner">
+    <nav class="mobile-menu">
+        <a href="/">
+            <img class="logo" src="/images/logo-side-text.svg" alt="SCTA logo">
+        </a>
+        <button id="mobile-menu__button">Menu</button>
+    </nav>
+    <nav class="navigation">
+        <ul class="nav-menu nav-menu--primary">
+            <li class="logo-item">
+                <a href="/">
+                    <img class="logo" src="/images/logo-side-text.svg" alt="SCTA logo">
+                </a>
+            </li>
+            {{ range $.Site.Menus.main }}
+                <li class="menu-item menu-item-has-children">
+                    <a href="{{ .URL }}">{{ .Name }}</a>
+                    <ul class="sub-menu">
+                        {{ range .Page.Pages }}
+                            <li class="menu-item">
+                                <a href="{{ .Permalink }}">{{ .Name }}</a>
+                            </li>
+                        {{ end }}
+                    </ul>
+                </li>
+            {{ end }}
+        </ul>
+        <ul id="menu-secondary-navigation" class="nav-menu nav-menu--secondary">
+            {{ range $.Site.Menus.secondary }}
+                <li class="menu-item">
+                    <a href="{{ .URL }}">{{ .Name }}</a>
+                </li>
+            {{ end }}
+            <li class="menu-item menu-login">
+                <a href="/members/login/">Login</a>
+            </li>
+        </ul>
+    </nav>
+</header>
