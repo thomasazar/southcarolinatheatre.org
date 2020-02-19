@@ -1,13 +1,12 @@
 html {
   background: #f2f2f2;
+  color: $color--primary;
   font-family: 'Lato', $fontStack, sans-serif;
-  font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.35;
   text-rendering: optimizeLegibility;
-  overflow-y: scroll;
-  overflow-x: hidden;
 
   @media screen and (min-width: 800px) {
     font-size: 125%;
+    line-height: 1.5;
   }
 }

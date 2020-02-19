@@ -1,9 +1,10 @@
 .title {
-  grid-column: aside / end;
-  grid-row: title;
-  font-size: 60%;
+    background: transparentize($color: $color--secondary, $amount: 0.67);
+    border-bottom: 1px solid $color--secondary;
+}
 
-  h1 {
-    margin: 0;
-  }
+.title__text {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0.5em 4px;
 }
