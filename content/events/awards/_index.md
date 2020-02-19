@@ -8,16 +8,13 @@ blocks:
   link: https://www.32auctions.com/SCTACityBasket2020
   title: City Basket Silent Auction
 ---
-![](/uploads/Cover-SCTA-Events-2020-Awards.jpg)
+![Logo for SCTA Awards Gala 2020](/uploads/Cover-SCTA-Events-2020-Awards.jpg)
 
 ## 2020 Awards Gala
 
 ### Hartness Pavilion at Furman University
 
-Saturday, February 22, 2020
-7:00–11:00 PM
-
-Tickets on Sale beginning December 15
+Saturday, February 22, 2020, 7:00–11:00 PM
 
 _Sponsorships available now!_
 
