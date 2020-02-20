@@ -19,10 +19,8 @@ blocks:
 
 ## Where
 
-Greenville Theatre
-
-444 College Street
-
+Greenville Theatre  
+444 College Street  
 Greenville, South Carolina 29601
 
 ## Participating Theatres
