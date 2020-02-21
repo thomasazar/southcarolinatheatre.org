@@ -15,3 +15,9 @@ Learn the dance callback right from the comfort of your own home! Here are instr
 
 * [YouTube](https://www.youtube.com/watch?v=xhs3Qklz5a0)
 * [Spotify](https://open.spotify.com/album/6FQmqYPFACT1BiCorpzH9b?highlight=spotify:track:3gA8qhDCTd3I1emBxdmPyt)
+
+## Thanks to Carolina Dance Collaborative
+
+Special thanks to the Carolina Dance Collaborative for their work in putting together videos for the dance call. Interested in classes with CDC? Check out their website at [carolinadancecollaborative.org](https://www.carolinadancecollaborative.org/).
+
+[![Dancers taking a class](/uploads/carolina-dance-company.jpg)](https://www.carolinadancecollaborative.org/)
