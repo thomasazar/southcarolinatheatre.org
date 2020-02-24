@@ -12,5 +12,9 @@ blocks:
     young theatre practitioners in South Carolina. Find more information about the
     festival here.
   link: events/theatre-for-youth-festival/_index.md
-
+- template: news-block
+  title: Thanks to Carolina Dance Collborative
+  image: "/uploads/cdc-logo.jpg"
+  content: A very special thank you to the Carolina Dance Collaborative for the dance call videos for Unified Auditions. Interested in taking dance class? Find out more at [carolinadancecollaborative.org](https://www.carolinadancecollaborative.org/).
+  link: events/unified-auditions/_index.md
 ---
