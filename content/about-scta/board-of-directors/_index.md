@@ -1,85 +1,80 @@
----
+  ---
 title: Board of Directors
 weight: "1"
 
 ---
 ## Executive Committee
 
-* **President**
-  Will Ragland
+* **President**  
+  Will Ragland  
   _Mill Town Players_
-* **Vice-President**
-  Megan Link
+* **Vice-President**  
+  Megan Link  
   _Rollings Middle School of the Arts_
-* **Past President**
-  Marcus G. McIntyre
+* **Past President**  
+  Marcus G. McIntyre  
   _Coastal Carolina University_
-* **Secretary**
-  Angela Rogers
+* **Secretary**  
+  Angela Rogers  
   _Howe Hall Arts Infused Magnet School_
-* **Treasurer**
-  Stephen Gilbert
+* **Treasurer**  
+  Stephen Gilbert  
   _Greenwood Community Theatre_
 
 ## Division Chairs
 
-* **College/University**
-  Joshua Webb
+* **College/University**  
+  Joshua Webb  
   _Coker College_
-* **Community**
-  Noah Taylor
+* **Community**  
+  Noah Taylor  
   _The Market Theatre Company_
-* **High School**
-  Blair Dawkins
+* **High School**  
+  Blair Dawkins  
   _Dorman High School_
-* **Professional**
-  Blake White
-  _Lean Ensemble Theatre_
-* **Theatre for Youth**
-  Derek Pickens
+* **Professional**  
+  Blake White  
+  _Lean Ensemble Theater_
+* **Theatre for Youth**  
+  Derek Pickens  
   _Charleston County School of the Arts_
 
 ## Program Committee
 
-* Chair – Will Ragland
-* Amy McLaren
-* Brian Porter
-* Robin Davis
-* Josetra Robinson
-* Megan Link
-* Annette Grevious
+* Megan Link – Chair
 * Shannon Horn
+* Mary Fran Crook
+* Donna Wilson
 
 ## Awards Committee
 
-* Chair – Glen Gourley
-* Blake White
+* Reed Halvorson – Chair
 * JoAnna Chriswell
-* Reed Halvorson
+* Shannon Horn
 
 ## Nominating Committee
 
-* Derek Pickens
+* Noah Taylor – Chair
 * Angela Rogers
-* Noah Taylor
+* Derek Pickens
 * Matt Leckenbusch
+* Marc McIntyre — Past President
 
 ## Founders Award Committee
 
-* Chair – Maegan Azar
-* Jon Tuttle
-* David Platts
+* Maegan Azar – Chair
+* Chip Egan
+* David Platts – SC Arts Commission
 
 ## Playwriting Committee
 
-* Chair – Reed Halvorson
-* Kent Brown
-* Amy McLaren
-* Art Gilliard
+* Reed Halvorson – Chair
+* Josh Webb
+* Donna Wilson
 
 ## Design & Tech Committee
 
-* Chair – Matthew Leckenbusch
+* Matthew Leckenbusch – Chair
 * Josh Webb
 * Danielle Hernandez
 
@@ -109,13 +104,12 @@ weight: "1"
 ## Special Appointments
 
 * Arts in the Basic Curriculum – Angela Rogers
-* Palmetto State Arts Education – Megan Link
+* Palmetto State Arts Education – Mary Fran Crook
 * SETC State Representative – Kris McIntyre
 * AACT State Representative – Noah Taylor
 * Historian – Maegan Azar
-* Parliamentarian – Glen Gourley
-* Awards Party Coordinator – Harry Culpepper, Jr.
-* Adjudication Coordinator – Maegan Azar
+* Awards Party Coordinator – Marc McIntyre
+* Adjudication Coordinator – Angela Rogers
 * State Auditions Coordinator – Kris McIntyre
 
 ## Staff
