@@ -39,7 +39,6 @@ weight: "1"
   Derek Pickens
   _Charleston County School of the Arts_
 
-
 ## Program Committee
 
 * Chair – Will Ragland
@@ -86,7 +85,7 @@ weight: "1"
 
 ## Terms Expiring 2020
 
-* Maegan Azar
+* Sumner Bender
 * Shannon Horn
 * Reed Halvorson
 * Matt Leckenbush
@@ -95,7 +94,7 @@ weight: "1"
 ## Terms Expiring 2021
 
 * Mary Fran Crook
-* Art Gilliard
+* Charlie Calvert
 * Danielle Hernandez
 * Amy McLaren
 * David Sollish
