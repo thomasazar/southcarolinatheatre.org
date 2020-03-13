@@ -1,7 +1,7 @@
 ---
 title: Events
 blocks: []
-
+draft: true
 ---
 Each participant should be prepared to give a brief introduction to the piece. Introduction should include:
 
